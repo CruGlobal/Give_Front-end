@@ -4910,6 +4910,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/give-individual.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/give-individual.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/signin.html": {
 		"fileType": 8192,
 		"ignore": 0,

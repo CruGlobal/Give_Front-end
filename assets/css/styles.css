@@ -6346,6 +6346,12 @@ hr.vertical-divider {
 
 .title-margin {
   margin: 1.5em 0; }
+  @media only screen and (min-width: 769px) and (max-width: 991px) {
+    .title-margin {
+      margin: .75em auto; } }
+  @media only screen and (max-width: 768px) {
+    .title-margin {
+      margin: .75em auto; } }
 
 .sign-in-leadin {
   font-size: 18px;

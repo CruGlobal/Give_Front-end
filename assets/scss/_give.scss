@@ -63,6 +63,12 @@ hr.vertical-divider {
 
 .title-margin {
 	margin: 1.5em 0;
+	@include respond-to(small) {
+		margin: .75em auto;
+	}
+	@include respond-to(extrasmall) {
+		margin: .75em auto;
+	}
 }
 
 .sign-in-leadin {
