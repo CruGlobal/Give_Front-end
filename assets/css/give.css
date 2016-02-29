@@ -5557,8 +5557,8 @@ button.close {
     $CRUICONS
 \*------------------------------------*/
 /**
- * As of now this is where we will be placing our icon fonts. 
- * Freight Sans Pro will be served up from Typekit. 
+ * As of now this is where we will be placing our icon fonts.
+ * Freight Sans Pro will be served up from Typekit.
  */
 @font-face {
   font-family: "cruicons";
@@ -5718,6 +5718,7 @@ button.close {
       position: relative; } }
 
 .logo {
+  background: url("http://www.cru.org/images/cru-logo.svg") no-repeat center center;
   float: left;
   width: 24%;
   height: 100%;
