@@ -12352,20 +12352,20 @@ hr.vertical-divider {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("{{ site.root }}fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("{{ site.root }}fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("{{ site.root }}fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("{{ site.root }}fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("{{ site.root }}fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  src: url("http://cruglobal.github.io/Give_Front-end/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("http://cruglobal.github.io/Give_Front-end/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("http://cruglobal.github.io/Give_Front-end/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("http://cruglobal.github.io/Give_Front-end/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("http://cruglobal.github.io/Give_Front-end/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+@font-face {
+  font-family: "cruicons";
+  src: url("http://cruglobal.github.io/Give_Front-end/fonts/cruicons.eot?13550619");
+  src: url("http://cruglobal.github.io/Give_Front-end/fonts/cruicons.eot?13550619#iefix") format("embedded-opentype"), url("http://cruglobal.github.io/Give_Front-end/fonts/cruicons.woff?13550619") format("woff"), url("http://cruglobal.github.io/Give_Front-end/fonts/cruicons.ttf?13550619") format("truetype"), url("http://cruglobal.github.io/Give_Front-end/fonts/cruicons.svg?13550619#cruicons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'cruicons';
-    src: url("{{ site.root }}font/cruicons.svg?54093663#cruicons") format("svg"); } }
-.global__button {
-  background-image: url("{{ site.root }}images/earth94.svg"); }
-
-.global__button:hover {
-  background-image: url("{{ site.root }}images/earth94-white.svg"); }
-
-.icon--cart {
-  background-image: url("{{ site.root }}images/earth94.png"); }
-
-.userAction--cart {
-  background-image: url("{{ site.root }}images/cart.svg"); }
+    src: url('../font/cruicons.svg?54093663#cruicons') format('svg');
+  }
+} */
