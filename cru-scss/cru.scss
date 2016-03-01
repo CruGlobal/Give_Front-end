@@ -234,13 +234,13 @@
 
 // Give SCSS
 
-@import "responsive";
-@import "give";
 @import "tabs";
 @import "global-changes";
 
-@import "cart";
 @import '../assets/bower_components/slick-carousel/slick/slick';
+@import "responsive";
+@import "give";
+@import "cart";
 
 
 
