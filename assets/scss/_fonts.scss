@@ -1,0 +1,30 @@
+// ********** This scss file is only needed for gh-pages to correct relative links to be able to use icons both remote and local. ********** //
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("{{ site.root }}fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("{{ site.root }}fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("{{ site.root }}fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("{{ site.root }}fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("{{ site.root }}fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'cruicons';
+      src: url('{{ site.root }}font/cruicons.svg?54093663#cruicons') format('svg');
+    }
+  }
+
+// VARIOUS ICONS //
+
+  .global__button {
+  background-image: url('{{ site.root }}images/earth94.svg');
+ }
+  .global__button:hover {
+    background-image: url('{{ site.root }}images/earth94-white.svg');
+ }
+
+.icon--cart {
+  background-image: url('{{ site.root }}images/earth94.png');
+ }
+
+.userAction--cart {
+  background-image: url('{{ site.root }}images/cart.svg');
+ }
