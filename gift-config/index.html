@@ -1,0 +1,352 @@
+---
+layout: sign-in
+---
+<div class="screenContent">
+<div class="postArticle  layoutSingleColumn--wide   container-fluid">
+  <div class="section-title  u-centerBlock  masonry__item  col-md-12  col-xs-12  mb" >
+            <h1 class="u-inlineBlock  banner-title  ">Sign In</h1>
+           </div>
+	<div class="masonry__item  col-md-12  coverphoto  col-xs-12 container container-edge-small container-edge-extrasmall">
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div class="panel  panel-default  p">
+
+          <div class="panel row  pb">
+            <div class="panel-heading">Select Gift Amount:</div>
+              <div class="col-sm-12  ">
+
+            <div class="" data-toggle="buttons">
+              <label class="btn  btn-radio       active  ">
+                <input type="radio" name='amount' checked><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $50</span>
+              </label>
+              <label class="btn  btn-radio   ">
+                <input type="radio" name='amount' ><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $100</span>
+              </label>
+              <label class="btn  btn-radio ">
+                <input type="radio" name='amount' ><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $250</span>
+              </label>
+              <label class="btn btn-radio   ">
+                <input type="radio" name='amount' ><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $500</span>
+              </label>
+              <label class="btn  btn-radio ">
+                <input type="radio" name='amount'><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $1000</span>
+              </label>
+
+              <div class="row ">
+                <div class="col-md-12 ">
+
+                  <label class="btn  btn-default-form   col-md-6  col-sm-12  u-textLeft custom-amount">
+                    <input type="radio" name='amount'><i class="fa fa-check-circle-o fa-2x"></i><span><div class="form-group    form-group-default  u-inline">
+                          <label class="custom-amount  u-inline">Custom Amount</label>
+                          <input type="text" class="form-control form-control-subtle  number" name="$" list="$" step="any" min="0" value="$50">
+                          <datalist id="$">
+                            <option value="$50">$50</option>
+                            <option value="$100">$100</option>
+                            <option value="$200">$200</option>
+                            <option value="Dr.">$250</option>
+                            <option value="Pastor">$350</option>
+                            <option value="Rev.">$450</option>
+                          </datalist>
+                        </div></span>
+                      </label>
+                    </div>
+
+              </div>
+
+
+            </div>
+
+            </div>
+            </div>
+
+
+
+            <div class="row  pb  panel">
+              <div class="panel-heading">Select Gift Frequency:</div>
+
+
+              <div class="col-sm-12  ">
+
+            <div class="" data-toggle="buttons">
+              <label class="btn  btn-radio       active  ">
+                <input type="radio" name='frequency' checked><i class="fa fa-check-circle-o fa-2x"></i><span class="giftsum-about giftsum-title"> Single Gift</span>
+              </label>
+              <label class="btn  btn-radio   ">
+                <input type="radio" name='frequency' ><i class="fa fa-check-circle-o fa-2x"></i><span> Monthly</span>
+              </label>
+              <label class="btn  btn-radio ">
+                <input type="radio" name='frequency' ><i class="fa fa-check-circle-o fa-2x"></i><span> Quarterly</span>
+              </label>
+              <label class="btn btn-radio   ">
+                <input type="radio" name='frequency' ><i class="fa fa-check-circle-o fa-2x"></i><span> Semi-Annually</span>
+              </label>
+              <label class="btn  btn-radio ">
+                <input type="radio" name='frequency'><i class="fa fa-check-circle-o fa-2x"></i><span> Annually</span>
+              </label>
+
+
+            </div>
+
+            </div>
+            </div>
+            <div class="panel row  pb">
+              <div class="panel-heading">Reccurring Gift Transaction Date:</div>
+
+              <div class="col-sm-5">
+                <div class="form-group">
+                  <label>Month</label>
+                  <div class="form-group">
+                    <select class="form-control  form-control-subtle" id="suffix" >
+                      <option></option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="form-group">
+                  <label>Day</label>
+                  <div class="form-group">
+                    <select class="form-control  form-control-subtle" id="suffix" >
+                      <option></option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="panel row  ">
+
+            <div class="panel-heading">Optional Comments</div>
+        <div class="panel-body">
+        <ul>
+        <li><a href="#" class="commentLink" onclick="javascript:postValueToServer('content','comments', ['Staff'])"> Add Comments For Jason and Monica Chandler</a></li>
+        <li><a href="#" class="commentLink" onclick="javascript:postValueToServer('content','comments', ['DonationServices'])"> Add Comments For Donation Services</a></li>
+
+        </ul>
+
+
+          </div></div>
+            <div class="row">
+
+              <button type="submit" class="btn  btn-lg  btn-primary  u-floatRight">
+                Add to Gift Cart
+              </button>
+            </div>
+
+        </div>      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="panel panel-margin-bottom">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="panel panel-plain panel-nomargin sign-in-panel">
+              <div class="panel-body">
+
+                  <form method="post"   action="/give/GiftDetail/process" id="giftDetailForm" name="giftDetailForm">
+              <input type="hidden" name="esp_FormId" value="giftDetailForm">
+              <input type="hidden" name="Listener" value="save">
+              				<input type="hidden"  id="c1_0" name="c1_0" value="N" />
+              				<input type="hidden"  id="c1_1" name="c1_1" value="N" />
+
+                <!-- Default panel contents -->
+                  <h3>Jean Deaux</h3>
+                    <p>Staff #5552424</p>
+
+                  <div class="row">
+
+
+
+
+
+
+
+              <div class="col-md-10">
+
+
+
+
+
+         <div class="masonry__item  col-md-12  col-xs-12" >
+   <div class="panel  panel-default  p">
+
+     <div class="panel row  pb">
+       <div class="panel-heading">Select Gift Amount:</div>
+         <div class="col-sm-12  ">
+
+       <div class="" data-toggle="buttons">
+         <label class="btn  btn-radio       active  ">
+           <input type="radio" name='amount' checked><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $50</span>
+         </label>
+         <label class="btn  btn-radio   ">
+           <input type="radio" name='amount' ><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $100</span>
+         </label>
+         <label class="btn  btn-radio ">
+           <input type="radio" name='amount' ><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $250</span>
+         </label>
+         <label class="btn btn-radio   ">
+           <input type="radio" name='amount' ><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $500</span>
+         </label>
+         <label class="btn  btn-radio ">
+           <input type="radio" name='amount'><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $1000</span>
+         </label>
+
+         <div class="row ">
+           <div class="col-md-12 ">
+
+             <label class="btn  btn-default-form   col-md-6  col-sm-12  u-textLeft custom-amount">
+               <input type="radio" name='amount'><i class="fa fa-check-circle-o fa-2x"></i><span><div class="form-group    form-group-default  u-inline">
+                     <label class="custom-amount  u-inline">Custom Amount</label>
+                     <input type="text" class="form-control form-control-subtle  number" name="$" list="$" step="any" min="0" value="$50">
+                     <datalist id="$">
+                       <option value="$50">$50</option>
+                       <option value="$100">$100</option>
+                       <option value="$200">$200</option>
+                       <option value="Dr.">$250</option>
+                       <option value="Pastor">$350</option>
+                       <option value="Rev.">$450</option>
+                     </datalist>
+                   </div></span>
+                 </label>
+               </div>
+
+         </div>
+
+
+       </div>
+
+       </div>
+       </div>
+
+
+
+       <div class="row  pb  panel">
+         <div class="panel-heading">Select Gift Frequency:</div>
+
+
+         <div class="col-sm-12  ">
+
+       <div class="" data-toggle="buttons">
+         <label class="btn  btn-radio       active  ">
+           <input type="radio" name='frequency' checked><i class="fa fa-check-circle-o fa-2x"></i><span class="giftsum-about giftsum-title"> Single Gift</span>
+         </label>
+         <label class="btn  btn-radio   ">
+           <input type="radio" name='frequency' ><i class="fa fa-check-circle-o fa-2x"></i><span> Monthly</span>
+         </label>
+         <label class="btn  btn-radio ">
+           <input type="radio" name='frequency' ><i class="fa fa-check-circle-o fa-2x"></i><span> Quarterly</span>
+         </label>
+         <label class="btn btn-radio   ">
+           <input type="radio" name='frequency' ><i class="fa fa-check-circle-o fa-2x"></i><span> Semi-Annually</span>
+         </label>
+         <label class="btn  btn-radio ">
+           <input type="radio" name='frequency'><i class="fa fa-check-circle-o fa-2x"></i><span> Annually</span>
+         </label>
+
+
+       </div>
+
+       </div>
+       </div>
+       <div class="panel row  pb">
+         <div class="panel-heading">Reccurring Gift Transaction Date:</div>
+
+         <div class="col-sm-5">
+           <div class="form-group">
+             <label>Month</label>
+             <div class="form-group">
+               <select class="form-control  form-control-subtle" id="suffix" >
+                 <option></option>
+               </select>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-4">
+           <div class="form-group">
+             <label>Day</label>
+             <div class="form-group">
+               <select class="form-control  form-control-subtle" id="suffix" >
+                 <option></option>
+               </select>
+             </div>
+           </div>
+         </div>
+
+       </div>
+       <div class="panel row  ">
+
+       <div class="panel-heading">Optional Comments</div>
+ <div class="panel-body">
+<ul>
+<li><a href="#" class="commentLink" onclick="javascript:postValueToServer('content','comments', ['Staff'])"> Add Comments For Jason and Monica Chandler</a></li>
+<li><a href="#" class="commentLink" onclick="javascript:postValueToServer('content','comments', ['DonationServices'])"> Add Comments For Donation Services</a></li>
+
+</ul>
+
+
+     </div></div>
+       <div class="row">
+
+         <button type="submit" class="btn  btn-lg  btn-primary  u-floatRight">
+           Add to Gift Cart
+         </button>
+       </div>
+
+   </div>
+
+
+  </div>
+
+
+
+              </div>
+
+
+              </div>
+
+
+</div>
+
+<br>
+</div>
+
+
+
+
+              </div>
+
+              </form>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div><!-- // panel -->
+
+  </div>
+
+</div>
+</div>
