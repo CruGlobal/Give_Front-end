@@ -152,3 +152,47 @@ transition-delay: 100ms;
     .number{font-family: Montserrat,Helvetica,Arial,sans-serif;}
 
     .modal{z-index: 999999999999 !important}
+
+    .modal-open{
+      overflow: scroll;
+    }
+
+    .modal {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    top: 1em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.modal-open .reveal-modal-bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1004;
+    display: none;
+    left: 0;
+    -webkit-transition-property: all; /* Safari */
+-webkit-transition-duration: 100ms; /* Safari */
+-webkit-transition-delay: 100ms; /* Safari */
+transition-property: all;
+transition-duration: 100ms;
+transition-delay: 100ms;
+}
+
+
+@media (min-width: 550px){
+.modal-dialog {
+    width: 600px;
+    width: 50vmax;
+    margin: 30px auto;
+}}
