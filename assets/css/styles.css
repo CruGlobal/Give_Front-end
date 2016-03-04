@@ -12184,6 +12184,8 @@ a + .phone + .phone:before {
   font-weight: 600; }
 .slick-slide .icon--readNext:after {
   color: #666062; }
+.slick-slide img {
+  width: 100%; }
 
 .slick-arrow {
   width: 38px;
@@ -12356,7 +12358,8 @@ hr.vertical-divider {
     font-weight: 200; }
   .giftsum-table .giftsum-gift-row td {
     padding-top: 30px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    border-bottom: 2px solid #666062; }
   .giftsum-table .giftsum-gift-row .giftsum-profile {
     width: 90px;
     height: auto;
