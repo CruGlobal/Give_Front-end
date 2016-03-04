@@ -12385,9 +12385,10 @@ hr.vertical-divider {
 .btn-radio {
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-right: 5%;
-  padding-left: 5%;
-  border: 1px solid #F0F0F0; }
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 100px;
+  border: 1px solid #e7e7e7; }
 
 input[type=radio]:checked + label {
   background: #67747c;
@@ -12425,8 +12426,8 @@ label input[type="radio"] ~ i.fa.fa-check-circle-o {
 label input[type="radio"]:checked ~ i.fa.fa-circle-o {
   display: none; }
 label input[type="radio"]:checked ~ i.fa.fa-check-circle-o {
-  font-size: 1.5em;
-  color: #7AA3CC;
+  font-size: 15px;
+  color: #666062;
   display: inline; }
 label:hover input[type="radio"] ~ i.fa {
   color: #7AA3CC; }
@@ -12471,12 +12472,14 @@ div[data-toggle="buttons"] label:hover {
   color: #3a3a3a;
   background: #f9f9f9; }
 
-div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+div[data-toggle="buttons"] label:active,
+div[data-toggle="buttons"] label.active {
   color: #3a3a3a;
   font-weight: 600;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background-color: #E0E0E0; }
+  background-color: #E0E0E0;
+  border-color: #e7e7e7; }
 
 div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
   -webkit-box-shadow: none;

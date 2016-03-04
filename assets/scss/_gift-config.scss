@@ -1,9 +1,10 @@
 .btn-radio{
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-right: 5%;
-  padding-left: 5%;
-  border: 1px solid #F0F0F0;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 100px;
+  border: 1px solid $colorGrayscale-stone;
 }
 
 input[type=radio]:checked + label{
@@ -47,8 +48,8 @@ label {
     display: none;
   }
   input[type="radio"]:checked ~ i.fa.fa-check-circle-o{
-    font-size: 1.5em;
-    color: #7AA3CC;
+    font-size: 15px;
+    color: $colorCru-gray;
     display: inline;
   }
   &:hover input[type="radio"] ~ i.fa {
@@ -106,12 +107,14 @@ div[data-toggle="buttons"] label:hover {
   background: #f9f9f9;
 }
 
-div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+div[data-toggle="buttons"] label:active, 
+div[data-toggle="buttons"] label.active {
   color: #3a3a3a;
   font-weight: 600;
   -webkit-box-shadow: none;
   box-shadow: none;
   background-color: #E0E0E0;
+  border-color: $colorGrayscale-stone;
 }
 
 div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
