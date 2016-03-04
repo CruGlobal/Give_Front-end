@@ -12608,6 +12608,20 @@ label.custom-amount {
   font-size: 16px;
   line-height: 20px; }
 
+.gift-offer {
+  font-size: 1.15em;
+  margin-bottom: .85em;
+  line-height: 1.15em; }
+  .gift-offer.inactive {
+    color: #a0a0a0; }
+    .gift-offer.inactive .fa {
+      margin-left: 8px;
+      margin-right: 8px; }
+  .gift-offer.active .fa-check {
+    border: 3px solid #f9b625;
+    padding: 4px;
+    border-radius: 100%; }
+
 .panel-plain {
   border: none;
   padding: 30px;

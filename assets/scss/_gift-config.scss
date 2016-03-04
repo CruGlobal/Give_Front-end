@@ -265,6 +265,27 @@ label.custom-amount {
   line-height: 20px;
 }
 
+.gift-offer {
+  font-size: 1.15em;
+  margin-bottom: .85em;
+  line-height: 1.15em;
+  &.inactive {
+    color: lighten($colorGrayscale-text, 40%);
+    .fa {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+
+  }
+  &.active {
+    .fa-check {
+      border: 3px solid $colorCru-gold;
+      padding: 4px;
+      border-radius: 100%;
+    }
+  }
+}
+
 .panel-plain {
   border: none;
   padding: 30px;
@@ -272,4 +293,6 @@ label.custom-amount {
   box-shadow: none;
   margin-bottom: 0;
 }
+
+
 
