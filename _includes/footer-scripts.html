@@ -6,7 +6,12 @@
 
 <script>
 $("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("toggled");
+  e.preventDefault();
+  $("#wrapper").toggleClass("toggled");
+});
+
+$('.commentLink').click(function() {
+  $(this).next().toggle();
+  return false;
 });
 </script>
