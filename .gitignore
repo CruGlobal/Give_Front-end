@@ -10,3 +10,5 @@ css/*
 css/new.css
 
 /css
+
+*.codekit

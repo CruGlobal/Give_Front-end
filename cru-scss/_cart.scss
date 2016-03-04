@@ -6,7 +6,7 @@
     color: inherit;
     padding-bottom: 0;
     padding-top: 0;
-  }  
+  }
 }
 
 
@@ -21,7 +21,6 @@
     td {
       padding-top: 30px;
       padding-bottom: 30px;
-      border-bottom: 2px solid $colorCru-gray;
     }
     .giftsum-profile {
       width: 90px;
@@ -32,7 +31,6 @@
       display: block;
     }
     .giftsum-detail {
-      color: $colorGrayscale-slate;
       display: block;
       font-size: .75em;
       font-family: $data-font;
@@ -53,10 +51,8 @@
   }
   .giftsum-line {
     display: block;
-    line-height: 1.5em;
     strong {
       font-family: $data-font;
     }
   }
 }
-

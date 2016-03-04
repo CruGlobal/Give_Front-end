@@ -19,6 +19,8 @@ body {
 }
 
 .logo {
+  background: url("http://www.cru.org/images/cru-logo.svg") no-repeat center center;
+
     float: left;
     width: 24%;
     height: 100%;
@@ -33,6 +35,7 @@ body {
         width: 10%;
     }
 }
+
 
 .navToggle {
     text-transform: none;
