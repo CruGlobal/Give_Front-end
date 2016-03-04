@@ -1,0 +1,25 @@
+.slick-arrow {
+  width: 39px;
+  height: 60px;
+  background: #fff;
+  background-image: none !important;
+  color: #555;
+  box-shadow: none;
+  opacity: 1 !important;
+  line-height: 60px;
+  position: absolute;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+
+  &.slick-next {
+    right: 0;
+    left: auto;
+  }
+  &.slick-prev {
+    left: 0;
+    right: auto;
+  }
+}
