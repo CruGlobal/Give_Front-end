@@ -12397,16 +12397,16 @@ input[type=radio]:checked + label {
 input[type="radio"] {
   visibility: hidden; }
 
-.radio label, .checkbox label {
+.radio label,
+.checkbox label {
   min-height: 29px;
   padding-left: 0px;
   margin-bottom: 0;
   font-weight: normal;
   cursor: pointer; }
 
-label.btn span {
+label .btn span {
   font-size: 18px; }
-
 label input[type="radio"] ~ i.fa.fa-circle-o {
   font-size: 1em;
   color: #f0f0f0;
@@ -12420,35 +12420,26 @@ label input[type="radio"] ~ i.fa.fa-circle-o {
   transition-property: all;
   transition-duration: 200ms;
   transition-delay: 200ms; }
-
 label input[type="radio"] ~ i.fa.fa-check-circle-o {
   display: none; }
-
 label input[type="radio"]:checked ~ i.fa.fa-circle-o {
   display: none; }
-
 label input[type="radio"]:checked ~ i.fa.fa-check-circle-o {
   font-size: 1.5em;
   color: #7AA3CC;
   display: inline; }
-
 label:hover input[type="radio"] ~ i.fa {
   color: #7AA3CC; }
-
 label input[type="checkbox"] ~ i.fa.fa-square-o {
   color: #c8c8c8;
   display: inline; }
-
 label input[type="checkbox"] ~ i.fa.fa-check-square-o {
   display: none; }
-
 label input[type="checkbox"]:checked ~ i.fa.fa-square-o {
   display: none; }
-
 label input[type="checkbox"]:checked ~ i.fa.fa-check-square-o {
   color: #7AA3CC;
   display: inline; }
-
 label:hover input[type="checkbox"] ~ i.fa {
   color: #7AA3CC; }
 
@@ -12513,12 +12504,6 @@ label.custom-amount {
   font-family: Montserrat,Helvetica,Arial,sans-serif; }
 
 .modal {
-  z-index: 999999999999 !important; }
-
-.modal-open {
-  overflow: scroll; }
-
-.modal {
   display: none;
   overflow: hidden;
   position: relative;
@@ -12527,35 +12512,33 @@ label.custom-amount {
   bottom: 0;
   left: 0;
   z-index: 1040;
+  z-index: 999999999999 !important;
   -webkit-overflow-scrolling: touch;
   outline: 0; }
 
-.modal-open .reveal-modal-bg {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: black;
-  background: rgba(0, 0, 0, 0.55);
-  z-index: 1004;
-  display: none;
-  left: 0;
-  -webkit-transition-property: all;
-  /* Safari */
-  -webkit-transition-duration: 100ms;
-  /* Safari */
-  -webkit-transition-delay: 100ms;
-  /* Safari */
-  transition-property: all;
-  transition-duration: 100ms;
-  transition-delay: 100ms; }
+.modal-open {
+  overflow: scroll; }
+  .modal-open .reveal-modal-bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1004;
+    display: none;
+    left: 0;
+    -webkit-transition-property: all;
+    /* Safari */
+    -webkit-transition-duration: 100ms;
+    /* Safari */
+    -webkit-transition-delay: 100ms;
+    /* Safari */
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-delay: 100ms; }
 
-@media (min-width: 550px) {
-  .modal-dialog {
-    width: 600px;
-    width: 50vmax;
-    margin: 30px auto; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("http://cruglobal.github.io/Give_Front-end/fonts/bootstrap/glyphicons-halflings-regular.eot");
