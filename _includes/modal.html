@@ -1,0 +1,163 @@
+
+<div class="reveal-modal-bg" style="display: block;"></div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Give a Gift</h4>
+      </div>
+
+      <form>
+
+        <div class="modal-body">
+
+          <div class="panel  panel-default  p">
+
+            <div class="panel row  pb">
+              <div class="panel-heading">Select Gift Amount:</div>
+              <div class="col-sm-12  ">
+
+                <div class="" data-toggle="buttons">
+                  <label class="btn  btn-radio       active  ">
+                    <input type="radio" name='amount' checked><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $50</span>
+                  </label>
+                  <label class="btn  btn-radio   ">
+                    <input type="radio" name='amount' ><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $100</span>
+                  </label>
+                  <label class="btn  btn-radio ">
+                    <input type="radio" name='amount' ><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $250</span>
+                  </label>
+                  <label class="btn btn-radio   ">
+                    <input type="radio" name='amount' ><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $500</span>
+                  </label>
+                  <label class="btn  btn-radio ">
+                    <input type="radio" name='amount'><i class="fa fa-check-circle-o fa-2x"></i><span class="number"> $1000</span>
+                  </label>
+
+                  <div class="row ">
+                    <div class="col-md-12 ">
+
+                      <label class="btn  btn-default-form   col-md-6  col-sm-12  u-textLeft custom-amount">
+                        <input type="radio" name='amount'><i class="fa fa-check-circle-o fa-2x"></i><span><div class="form-group    form-group-default  u-inline">
+                          <label class="custom-amount  u-inline">Custom Amount</label>
+                          <input type="text" class="form-control form-control-subtle  number" name="$" list="$" step="any" min="0" value="$50">
+                          <datalist id="$">
+                            <option value="$50">$50</option>
+                            <option value="$100">$100</option>
+                            <option value="$200">$200</option>
+                            <option value="Dr.">$250</option>
+                            <option value="Pastor">$350</option>
+                            <option value="Rev.">$450</option>
+                          </datalist>
+                        </div></span>
+                      </label>
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="row  pb  panel">
+              <div class="panel-heading">Select Gift Frequency:</div>
+
+
+              <div class="col-sm-12  ">
+
+                <div class="" data-toggle="buttons">
+                  <label class="btn  btn-radio       active  ">
+                    <input type="radio" name='frequency' checked><i class="fa fa-check-circle-o fa-2x"></i><span class="giftsum-about giftsum-title"> Single Gift</span>
+                  </label>
+                  <label class="btn  btn-radio   ">
+                    <input type="radio" name='frequency' ><i class="fa fa-check-circle-o fa-2x"></i><span> Monthly</span>
+                  </label>
+                  <label class="btn  btn-radio ">
+                    <input type="radio" name='frequency' ><i class="fa fa-check-circle-o fa-2x"></i><span> Quarterly</span>
+                  </label>
+                  <label class="btn btn-radio   ">
+                    <input type="radio" name='frequency' ><i class="fa fa-check-circle-o fa-2x"></i><span> Semi-Annually</span>
+                  </label>
+                  <label class="btn  btn-radio ">
+                    <input type="radio" name='frequency'><i class="fa fa-check-circle-o fa-2x"></i><span> Annually</span>
+                  </label>
+
+
+                </div>
+
+              </div>
+            </div>
+            <div class="panel row  pb">
+              <div class="panel-heading">Reccurring Gift Transaction Date:</div>
+
+              <div class="col-sm-5">
+                <div class="form-group">
+                  <label>Month</label>
+                  <div class="form-group">
+                    <select class="form-control  form-control-subtle" id="suffix" >
+                      <option value="January">January</option>
+                      <option value="February">February</option>
+                      <option value="March">March</option>
+                      <option value="April">April</option>
+                      <option value="May">May</option>
+                      <option value="June">June</option>
+                      <option value="July">July</option>
+                      <option value="August">August</option>
+                      <option value="September">September</option>
+                      <option value="October">October</option>
+                      <option value="November">November</option>
+                      <option value="December">December</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="form-group">
+                  <label>Day</label>
+                  <div class="form-group">
+                    <select class="form-control  form-control-subtle" id="suffix" >
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>                     </select>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="panel row  ">
+
+                <div class="panel-heading">Optional Comments</div>
+                <div class="panel-body">
+                  <ul>
+                    <li><a href="#" class="commentLink" onclick="javascript:postValueToServer('content','comments', ['Staff'])"> Add Comments For Jason and Monica Chandler</a></li>
+                    <li><a href="#" class="commentLink" onclick="javascript:postValueToServer('content','comments', ['DonationServices'])"> Add Comments For Donation Services</a></li>
+
+                  </ul>
+
+
+                </div></div>
+
+
+              </div>      </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn  btn-lg  btn-primary">Add to Gift Cart</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- End Modal -->

@@ -1,0 +1,198 @@
+.btn-radio{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+  border: 1px solid #F0F0F0;
+}
+
+  input[type=radio]:checked + label{
+    //border: #f9b625 solid 2px;
+    background: #67747c;
+    color: #fff;
+    //color: #3a3a3a;
+    width: 100%;
+  }
+
+  input[type="radio"]{
+      visibility:hidden;
+  }
+
+  .radio label, .checkbox label {
+      min-height: 29px;
+      padding-left: 0px;
+      margin-bottom: 0;
+      font-weight: normal;
+      cursor: pointer;
+    }
+
+
+
+    label.btn span {
+      font-size: 18px ;
+    }
+
+    label input[type="radio"] ~ i.fa.fa-circle-o{
+      font-size: 1em;  color: #f0f0f0;    display: inline;
+      -webkit-transition-property: all; /* Safari */
+  -webkit-transition-duration: 200ms; /* Safari */
+  -webkit-transition-delay: 200ms; /* Safari */
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-delay: 200ms;
+    }
+    label input[type="radio"] ~ i.fa.fa-check-circle-o{
+        display: none;
+    }
+    label input[type="radio"]:checked ~ i.fa.fa-circle-o{
+        display: none;
+    }
+    label input[type="radio"]:checked ~ i.fa.fa-check-circle-o{
+        font-size: 1.5em;   color: #7AA3CC;    display: inline;
+    }
+    label:hover input[type="radio"] ~ i.fa {
+    color: #7AA3CC;
+    }
+
+
+
+    label input[type="checkbox"] ~ i.fa.fa-square-o{
+        color: #c8c8c8;    display: inline;
+    }
+    label input[type="checkbox"] ~ i.fa.fa-check-square-o{
+        display: none;
+    }
+    label input[type="checkbox"]:checked ~ i.fa.fa-square-o{
+        display: none;
+    }
+    label input[type="checkbox"]:checked ~ i.fa.fa-check-square-o{
+        color: #7AA3CC;    display: inline;
+    }
+    label:hover input[type="checkbox"] ~ i.fa {
+    color: #7AA3CC;
+    }
+
+    div[data-toggle="buttons"] label.active{
+        color: #7AA3CC;
+    }
+
+    div[data-toggle="buttons"] label {
+
+    margin-bottom: 10px;
+
+    font-weight: 600;
+
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    -webkit-transition-property: all; /* Safari */
+-webkit-transition-duration: 100ms; /* Safari */
+-webkit-transition-delay: 100ms; /* Safari */
+transition-property: all;
+transition-duration: 100ms;
+transition-delay: 100ms;
+    }
+
+
+@include mq(768, max) {
+    div[data-toggle="buttons"] label {
+    display: block;}}
+
+
+
+    div[data-toggle="buttons"] label:hover {
+    color: #3a3a3a;
+        background: #f9f9f9;
+    }
+
+    div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+      color: #3a3a3a;
+      font-weight: 600;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #E0E0E0;
+    }
+
+    div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    }
+
+
+
+
+    label.custom-amount {
+        border: none !important;
+        padding-left: 0px !important;
+    }
+
+    label.btn.btn-default-form.custom-amount.mr.u-textLeft {
+        border: none;
+        padding-left: 0px;
+    }
+
+    label.btn.btn-default-form {
+    border: none;
+    padding: 0px;
+}
+
+    label.btn.btn-default-form.active {
+        background: none;
+    }
+    label.custom-amount {
+    background: none;
+}
+
+
+    .number{font-family: Montserrat,Helvetica,Arial,sans-serif;}
+
+    .modal{z-index: 999999999999 !important}
+
+    .modal-open{
+      overflow: scroll;
+    }
+
+    .modal {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    top: 1em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.modal-open .reveal-modal-bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1004;
+    display: none;
+    left: 0;
+    -webkit-transition-property: all; /* Safari */
+-webkit-transition-duration: 100ms; /* Safari */
+-webkit-transition-delay: 100ms; /* Safari */
+transition-property: all;
+transition-duration: 100ms;
+transition-delay: 100ms;
+}
+
+
+@media (min-width: 550px){
+.modal-dialog {
+    width: 600px;
+    width: 50vmax;
+    margin: 30px auto;
+}}
