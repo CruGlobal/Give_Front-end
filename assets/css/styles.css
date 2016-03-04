@@ -12389,6 +12389,8 @@ hr.vertical-divider {
   padding-right: 15px;
   min-width: 100px;
   border: 1px solid #e7e7e7; }
+  .btn-radio.btn-wide {
+    min-width: 150px; }
 
 input[type=radio]:checked + label {
   background: #67747c;
