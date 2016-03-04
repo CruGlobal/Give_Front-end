@@ -52,7 +52,7 @@ label {
   }
   input[type="radio"]:checked ~ i.fa.fa-check-circle-o{
     font-size: 15px;
-    color: $colorCru-gray;
+    color: $colorCru-white;
     display: inline;
   }
   &:hover input[type="radio"] ~ i.fa {
@@ -112,12 +112,12 @@ div[data-toggle="buttons"] label:hover {
 
 div[data-toggle="buttons"] label:active, 
 div[data-toggle="buttons"] label.active {
-  color: #3a3a3a;
+  color: $colorCru-white;
   font-weight: 600;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background-color: #E0E0E0;
-  border-color: $colorGrayscale-stone;
+  background-color: $colorGrayscale-text;
+  border-color: $colorGrayscale-text;
 }
 
 div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
@@ -256,6 +256,7 @@ label.custom-amount {
 
 .give-modal-comments {
   border-radius: 3px;
+  border-color: $colorGrayscale-stone;
   display: block;
   width: 100%;
   margin-bottom: 0;

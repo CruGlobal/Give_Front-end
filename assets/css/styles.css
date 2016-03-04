@@ -12429,7 +12429,7 @@ label input[type="radio"]:checked ~ i.fa.fa-circle-o {
   display: none; }
 label input[type="radio"]:checked ~ i.fa.fa-check-circle-o {
   font-size: 15px;
-  color: #666062;
+  color: #fff;
   display: inline; }
 label:hover input[type="radio"] ~ i.fa {
   color: #7AA3CC; }
@@ -12476,12 +12476,12 @@ div[data-toggle="buttons"] label:hover {
 
 div[data-toggle="buttons"] label:active,
 div[data-toggle="buttons"] label.active {
-  color: #3a3a3a;
+  color: #fff;
   font-weight: 600;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background-color: #E0E0E0;
-  border-color: #e7e7e7; }
+  background-color: #3a3a3a;
+  border-color: #3a3a3a; }
 
 div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
   -webkit-box-shadow: none;
@@ -12597,6 +12597,7 @@ label.custom-amount {
 
 .give-modal-comments {
   border-radius: 3px;
+  border-color: #e7e7e7;
   display: block;
   width: 100%;
   margin-bottom: 0;
