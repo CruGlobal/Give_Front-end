@@ -184,3 +184,29 @@ label.custom-amount {
   }
 }
 
+.give-modal-header {
+  padding: 30px 30px 15px 30px;
+  .modal-title {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 57px;
+  }
+}
+
+.give-modal-recipient {
+  text-align: right;
+  .recipient-image {
+    width: 85px;
+    float: right;
+    margin-left: 15px;
+  }
+  .recipient-title {
+    display: block;
+    font-weight: 600;
+  }
+  .recipient-id {
+    display: block;
+    font-size: .7em;
+  }
+}
+
