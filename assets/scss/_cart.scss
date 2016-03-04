@@ -31,6 +31,7 @@
       display: block;
     }
     .giftsum-detail {
+      color: $colorGrayscale-slate;
       display: block;
       font-size: .75em;
       font-family: $data-font;
@@ -51,6 +52,7 @@
   }
   .giftsum-line {
     display: block;
+    line-height: 1.5em;
     strong {
       font-family: $data-font;
     }

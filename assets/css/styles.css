@@ -12171,6 +12171,63 @@ a + .phone + .phone:before {
 .slick-arrow.slick-hidden {
   display: none; }
 
+.slick-related-carousel {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.slick-slide .panel {
+  margin-bottom: 0; }
+.slick-slide .u-linkClean {
+  color: #666062;
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: 600; }
+.slick-slide .icon--readNext:after {
+  color: #666062; }
+
+.slick-arrow {
+  width: 38px;
+  height: 60px;
+  background: #fff;
+  background-image: none !important;
+  color: #555;
+  border: 0;
+  opacity: 1 !important;
+  line-height: 60px;
+  position: absolute;
+  vertical-align: middle;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; }
+  .slick-arrow.slick-next {
+    right: -15px;
+    left: auto;
+    box-shadow: -3px 0 5px #ccc;
+    text-indent: -138px;
+    overflow: hidden; }
+    .slick-arrow.slick-next:after {
+      content: "\f105";
+      font-family: "fontawesome";
+      margin-left: 102px;
+      font-size: 38px;
+      margin-top: -2px;
+      display: inline-block;
+      text-indent: 0; }
+  .slick-arrow.slick-prev {
+    left: -15px;
+    right: auto;
+    box-shadow: 3px 0 5px #ccc;
+    overflow: hidden;
+    text-indent: -138px; }
+    .slick-arrow.slick-prev:after {
+      content: "\f104";
+      font-family: "fontawesome";
+      margin-left: 71px;
+      font-size: 38px;
+      margin-top: -2px;
+      display: inline-block;
+      text-indent: 0; }
+
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .container-edge-small {
     padding-left: 0;
@@ -12280,35 +12337,8 @@ hr.vertical-divider {
   .sign-in-panel .panel-body {
     padding: 0; } }
 
-.carousel .panel {
-  margin-bottom: 0; }
-
-.carousel-control {
-  width: 39px;
-  height: 60px;
-  background: #fff;
-  background-image: none !important;
-  color: #555;
-  box-shadow: none;
-  opacity: 1 !important;
-  line-height: 60px;
-  vertical-align: middle;
-  border: 1px solid #ddd;
-  top: 50%;
-  transform: translateY(-50%); }
-  .carousel-control:hover, .carousel-control:focus {
-    color: inherit; }
-  .carousel-control .fa {
-    line-height: 60px;
-    font-size: 32px;
-    text-shadow: none;
-    box-shadow: none; }
-  .carousel-control.right {
-    border-right: 0px;
-    right: -30px; }
-  .carousel-control.left {
-    border-left: 0px;
-    left: -30px; }
+.ecfa-logo {
+  margin: 0; }
 
 .giftsum-actions {
   text-align: right;
@@ -12334,6 +12364,7 @@ hr.vertical-divider {
   .giftsum-table .giftsum-gift-row .giftsum-title {
     display: block; }
   .giftsum-table .giftsum-gift-row .giftsum-detail {
+    color: #909b9c;
     display: block;
     font-size: .75em;
     font-family: "Helvetica Neue", Helvetica, sans-serif; }
@@ -12346,7 +12377,8 @@ hr.vertical-divider {
     padding-top: 40px;
     vertical-align: middle; }
   .giftsum-table .giftsum-line {
-    display: block; }
+    display: block;
+    line-height: 1.5em; }
     .giftsum-table .giftsum-line strong {
       font-family: "Helvetica Neue", Helvetica, sans-serif; }
 
