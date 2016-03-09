@@ -12648,3 +12648,5 @@ label.custom-amount {
     src: url('../font/cruicons.svg?54093663#cruicons') format('svg');
   }
 } */
+.screenContent {
+  padding-top: 36px !important; }
