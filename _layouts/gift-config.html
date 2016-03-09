@@ -1,23 +1,36 @@
+{% include header.html %}
+{% include subnav.html %}
 
+<div class="screenContent">
+  {% include modal.html %}
 
-     {% include header.html %}
-     {% include subnav.html %}
+  <div class="postArticle  layoutSingleColumn--wide   container-fluid">
 
-     {{ content }}
+    {{ content }}
 
+    <div class="masonry__item  col-md-12"><!-- // Search Panel -->
+      {% include search.html %}
+    </div>
 
+    <div class="masonry__item  col-md-12"><!-- // Related Panel -->
+      {% include related.html %}
+    </div>
 
-
-
-    {% include footer.html %}
-
-   </div>
-   <!-- End #js-innerWrap -->
   </div>
-  <!-- End #js-outerWrap -->
+</div><!-- // Screen content -->
+
+
+{% include footer.html %}
+
+</div>
+<!-- End #js-innerWrap -->
+</div>
+<!-- End #js-outerWrap -->
 
 
 
 
- </body>
+
+
+</body>
 </html>
