@@ -294,5 +294,13 @@ label.custom-amount {
   margin-bottom: 0;
 }
 
+.btn-block-xs {
+  @media screen and (max-width: 768px) {
+    display: block;
+    width: 100%;
+    margin-bottom: .5em;    
+  }
+}
+
 
 

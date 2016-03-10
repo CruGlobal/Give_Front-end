@@ -12629,6 +12629,12 @@ label.custom-amount {
   box-shadow: none;
   margin-bottom: 0; }
 
+@media screen and (max-width: 768px) {
+  .btn-block-xs {
+    display: block;
+    width: 100%;
+    margin-bottom: .5em; } }
+
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("http://cruglobal.github.io/Give_Front-end/fonts/bootstrap/glyphicons-halflings-regular.eot");
