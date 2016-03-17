@@ -12343,42 +12343,104 @@ hr.vertical-divider {
   margin: 0; }
 
 .giftsum-actions {
-  text-align: right;
+  text-align: left;
   width: 20%; }
   .giftsum-actions .btn-giftsum-action {
     color: inherit;
     padding-bottom: 0;
     padding-top: 0; }
+    @media only screen and (max-width: 768px) {
+      .giftsum-actions .btn-giftsum-action {
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        background: #eee;
+        margin-right: 8px; } }
 
 .giftsum-table {
   margin-bottom: 0; }
+  @media only screen and (max-width: 768px) {
+    .giftsum-table thead {
+      display: none; } }
   .giftsum-table th {
     font-size: .9em;
     text-transform: uppercase;
     font-weight: 200; }
+  @media only screen and (max-width: 768px) {
+    .giftsum-table .giftsum-gift-row {
+      display: block;
+      border-top: 2px solid #ddd;
+      padding-top: 1em;
+      margin-top: 1em; }
+      .giftsum-table .giftsum-gift-row:first-child {
+        margin-top: 0; } }
   .giftsum-table .giftsum-gift-row td {
     padding-top: 30px;
     padding-bottom: 30px;
     border-bottom: 2px solid #666062; }
+    @media only screen and (max-width: 768px) {
+      .giftsum-table .giftsum-gift-row td {
+        display: block;
+        width: 100%;
+        border: none;
+        padding: 0; } }
   .giftsum-table .giftsum-gift-row .giftsum-profile {
     width: 90px;
     height: auto;
     margin-right: 15px; }
+    @media only screen and (max-width: 768px) {
+      .giftsum-table .giftsum-gift-row .giftsum-profile {
+        display: none; } }
   .giftsum-table .giftsum-gift-row .giftsum-title {
     display: block; }
+    @media only screen and (max-width: 768px) {
+      .giftsum-table .giftsum-gift-row .giftsum-title {
+        display: inline-block; } }
   .giftsum-table .giftsum-gift-row .giftsum-detail {
     color: #909b9c;
     display: block;
     font-size: .75em;
     font-family: "Helvetica Neue", Helvetica, sans-serif; }
+    @media only screen and (max-width: 768px) {
+      .giftsum-table .giftsum-gift-row .giftsum-detail {
+        display: inline-block; } }
   .giftsum-table .giftsum-gift-row .giftsum-actions {
     font-size: .8em;
     text-transform: uppercase; }
+    @media only screen and (max-width: 768px) {
+      .giftsum-table .giftsum-gift-row .giftsum-actions {
+        text-align: left; }
+        .giftsum-table .giftsum-gift-row .giftsum-actions .sep {
+          display: none; } }
   .giftsum-table .giftsum-gift-row .giftsum-about {
     font-family: "Helvetica Neue", Helvetica, sans-serif; }
+  @media only screen and (max-width: 768px) {
+    .giftsum-table tfoot tr {
+      display: block;
+      width: 100%;
+      border: none; } }
   .giftsum-table tfoot tr td {
     padding-top: 40px;
     vertical-align: middle; }
+    @media only screen and (max-width: 768px) {
+      .giftsum-table tfoot tr td {
+        display: block;
+        width: 100%;
+        border: none;
+        padding-top: 8px;
+        text-align: center; } }
+  @media only screen and (max-width: 768px) {
+    .giftsum-table tfoot tr .checkout-cta {
+      padding-top: 0; } }
+  @media only screen and (max-width: 768px) {
+    .giftsum-table .mobile-footer-persist {
+      position: fixed;
+      bottom: 0;
+      background: #fff;
+      width: 100%;
+      left: 0;
+      z-index: 100;
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+      border: none; } }
   .giftsum-table .giftsum-line {
     display: block;
     line-height: 1.5em; }
