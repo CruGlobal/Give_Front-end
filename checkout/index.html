@@ -132,8 +132,8 @@ layout: checkout
                   
                   <div class="mb">
                     <div class="panel panel-default">
-                      <div class="panel-title  panel-heading visible">Spouses Name (Optional)</div>
-                      <div class="panel-body">
+                      <div class="panel-title  panel-heading visible" data-toggle="collapse" data-target="#spouse-details">Spouses Name (Optional)</div>
+                      <div class="panel-body collapse in" id="spouse-details">
                         <div class="row">
                           <div class="col-sm-6">
                             <div class="form-group">
@@ -259,11 +259,11 @@ layout: checkout
             <div class="panel-body">
 
               <h3 class="panel-name">Cart Summary</h3>
-              <table class="table giftsum-table">
+              <table class="table giftsum-table giftsum-table-cart">
                 <thead>
                  <tr>
-                   <th class="th-title-gift">Recipient</th>
-                   <th class="th-title-amount">Amount</th>
+                   <th class="th-title-gift"></th>
+                   <th class="th-title-amount text-right">Amount</th>
                  </tr>
                 </thead>
                 <tbody>
@@ -286,7 +286,7 @@ layout: checkout
                    </td>
                  </tr>
                 </tbody>
-                <tfoot class="mobile-footer-persist">
+                <tfoot>
                  <tr>
                    <td colspan="2" class="text-right">
                      <span class="giftsum-line">Monthly Gift Total: <strong>$50.00</strong></span>
