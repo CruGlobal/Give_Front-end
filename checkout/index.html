@@ -1,37 +1,62 @@
 ---
 layout: checkout
 ---
-
 <!-- Content wrap -->
 <div class="screenContent">
-  <div class="section-title  u-centerBlock  masonry__item  col-md-12  col-xs-12  mb">
-          <h1 class="u-inlineBlock  banner-title  ">Checkout</h1>
-         </div>
   <div class="container container-edge-small container-edge-extrasmall">
-    <div class="layoutSingleColumn--wide  masonry-container">
-      <div class=" masonry__item  col-md-8">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="panel">
-              <div class="panel-body">
-                <h2 class="panel-title  mb">Checkout Step 1 of 3</h2>
-                  <!-- <div style="width:100%">
-                      <div class="progress  progress-small">
-                          <div class="progress-bar progress-bar-complete" style="width: 33%;"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="panel">
+                <div class="panel-body">
+                  <h3 class="panel-name">Checkout</h3>
+
+                  <div class="steps-wrap mb clearfix">
+                    <div class="steps-single on">
+                      <span class="step-title">
+                        Contact Information
+                      </span>
+                      <div class="step-bar">
+                        <span class="step-digit">1</span>
                       </div>
-                  </div> -->
+                    </div>
+                    <div class="steps-single">
+                      <span class="step-title">
+                        Payment Method
+                      </span>
+                      <div class="step-bar">
+                        <span class="step-digit">2</span>
+                      </div>
+                    </div>
+                    <div class="steps-single">
+                      <span class="step-title">
+                        Review and Submit Gift
+                      </span>
+                      <div class="step-bar">
+                        <span class="step-digit">3</span>
+                      </div>
+                    </div>
+                  </div>
+
                   <div class="mb">
-                    <ol class="breadcrumb">
-                      <li><a href="#" class="u-textWeight-bold">Cart</a></li>
-                      <li class="active  u-textWeight-bold"><a href="#">Personal Information</a></li>
-                      <li><a href="#">Payment Method</a></li>
-                      <li><a href="#">Submit Gift</a></li>
-                    </ol>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="" class="btn btn-secondary btn-block">Give as an Individual</a>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="" class="btn btn-default btn-block">Give as an Organization</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="mb">
 
 
                     <h4 class="panel-title  border-bottom-small  visible">Your Information</h4>
                     <div class="row">
-                      <div class="col-sm-4">
+                      <div class="col-sm-6">
                         <div class="form-group    form-group-default">
                           <label>Title (optional)</label>
                           <input type="text"  class="form-control form-control-subtle"  name="title"  list="title"  placeholder="Select..."/>
@@ -90,8 +115,8 @@ layout: checkout
                       </div>
                       <div class="col-sm-6">
                         <div class="form-group">
-                          <label>Secondary Phone</label>
-                          <input type="text" class="form-control  form-control-subtle">
+                          <label>Email</label>
+                          <input type="email" class="form-control  form-control-subtle">
                         </div>
                       </div>
                     </div>
@@ -99,226 +124,189 @@ layout: checkout
                       <div class="col-sm-12">
                         <div class="form-group">
                           <label>Eamil Address</label>
-                          <input type="text" class="form-control  form-control-subtle">
+                          
                         </div>
                       </div>
                     </div>
                   </div>
+                  
                   <div class="mb">
-                    <h4 class="panel-title  border-bottom-small  visible">Your Mailing Address</h4>
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <label>Address</label>
-                          <input type="text" class="form-control  form-control-subtle">
+                    <div class="panel panel-default">
+                      <div class="panel-title  panel-heading visible">Spouses Name (Optional)</div>
+                      <div class="panel-body">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group">
+                              <label>Title</label>
+                              <div class="form-group">
+                                <select class="form-control  form-control-subtle" id="suffix" >
+                                  <option></option>
+                                </select>
+                              </div>              
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group">
-                          <label>Apt, Suite, Etc.(optional)</label>
-                          <input type="text" class="form-control  form-control-subtle">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <div class="form-group">
-                          <label>City</label>
-                          <input type="text" class="form-control  form-control-subtle">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-5">
-                        <div class="form-group">
-                          <label>Country</label>
-                          <div class="form-group">
-                            <select class="form-control  form-control-subtle" id="suffix" >
-                              <option></option>
-                            </select>
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <div class="form-group">
+                              <label>First Name</label>
+                              <input type="text" class="form-control  form-control-subtle">
+                            </div>
+                          </div>
+                          <div class="col-sm-2">
+                            <div class="form-group">
+                              <label>MI</label>
+                              <input type="text" class="form-control  form-control-subtle">
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="form-group">
+                              <label>Last Name</label>
+                              <input type="text" class="form-control  form-control-subtle">
+                            </div>
+                          </div>
+                          <div class="col-sm-2">
+                            <div class="form-group">
+                              <label>Label</label>
+                              <div class="form-group">
+                                <select class="form-control  form-control-subtle" id="suffix" >
+                                  <option></option>
+                                </select>
+                              </div>                  </div>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-4">
-                        <div class="form-group">
-                          <label>State</label>
-                          <div class="form-group">
-                            <select class="form-control  form-control-subtle" id="suffix" >
-                              <option></option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-3">
-                        <div class="form-group">
-                          <label>Zip</label>
-                          <input type="text" class="form-control  form-control-subtle">
-                        </div>
-                      </div>
                     </div>
-                  </div>
-                  <div class="mb">
-                    <h4 class="panel-title  border-bottom-small  visible">Spouses Name (If Applicable)</h4>
-                    <div class="row">
-                      <div class="col-sm-4">
-                        <div class="form-group">
-                          <label>Title</label>
+
+                    <div class="mb">
+                      <h4 class="panel-title  border-bottom-small  visible">Mailing Address</h4>
+                      <div class="row">
+                        <div class="col-sm-12">
                           <div class="form-group">
-                            <select class="form-control  form-control-subtle" id="suffix" >
-                              <option></option>
-                            </select>
-                          </div>              </div>
+                            <label>Country</label>
+                            <div class="form-group">
+                              <select class="form-control  form-control-subtle" id="suffix">
+                                <option>Peoples Republic of China</option>
+                              </select>
+                            </div>
+                          </div>
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-12">
                           <div class="form-group">
-                            <label>First Name</label>
+                            <label>Address</label>
+                            <input type="text" name="address1" class="form-control  form-control-subtle">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <div class="form-group">
+                            <input type="text" name="address2" class="form-control  form-control-subtle">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <div class="form-group">
+                            <label>City</label>
                             <input type="text" class="form-control  form-control-subtle">
                           </div>
                         </div>
-                        <div class="col-sm-2">
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
                           <div class="form-group">
-                            <label>MI</label>
-                            <input type="text" class="form-control  form-control-subtle">
-                          </div>
-                        </div>
-                        <div class="col-sm-4">
-                          <div class="form-group">
-                            <label>Last Name</label>
-                            <input type="text" class="form-control  form-control-subtle">
-                          </div>
-                        </div>
-                        <div class="col-sm-2">
-                          <div class="form-group">
-                            <label>Label</label>
+                            <label>State</label>
                             <div class="form-group">
                               <select class="form-control  form-control-subtle" id="suffix" >
                                 <option></option>
                               </select>
-                            </div>                  </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="mt  border-bottom-small  visible">
-                        <h4 class="panel-title  border-bottom-small  visible">Spouses Name (If Applicable)</h4>
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="form-group">
-                              <label>Your Personal 9-digit Account Number </label>
-                              <input type="text" class="form-control  form-control-subtle">
                             </div>
                           </div>
-                          <div class="col-sm-6">
-                            <p>What is this Number? </p>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group">
+                            <label>Zip</label>
+                            <input type="text" class="form-control  form-control-subtle">
                           </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="">
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox"> Save this information for faster checkout next time
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class="">
-                          <button type="submit" class="btn btn-default-border border1">Return to Cart</button>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-offset-6 col-md-6">
-                          <button type="submit" class="btn btn-block btn-primary">Continue to Payment Method</button>
                         </div>
                       </div>
                     </div>
-                  </div> <!-- // panel -->
-                </div>
-              </div>
-            </div>
-            <div class="masonry__item  col-md-4">
-              <div class="panel">
-                <div class="panel-body">
-                  <div class="">
-                    <h4 class="panel-title  mb">Cart Summary</h4>
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <div class="form-group  border-bottom-small  visible">
-                          <label class="u-floatRight">Amount </label>
-                        </div>
-                        <div class=" ">
-                          <div class="cart-item">
-                            <div class="row">
-                              <div class="col-sm-6">
-                                <div class="">
-                                  <label>Jean Deaux</label>
-                                  <p>Monthly</p>
-                                </div>
-                              </div>
-                              <div class="col-sm-6">
-                                <div class="">
-                                  <label class="u-floatRight">$50.00</label>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="cart-item">
-                            <div class="row">
-                              <div class="col-sm-6">
-                                <div class="">
-                                  <label>Jean Deaux</label>
-                                  <p>Single Gift</p>
-                                </div>
-                              </div>
-                              <div class="col-sm-6">
-                                <div class="">
-                                  <label class="u-floatRight">$5000.00</label>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="m0">
-                          <div class="row">
-                            <div class="col-sm-12">
-                              <div class="u-floatRight">
-                                <label class="">My Monthly Gift Total <span> $5000.00</span></label>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-sm-12">
-                              <div class="u-floatRight">
-                                <label class="">My Single Gift Total <span> $5000.00</span></label>
-                              </div>
-                            </div>
-                          </div>
-                          <button href="#" class="btn  btn-subtle  u-floatRight  mt">Edit Cart</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="masonry__item  col-md-12">
-              <div class="row">
-                <div class="col-md-1 text-center hidden-xs hidden-sm">
-                  <img src="static/img/logo-ecfa.png" class="image-responsive-center" width="85" alt="ECFA Logo" />
-                </div>
-                <div class="col-md-8">
-                  <p>All contributions to Cru are income tax deductible and are made with the understanding that Cru has complete discretion and control over the use of all donated funds.</p>
-                </div>
-                <div class="col-md-3 text-center">
-                  <img src="static/img/logo-ecfa.png" class="hidden-md hidden-lg image-responsive-center" width="85" alt="ECFA Logo" />
-                  <img src="static/img/logo-digicert.png" class="image-responsive-center u-floatRight" alt="Digicert Logo" />
-                </div>
-              </div>
-            </div>
-          </div> <!-- // masonry container -->
-        </div>
 
+                    <div class="closer">
+                      <div class="row">
+                        <div class="col-sm-5">
+                          <a href="#" class="btn btn-default">Return to Cart</a>
+                        </div>
+                        <div class="col-sm-5 col-sm-offset-2">
+                          <a href="#" class="btn btn-primary pull-right">Continue to Payment Method</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!-- // mb -->
+
+
+
+                </div> <!-- // panelbody -->
+              </div><!-- // panel -->
+            </div>
+        </div>
+        <div class="col-md-4 hidden-xs">
+          <div class="panel">
+            <div class="panel-body">
+
+              <h3 class="panel-name">Cart Summary</h3>
+              <table class="table giftsum-table">
+                <thead>
+                 <tr>
+                   <th class="th-title-gift">Recipient</th>
+                   <th class="th-title-amount">Amount</th>
+                 </tr>
+                </thead>
+                <tbody>
+                 <tr class="giftsum-gift-row">
+                   <td class="td-gift">
+                     <span class="giftsum-person giftsum-title">Jean Deuax</span>
+                   </td>
+                   <td class="td-frequency">
+                     <span class="giftsum-about giftsum-title">$50.00</span>
+                     <span class="giftsum-frequency giftsum-title">Monthly</span>
+                   </td>
+                 </tr>
+                 <tr class="giftsum-gift-row">
+                   <td class="td-gift">
+                     <span class="giftsum-person giftsum-title">Jean Deuax</span>
+                   </td>
+                   <td class="td-frequency">
+                     <span class="giftsum-about giftsum-title">$50.00</span>
+                     <span class="giftsum-frequency giftsum-title">Monthly</span>
+                   </td>
+                 </tr>
+                </tbody>
+                <tfoot class="mobile-footer-persist">
+                 <tr>
+                   <td colspan="2" class="text-right">
+                     <span class="giftsum-line">Monthly Gift Total: <strong>$50.00</strong></span>
+                     <span class="giftsum-line">Single Total: <strong>$100.00</strong></span>
+                   </td>
+                 </tr>
+                 <tr>
+                  <td colspan="2">
+                    <button href="#" class="btn  btn-subtle  u-floatRight  mt">Edit Cart</button>
+                  </td>
+                 </tr>
+                </tfoot>
+              </table>
+
+            </div>
+          </div>
+        </div>       
       </div>
+    </div> <!-- // masonry container -->
+
+  </div>
+</div>
 <!-- End content wrap -->
