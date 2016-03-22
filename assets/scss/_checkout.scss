@@ -50,3 +50,18 @@
   margin-bottom: 1em;
   padding-bottom: 1em;
 }
+
+.cart-tab {
+  display: none;
+  &.on {
+    display: block;
+  }
+}
+
+.tab-btn {
+  &.on {
+    color: #fff;
+    background-color: #666062;
+    border-color: #595455;
+  }
+}
