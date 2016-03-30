@@ -12548,7 +12548,8 @@ hr.vertical-divider {
   .btn-block-mobile {
     display: block;
     margin-bottom: 15px;
-    float: none; } }
+    float: none;
+    width: 100%; } }
 
 .btn-radio {
   padding-top: 1%;
