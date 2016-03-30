@@ -108,7 +108,7 @@
   @include respond-to(extrasmall) {
     display: block;
     margin-bottom: 15px;
-    float: none;
+    float: none !important;
     width: 100%;
   }
 }
