@@ -3,9 +3,18 @@
     float: left;
     width: 33.33333%;
     text-align: center;
+    @include respond-to(extrasmall) {
+      width: auto;
+      float: none;
+      display: block;
+      text-align: left;
+    }
     .step-title {}
     .step-bar {
       position: relative;
+      @include respond-to(extrasmall) {
+        float: left;
+      }
       &:after {
         display: block;
         position: absolute;
@@ -14,6 +23,9 @@
         width: 100%;
         height: 3px;
         background: #ddd;
+        @include respond-to(extrasmall) {
+          display: none;
+        }
       }
     }
     .step-digit {
@@ -29,6 +41,14 @@
       font-size: 14px;
       z-index: 2;
       background: #ddd;
+      @include respond-to(extrasmall) {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        margin-right: 5px;
+        font-size: 12px;
+        font-weight: 400;
+      }
     }
     &.on {
       .step-bar {
@@ -41,6 +61,21 @@
         background: $colorCru-gold;
         color: $colorCru-white;
       }
+    }
+  }
+
+  .steps-mobile-progress {
+    margin-top: 15px;
+  }
+
+  .steps-single-mobile {
+    background: #ddd;
+    height: 3px;
+    width: 33.33333%;
+    margin: 0;
+    float: left;
+    &.on {
+      background: $colorCru-gold;
     }
   }
 }
@@ -59,9 +94,20 @@
 }
 
 .tab-btn {
+  @include respond-to(extrasmall) {
+    margin-bottom: 7.5px;
+  }
   &.on {
     color: #fff;
     background-color: #666062;
     border-color: #595455;
+  }
+}
+
+.btn-block-mobile {
+  @include respond-to(extrasmall) {
+    display: block;
+    margin-bottom: 15px;
+    float: none;
   }
 }

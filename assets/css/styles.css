@@ -12466,8 +12466,17 @@ hr.vertical-divider {
   float: left;
   width: 33.33333%;
   text-align: center; }
+  @media only screen and (max-width: 768px) {
+    .steps-wrap .steps-single {
+      width: auto;
+      float: none;
+      display: block;
+      text-align: left; } }
   .steps-wrap .steps-single .step-bar {
     position: relative; }
+    @media only screen and (max-width: 768px) {
+      .steps-wrap .steps-single .step-bar {
+        float: left; } }
     .steps-wrap .steps-single .step-bar:after {
       display: block;
       position: absolute;
@@ -12476,6 +12485,9 @@ hr.vertical-divider {
       width: 100%;
       height: 3px;
       background: #ddd; }
+      @media only screen and (max-width: 768px) {
+        .steps-wrap .steps-single .step-bar:after {
+          display: none; } }
   .steps-wrap .steps-single .step-digit {
     position: relative;
     display: inline-block;
@@ -12489,12 +12501,30 @@ hr.vertical-divider {
     font-size: 14px;
     z-index: 2;
     background: #ddd; }
+    @media only screen and (max-width: 768px) {
+      .steps-wrap .steps-single .step-digit {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        margin-right: 5px;
+        font-size: 12px;
+        font-weight: 400; } }
   .steps-wrap .steps-single.on .step-bar:after {
     background: #f9b625;
     color: #fff; }
   .steps-wrap .steps-single.on .step-digit {
     background: #f9b625;
     color: #fff; }
+.steps-wrap .steps-mobile-progress {
+  margin-top: 15px; }
+.steps-wrap .steps-single-mobile {
+  background: #ddd;
+  height: 3px;
+  width: 33.33333%;
+  margin: 0;
+  float: left; }
+  .steps-wrap .steps-single-mobile.on {
+    background: #f9b625; }
 
 .border-bottom-small {
   border-bottom: 1px solid lightgray;
@@ -12506,10 +12536,19 @@ hr.vertical-divider {
   .cart-tab.on {
     display: block; }
 
+@media only screen and (max-width: 768px) {
+  .tab-btn {
+    margin-bottom: 7.5px; } }
 .tab-btn.on {
   color: #fff;
   background-color: #666062;
   border-color: #595455; }
+
+@media only screen and (max-width: 768px) {
+  .btn-block-mobile {
+    display: block;
+    margin-bottom: 15px;
+    float: none; } }
 
 .btn-radio {
   padding-top: 1%;
