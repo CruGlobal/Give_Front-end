@@ -12560,14 +12560,12 @@ hr.vertical-divider {
   border: 1px solid #e7e7e7; }
   .btn-radio.btn-wide {
     min-width: 150px; }
-
-input[type=radio]:checked + label {
-  background: #67747c;
-  color: #fff;
-  width: 100%; }
-
-input[type="radio"] {
-  visibility: hidden; }
+  .btn-radio input[type=radio]:checked + label {
+    background: #67747c;
+    color: #fff;
+    width: 100%; }
+  .btn-radio input[type="radio"] {
+    visibility: hidden; }
 
 .radio label,
 .checkbox label {
@@ -12577,9 +12575,9 @@ input[type="radio"] {
   font-weight: normal;
   cursor: pointer; }
 
-label .btn span {
+label.btn-radio .btn span {
   font-size: 18px; }
-label input[type="radio"] ~ i.fa.fa-circle-o {
+label.btn-radio input[type="radio"] ~ i.fa.fa-circle-o {
   font-size: 1em;
   color: #f0f0f0;
   display: inline;
@@ -12592,27 +12590,27 @@ label input[type="radio"] ~ i.fa.fa-circle-o {
   transition-property: all;
   transition-duration: 200ms;
   transition-delay: 200ms; }
-label input[type="radio"] ~ i.fa.fa-check-circle-o {
+label.btn-radio input[type="radio"] ~ i.fa.fa-check-circle-o {
   display: none; }
-label input[type="radio"]:checked ~ i.fa.fa-circle-o {
+label.btn-radio input[type="radio"]:checked ~ i.fa.fa-circle-o {
   display: none; }
-label input[type="radio"]:checked ~ i.fa.fa-check-circle-o {
+label.btn-radio input[type="radio"]:checked ~ i.fa.fa-check-circle-o {
   font-size: 15px;
   color: #fff;
   display: inline; }
-label:hover input[type="radio"] ~ i.fa {
+label.btn-radio:hover input[type="radio"] ~ i.fa {
   color: #7AA3CC; }
-label input[type="checkbox"] ~ i.fa.fa-square-o {
+label.btn-radio input[type="checkbox"] ~ i.fa.fa-square-o {
   color: #c8c8c8;
   display: inline; }
-label input[type="checkbox"] ~ i.fa.fa-check-square-o {
+label.btn-radio input[type="checkbox"] ~ i.fa.fa-check-square-o {
   display: none; }
-label input[type="checkbox"]:checked ~ i.fa.fa-square-o {
+label.btn-radio input[type="checkbox"]:checked ~ i.fa.fa-square-o {
   display: none; }
-label input[type="checkbox"]:checked ~ i.fa.fa-check-square-o {
+label.btn-radio input[type="checkbox"]:checked ~ i.fa.fa-check-square-o {
   color: #7AA3CC;
   display: inline; }
-label:hover input[type="checkbox"] ~ i.fa {
+label.btn-radio:hover input[type="checkbox"] ~ i.fa {
   color: #7AA3CC; }
 
 div[data-toggle="buttons"] label.active {
