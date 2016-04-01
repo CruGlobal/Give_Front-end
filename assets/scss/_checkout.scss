@@ -94,13 +94,19 @@
 }
 
 .tab-btn {
+  background: $colorCru-white;
+  img {
+    max-height: 50px;
+    display: inline-block;
+    margin-left: 20px;
+  }
   @include respond-to(extrasmall) {
     margin-bottom: 7.5px;
   }
   &.on {
-    color: #fff;
-    background-color: #666062;
-    border-color: #595455;
+    color: #595455;
+    background-color: #F1F1F1;
+    border-color: #ddd;
   }
 }
 

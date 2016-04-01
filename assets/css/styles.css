@@ -12536,13 +12536,19 @@ hr.vertical-divider {
   .cart-tab.on {
     display: block; }
 
-@media only screen and (max-width: 768px) {
-  .tab-btn {
-    margin-bottom: 7.5px; } }
-.tab-btn.on {
-  color: #fff;
-  background-color: #666062;
-  border-color: #595455; }
+.tab-btn {
+  background: #fff; }
+  .tab-btn img {
+    max-height: 50px;
+    display: inline-block;
+    margin-left: 20px; }
+  @media only screen and (max-width: 768px) {
+    .tab-btn {
+      margin-bottom: 7.5px; } }
+  .tab-btn.on {
+    color: #595455;
+    background-color: #F1F1F1;
+    border-color: #ddd; }
 
 @media only screen and (max-width: 768px) {
   .btn-block-mobile {
