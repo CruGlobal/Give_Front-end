@@ -3650,38 +3650,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/checkout copy\/index.html": {
+	"\/_site\/checkout-step2\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/checkout copy\/index.html",
+		"inputAbbreviatedPath": "\/_site\/checkout-step2\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/checkout copy\/partial-cart-summary.html": {
+	"\/_site\/checkout-step2\/partial-cart-summary.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/checkout copy\/partial-cart-summary.html",
+		"inputAbbreviatedPath": "\/_site\/checkout-step2\/partial-cart-summary.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/checkout copy\/partial-individual-form.html": {
+	"\/_site\/checkout-step2\/partial-individual-form.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/checkout copy\/partial-individual-form.html",
+		"inputAbbreviatedPath": "\/_site\/checkout-step2\/partial-individual-form.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/checkout copy\/partial-organization-form.html": {
+	"\/_site\/checkout-step2\/partial-organization-form.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/checkout copy\/partial-organization-form.html",
+		"inputAbbreviatedPath": "\/_site\/checkout-step2\/partial-organization-form.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8951,7 +8951,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 92593,
+		"initialSize": 797007,
 		"inputAbbreviatedPath": "\/assets\/img\/profile-holder.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/profile-holder.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -8962,7 +8962,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 453239,
+		"initialSize": 359397,
 		"inputAbbreviatedPath": "\/assets\/img\/related-holder.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/related-holder.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -14004,38 +14004,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/checkout copy\/index.html": {
+	"\/checkout-step2\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/checkout copy\/index.html",
+		"inputAbbreviatedPath": "\/checkout-step2\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/checkout copy\/partial-cart-summary.html": {
+	"\/checkout-step2\/partial-cart-summary.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/checkout copy\/partial-cart-summary.html",
+		"inputAbbreviatedPath": "\/checkout-step2\/partial-cart-summary.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/checkout copy\/partial-individual-form.html": {
+	"\/checkout-step2\/partial-individual-form.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/checkout copy\/partial-individual-form.html",
+		"inputAbbreviatedPath": "\/checkout-step2\/partial-individual-form.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/checkout copy\/partial-organization-form.html": {
+	"\/checkout-step2\/partial-organization-form.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/checkout copy\/partial-organization-form.html",
+		"inputAbbreviatedPath": "\/checkout-step2\/partial-organization-form.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
