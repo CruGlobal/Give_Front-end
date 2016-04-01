@@ -152,3 +152,22 @@
     vertical-align: middle;
   }
 }
+
+.billing-address-wrap  {
+  display: none;
+  margin-top: 20px;
+  &.on {
+    display: block;
+  }
+}
+
+.billing-address-new-wrap {
+  display: none;
+  &.on {
+    display: block;
+  }
+}
+
+.checkbox-indent {
+  margin-left: 20px;
+}

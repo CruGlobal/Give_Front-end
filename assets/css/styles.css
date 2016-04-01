@@ -12582,6 +12582,20 @@ hr.vertical-divider {
   .circle-it .fa {
     vertical-align: middle; }
 
+.billing-address-wrap {
+  display: none;
+  margin-top: 20px; }
+  .billing-address-wrap.on {
+    display: block; }
+
+.billing-address-new-wrap {
+  display: none; }
+  .billing-address-new-wrap.on {
+    display: block; }
+
+.checkbox-indent {
+  margin-left: 20px; }
+
 .btn-radio {
   padding-top: 1%;
   padding-bottom: 1%;
