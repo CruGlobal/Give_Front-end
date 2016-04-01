@@ -12557,6 +12557,31 @@ hr.vertical-divider {
     float: none !important;
     width: 100%; } }
 
+.form-group-inline .label-block {
+  display: block; }
+.form-group-inline label.radio-inline {
+  text-transform: none;
+  font-size: initial;
+  font-weight: normal;
+  margin-top: 10px; }
+
+.checkbox-inline input[type=checkbox] {
+  position: relative; }
+
+.circle-it {
+  border: 1px solid #3a3a3a;
+  border-radius: 40px;
+  color: #3a3a3a;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 13px;
+  line-height: 13px; }
+  .circle-it .fa {
+    vertical-align: middle; }
+
 .btn-radio {
   padding-top: 1%;
   padding-bottom: 1%;
