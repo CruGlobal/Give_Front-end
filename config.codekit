@@ -1933,6 +1933,48 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/assets\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/assets\/img\/check-sample.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22462,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/check-sample.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/check-sample.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/icon-bank.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11900,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/icon-bank.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/icon-bank.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/icon-cc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14976,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/icon-cc.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/icon-cc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/logo-digicert.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8906,6 +8948,39 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/img\/check-sample.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22462,
+		"inputAbbreviatedPath": "\/assets\/img\/check-sample.png",
+		"outputAbbreviatedPath": "\/assets\/img\/check-sample.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/icon-bank.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11900,
+		"inputAbbreviatedPath": "\/assets\/img\/icon-bank.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icon-bank.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/icon-cc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14976,
+		"inputAbbreviatedPath": "\/assets\/img\/icon-cc.png",
+		"outputAbbreviatedPath": "\/assets\/img\/icon-cc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/logo-digicert.png": {
 		"fileType": 32768,

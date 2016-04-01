@@ -12599,6 +12599,14 @@ hr.vertical-divider {
 .panel-secondary {
   background: #eee; }
 
+.bank-explain-wrap {
+  max-height: 0px;
+  height: 100%;
+  overflow: hidden;
+  transition: .5s all; }
+  .bank-explain-wrap.on {
+    max-height: 600px; }
+
 .btn-radio {
   padding-top: 1%;
   padding-bottom: 1%;
