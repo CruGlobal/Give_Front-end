@@ -8,17 +8,20 @@
   &.btn-wide {
     min-width: 150px;
   }
+
+  input[type=radio]:checked + label{
+    background: #67747c;
+    color: #fff;
+    width: 100%;
+  }
+
+  input[type="radio"]{
+    visibility:hidden;
+  }
+
 }
 
-input[type=radio]:checked + label{
-  background: #67747c;
-  color: #fff;
-  width: 100%;
-}
 
-input[type="radio"]{
-  visibility:hidden;
-}
 
 .radio, 
 .checkbox {
@@ -31,7 +34,7 @@ input[type="radio"]{
   }
 }
 
-label {
+label.btn-radio {
   .btn span {
     font-size: 18px ;
   }
