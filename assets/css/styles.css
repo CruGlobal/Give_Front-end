@@ -12596,6 +12596,9 @@ hr.vertical-divider {
 .checkbox-indent {
   margin-left: 20px; }
 
+.panel-secondary {
+  background: #eee; }
+
 .btn-radio {
   padding-top: 1%;
   padding-bottom: 1%;
