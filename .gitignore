@@ -1,5 +1,6 @@
 ### Sass template
 *.css.map
+assets/cru-scss/.sass-cache/
 
 ### CodeKit template
 # General CodeKit files to ignore
