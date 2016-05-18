@@ -1,6 +1,11 @@
 ---
-layout: checkout
+layout: give-default-layout
 ---
+
+{% include primary-nav.html %}
+{% include mobile-nav.html %}
+{% include sub-nav.html %}
+
 <!-- Content wrap -->
 <div class="screenContent">
   <div class="container container-edge-small container-edge-extrasmall">
@@ -13,15 +18,20 @@ layout: checkout
                 <div class="panel-body">
                   <h1 class="panel-name text-center">Thank you!</h1>
 
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna,
+                    vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Cras justo
+                    odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+                    vestibulum at eros.</p>
 
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna,
+                    vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Cras justo
+                    odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+                    vestibulum at eros.</p>
 
-                  <p class="text-center">This is not a receipt. A tax deductable receipt will be sent by postal mail for your records.</p>
+                  <p class="text-center">This is not a receipt. A tax deductable receipt will be sent by postal mail for
+                    your records.</p>
 
                   <p class="text-center"><a href="" class="btn btn-secondary">Continue Browsing</a></p>
-
-
 
 
                 </div> <!-- // panelbody -->
@@ -31,10 +41,13 @@ layout: checkout
         </div>
         <div class="col-md-4 hidden-xs hidden-sm">
           {% include_relative partial-cart-summary.html %}
-        </div>       
+        </div>
       </div>
     </div> <!-- // masonry container -->
 
   </div>
 </div>
 <!-- End content wrap -->
+
+{% include footer-ecfa.html %}
+{% include footer.html %}
