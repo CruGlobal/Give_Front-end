@@ -12326,6 +12326,9 @@ hr.vertical-divider {
 .ecfa-logo {
   margin: 0; }
 
+.screenContent {
+  padding-top: 35px !important; }
+
 .giftsum-actions {
   text-align: left;
   width: 20%; }
@@ -12736,7 +12739,7 @@ label.custom-amount {
 .modal {
   display: none;
   overflow: hidden;
-  position: relative;
+  position: fixed;
   top: 1em;
   right: 0;
   bottom: 0;
@@ -12878,7 +12881,5 @@ label.custom-amount {
       src: url('../font/cruicons.svg?54093663#cruicons') format('svg');
     }
   } */
-.screenContent {
-  padding-top: 35px !important; }
 
 /*# sourceMappingURL=styles.css.map */
