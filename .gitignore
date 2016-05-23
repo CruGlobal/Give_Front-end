@@ -110,3 +110,6 @@ $RECYCLE.BIN/
 ### Jekyll template
 .jekyll-metadata
 _site
+
+# Node
+node_modules/

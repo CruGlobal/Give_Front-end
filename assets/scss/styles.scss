@@ -1,7 +1,7 @@
 // Give Site Front End
 
-@import '../../cru-scss/cru';
-@import '../bower_components/slick-carousel/slick/slick';
+@import '../cru-scss/cru';
+@import '../bower_components/slick-carousel/slick/slick.scss';
 @import 'slickstyle';
 @import 'responsive';
 @import 'give';
@@ -16,5 +16,5 @@
 
 
 .screenContent {
-    padding-top: 36px !important;
+    padding-top: 35px !important;
 }
