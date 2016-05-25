@@ -5,7 +5,7 @@ description: "Write an awesome description for your new site here. You can edit 
 baseurl: ""
 url: "http://cruglobal.github.io/Give_Front-end"
 
-root: ''
+root: http://localhost:4000/
 
 # Build settings
 markdown: kramdown
