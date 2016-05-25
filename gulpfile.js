@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 
 var paths = {
     sassSource: 'assets/scss/*.scss',
-    cssDestination: './assets/css/',
+    cssDestination: './assets/css/'
 };
 
 gulp.task('styles', function() {
