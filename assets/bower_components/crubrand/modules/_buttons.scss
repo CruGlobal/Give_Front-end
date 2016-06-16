@@ -12,6 +12,12 @@
 .btn-secondary {
   @include button-variant($btn-secondary-color, $btn-secondary-bg, $btn-secondary-border);
 }
+.btn-third {
+  color: #007398 !important;
+  background-color: #fff !important;
+  border-color: #007398 !important; 
+  width:49%;
+}
 
 .btn-subtle {
     color: $btn-subtle-color;

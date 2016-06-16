@@ -88,31 +88,33 @@
 .icon-twitter:before {
     content: "\e801";
 } /* '' */
-
 .icon-facebook:before {
     content: "\e802";
 } /* '' */
-
-.icon-down-arrow:before {
-    content: "\e80f";
-} /* '' */
-
-.icon-location:before {
-    content: "\e806";
-} /* '' */
-
-.icon-hamburger:before {
-    content: "\e805";
-} /* '' */
-
-.icon-mail:before {
-    content: "\e807";
-} /* '' */
-
+.icon-linkedin:before {
+    content: "\e810"; //change the # 
+} /* '' */
+.icon-gplus:before {
+    content: "\e803";
+} /* '' */
 .icon-search:before {
     content: "\e804";
 } /* '' */
-
+.icon-hamburger:before {
+    content: "\e805";
+} /* '' */
+.icon-location:before {
+    content: "\e806";
+} /* '' */
+.icon-mail:before {
+    content: "\e807";
+} /* '' */
+.icon-cancel-circled:before {
+    content: "\e809";
+} /* '' */
+.icon-down-arrow:before {
+    content: "\e80f";
+} /* '' */
 .icon-tag:before {
     content: "\e811";
 } /* '' */
@@ -121,10 +123,4 @@
     content: "\e812";
 } /* '' */
 
-.icon-gplus:before {
-    content: "\e803";
-} /* '' */
 
-.icon-cancel-circled:before {
-    content: "\e809";
-} /* '' */

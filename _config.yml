@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://cruglobal.github.io/Give_Front-end"
 
 #root: '/'
-root: http://cruglobal.github.io/Give_Front-end/
+root: http://127.0.0.1:4000/
 
 
 # Build settings

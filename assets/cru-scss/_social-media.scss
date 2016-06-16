@@ -53,21 +53,12 @@
     @include font-size(26px);
 }
 
-.socialIcon--twitter {
-    &,
-    &:hover,
-    &:focus,
-    &:active {
-        color: #55acee;
-    }
-}
-
 .socialIcon--facebook {
     &,
     &:hover,
     &:focus,
     &:active {
-        color: #3b5999;
+        color: #666061;
     }
 }
 
@@ -76,10 +67,57 @@
     &:hover,
     &:focus,
     &:active {
-        color: #dd4b39;
+        color: #666061;
     }
 }
-
+.socialIcon--instagram {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        color: #666061;
+    }
+}
+.socialIcon--linkedin {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        color: #666061;
+    }
+}
+.socialIcon--pinterest {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        color: #666061;
+    }
+}
+.socialIcon--tumblr {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        color: #666061;
+    }
+}
+.socialIcon--twitter {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        color: #666061;
+    }
+}
+.socialIcon--vine {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        color: #666061;
+    }
+}
 
 /**
 .social-shares {
