@@ -6,5 +6,11 @@
     "gulp-postcss": "^6.0.1",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.6.0"
+  },
+  "dependencies": {
+    "browser-sync": "2.13.0",
+    "express": "4.13.4",
+    "gulp-livereload": "3.8.1",
+    "gulp-spawn": "0.3.0"
   }
 }

@@ -3051,9 +3051,9 @@ input[type="button"].btn-block {
  * future. 
  */
 .btn-secondary {
-  color: #fff;
-  background-color: #666062;
-  border-color: #595455; }
+  color: #0086A9;
+  background-color: #fff;
+  border-color: #0086A9; }
   .btn-secondary:hover, .btn-secondary:focus, .btn-secondary.focus, .btn-secondary:active, .btn-secondary.active, .open > .btn-secondary.dropdown-toggle {
     color: #fff;
     background-color: #4c4749;

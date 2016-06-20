@@ -70,3 +70,9 @@ div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active
 -webkit-box-shadow: none;
 box-shadow: none;
 }
+
+button.btn-secondary {
+  color: #007398 !important;
+  background-color: #fff !important;
+  border-color: #007398 !important; 
+}
