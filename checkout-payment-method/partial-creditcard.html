@@ -1,17 +1,17 @@
 <div class="mb">
 
 
-    <h4 class="panel-title  border-bottom-small  visible">Your Information</h4>
+    <h4 class="panel-title  border-bottom-small  visible">Credit Card Details</h4>
     <div class="row">
         <div class="col-sm-6">
             <div class="form-group">
-                <label>Credit Card Number</label>
+                <label class="light-font">CARD NUMBER</label>
                 <input type="text" class="form-control  form-control-subtle">
             </div>
         </div>
         <div class="col-sm-6">
             <div class="form-group">
-                <label>Name On Card</label>
+                <label class="light-font">NAME ON CARD</label>
                 <input type="text" class="form-control  form-control-subtle">
             </div>
         </div>
@@ -19,19 +19,19 @@
     <div class="row">
         <div class="col-sm-4">
             <div class="form-group">
-                <label>Expiry Month</label>
+                <label class="light-font">EXPIRATION MONTH</label>
                 <input type="text" class="form-control  form-control-subtle">
             </div>
         </div>
         <div class="col-sm-4">
             <div class="form-group">
-                <label>Expiry Year</label>
+                <label class="light-font">EXPIRATION</label>
                 <input type="email" class="form-control  form-control-subtle">
             </div>
         </div>
         <div class="col-sm-4">
             <div class="form-group">
-                <label>Security Code</label>
+                <label class="light-font">CVC</label>
                 <input type="email" class="form-control  form-control-subtle">
             </div>
         </div>
@@ -39,20 +39,65 @@
 </div>
 
 <div class="mb">
-
+    <h4 class="panel-title  border-bottom-small  visible">Billing Address</h4>
     <div class="">
         <label class="checkbox-inline">
-            <input type="checkbox" id="billingAddressValue" value="option1" checked> Same as Mailing Address
+            <input type="checkbox" id="billingAddressValue" value="option1"> Same as Mailing Address
         </label>
     </div>
 
-    <div class="form-group checkbox-indent billing-address-new-wrap on" id="address-billing-current">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="light-font">Country</label>
+                <input type="text" class="form-control  form-control-subtle">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="light-font">ADDRESS LINE 1</label>
+                <input type="text" class="form-control  form-control-subtle">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="light-font">BUILDING / APARTMENT / SUITE #</label>
+                <input type="text" class="form-control  form-control-subtle">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label class="light-font">CITY</label>
+                <input type="text" class="form-control  form-control-subtle">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label class="light-font">STATE</label>
+                <input type="email" class="form-control  form-control-subtle">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label class="light-font">ZIP / POSTAL CODE</label>
+                <input type="email" class="form-control  form-control-subtle">
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="form-group checkbox-indent billing-address-new-wrap on" id="address-billing-current">
         <label>Billing Address</label>
         <p>
             1234 Sesame Street,<br/>
             Orlando, Florida 123456-7890
         </p>
-    </div>
+    </div> -->
 
     <div class="billing-address-wrap mb" id="address-billing-new">
         <div class="panel panel-default">
@@ -128,11 +173,11 @@
     <div class="closer">
         <div class="row">
             <div class="col-sm-5 hidden-xs">
-                <a href="#" class="btn btn-default">Return to Cart</a>
+                <a href="#" class="btn btn-default pull-right">Cancel</a>
             </div>
-            <div class="col-sm-5 col-sm-offset-2">
-                <a href="#" class="btn btn-primary pull-right btn-block-mobile">Continue to Review &amp; Submit</a>
-                <a href="#" class="btn btn-link btn-block visible-xs"><i class="fa fa-angle-left"></i> Return Cart</a>
+            <div class="col-sm-5">
+                <a href="#" class="btn btn-primary pull-right btn-block-mobile">Add New Payment Method</a>
+                <a href="#" class="btn btn-link btn-block visible-xs btn-md"><i class="fa fa-angle-left"></i> Cancel</a>
             </div>
         </div>
     </div>
