@@ -1,10 +1,11 @@
----
-layout: give-default-layout
----
+<?php
 
-{% include primary-nav.html %}
-{% include mobile-nav.html %}
-{% include sub-nav.html %}
+require_once('../_functions/function.php');
+
+give_head();
+
+?>
+
 
 <!-- Content wrap -->
 <div class="screenContent">
@@ -66,12 +67,12 @@ Review and Submit Gift
 
                   <div class="tab-indiv cart-tab show">
 
-                    {% include_relative partial-individual-form.html %}
+                    <?php include('partial-individual-form.html'); ?>
 
                   </div>
                   <div class="tab-org cart-tab">
 
-                    {% include_relative partial-organization-form.html %}
+                    <?php include('partial-organization-form.html'); ?>
 
                   </div>
 
@@ -81,7 +82,7 @@ Review and Submit Gift
           </div>
         </div>
         <div class="col-md-4 hidden-xs">
-          {% include_relative partial-cart-summary.html %}
+          <?php include('partial-cart-summary.html'); ?>
         </div>
       </div>
     </div> <!-- // masonry container -->
@@ -90,5 +91,8 @@ Review and Submit Gift
 </div>
 <!-- End content wrap -->
 
-{% include footer-ecfa.html %}
-{% include footer.html %}
+<?php 
+
+give_footer();
+
+?>
