@@ -1,10 +1,10 @@
----
-layout: give-default-layout
----
+<?php
 
-{% include primary-nav.html %}
-{% include mobile-nav.html %}
-{% include sub-nav.html %}
+require_once('../_functions/function.php');
+
+give_head();
+
+?>
 
 <!-- Content wrap -->
 <div class="screenContent">
@@ -20,25 +20,25 @@ layout: give-default-layout
 
                   <div class="steps-wrap mb clearfix">
                     <div class="steps-single">
-<span class="step-title">
-Contact Information
-</span>
+                      <span class="step-title">
+                      Contact Information
+                      </span>
                       <div class="step-bar">
                         <span class="step-digit">1</span>
                       </div>
                     </div>
                     <div class="steps-single on">
-<span class="step-title">
-Payment Method
-</span>
+                      <span class="step-title">
+                      Payment Method
+                      </span>
                       <div class="step-bar">
                         <span class="step-digit">2</span>
                       </div>
                     </div>
                     <div class="steps-single">
-<span class="step-title">
-Review and Submit Gift
-</span>
+                      <span class="step-title">
+                      Review and Submit Gift
+                      </span>
                       <div class="step-bar">
                         <span class="step-digit">3</span>
                       </div>
@@ -70,12 +70,12 @@ Review and Submit Gift
 
                   <div class="tab-indiv cart-tab show">
 
-                    {% include_relative partial-bank.html %}
+                    <?php include('partial-bank.html'); ?>
 
                   </div>
                   <div class="tab-org cart-tab">
 
-                    {% include_relative partial-creditcard.html %}
+                    <?php include('partial-creditcard.html'); ?>
 
                   </div>
 
@@ -85,7 +85,7 @@ Review and Submit Gift
           </div>
         </div>
         <div class="col-md-4 hidden-xs">
-          {% include_relative partial-cart-summary.html %}
+          <?php include('../cart/partial-cart-summary.php'); ?>
         </div>
       </div>
     </div> <!-- // masonry container -->
@@ -94,5 +94,8 @@ Review and Submit Gift
 </div>
 <!-- End content wrap -->
 
-{% include footer-ecfa.html %}
-{% include footer.html %}
+<?php 
+
+give_footer();
+
+?>

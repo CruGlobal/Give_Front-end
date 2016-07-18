@@ -21,25 +21,25 @@ give_head();
 
                   <div class="steps-wrap mb clearfix">
                     <div class="steps-single on">
-<span class="step-title">
-Contact Information
-</span>
+                      <span class="step-title">
+                      Contact Information
+                      </span>
                       <div class="step-bar">
                         <span class="step-digit">1</span>
                       </div>
                     </div>
                     <div class="steps-single">
-<span class="step-title">
-Payment Method
-</span>
+                      <span class="step-title">
+                      Payment Method
+                      </span>
                       <div class="step-bar">
                         <span class="step-digit">2</span>
                       </div>
                     </div>
                     <div class="steps-single">
-<span class="step-title">
-Review and Submit Gift
-</span>
+                      <span class="step-title">
+                      Review and Submit Gift
+                      </span>
                       <div class="step-bar">
                         <span class="step-digit">3</span>
                       </div>
@@ -55,12 +55,10 @@ Review and Submit Gift
                   <div class="mb">
                     <div class="row">
                       <div class="col-md-6">
-                        <a href="#indivform" data-target="tab-indiv" class="tab-btn btn btn-default btn-block">Give as
-                          an Individual</a>
+                        <a href="#indivform" data-target="tab-indiv" class="tab-btn btn btn-default btn-block">Give as an Individual</a>
                       </div>
                       <div class="col-md-6">
-                        <a href="#orgform" data-target="tab-org" class="tab-btn btn btn-default btn-block">Give as an
-                          Organization</a>
+                        <a href="#orgform" data-target="tab-org" class="tab-btn btn btn-default btn-block">Give as an Organization</a>
                       </div>
                     </div>
                   </div>
@@ -82,7 +80,7 @@ Review and Submit Gift
           </div>
         </div>
         <div class="col-md-4 hidden-xs">
-          <?php include('partial-cart-summary.html'); ?>
+          <?php include('../cart/partial-cart-summary.php'); ?>
         </div>
       </div>
     </div> <!-- // masonry container -->

@@ -1,10 +1,10 @@
----
-layout: give-default-layout
----
+<?php
 
-{% include primary-nav.html %}
-{% include mobile-nav.html %}
-{% include sub-nav.html %}
+require_once('../_functions/function.php');
+
+give_head();
+
+?>
 
 <!-- Content wrap -->
 <div class="screenContent">
@@ -186,7 +186,7 @@ layout: give-default-layout
           </div>
         </div>
         <div class="col-md-4 hidden-xs hidden-sm">
-          {% include_relative partial-cart-summary.html %}
+          <?php include('../cart/partial-cart-summary.php'); ?>
         </div>
       </div>
     </div> <!-- // masonry container -->
@@ -195,5 +195,8 @@ layout: give-default-layout
 </div>
 <!-- End content wrap -->
 
-{% include footer-ecfa.html %}
-{% include footer.html %}
+<?php 
+
+give_footer();
+
+?>
