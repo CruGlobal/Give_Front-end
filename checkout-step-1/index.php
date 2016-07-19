@@ -55,7 +55,7 @@ give_head();
                   <div class="mb">
                     <div class="row">
                       <div class="col-md-6">
-                        <a href="#indivform" data-target="tab-indiv" class="tab-btn btn btn-default btn-block">Give as an Individual</a>
+                        <a href="#indivform" data-target="tab-indiv" class="tab-btn btn btn-default btn-block on">Give as an Individual</a>
                       </div>
                       <div class="col-md-6">
                         <a href="#orgform" data-target="tab-org" class="tab-btn btn btn-default btn-block">Give as an Organization</a>
