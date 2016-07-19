@@ -1,4 +1,4 @@
-.this-is-a-link{
+.link-style{
 	cursor: pointer;
 }
 
@@ -9,8 +9,8 @@
 	}
 }
 
-.light-font{
-	color: #666062;
+.gray{
+	color: $colorGrayscale-rock;
 }
 
 .bold{
@@ -27,4 +27,9 @@
 
 .extra-margin-top{
 	margin-top: 25px;
+}
+
+.italic{
+	color: $colorGrayscale-rock;
+	font-style: italic;
 }

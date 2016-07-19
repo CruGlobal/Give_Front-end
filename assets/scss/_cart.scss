@@ -31,7 +31,7 @@
   .giftsum-gift-row {
     @include respond-to(extrasmall) {
       display: block;
-      border-top: 2px solid #ddd;
+      // border-top: 2px solid #ddd;
       padding-top: 1em;
       margin-top: 1em;
       &:first-child {
@@ -41,7 +41,7 @@
     td {
       padding-top: 30px;
       padding-bottom: 30px;
-      border-bottom: 2px solid $colorCru-gray;
+      // border-bottom: 2px solid $colorCru-gray;
       @include respond-to(extrasmall) {
         display: block;
         width: 100%;
@@ -161,3 +161,24 @@
   }
 }
 
+
+.simple-list{
+  list-style-type: none !important;
+  padding-left: 0;
+}
+
+.table > tbody > tr > td{
+  border: none;
+}
+
+.table-row-border tr{
+  border-top: 1px solid $colorGrayscale-sand;
+}
+
+.table-row-border tr:first-child{
+  border: none;
+}
+
+.panel .panel-heading{
+  background-color: $colorGrayscale-sand !important;
+}
