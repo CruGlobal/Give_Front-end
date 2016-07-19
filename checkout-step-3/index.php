@@ -123,59 +123,7 @@ give_head();
                         Review Items
                       </div>
                       <div class="panel-body">
-                        <table class="table giftsum-table">
-                          <thead>
-                          <tr>
-                            <th class="th-title-gift">Gift</th>
-                            <th class="th-title-frequency">Frequency</th>
-                            <th class="th-title-amount">Amount</th>
-                          </tr>
-                          </thead>
-                          <tbody>
-                          <tr class="giftsum-gift-row">
-                            <td class="td-gift">
-                              <img src="http://lorempixel.com/90/70/people/" class="giftsum-profile pull-left"/>
-                              <span class="giftsum-person giftsum-title">Jean Deuax</span>
-                              <span class="giftsum-accountnum giftsum-detail"><span class="hidden-xs">Ministry </span>#334343223</span>
-                            </td>
-                            <td class="td-frequency">
-                              <span class="giftsum-frequency giftsum-title">Monthly</span>
-                              <span class="giftsum-date giftsum-detail">Starts on: 7/8/2019</span>
-                            </td>
-                            <td class="td-amount">
-                              <span class="giftsum-about giftsum-title">$50.00</span>
-                              <span class="giftsum-detail"><span class=" visible-xs">Gift Amount</span></span>
-                            </td>
-                          </tr>
-                          <tr class="giftsum-gift-row">
-                            <td class="td-gift">
-                              <img src="http://lorempixel.com/90/70/people/" class="giftsum-profile pull-left"/>
-                              <span class="giftsum-person giftsum-title">Jean Deuax</span>
-                              <span class="giftsum-accountnum giftsum-detail"><span class="hidden-xs">Ministry </span>#3343223</span>
-                            </td>
-                            <td class="td-frequency">
-                              <span class="giftsum-frequency giftsum-title">Monthly</span>
-                              <span class="giftsum-date giftsum-detail">Starts on: 7/8/2019</span>
-                            </td>
-                            <td class="td-amount">
-                              <span class="giftsum-about giftsum-title">$50.00</span>
-                              <span class="giftsum-detail"><span class=" visible-xs">Gift Amount</span></span>
-                            </td>
-                          </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="mb">
-                    <div class="row">
-                      <div class="col-md-7  col-sm-7 text-right">
-                        <div class="giftsum-line">Monthly Gift Total: <strong class="data-font">$50.00</strong></div>
-                        <div class="giftsum-line">Single Total: <strong class="data-font">$100.00</strong></div>
-                      </div>
-                      <div class="col-md-5 col-sm-5">
-                        <a href="" class="btn btn-primary btn-lg btn-block">Submit Your Gift</a>
+                        <?php echo cart_table('3'); ?>
                       </div>
                     </div>
                   </div>
