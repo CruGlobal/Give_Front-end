@@ -2,6 +2,12 @@
 
 require_once('../_functions/function.php');
 
+if (isset($_GET['existing'])) {
+  $existing_method = $_GET['existing'];
+} else {
+  $existing_method = false;
+}
+
 give_head();
 
 ?>
@@ -51,32 +57,26 @@ give_head();
                     </div>
                   </div>
 
-                  <div class="mb">
+                  <?php if (!$existing_method) { ?>
+
+                    <?php include('partial-new-method.php'); ?>
+
+                  <?php } elseif ($existing_method) { ?>
+
+                    <?php include('partial-existing-methods.php'); ?>
+
+                  <?php } ?> 
+
+                  <div class="closer">
                     <div class="row">
-                      <div class="col-md-6">
-                        <a href="#indivform" data-target="tab-indiv" class="tab-btn btn btn-lg btn-default btn-block">
-                          Bank Account
-                          <img src="/assets/img/icon-bank.png" alt="Bank Account Icon"/>
-                        </a>
-                      </div>
-                      <div class="col-md-6">
-                        <a href="#orgform" data-target="tab-org" class="tab-btn btn btn-lg btn-default btn-block">
-                          Credit Card
-                          <img src="/assets/img/icon-cc.png" alt="Credit Card Icon"/>
-                        </a>
-                      </div>
+                        <div class="col-sm-5 hidden-xs">
+                            <a href="/checkout-step-1/" class="btn btn-default">Previous Step</a>
+                        </div>
+                        <div class="col-sm-5 col-sm-offset-2">
+                            <a href="/checkout-step-3/" class="btn btn-primary pull-right btn-block-mobile">Continue to Review &amp; Submit</a>
+                            <a href="/checkout-step-1/" class="btn btn-link btn-block visible-xs"><i class="fa fa-angle-left"></i> Previous Step</a>
+                        </div>
                     </div>
-                  </div>
-
-                  <div class="tab-indiv cart-tab show">
-
-                    <?php include('partial-bank.html'); ?>
-
-                  </div>
-                  <div class="tab-org cart-tab">
-
-                    <?php include('partial-creditcard.html'); ?>
-
                   </div>
 
                 </div> <!-- // panelbody -->

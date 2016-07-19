@@ -25,8 +25,6 @@ give_head();
               <form action="/checkout-step-1/">
                 <?php echo cart_table('full'); ?>
               </form>
-
-
             </div>
           </div>
           <!-- // Cart Summary -->

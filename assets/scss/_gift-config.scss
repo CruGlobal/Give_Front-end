@@ -158,7 +158,6 @@ label.custom-amount {
   display: none;
   overflow: hidden;
   position: fixed;
-  top: 1em;
   right: 0;
   bottom: 0;
   left: 0;
@@ -169,7 +168,6 @@ label.custom-amount {
 }
 
 .modal-open {
-  overflow: scroll;
   .reveal-modal-bg {
     position: fixed;
     top: 0;

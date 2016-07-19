@@ -26,7 +26,7 @@ gulp.task('styles', function() {
 gulp.task('watch', function() {
   gulp.watch(paths.sassSource, ['styles']);
 
-  var lr = livereload();
+  //var lr = livereload();
   //When a file in the _site directory changes, tell livereload to reload the page
   gulp.watch(['_site/*/**']).on('change', function (file) {
       lr.changed(file.path);
