@@ -65,14 +65,14 @@ function cart_table($cols = 'full') {
       $cart_table .= '
         <tfoot class="mobile-footer-persist">
           <tr>
-            <td colspan="3" class="text-right">
+            <td colspan="4" class="text-right">
+              <div class="checkout-cta pull-right">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">
+                  Proceed to Checkout
+                </button>
+              </div>
               <span class="giftsum-line">Your Monthly Gift Total: <strong>$50.00</strong></span>
               <span class="giftsum-line">Your Single Total: <strong>$100.00</strong></span>
-            </td>
-            <td class="checkout-cta">
-              <button type="submit" class="btn btn-primary btn-lg btn-block">
-                Proceed to Checkout
-              </button>
             </td>
           </tr>
         </tfoot>';
@@ -80,14 +80,14 @@ function cart_table($cols = 'full') {
         $cart_table .= '
           <tfoot class="mobile-footer-persist">
             <tr>
-              <td colspan="2" class="text-right">
+              <td colspan="3" class="text-right">
+                <div class="checkout-cta pull-right">
+                  <button type="submit" class="btn btn-primary btn-lg btn-block">
+                    Proceed to Checkout
+                  </button>
+                </div>
                 <span class="giftsum-line">Your Monthly Gift Total: <strong>$50.00</strong></span>
                 <span class="giftsum-line">Your Single Total: <strong>$100.00</strong></span>
-              </td>
-              <td class="checkout-cta">
-                <button type="submit" class="btn btn-primary btn-lg btn-block">
-                  Proceed to Checkout
-                </button>
               </td>
             </tr>
           </tfoot>';

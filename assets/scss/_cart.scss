@@ -105,8 +105,10 @@
         }
       }
       .checkout-cta {
+        margin-left: $gutter;
         @include respond-to(extrasmall) {
           padding-top: 0;
+          margin-left: 0;
         }
       }
     }
