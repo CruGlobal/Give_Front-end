@@ -10,9 +10,7 @@ body{
 			}
 		}
 	}
-}
 
-body{
 	#signupModal{
 		.modal-content{
 			.modal-header{
@@ -24,6 +22,24 @@ body{
 			}
 		}
 	}
+
+  
+  @media (min-width: 1024px) {
+    .modal-large {
+        width: auto;
+        max-width: 900px;
+        margin: 30px auto;
+
+        $modpad: $gutter*1;
+        .modal-body {
+          padding: $modpad $modpad 0 $modpad;
+        }
+        .modal-footer {
+          padding-left: $modpad;
+          padding-right: $modpad;
+        }
+    }
+  }
 }
 
 #signinModal{
@@ -42,6 +58,8 @@ body{
 		font-weight: bold;
 	}
 }
+
+
 
 .modal-backdrop {
   position: fixed;

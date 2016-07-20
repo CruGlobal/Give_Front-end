@@ -32,10 +32,22 @@
   </div><!-- // panel-body -->
 </div>
 
+<!-- New Payment Method Modal -->
 <div class="modal fade new-payment-method-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-  <div class="modal-dialog">
+  <div class="modal-large">
     <div class="modal-content">
-      <?php include('partial-new-method.php'); ?>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <?php include('partial-new-method.php'); ?>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Add Payment Method</button>
+        <button type="button" class="btn btn-link pull-right" data-dismiss="modal">Cancel &amp; Return</button>
+      </div>
     </div>
   </div>
 </div>
+<!-- // New Payment Method Modal -->
