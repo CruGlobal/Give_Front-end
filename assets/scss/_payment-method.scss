@@ -1,0 +1,35 @@
+.link-style{
+	cursor: pointer;
+}
+
+.panel-header{
+	padding: 15px ;
+	h4{
+		margin: 0;
+	}
+}
+
+.gray{
+	color: $colorGrayscale-rock;
+}
+
+.bold{
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+.icon {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 10px;
+}
+
+.extra-margin-top{
+	margin-top: 25px;
+}
+
+.italic{
+	color: $colorGrayscale-rock;
+	font-style: italic;
+}
