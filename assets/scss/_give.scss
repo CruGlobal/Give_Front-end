@@ -13,7 +13,15 @@ $data-font: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
 .no-margin-top { margin-top: 0; }
 .small-text {font-size: 12px;}
 
+#menu {
+	display: none;
+}
+
 $gutter: 30px;
+
+body {
+	overflow-x: hidden;
+}
 
 hr.vertical-divider {
 	background: #e9e9e9;

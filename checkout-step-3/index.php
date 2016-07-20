@@ -88,17 +88,17 @@ give_head();
                                 </div>
                                 <div class="form-group">
                                   <label class="">Account Number</label>
-                                  <p>********** 4567</p>
+                                  <p class="number">********** 4567</p>
                                 </div>
                               </div>
                               <div class="col-md-6">
                                 <div class="form-group">
                                   <label class="">Account Type</label>
-                                  <p>Checking</p>
+                                  <p class="number">Checking</p>
                                 </div>
                                 <div class="form-group">
                                   <label class="">Routing Number</label>
-                                  <p>0000667656</p>
+                                  <p class="number">0000667656</p>
                                 </div>
                               </div>
                               <div class="col-md-12">

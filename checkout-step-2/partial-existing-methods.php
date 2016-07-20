@@ -4,25 +4,25 @@
     <div class="radio radio-method">
       <label>
         <input type="radio" name="chosen_method" id="" value="PaymentMethodID001" checked>
-        <img src="/assets/img/cc-icons/visa-curved-128px.png" /><strong>Visa</strong> ending in ****3456 <small class="number">EXPIRES 02/2020</small>
+        <img class="method-logo hidden-xs" src="/assets/img/cc-icons/visa-curved-128px.png" /><strong>Visa</strong> ends in ****3456 <small class="number">EXP<span class="hidden-xs">IRES</span> 02/<span class="hidden-xs">20</span>19</small>
       </label>
     </div>
     <div class="radio radio-method">
       <label>
         <input type="radio" name="chosen_method" id="" value="PaymentMethodID001" checked>
-        <img src="/assets/img/cc-icons/american-express-curved-128px.png" /><strong>Visa</strong> ending in ****3456 <small class="number">EXPIRES 02/2020</small>
+        <img class="method-logo hidden-xs" src="/assets/img/cc-icons/american-express-curved-128px.png" /><strong>Visa</strong> ends in ****3456 <small class="number">EXP<span class="hidden-xs">IRES</span> 02/<span class="hidden-xs">20</span>19</small>
       </label>
     </div>
     <div class="radio radio-method">
       <label>
         <input type="radio" name="chosen_method" id="" value="PaymentMethodID001" checked>
-        <img src="/assets/img/cc-icons/mastercard-curved-128px.png" /><strong>Debit</strong> ending in ****3456 <small class="number">EXPIRES 02/2020</small>
+        <img class="method-logo hidden-xs" src="/assets/img/cc-icons/mastercard-curved-128px.png" /><strong>Debit</strong> ends in ****3456 <small class="number">EXP<span class="hidden-xs">IRES</span> 02/<span class="hidden-xs">20</span>19</small>
       </label>
     </div>
     <div class="radio radio-method">
       <label>
         <input type="radio" name="chosen_method" id="" value="PaymentMethodID001" checked>
-        <img src="/assets/img/cc-icons/discover-curved-128px.png" /><strong>Visa</strong> ending in ****3456 <small class="number">EXPIRES 02/2020</small>
+        <img class="method-logo hidden-xs" src="/assets/img/cc-icons/discover-curved-128px.png" /><strong>Visa</strong> ends in ****3456 <small class="number">EXP<span class="hidden-xs">IRES</span> 02/<span class="hidden-xs">20</span>19</small>
       </label>
     </div>
 
