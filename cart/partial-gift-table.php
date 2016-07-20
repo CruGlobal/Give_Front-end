@@ -15,7 +15,7 @@
     <tr>
       <td colspan="3" class="text-right">
         <span class="giftsum-line">Your Monthly Gift Total: <strong>$50.00</strong></span>
-        <span class="giftsum-line">Your Single Total: <strong>$100.00</strong></span>
+        <span class="giftsum-line">Your Single Gift Total: <strong>$100.00</strong></span>
       </td>
       <td class="checkout-cta">
         <button type="submit" class="btn btn-primary btn-lg btn-block">

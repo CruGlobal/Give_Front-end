@@ -12415,6 +12415,35 @@ hr.vertical-divider {
 .panel-body ul {
   font-size: 100%; }
 
+.has-error .form-control {
+  box-shadow: inset 0px 0px 0px 1px #a94442; }
+
+.has-error label {
+  color: #a94442; }
+  .has-error label:before {
+    content: "\f071";
+    display: inline-block;
+    font-family: "fontawesome";
+    margin-right: 6px; }
+
+.has-success .form-control {
+  box-shadow: inset 0px 0px 0px 1px #5cb85c; }
+
+.has-success label {
+  color: #5cb85c; }
+  .has-success label:before {
+    content: "\f00c";
+    display: inline-block;
+    font-family: "fontawesome";
+    margin-right: 6px; }
+
+.is-required label:after {
+  content: "*";
+  display: inline-block;
+  font-size: 115%;
+  font-family: "fontawesome";
+  margin-left: 6px; }
+
 .giftsum-actions {
   text-align: left;
   width: 20%; }
@@ -12434,7 +12463,8 @@ hr.vertical-divider {
   @media only screen and (max-width: 768px) {
     .giftsum-table thead {
       display: none; } }
-  .giftsum-table th {
+  .giftsum-table thead tr th {
+    border-bottom-color: #b9b9b9;
     font-size: .9em;
     text-transform: uppercase;
     font-weight: 200; }
@@ -12449,7 +12479,7 @@ hr.vertical-divider {
   .giftsum-table .giftsum-gift-row td {
     padding-top: 30px;
     padding-bottom: 30px;
-    border-bottom: 2px solid #666062; }
+    border-bottom: 2px solid #b9b9b9; }
     @media only screen and (max-width: 768px) {
       .giftsum-table .giftsum-gift-row td {
         display: block;

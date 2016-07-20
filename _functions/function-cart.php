@@ -34,7 +34,7 @@ function cart_row($row_image,
       <td class="td-actions giftsum-actions">
         <a href="" class="btn btn-link btn-giftsum-action">Edit</a>
         <span class="sep"> | </span>
-        <a href="" class="btn btn-link btn-giftsum-action"><i class="fa fa-close"></i> Remove</a>
+        <a href="" class="btn btn-link btn-giftsum-action">Remove</a>
       </td>';
   }
   $row_data .= '</tr>';

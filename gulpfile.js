@@ -13,24 +13,18 @@ var paths = {
 
 gulp.task('styles', function() {
     return gulp.src(paths.sassSource)
-      .pipe(sourcemaps.init())
-      .pipe(sass().on('error', sass.logError))
-      .pipe(postcss([
-          autoprefixer()
-      ]))
-      .pipe(sourcemaps.write('./'))
-      .pipe(notify('Styles Processed!'))
-      .pipe(gulp.dest(paths.cssDestination));
+        .pipe(sourcemaps.init())
+        .pipe(sass().on('error', sass.logError))
+        .pipe(postcss([
+            autoprefixer()
+        ]))
+        .pipe(sourcemaps.write('./'))
+        .pipe(notify('Styles Processed!'))
+        .pipe(gulp.dest(paths.cssDestination));
 });
 
 gulp.task('watch', function() {
   gulp.watch(paths.sassSource, ['styles']);
-
-  //var lr = livereload();
-  //When a file in the _site directory changes, tell livereload to reload the page
-  gulp.watch(['_site/*/**']).on('change', function (file) {
-      lr.changed(file.path);
-  });
 });
 
 gulp.task('default', ['styles']);
