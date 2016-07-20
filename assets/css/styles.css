@@ -12291,7 +12291,7 @@ a + .phone + .phone:before {
       float: none !important; } }
 
 .data-font {
-  font-family: "Helvetica Neue", Helvetica, sans-serif; }
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif; }
 
 .no-margin-bottom {
   margin-bottom: 0; }
@@ -12461,7 +12461,7 @@ hr.vertical-divider {
     color: #909b9c;
     display: block;
     font-size: .75em;
-    font-family: "Helvetica Neue", Helvetica, sans-serif; }
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif; }
     @media only screen and (max-width: 768px) {
       .giftsum-table .giftsum-gift-row .giftsum-detail {
         display: inline-block; } }
@@ -12474,7 +12474,7 @@ hr.vertical-divider {
         .giftsum-table .giftsum-gift-row .giftsum-actions .sep {
           display: none; } }
   .giftsum-table .giftsum-gift-row .giftsum-about {
-    font-family: "Helvetica Neue", Helvetica, sans-serif; }
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif; }
   @media only screen and (max-width: 768px) {
     .giftsum-table tfoot tr {
       display: block;
@@ -12490,9 +12490,12 @@ hr.vertical-divider {
         border: none;
         padding-top: 8px;
         text-align: center; } }
-  @media only screen and (max-width: 768px) {
-    .giftsum-table tfoot tr .checkout-cta {
-      padding-top: 0; } }
+  .giftsum-table tfoot tr .checkout-cta {
+    margin-left: 30px; }
+    @media only screen and (max-width: 768px) {
+      .giftsum-table tfoot tr .checkout-cta {
+        padding-top: 0;
+        margin-left: 0; } }
   @media only screen and (max-width: 768px) {
     .giftsum-table .mobile-footer-persist {
       position: fixed;
@@ -12507,7 +12510,7 @@ hr.vertical-divider {
     display: block;
     line-height: 1.5em; }
     .giftsum-table .giftsum-line strong {
-      font-family: "Helvetica Neue", Helvetica, sans-serif; }
+      font-family: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif; }
 
 .giftsum-table-cart .th-title-amount {
   font-size: 14px; }
@@ -12564,7 +12567,7 @@ hr.vertical-divider {
     line-height: 32px;
     text-align: center;
     font-weight: bold;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 14px;
     z-index: 2;
     background: #ddd; }
@@ -12809,7 +12812,7 @@ label.custom-amount {
   background: none; }
 
 .number {
-  font-family: Montserrat,Helvetica,Arial,sans-serif; }
+  font-family: "proxima-nova",Montserrat,Helvetica,Arial,sans-serif; }
 
 .modal {
   display: none;
@@ -12945,6 +12948,17 @@ body #signupModal .modal-content .modal-header {
 body #signupModal .modal-content .modal-body {
   width: 100%;
   font-size: .8em; }
+
+@media (min-width: 1024px) {
+  body .modal-large {
+    width: auto;
+    max-width: 900px;
+    margin: 30px auto; }
+    body .modal-large .modal-body {
+      padding: 30px 30px 0 30px; }
+    body .modal-large .modal-footer {
+      padding-left: 30px;
+      padding-right: 30px; } }
 
 #signinModal .modal-content .modal-header {
   border-bottom: none !important; }
