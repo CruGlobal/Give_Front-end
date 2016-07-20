@@ -27,7 +27,11 @@
     </div>
 
     <div class="mt">
-      <a href="" class="btn btn-default btn-xs" data-toggle="modal" data-target=".new-payment-method-modal"><i class="fa fa-plus"></i> Add New Payment Method</a>
+      <a href="" class="btn btn-default btn-xs" 
+        data-toggle="modal" 
+        data-backdrop="static" 
+        data-keyboard="false"
+        data-target=".new-payment-method-modal"><i class="fa fa-plus"></i> Add New Payment Method</a>
     </div>                      
   </div><!-- // panel-body -->
 </div>
