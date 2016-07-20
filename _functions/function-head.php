@@ -1,10 +1,11 @@
 <?php
 
 function give_head() {
-	include('../_includes/header.php');
-	include('../_includes/primary-nav.html');
-	include('../_includes/mobile-nav.html');
-	include('../_includes/sub-nav.html'); 	
+	$givepath = dirname(__FILE__) . '/../';
+	include($givepath . '_includes/header.php');
+	include($givepath . '_includes/primary-nav.html');
+	include($givepath . '_includes/mobile-nav.html');
+	include($givepath . '_includes/sub-nav.html'); 	
 }
 
 ?>

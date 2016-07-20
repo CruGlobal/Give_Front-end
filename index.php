@@ -1,8 +1,11 @@
----
-layout: default
----
+<?php
 
-<body class="page">
+require_once('./_functions/function.php');
+
+give_head();
+
+?>
+
 <!-- TITLE BAR -->
   <div class="site-header">
   </div>
@@ -204,14 +207,8 @@ layout: default
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
 
-<!--   <div class="col-xs-12" >
-    <div class="panel  panel-default">
-      <div class="panel-heading">new payment methods</div>
-      <div class="panel-body">
-        <ul class="listBare">
-          <li><a a href="checkout-payment-method/index.html">add a new payment method</a></li>
-        </ul>
-      </div>
-    </div>
-  </div> -->
-</body>
+<?php
+
+give_footer();
+
+?>
