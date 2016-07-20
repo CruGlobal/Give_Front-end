@@ -10365,7 +10365,7 @@ a + .phone + .phone:before {
 
 .panel p,
 .panel-body > ul {
-  font-size: 90%; }
+  font-size: 100%; }
 
 .panel-body > ul {
   padding-left: 29px;
@@ -12403,6 +12403,11 @@ hr.vertical-divider {
 
 .screenContent {
   padding-top: 35px !important; }
+
+.panel p, .panel ul,
+.panel-body p,
+.panel-body ul {
+  font-size: 100%; }
 
 .giftsum-actions {
   text-align: left;

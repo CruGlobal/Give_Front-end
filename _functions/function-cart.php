@@ -43,7 +43,7 @@ function cart_row($row_image,
 
 
 // Generate Cart Summary Table
-function cart_table($cols = 'full') {
+function cart_table($cols = 'full', $destination, $showfooter) {
   $cart_table = '
   <table class="table giftsum-table">
     <thead>

@@ -19,13 +19,7 @@
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="panel">
-      <div class="panel-body">
-        <h4 class="panel-name">Need Help?</h4>
-        <p class="small-text">If you need assistance, please call us at (888) 278-7233 from 9:00a.m. to 5:00p.m. ET, Monday - Friday, or email us at <a href="mailto:eGift@cru.org">eGift@cru.org</a></p>
-        <p class="small-text">We have also compiled a list of answers to <a href="">Frequently Asked Questions.</a>
-      </div>
-    </div>
+    <?php include('help.php'); ?>
   </div>
 </div>
 <!-- // Cart Search -->

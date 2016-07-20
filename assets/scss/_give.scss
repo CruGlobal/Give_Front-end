@@ -137,3 +137,10 @@ hr.vertical-divider {
 .screenContent {
     padding-top: 35px !important;
 }
+
+.panel,
+.panel-body {
+	p, ul {
+		font-size: 100%;
+	}
+}
