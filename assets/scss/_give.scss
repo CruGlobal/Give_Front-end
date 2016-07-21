@@ -4,6 +4,7 @@ $colorGrayscale-pebble: #f0f0f0;
 $colorGrayscale-stone: #e7e7e7;
 $colorGrayscale-rock: #b9b9b9;
 $colorGrayscale-slate: #909b9c;
+$colorCru-border: #ddd;
 
 //
 $data-font: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
@@ -43,7 +44,7 @@ hr.vertical-divider {
 
 .panel-box {
 	padding: 15px 29px;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid $colorCru-border;
 }
 
 .panel-name {

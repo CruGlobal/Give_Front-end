@@ -12446,7 +12446,8 @@ hr.vertical-divider {
 
 .help-block {
   font-size: 85%;
-  font-weight: 600; }
+  font-weight: 600;
+  line-height: 1.25rem; }
 
 .giftsum-actions {
   text-align: left;
@@ -12468,7 +12469,7 @@ hr.vertical-divider {
     .giftsum-table thead {
       display: none; } }
   .giftsum-table thead tr th {
-    border-bottom-color: #b9b9b9;
+    border-bottom-color: #ddd;
     font-size: .9em;
     text-transform: uppercase;
     font-weight: 200; }
@@ -12483,7 +12484,7 @@ hr.vertical-divider {
   .giftsum-table .giftsum-gift-row td {
     padding-top: 30px;
     padding-bottom: 30px;
-    border-bottom: 2px solid #b9b9b9; }
+    border-bottom: 2px solid #ddd; }
     @media only screen and (max-width: 768px) {
       .giftsum-table .giftsum-gift-row td {
         display: block;
@@ -12644,7 +12645,7 @@ hr.vertical-divider {
     background: #f9b625; }
 
 .border-bottom-small {
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #ddd;
   margin-bottom: 1em;
   padding-bottom: 1em; }
 
