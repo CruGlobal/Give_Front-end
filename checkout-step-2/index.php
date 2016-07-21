@@ -87,6 +87,9 @@ give_head();
         <div class="col-md-4 hidden-xs">
           <?php include('../cart/partial-cart-summary.php'); ?>
         </div>
+        <div class="col-md-4 hidden-xs hidden-sm">
+          <?php include('../_includes/help.php'); ?>
+        </div>
       </div>
     </div> <!-- // masonry container -->
 

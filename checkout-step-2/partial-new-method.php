@@ -1,4 +1,4 @@
-<div class="mb">
+<div class="mb_x">
   <div class="row">
     <div class="col-md-6">
       <a href="#indivform" data-target="tab-indiv" class="tab-btn btn btn-lg btn-default btn-block on">

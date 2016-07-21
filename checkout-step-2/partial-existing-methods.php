@@ -43,13 +43,14 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-sm-12">
+            <h3 class="text-center border-bottom-small">Add Payment Method</h3>
             <?php include('partial-new-method.php'); ?>
           </div>
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Add Payment Method</button>
-        <button type="button" class="btn btn-link pull-right" data-dismiss="modal">Cancel &amp; Return</button>
+        <button type="button" class="btn btn-primary pull-right">Add Payment Method</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel &amp; Return</button>
       </div>
     </div>
   </div>

@@ -19,7 +19,7 @@ give_head();
                 <div class="panel-body">
                   <h3 class="panel-name">Checkout</h3>
 
-                  <div class="steps-wrap mb clearfix">
+                  <div class="steps-wrap mb_x clearfix">
                     <div class="steps-single on">
                       <span class="step-title">
                       Contact Information
@@ -52,7 +52,7 @@ give_head();
                     </div>
                   </div>
 
-                  <div class="mb">
+                  <div class="mb_x">
                     <div class="row">
                       <div class="col-md-6">
                         <a href="#indivform" data-target="tab-indiv" class="tab-btn btn btn-default btn-block on">Give as an Individual</a>
@@ -81,6 +81,9 @@ give_head();
         </div>
         <div class="col-md-4 hidden-xs">
           <?php include('../cart/partial-cart-summary.php'); ?>
+        </div>
+        <div class="col-md-4 hidden-xs hidden-sm">
+          <?php include('../_includes/help.php'); ?>
         </div>
       </div>
     </div> <!-- // masonry container -->

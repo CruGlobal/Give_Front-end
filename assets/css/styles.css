@@ -12444,6 +12444,10 @@ hr.vertical-divider {
   font-family: "fontawesome";
   margin-left: 6px; }
 
+.help-block {
+  font-size: 85%;
+  font-weight: 600; }
+
 .giftsum-actions {
   text-align: left;
   width: 20%; }

@@ -129,6 +129,12 @@
     font-weight: normal;
     margin-top: 10px;
   }
+  .radio-inline + .radio-inline, 
+  .checkbox-inline + .checkbox-inline {
+    @include respond-to(medium) {
+      //margin-left: 0;
+    }
+  }
 }
 
 .checkbox-inline {

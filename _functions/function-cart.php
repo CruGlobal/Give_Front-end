@@ -72,7 +72,7 @@ function cart_table($cols = 'full', $destination = '#', $showfooter = true) {
                 </button>
               </div>
               <span class="giftsum-line">Your Monthly Gift Total: <strong>$50.00</strong></span>
-              <span class="giftsum-line">Your Single Total: <strong>$100.00</strong></span>
+              <span class="giftsum-line">Your Single Gift Total: <strong>$100.00</strong></span>
             </td>
           </tr>
         </tfoot>';

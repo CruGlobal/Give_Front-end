@@ -33,7 +33,7 @@
         <tr>
           <td colspan="2" class="text-right">
             <span class="giftsum-line">Monthly Gift Total: <strong>$50.00</strong></span>
-            <span class="giftsum-line">Single Total: <strong>$100.00</strong></span>
+            <span class="giftsum-line">Single Gift Total: <strong>$100.00</strong></span>
           </td>
         </tr>
         <tr>

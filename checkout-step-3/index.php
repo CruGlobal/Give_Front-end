@@ -19,7 +19,7 @@ give_head();
                   <h3 class="panel-name">Checkout</h3>
 
                   <div class="steps-wrap mb clearfix">
-                    <div class="steps-single on">
+                    <div class="steps-single">
                       <span class="step-title">
                       Contact Information
                       </span>
@@ -27,7 +27,7 @@ give_head();
                         <span class="step-digit">1</span>
                       </div>
                     </div>
-                    <div class="steps-single on">
+                    <div class="steps-single">
                       <span class="step-title">
                       Payment Method
                       </span>
@@ -135,6 +135,9 @@ give_head();
         </div>
         <div class="col-md-4 hidden-xs hidden-sm">
           <?php include('../cart/partial-cart-summary.php'); ?>
+        </div>
+        <div class="col-md-4 hidden-xs hidden-sm">
+          <?php include('../_includes/help.php'); ?>
         </div>
       </div>
     </div> <!-- // masonry container -->
