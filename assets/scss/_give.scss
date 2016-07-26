@@ -7,7 +7,7 @@ $colorGrayscale-slate: #909b9c;
 $colorCru-border: #ddd;
 
 //
-$data-font: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
+$data-font: "freight-sans-lf-cru", "Helvetica Neue", Helvetica, sans-serif;
 .data-font {font-family: $data-font;}
 
 .no-margin-bottom { margin-bottom: 0; }
@@ -19,6 +19,10 @@ $data-font: "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 $gutter: 30px;
+
+html {
+	font-family: $data-font;
+}
 
 body {
 	overflow-x: hidden;
@@ -42,13 +46,81 @@ hr.vertical-divider {
 	margin: 0;
 }
 
-.panel-box {
+.panel .panel-box {
 	padding: 15px 29px;
 	border-top: 1px solid $colorCru-border;
 }
 
 .panel-name {
 	margin-bottom: 1em;
+}
+
+.panel.sign-in-panel {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	.panel-body {
+		padding: 0;
+	}
+
+	.sign-in-section {
+		padding: 45px 50px;
+
+		.section-description {
+			font-weight: normal;
+			line-height: 125%;
+			color: #666062;
+		}
+	}
+}
+
+.form-group {
+	label:not(.error) {
+		font-weight: normal;
+	}
+
+	span {
+		font-weight: normal;
+	}
+}
+
+.self-service {
+	margin-top: 29px;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+
+	@media (min-width: 991px) {
+		&.vdivide [class*='col-']:not(:last-child):after {
+			background: #e0e0e0;
+			width: 1px;
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			min-height: 70px;
+		}
+	}
+
+	@media (max-width: 991px) {
+		&.vdivide [class*='col-']:not(:last-child):after {
+			background: #e0e0e0;
+			width: 100%;
+			content: "";
+			display: block;
+			position: relative;
+			top: 45px;
+			bottom: 0;
+			right: 0;
+			min-height: 1px;
+		}
+	}
+
+
 }
 
 .margin-bottom {
@@ -105,14 +177,6 @@ hr.vertical-divider {
 	max-width: 265px;
 	text-align: center;
 	margin: 1em auto;
-}
-
-.sign-in-panel {
-	@include respond-to(extrasmall) {
-		.panel-body {
-			padding: 0;
-		}
-	}
 }
 
 .radio-method {
