@@ -12341,6 +12341,7 @@ hr.vertical-divider {
   .panel.sign-in-panel .sign-in-section {
     padding: 45px 50px; }
     .panel.sign-in-panel .sign-in-section .section-description {
+      font-size: 125%;
       font-weight: normal;
       line-height: 125%;
       color: #666062; }
@@ -12352,7 +12353,8 @@ hr.vertical-divider {
   font-weight: normal; }
 
 .self-service {
-  margin-top: 29px; }
+  margin-top: 29px;
+  font-size: 125%; }
 
 .row {
   margin-left: 0;
