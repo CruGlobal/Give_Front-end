@@ -12340,6 +12340,10 @@ hr.vertical-divider {
 .panel.sign-in-panel {
   padding-top: 30px;
   padding-bottom: 30px; }
+  @media (max-width: 480px) {
+    .panel.sign-in-panel {
+      padding-top: 0;
+      padding-bottom: 0; } }
   .panel.sign-in-panel .panel-body {
     padding: 0; }
   .panel.sign-in-panel .sign-in-section {
@@ -12349,6 +12353,9 @@ hr.vertical-divider {
       font-weight: normal;
       line-height: 125%;
       color: #666062; }
+  @media (max-width: 480px) {
+    .panel.sign-in-panel .sign-in-section {
+      padding: 30px; } }
 
 .form-group label:not(.error) {
   font-weight: normal; }
@@ -12360,31 +12367,29 @@ hr.vertical-divider {
   margin-top: 29px;
   font-size: 125%; }
 
-.row {
-  margin-left: 0;
-  margin-right: 0; }
-  @media (min-width: 991px) {
-    .row.vdivide [class*='col-']:not(:last-child):after {
-      background: #e0e0e0;
-      width: 1px;
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      min-height: 70px; } }
-  @media (max-width: 991px) {
-    .row.vdivide [class*='col-']:not(:last-child):after {
-      background: #e0e0e0;
-      width: 100%;
-      content: "";
-      display: block;
-      position: relative;
-      top: 45px;
-      bottom: 0;
-      right: 0;
-      min-height: 1px; } }
+@media (min-width: 991px) {
+  .row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px; } }
+
+@media (max-width: 991px) {
+  .row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 100%;
+    content: "";
+    display: block;
+    position: relative;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    min-height: 1px; } }
 
 .margin-bottom {
   margin-bottom: 2.5em; }
