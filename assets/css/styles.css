@@ -12319,9 +12319,9 @@ hr.vertical-divider {
   margin: 0;
   width: 1px; }
 
-@media (min-width: 550px) {
+@media (max-width: 550px) {
   .container {
-    width: auto; } }
+    width: 100%; } }
 
 .panel-plain {
   box-shadow: none;
@@ -12386,10 +12386,14 @@ hr.vertical-divider {
     content: "";
     display: block;
     position: relative;
-    top: 30px;
+    top: 45px;
     bottom: 0;
     right: 0;
     min-height: 1px; } }
+
+@media (max-width: 450px) {
+  .row.vdivide [class*='col-']:not(:last-child):after {
+    top: 30px; } }
 
 .margin-bottom {
   margin-bottom: 2.5em; }
