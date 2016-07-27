@@ -7,8 +7,7 @@ give_head();
 ?>
 
 <!-- TITLE BAR -->
-  <div class="site-header">
-  </div>
+  <div class="site-header"></div>
   <div class="section-title  u-centerBlock  masonry__item  col-md-12  col-xs-12  mb mt" >
     <h1 class="u-inlineBlock  banner-title  ">Give.Cru.Org</h1>
   </div>
@@ -70,55 +69,43 @@ give_head();
       </div>
     </div>
   </div>
+
   <div id="signinModal" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
-         <div class="screenContent" tabindex="-1" role="dialog">
-          <div class="postArticle  layoutSingleColumn--wide   container-fluid">
-            <div class="section-title  u-centerBlock  masonry__item  col-md-12  col-xs-12  mb">
-              <h1 class="u-inlineBlock  banner-title">Sign In</h1>
-            </div>
-            <div class="masonry__item  col-md-12  coverphoto  col-xs-12 container container-edge-small container-edge-extrasmall">
-              <div class="panel panel-margin-bottom">      
-                <div class="panel panel-plain panel-nomargin sign-in-panel">
-                  <div class="panel-body">
-                    <form>
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control form-control-subtle input-lg" id="" placeholder="Email">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Password</label>
-                        <input type="password" class="form-control form-control-subtle input-lg" id=""
-                               placeholder="Password">
-                      </div>
-                      <button type="submit" class="btn btn-lg btn-block btn-primary">
-                        Sign In
-                      </button>
-                    </form>
-                    <p class="text-center">
-                      Forgot your password? <strong><a href="">Reset It</a></strong>
-                    </p>
-                     <div class="form-group">
-                     <p class='text-center'>
-                      Don't have an account?
-                     </p>
-                      <button data-toggle="modal" data-target="#signupModal" type="submit" class="btn btn-lg btn-block btn-secondary">
-                        Sign Up
-                      </button>
-                     </div>
+        <div class="container-fluid" tabindex="-1" role="dialog">
+          <div class="col-md-12 col-xs-12">
+            <div class="panel panel-plain">
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control form-control-subtle" placeholder="Email">
                   </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control form-control-subtle" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-block btn-primary">Sign In</button>
+                </form>
+                <p class="text-center">Forgot your password? <a href="">Reset It</a></p>
+                <div class="form-group">
+                  <p class="text-center strike">
+                    <span>Don't have an account?</span>
+                  </p>
+                  <button data-toggle="modal" data-target="#signupModal" type="submit" class="btn btn-block btn-secondary">Sign Up</button>
                 </div>
-              </div><!-- // panel -->
+              </div>
             </div>
           </div>
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
+
   <div id="signupModal" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">

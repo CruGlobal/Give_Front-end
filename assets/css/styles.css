@@ -9422,8 +9422,8 @@ Copyright (c) 2015 Daniel Eden
   top: 0; }
 
 .btn-secondary {
-  color: #007398 !important;
-  background-color: #fff !important;
+  color: #FFF !important;
+  background-color: #666062 !important;
   border-color: #007398 !important; }
 
 .btn-third {
@@ -12474,6 +12474,28 @@ hr.vertical-divider {
 .panel-body p,
 .panel-body ul {
   font-size: 100%; }
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap; }
+  .strike > span {
+    position: relative;
+    display: inline-block; }
+  .strike > span:before, .strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: #b9b9b9; }
+  .strike > span:before {
+    right: 100%;
+    margin-right: 15px; }
+  .strike > span:after {
+    left: 100%;
+    margin-left: 15px; }
 
 .has-error .form-control {
   box-shadow: inset 0px 0px 0px 1px #a94442; }
