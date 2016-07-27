@@ -12305,6 +12305,9 @@ a + .phone + .phone:before {
 #menu {
   display: none; }
 
+html {
+  font-family: "freight-sans-lf-cru", "Helvetica Neue", Helvetica, sans-serif; }
+
 body {
   overflow-x: hidden; }
 
@@ -12316,6 +12319,10 @@ hr.vertical-divider {
   margin: 0;
   width: 1px; }
 
+@media (min-width: 550px) {
+  .container {
+    width: auto; } }
+
 .panel-plain {
   box-shadow: none;
   border: none; }
@@ -12323,12 +12330,61 @@ hr.vertical-divider {
 .panel-nomargin {
   margin: 0; }
 
-.panel-box {
+.panel .panel-box {
   padding: 15px 29px;
   border-top: 1px solid #ddd; }
 
 .panel-name {
   margin-bottom: 1em; }
+
+.panel.sign-in-panel {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .panel.sign-in-panel .panel-body {
+    padding: 0; }
+  .panel.sign-in-panel .sign-in-section {
+    padding: 45px 50px; }
+    .panel.sign-in-panel .sign-in-section .section-description {
+      font-size: 125%;
+      font-weight: normal;
+      line-height: 125%;
+      color: #666062; }
+
+.form-group label:not(.error) {
+  font-weight: normal; }
+
+.form-group span {
+  font-weight: normal; }
+
+.self-service {
+  margin-top: 29px;
+  font-size: 125%; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+  @media (min-width: 991px) {
+    .row.vdivide [class*='col-']:not(:last-child):after {
+      background: #e0e0e0;
+      width: 1px;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      min-height: 70px; } }
+  @media (max-width: 991px) {
+    .row.vdivide [class*='col-']:not(:last-child):after {
+      background: #e0e0e0;
+      width: 100%;
+      content: "";
+      display: block;
+      position: relative;
+      top: 45px;
+      bottom: 0;
+      right: 0;
+      min-height: 1px; } }
 
 .margin-bottom {
   margin-bottom: 2.5em; }
@@ -12378,10 +12434,6 @@ hr.vertical-divider {
   max-width: 265px;
   text-align: center;
   margin: 1em auto; }
-
-@media only screen and (max-width: 768px) {
-  .sign-in-panel .panel-body {
-    padding: 0; } }
 
 .radio-method img {
   width: 40px;
