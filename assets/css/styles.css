@@ -12319,6 +12319,10 @@ hr.vertical-divider {
   margin: 0;
   width: 1px; }
 
+@media (min-width: 550px) {
+  .container {
+    width: auto; } }
+
 .panel-plain {
   box-shadow: none;
   border: none; }
