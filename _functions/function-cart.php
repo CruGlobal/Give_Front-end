@@ -84,7 +84,7 @@ function cart_table($cols = 'full', $destination = '#', $showfooter = true) {
                 <td colspan="3" class="text-right">
                   <div class="checkout-cta pull-right">
                     <button type="submit" class="btn btn-primary btn-lg btn-block">
-                      Proceed to Checkout
+                      Submit Your Gift
                     </button>
                   </div>
                   <span class="giftsum-line">Your Monthly Gift Total: <strong>$50.00</strong></span>

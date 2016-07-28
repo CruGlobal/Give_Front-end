@@ -37,7 +37,7 @@ hr.vertical-divider {
 	width: 1px;
 }
 
-@media (min-width: 550px) {
+@media (max-width: 550px) {
 	.container {
 		width: auto;
 	}
@@ -97,9 +97,10 @@ hr.vertical-divider {
 }
 
 .row {
-	margin-left: 0;
-	margin-right: 0;
-
+	&.vdivide {
+		margin-left: 0;
+		margin-right: 0;
+	}
 	@media (min-width: 991px) {
 		&.vdivide [class*='col-']:not(:last-child):after {
 			background: #e0e0e0;

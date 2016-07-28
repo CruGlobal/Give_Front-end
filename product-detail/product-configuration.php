@@ -52,7 +52,7 @@
                                     more.
                                 </div>
 
-                                <div class="" data-toggle="buttons">
+                                <div data-toggle="buttons">
                                     <label class="btn  btn-radio       active  ">
                                         <input type="radio" name='amount' checked><i
                                             class="fa fa-check-circle-o fa-2x"></i><span class="number"> $50</span>
