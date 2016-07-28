@@ -96,7 +96,7 @@ give_head();
                   <p class="text-center strike">
                     <span>Don't have an account?</span>
                   </p>
-                  <button data-toggle="modal" data-target="#signupModal" type="submit" class="btn btn-block btn-secondary">Sign Up</button>
+                  <button data-toggle="modal" data-target="#signupModal" type="submit" class="btn btn-block btn-default">Sign Up</button>
                 </div>
               </div>
             </div>
