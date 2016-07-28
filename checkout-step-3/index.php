@@ -65,7 +65,7 @@ give_head();
                             </div>
                           </div>
                           <div class="col-md-4 text-right">
-                            <a class="btn btn-default btn-block">Change</a>
+                            <a class="btn btn-default btn-block" href="/checkout-step-1/">Change</a>
                           </div>
                         </div>
                       </div>
@@ -110,7 +110,7 @@ give_head();
                             </div>
                           </div>
                           <div class="col-md-4 text-right">
-                            <a class="btn btn-default btn-block">Change</a>
+                            <a class="btn btn-default btn-block" href="/checkout-step-2/">Change</a>
                           </div>
                         </div>
                       </div>
