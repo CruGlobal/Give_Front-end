@@ -46,6 +46,21 @@ body{
 	.modal-content{
 		.modal-header{
 			border-bottom:none !important;
+
+			@media (min-width: 992px) {
+				button.close {
+					background: url("/assets/images/close-icon.png");
+					width: 36px;
+					height: 36px;
+					margin-top: -15px;
+					margin-right: -70px;
+					opacity: 1;
+
+					span {
+						display: none;
+					}
+				}
+			}
 		}
 	}
 }
