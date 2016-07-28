@@ -1,10 +1,16 @@
----
-layout: give-default-layout
----
+<?php
 
-{% include primary-nav.html %}
-{% include mobile-nav.html %}
-{% include sub-nav.html %}
+require_once('../_functions/function.php');
+
+if (isset($_GET['existing'])) {
+  $existing_method = $_GET['existing'];
+} else {
+  $existing_method = false;
+}
+
+give_head();
+
+?>
 
 <!-- Content wrap -->
 <div class="screenContent">
@@ -20,25 +26,25 @@ layout: give-default-layout
 
                   <div class="steps-wrap mb clearfix">
                     <div class="steps-single">
-<span class="step-title">
-Contact Information
-</span>
+                      <span class="step-title">
+                      Contact Information
+                      </span>
                       <div class="step-bar">
                         <span class="step-digit">1</span>
                       </div>
                     </div>
                     <div class="steps-single on">
-<span class="step-title">
-Payment Method
-</span>
+                      <span class="step-title">
+                      Payment Method
+                      </span>
                       <div class="step-bar">
                         <span class="step-digit">2</span>
                       </div>
                     </div>
                     <div class="steps-single">
-<span class="step-title">
-Review and Submit Gift
-</span>
+                      <span class="step-title">
+                      Review and Submit Gift
+                      </span>
                       <div class="step-bar">
                         <span class="step-digit">3</span>
                       </div>
@@ -51,32 +57,26 @@ Review and Submit Gift
                     </div>
                   </div>
 
-                  <div class="mb">
+                  <?php if (!$existing_method) { ?>
+
+                    <?php include('partial-new-method.php'); ?>
+
+                  <?php } elseif ($existing_method) { ?>
+
+                    <?php include('partial-existing-methods.php'); ?>
+
+                  <?php } ?> 
+
+                  <div class="closer">
                     <div class="row">
-                      <div class="col-md-6">
-                        <a href="#indivform" data-target="tab-indiv" class="tab-btn btn btn-lg btn-default btn-block">
-                          Bank Account
-                          <img src="{{ site.root }}assets/img/icon-bank.png" alt="Bank Account Icon"/>
-                        </a>
-                      </div>
-                      <div class="col-md-6">
-                        <a href="#orgform" data-target="tab-org" class="tab-btn btn btn-lg btn-default btn-block">
-                          Credit Card
-                          <img src="{{ site.root }}assets/img/icon-cc.png" alt="Credit Card Icon"/>
-                        </a>
-                      </div>
+                        <div class="col-sm-5 hidden-xs">
+                            <a href="/checkout-step-1/" class="btn btn-default">Previous Step</a>
+                        </div>
+                        <div class="col-sm-5 col-sm-offset-2">
+                            <a href="/checkout-step-3/" class="btn btn-primary pull-right btn-block-mobile">Continue to Review &amp; Submit</a>
+                            <a href="/checkout-step-1/" class="btn btn-link btn-block visible-xs"><i class="fa fa-angle-left"></i> Previous Step</a>
+                        </div>
                     </div>
-                  </div>
-
-                  <div class="tab-indiv cart-tab show">
-
-                    {% include_relative partial-bank.html %}
-
-                  </div>
-                  <div class="tab-org cart-tab">
-
-                    {% include_relative partial-creditcard.html %}
-
                   </div>
 
                 </div> <!-- // panelbody -->
@@ -85,7 +85,10 @@ Review and Submit Gift
           </div>
         </div>
         <div class="col-md-4 hidden-xs">
-          {% include_relative partial-cart-summary.html %}
+          <?php include('../cart/partial-cart-summary.php'); ?>
+        </div>
+        <div class="col-md-4 hidden-xs hidden-sm">
+          <?php include('../_includes/help.php'); ?>
         </div>
       </div>
     </div> <!-- // masonry container -->
@@ -94,5 +97,8 @@ Review and Submit Gift
 </div>
 <!-- End content wrap -->
 
-{% include footer-ecfa.html %}
-{% include footer.html %}
+<?php 
+
+give_footer();
+
+?>

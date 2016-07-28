@@ -1,8 +1,11 @@
----
-layout: default
----
+<?php
 
-<body class="page">
+require_once('./_functions/function.php');
+
+give_head();
+
+?>
+
 <!-- TITLE BAR -->
   <div class="site-header">
   </div>
@@ -19,12 +22,23 @@ layout: default
       </div>
     </div>
   </div>
+    <div class="col-xs-12" >
+    <div class="panel  panel-default">
+      <div class="panel-heading">Screens 6</div>
+      <div class="panel-body">
+        <ul class="listBare">
+          <li><a a href="checkout-payment-method/index.html">add a new payment method</a></li>
+          <li><a href="checkout-step-3-copy/index.html">Checkout - Step 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
   <div class="col-xs-12" >
     <div class="panel  panel-default">
       <div class="panel-heading">Product Pages</div>
       <div class="panel-body">
         <ul class="listBare">
-          <li><a href="http://cruglobal.github.io/Give_Front-end/product-detail/index.html">Product detail page with Gift Modal</a></li>
+          <li><a href="/product-detail/">Product detail page with Gift Modal</a></li>
         </ul>
       </div>
     </div>
@@ -34,12 +48,12 @@ layout: default
       <div class="panel-heading">Checkout Pages</div>
       <div class="panel-body">
         <ul class="listBare">
-          <li><a href="http://cruglobal.github.io/Give_Front-end/cart/index.html">Cart</a></li>
-          <li><a a href="http://cruglobal.github.io/Give_Front-end/sign-in/index.html">Sign In or Checkout As Guest</a></li>
-          <li><a href="http://cruglobal.github.io/Give_Front-end/checkout-step-1/index.html">Checkout - Step 1</a></li>
-          <li><a href="http://cruglobal.github.io/Give_Front-end/checkout-step-2/index.html">Checkout - Step 2</a></li>
-          <li><a href="http://cruglobal.github.io/Give_Front-end/checkout-step-3/index.html">Checkout - Step 3</a></li>
-          <li><a href="http://cruglobal.github.io/Give_Front-end/thank-you/index.html">Checkout - Thank You</a></li>
+          <li><a href="/cart/">Cart</a></li>
+          <li><a a href="/sign-in/">Sign In or Checkout As Guest</a></li>
+          <li><a href="/checkout-step-1/">Checkout - Step 1</a></li>
+          <li><a href="/checkout-step-2/">Checkout - Step 2</a></li>
+          <li><a href="/checkout-step-3/">Checkout - Step 3</a></li>
+          <li><a href="/thank-you/">Checkout - Thank You</a></li>
         </ul>
       </div>
     </div>
@@ -192,4 +206,9 @@ layout: default
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
-</body>
+
+<?php
+
+give_footer();
+
+?>

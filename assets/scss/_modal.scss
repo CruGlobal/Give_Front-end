@@ -10,9 +10,7 @@ body{
 			}
 		}
 	}
-}
 
-body{
 	#signupModal{
 		.modal-content{
 			.modal-header{
@@ -24,6 +22,24 @@ body{
 			}
 		}
 	}
+
+  
+  @media (min-width: 1024px) {
+    .modal-large {
+        width: auto;
+        max-width: 800px;
+        margin: 30px auto;
+
+        $modpad: $gutter*1;
+        .modal-body {
+          padding: $modpad $modpad 0 $modpad;
+        }
+        .modal-footer {
+          padding-left: $modpad;
+          padding-right: $modpad;
+        }
+    }
+  }
 }
 
 #signinModal{
@@ -32,4 +48,25 @@ body{
 			border-bottom:none !important;
 		}
 	}
+}
+
+#addNewPaymentModal{
+	background-color: rgba(138, 138, 138, 0.9); 
+	.light-font{
+		font-size: 14px;
+		color: #d3d3d3;
+		font-weight: bold;
+	}
+}
+
+
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
 }

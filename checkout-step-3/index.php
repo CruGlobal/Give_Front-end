@@ -1,10 +1,10 @@
----
-layout: give-default-layout
----
+<?php
 
-{% include primary-nav.html %}
-{% include mobile-nav.html %}
-{% include sub-nav.html %}
+require_once('../_functions/function.php');
+
+give_head();
+
+?>
 
 <!-- Content wrap -->
 <div class="screenContent">
@@ -19,7 +19,7 @@ layout: give-default-layout
                   <h3 class="panel-name">Checkout</h3>
 
                   <div class="steps-wrap mb clearfix">
-                    <div class="steps-single on">
+                    <div class="steps-single">
                       <span class="step-title">
                       Contact Information
                       </span>
@@ -27,7 +27,7 @@ layout: give-default-layout
                         <span class="step-digit">1</span>
                       </div>
                     </div>
-                    <div class="steps-single on">
+                    <div class="steps-single">
                       <span class="step-title">
                       Payment Method
                       </span>
@@ -65,7 +65,7 @@ layout: give-default-layout
                             </div>
                           </div>
                           <div class="col-md-4 text-right">
-                            <a class="btn btn-default btn-block">Change</a>
+                            <a class="btn btn-default btn-block" href="/checkout-step-1/">Change</a>
                           </div>
                         </div>
                       </div>
@@ -88,17 +88,17 @@ layout: give-default-layout
                                 </div>
                                 <div class="form-group">
                                   <label class="">Account Number</label>
-                                  <p>********** 4567</p>
+                                  <p class="number">********** 4567</p>
                                 </div>
                               </div>
                               <div class="col-md-6">
                                 <div class="form-group">
                                   <label class="">Account Type</label>
-                                  <p>Checking</p>
+                                  <p class="number">Checking</p>
                                 </div>
                                 <div class="form-group">
                                   <label class="">Routing Number</label>
-                                  <p>0000667656</p>
+                                  <p class="number">0000667656</p>
                                 </div>
                               </div>
                               <div class="col-md-12">
@@ -110,7 +110,7 @@ layout: give-default-layout
                             </div>
                           </div>
                           <div class="col-md-4 text-right">
-                            <a class="btn btn-default btn-block">Change</a>
+                            <a class="btn btn-default btn-block" href="/checkout-step-2/">Change</a>
                           </div>
                         </div>
                       </div>
@@ -123,59 +123,7 @@ layout: give-default-layout
                         Review Items
                       </div>
                       <div class="panel-body">
-                        <table class="table giftsum-table">
-                          <thead>
-                          <tr>
-                            <th class="th-title-gift">Gift</th>
-                            <th class="th-title-frequency">Frequency</th>
-                            <th class="th-title-amount">Amount</th>
-                          </tr>
-                          </thead>
-                          <tbody>
-                          <tr class="giftsum-gift-row">
-                            <td class="td-gift">
-                              <img src="http://lorempixel.com/90/70/people/" class="giftsum-profile pull-left"/>
-                              <span class="giftsum-person giftsum-title">Jean Deuax</span>
-                              <span class="giftsum-accountnum giftsum-detail"><span class="hidden-xs">Ministry </span>#334343223</span>
-                            </td>
-                            <td class="td-frequency">
-                              <span class="giftsum-frequency giftsum-title">Monthly</span>
-                              <span class="giftsum-date giftsum-detail">Starts on: 7/8/2019</span>
-                            </td>
-                            <td class="td-amount">
-                              <span class="giftsum-about giftsum-title">$50.00</span>
-                              <span class="giftsum-detail"><span class=" visible-xs">Gift Amount</span></span>
-                            </td>
-                          </tr>
-                          <tr class="giftsum-gift-row">
-                            <td class="td-gift">
-                              <img src="http://lorempixel.com/90/70/people/" class="giftsum-profile pull-left"/>
-                              <span class="giftsum-person giftsum-title">Jean Deuax</span>
-                              <span class="giftsum-accountnum giftsum-detail"><span class="hidden-xs">Ministry </span>#3343223</span>
-                            </td>
-                            <td class="td-frequency">
-                              <span class="giftsum-frequency giftsum-title">Monthly</span>
-                              <span class="giftsum-date giftsum-detail">Starts on: 7/8/2019</span>
-                            </td>
-                            <td class="td-amount">
-                              <span class="giftsum-about giftsum-title">$50.00</span>
-                              <span class="giftsum-detail"><span class=" visible-xs">Gift Amount</span></span>
-                            </td>
-                          </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="mb">
-                    <div class="row">
-                      <div class="col-md-7  col-sm-7 text-right">
-                        <div class="giftsum-line">Monthly Gift Total: <strong class="data-font">$50.00</strong></div>
-                        <div class="giftsum-line">Single Total: <strong class="data-font">$100.00</strong></div>
-                      </div>
-                      <div class="col-md-5 col-sm-5">
-                        <a href="" class="btn btn-primary btn-lg btn-block">Submit Your Gift</a>
+                        <?php echo cart_table('3'); ?>
                       </div>
                     </div>
                   </div>
@@ -186,7 +134,10 @@ layout: give-default-layout
           </div>
         </div>
         <div class="col-md-4 hidden-xs hidden-sm">
-          {% include_relative partial-cart-summary.html %}
+          <?php include('../cart/partial-cart-summary.php'); ?>
+        </div>
+        <div class="col-md-4 hidden-xs hidden-sm">
+          <?php include('../_includes/help.php'); ?>
         </div>
       </div>
     </div> <!-- // masonry container -->
@@ -195,5 +146,8 @@ layout: give-default-layout
 </div>
 <!-- End content wrap -->
 
-{% include footer-ecfa.html %}
-{% include footer.html %}
+<?php 
+
+give_footer();
+
+?>

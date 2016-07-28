@@ -150,15 +150,10 @@ label.custom-amount {
   background: none;
 }
 
-.number{
-  font-family: Montserrat,Helvetica,Arial,sans-serif;
-}
-
 .modal {
   display: none;
   overflow: hidden;
   position: fixed;
-  top: 1em;
   right: 0;
   bottom: 0;
   left: 0;
@@ -169,7 +164,6 @@ label.custom-amount {
 }
 
 .modal-open {
-  overflow: scroll;
   .reveal-modal-bg {
     position: fixed;
     top: 0;

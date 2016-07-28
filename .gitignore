@@ -113,3 +113,4 @@ _site
 
 # Node
 node_modules/
+sftp-config.json
