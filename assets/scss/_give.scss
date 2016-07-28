@@ -6,7 +6,6 @@ $colorGrayscale-rock: #b9b9b9;
 $colorGrayscale-slate: #909b9c;
 $colorCru-border: #ddd;
 
-//
 $data-font: "freight-sans-lf-cru", "Helvetica Neue", Helvetica, sans-serif;
 .data-font {font-family: $data-font;}
 
@@ -65,7 +64,7 @@ hr.vertical-divider {
 	padding-top: 30px;
 	padding-bottom: 30px;
 
-	@media (max-width: 480px) {
+	@include respond-to(supertiny) {
 		padding-top: 0;
 		padding-bottom: 0;
 	}
@@ -77,6 +76,10 @@ hr.vertical-divider {
 	.sign-in-section {
 		padding: 45px 50px;
 
+		@include respond-to(supertiny) {
+			padding: 30px;
+		}
+
 		.section-description {
 			font-size: 125%;
 			font-weight: normal;
@@ -85,11 +88,6 @@ hr.vertical-divider {
 		}
 	}
 
-	@media (max-width: 480px) {
-		.sign-in-section {
-			padding: 30px;
-		}
-	}
 }
 
 .form-group {
@@ -108,22 +106,16 @@ hr.vertical-divider {
 }
 
 .row {
-	&.vdivide {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	@media (min-width: 991px) {
-		&.vdivide [class*='col-']:not(:last-child):after {
-			background: #e0e0e0;
-			width: 1px;
-			content: "";
-			display: block;
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			right: 0;
-			min-height: 70px;
-		}
+	&.vdivide [class*='col-']:not(:last-child):after {
+		background: #e0e0e0;
+		width: 1px;
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		min-height: 70px;
 	}
 
 	@media (max-width: 991px) {
@@ -140,7 +132,7 @@ hr.vertical-divider {
 		}
 	}
 
-	@media (max-width: 450px) {
+	@include respond-to(supertiny) {
 		&.vdivide [class*='col-']:not(:last-child):after {
 			top: 30px;
 		}
@@ -241,5 +233,36 @@ hr.vertical-divider {
 .panel-body {
 	p, ul {
 		font-size: 100%;
+	}
+}
+
+.strike {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+
+	> span {
+		position: relative;
+		display: inline-block;
+	}
+
+	> span:before, > span:after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		width: 9999px;
+		height: 1px;
+		background: $colorGrayscale-rock;
+	}
+
+	> span:before {
+		right: 100%;
+		margin-right: 15px;
+	}
+
+	> span:after {
+		left: 100%;
+		margin-left: 15px;
 	}
 }
