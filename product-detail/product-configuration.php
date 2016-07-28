@@ -16,7 +16,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="give-modal-recipient">
-                            <img src="http://lorempixel.com/330/220/city/" class="recipient-image"/>
+                            <img src="http://placehold.it/550x310" class="recipient-image"/>
                             <span class="recipient-title">
                             Martha Washington
                             </span>

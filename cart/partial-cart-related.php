@@ -12,8 +12,8 @@
                   echo '
                   <div class="col-md-4">
                     <div class="panel panel-default">
-                      <div class="">
-                        <a href=""><img src="http://placehold.it/330x220"/></a>
+                      <div class="related-image">
+                        <a href="" class="related-link"><img src="http://placehold.it/550x310"/></a>
                       </div>
                       <div class="panel-body">
                         <h3><a href="" class="panel-title">Help Start a Cru on a campus Near You '. $i .'</a></h3>
