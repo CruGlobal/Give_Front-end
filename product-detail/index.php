@@ -15,8 +15,7 @@ give_head();
             <div class="col-sm-6  col-xs-12">
 
               <!-- Default panel contents -->
-              <h2>Jean Deaux</h2>
-              <p>Staff #5552424</p>
+              <h2 title="Staff #5564666">Jean Deaux</h2>
 
             </div>
             <div class="col-sm-6  col-xs-12">
@@ -52,6 +51,11 @@ give_head();
         </div>
       </div>
 
+    
+
+      <?php include( '../_includes/search.php' ); ?>
+      
+      <?php include( '../cart/partial-cart-related.php' ); ?>
     </div>
   </div>
 </div>
