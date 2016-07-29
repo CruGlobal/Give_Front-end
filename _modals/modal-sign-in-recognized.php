@@ -1,4 +1,4 @@
-<div id="signinModalRec" class="modal fade" tabindex="-1" role="dialog">
+<div id="signinModalRec" class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-sm">
     <div class="modal-content modal-with-header">
       <div class="modal-header">

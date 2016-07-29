@@ -1,4 +1,4 @@
-<div id="modalBenefits" class="modal fade" tabindex="-1" role="dialog">
+<div id="modalBenefits" class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-sm">
     <div class="modal-content modal-with-header">
       <div class="modal-header">
@@ -17,7 +17,7 @@
                 <li>Manage your recurring gifts</li>
                 <li>Change your bank account or credit card information</li>
               </ul>
-              <a href="" class="btn btn-md btn-block btn-primary">Register Your Account</a>
+              <a data-toggle="modal" data-dismiss="modal" class="btn btn-md btn-block btn-primary" data-target="#signinModal">Register Your Account</a>
             </div>
           </div>
         </div>
