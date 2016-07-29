@@ -63,6 +63,7 @@ give_head();
       <div class="panel-body">
         <ul class="listBare">
           <li><a data-toggle="modal" data-target="#signinModal">Sign In Modal (all of *.cru.org)</a></li>
+          <li><a data-toggle="modal" data-target="#signinModalRec">Sign In Modal (pre-auth)</a></li>
           <li><a data-toggle="modal" data-target="#signupModal">Sign Up Modal (all of *.cru.org)</a></li>
           <li><a data-toggle="modal" data-target="#modalBenefits">Thank You Page Modal - Register Your Account</a></li>
         </ul>
@@ -71,6 +72,7 @@ give_head();
   </div>
 
   <?php include('_modals/modal-sign-in.php'); ?>
+  <?php include('_modals/modal-sign-in-recognized.php'); ?>
   <?php include('_modals/modal-sign-up.php'); ?>
   <?php include('_modals/modal-benefits.php'); ?>
 
