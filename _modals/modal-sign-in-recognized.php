@@ -22,7 +22,7 @@
                 <button type="submit" class="btn btn-block btn-primary">Sign In</button>
               </form>
               <p class="text-center mt mb0">Forgot your password? <a data-toggle="modal" data-dismiss="modal" data-target="#resetModal" >Reset It</a></p>
-              <p class="text-center">Not Hezekiah? <a href="">Sign Out</a></p>
+              <p class="text-center">Not Micah Sudarma? <a href="">Sign Out</a></p>
             </div>
           </div>
         </div>

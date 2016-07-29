@@ -3,7 +3,7 @@
     <div class="modal-content">
       <div class="modal-header pt">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title text-center">Register Your Account for Online Access</h3>
+        <h3 class="modal-title text-center">Register Your Account for<br class="hidden-xs hidden-sm" /> Online Access</h3>
       </div>
       <div class="modal-body pt0 p">
         <div class="container-fluid">
