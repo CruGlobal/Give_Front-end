@@ -23,18 +23,16 @@ body{
 }
 
 .modal-content {
-  &.modal-with-header {
-    .modal-body {padding-top: 0;}
-  }
 	.modal-header {
-    border-bottom: none;
+        border-bottom: none;
+
 		@media (min-width: 992px) {
 			button.close {
 				background: url("/assets/images/close-icon.png");
-        background-size: contain;
+                background-size: contain;
 				width: 36px;
 				height: 36px;
-				margin-top: -15px;
+				margin-top: -30px;
 				margin-right: -65px;
 				opacity: 1;
 
