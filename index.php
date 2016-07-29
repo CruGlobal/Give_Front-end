@@ -71,34 +71,30 @@ give_head();
   </div>
 
   <div id="signinModal" class="modal fade" tabindex="-1" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-sm">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="container-fluid" tabindex="-1" role="dialog">
           <div class="col-md-12 col-xs-12">
-            <div class="panel panel-plain">
-              <div class="panel-body">
-                <form>
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control form-control-subtle" placeholder="Email">
-                  </div>
-                  <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control form-control-subtle" placeholder="Password">
-                  </div>
-                  <button type="submit" class="btn btn-block btn-primary">Sign In</button>
-                </form>
-                <p class="text-center">Forgot your password? <a href="">Reset It</a></p>
-                <div class="form-group">
-                  <p class="text-center strike">
-                    <span>Don't have an account?</span>
-                  </p>
-                  <button data-toggle="modal" data-target="#signupModal" type="submit" class="btn btn-block btn-secondary">Sign Up</button>
-                </div>
+            <form>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control form-control-subtle" placeholder="Email">
               </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control form-control-subtle" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-block btn-primary">Sign In</button>
+            </form>
+            <p class="text-center">Forgot your password? <a href="">Reset It</a></p>
+            <div class="form-group">
+              <p class="text-center strike">
+                <span>Don't have an account?</span>
+              </p>
+              <button data-toggle="modal" data-target="#signupModal" type="submit" class="btn btn-block btn-default">Sign Up</button>
             </div>
           </div>
         </div>
@@ -107,58 +103,48 @@ give_head();
   </div><!-- /.modal -->
 
   <div id="signupModal" class="modal fade" tabindex="-1" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-sm">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
-         <div class="screenContent" tabindex="-1" role="dialog">
-          <div class="postArticle  layoutSingleColumn--wide   container-fluid">
-            <div class="section-title  u-centerBlock  masonry__item  col-md-12  col-xs-12  mb">
-              <h1 class="u-inlineBlock  banner-title">Sign Up</h1>
-            </div>
-            <div class="masonry__item  col-md-12  coverphoto  col-xs-12 container container-edge-small container-edge-extrasmall">
-              <div>
-                <div class="panel panel-plain panel-nomargin">
-                  <div class="panel-body">
-                    <form>
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">First Name</label>
-                        <input type="name" class="form-control form-control-subtle input-lg" id="">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Last Name</label>
-                        <input type="name" class="form-control form-control-subtle input-lg" id="">
-                      </div>
-                       <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control form-control-subtle input-lg" id="">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Password</label>
-                        <input type="password" class="form-control form-control-subtle input-lg" id="">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Confirm Password</label>
-                        <input type="password" class="form-control form-control-subtle input-lg" id="">
-                      </div>
-                      <div class="form-group">
-                        <button class='btn btn-lg btn-third-inactive'>Male</button>
-                        <button class='btn btn-lg btn-third'>Female</button>
-                      </div>
-                      <button type="submit" class="btn btn-lg btn-block btn-primary">
-                        Sign Up
-                      </button>
-                     </form>
-                  </div>
-                </div>
-              </div><!-- // panel -->
-            </div>
+        <div class="container-fluid" tabindex="-1" role="dialog">
+          <div class="col-md-12 col-xs-12">
+            <form>
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" class="form-control form-control-subtle">
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" class="form-control form-control-subtle">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control form-control-subtle">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control form-control-subtle">
+              </div>
+              <div class="form-group">
+                <label for="password-confirm">Confirm Password</label>
+                <input type="password" class="form-control form-control-subtle">
+              </div>
+              <div class="form-group">
+                <button class="btn btn-third-inactive">Male</button>
+                <button class="btn btn-third">Female</button>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-block btn-primary">Sign Up</button>
+              </div>
+            </form>
           </div>
         </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
+
   <div id="modalBenefits" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
