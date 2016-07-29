@@ -28,24 +28,37 @@
                   <label for="email">Email address</label>
                   <input type="email" class="form-control form-control-subtle">
                 </div>
-                <div class="row">
-                  <div class="col-xs-6">
+                
                     <div class="form-group">
                       <label for="password">Password</label>
                       <input type="password" class="form-control form-control-subtle">
                     </div>
-                  </div>
-                  <div class="col-xs-6">
+                  
+
                     <div class="form-group">
                       <label for="password-confirm">Confirm Password</label>
                       <input type="password" class="form-control form-control-subtle">
                     </div>
+                 
+                 
+
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="form-group">
+                      <label class="tab-btn btn btn-lg btn-default btn-block on">
+                        <input type="radio" name="gender" id="male" autocomplete="off" checked>Male
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="form-group">
+                      <label class="tab-btn btn btn-lg btn-default btn-block">
+                        <input type="radio" name="gender" id="female" autocomplete="off" checked>Female
+                      </label>
+                    </div>
                   </div>
                 </div>
-                <div class="form-group">
-                  <button class="btn btn-third-inactive">Male</button>
-                  <button class="btn btn-third">Female</button>
-                </div>
+                
                 <div class="form-group">
                   <button type="submit" class="btn btn-block btn-primary">Sign Up</button>
                 </div>
