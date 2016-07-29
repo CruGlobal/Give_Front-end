@@ -17,6 +17,11 @@ body{
   }
 }
 
+.modal-title {
+  margin: 0;
+  line-height: $line-height-base !important;
+}
+
 .modal-content {
   &.modal-with-header {
     .modal-body {padding-top: 0;}
