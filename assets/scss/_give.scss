@@ -36,6 +36,13 @@ hr.vertical-divider {
 	width: 1px;
 }
 
+.container,
+.container-fluid {
+	&:focus {
+		outline: none;
+	}
+}
+
 @media (max-width: 550px) {
 	.container {
 		width: 100%;
