@@ -19,7 +19,7 @@ body{
 
 .modal-title {
   margin: 0;
-  line-height: $line-height-base !important;
+  line-height: 1.25em;
 }
 
 .modal-content {
@@ -35,7 +35,7 @@ body{
 				width: 36px;
 				height: 36px;
 				margin-top: -15px;
-				margin-right: -70px;
+				margin-right: -65px;
 				opacity: 1;
 
 				span {

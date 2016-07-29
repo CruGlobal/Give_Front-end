@@ -1,4 +1,4 @@
-<div id="signupModal" class="modal fade" tabindex="-1" role="dialog">
+<div id="signupModal" class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-sm">
     <div class="modal-content modal-with-header">
       <div class="modal-header">
@@ -57,7 +57,7 @@
                 </div>
                 
                 <div class="form-group">
-                  <button type="submit" class="btn btn-block btn-primary">Sign Up</button>
+                  <a data-toggle="modal" data-dismiss="modal" data-target="#signupModal" class="btn btn-block btn-primary">Sign Up</a>
                 </div>
               </form>
             </div>
