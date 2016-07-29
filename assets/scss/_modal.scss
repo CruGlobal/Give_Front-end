@@ -26,6 +26,7 @@ body{
 		@media (min-width: 992px) {
 			button.close {
 				background: url("/assets/images/close-icon.png");
+        background-size: contain;
 				width: 36px;
 				height: 36px;
 				margin-top: -15px;

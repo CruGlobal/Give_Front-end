@@ -19,12 +19,12 @@
               </div>
               <button type="submit" class="btn btn-block btn-primary">Sign In</button>
             </form>
-            <p class="text-center">Forgot your password? <a href="">Reset It</a></p>
+            <p class="text-center">Forgot your password? <a data-toggle="modal" data-dismiss="modal" data-target="#resetModal" >Reset It</a></p>
             <div class="form-group">
               <p class="text-center strike">
                 <span>Don't have an account?</span>
               </p>
-              <button data-toggle="modal" data-target="#signupModal" type="submit" class="btn btn-block btn-default">Sign Up</button>
+              <a data-toggle="modal" data-dismiss="modal" data-target="#signupModal" class="btn btn-block btn-default">Sign Up</a>
             </div>
           </div>
         </div>

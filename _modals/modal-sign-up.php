@@ -29,18 +29,15 @@
                   <input type="email" class="form-control form-control-subtle">
                 </div>
                 
-                    <div class="form-group">
-                      <label for="password">Password</label>
-                      <input type="password" class="form-control form-control-subtle">
-                    </div>
-                  
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control form-control-subtle">
+                </div>
 
-                    <div class="form-group">
-                      <label for="password-confirm">Confirm Password</label>
-                      <input type="password" class="form-control form-control-subtle">
-                    </div>
-                 
-                 
+                <div class="form-group">
+                  <label for="password-confirm">Confirm Password</label>
+                  <input type="password" class="form-control form-control-subtle">
+                </div>
 
                 <div class="row">
                   <div class="col-xs-6">
