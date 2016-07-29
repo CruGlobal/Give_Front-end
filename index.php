@@ -67,7 +67,9 @@ give_head();
           <li><a data-toggle="modal" data-target="#signupModal">Sign Up Modal (all of *.cru.org)</a></li>
           <li><a data-toggle="modal" data-target="#resetModal">Reset Password (all of *.cru.org)</a></li>
           <li><a data-toggle="modal" data-target="#modalBenefits">Thank You Page Modal - Register Your Account</a></li>
-          <li><a data-toggle="modal" data-target="#checkoutModal1">Checkout Step 1 of 3</a></li>
+          <li><a data-toggle="modal" data-target="#checkoutModal1">Checkout - Step 1</a></li>
+          <li><a data-toggle="modal" data-target="#checkoutModal2">Checkout - Step 2</a></li>
+          <li><a data-toggle="modal" data-target="#checkoutModal2">Checkout - Step 3</a></li>
         </ul>
       </div>
     </div>
@@ -79,6 +81,8 @@ give_head();
   <?php include('_modals/modal-reset.php'); ?>
   <?php include('_modals/modal-benefits.php'); ?>
   <?php include('_modals/checkout-step-1.php'); ?>
+  <?php include('_modals/checkout-step-2.php'); ?>
+  <?php include('_modals/checkout-step-3.php'); ?>
 
 <?php
 
