@@ -14,19 +14,19 @@ give_head();
             <div class="col-md-12">
               <div class="panel">
                 <div class="panel-body">
-                  <h1 class="panel-name">
+                  <h2 class="panel-name">
                     Thank you for Your Gift
-                  </h1>
+                  </h2>
 
                   <p>
-                    We are processing your gift now. We'll send an email confirmation to topeter.parker@gmail.com as well as a tax-deductible receipt by postal mail.
+                    We are processing your gift now. We'll send an email confirmation to to peter.parker@gmail.com as well as a tax-deductible receipt by postal mail.
                   </p>
 
                   <p>
                     Thanks for making a difference in the lives of people both now and for eternity. May the Lord bless your investment in this work for Christ's kingdom. (Luke 6:38)
                   </p>
 
-                  <div class="row">
+                  <div class="row mt">
                     <div class="col-md-6">
                       <div class="panel panel-default">
                         <div class="panel-heading">
