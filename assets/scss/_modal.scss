@@ -1,29 +1,4 @@
-body{
-	#modalBenefits{
-		.modal-content{
-			.modal-header{
-				border-bottom:none !important;
-			}
-			.modal-body{
-				width:100%;
-				font-size:.8em;
-			}
-		}
-	}
-
-	#signupModal{
-		.modal-content{
-			.modal-header{
-				border-bottom:none !important;
-			}
-			.modal-body{
-				width:100%;
-				font-size:.8em;
-			}
-		}
-	}
-
-  
+body{  
   @media (min-width: 1024px) {
     .modal-large {
         width: auto;
@@ -42,16 +17,13 @@ body{
   }
 }
 
-#signinModal{
-	.modal-content{
-		.modal-header{
-			border-bottom:none !important;
-		}
-	}
-}
-
 .modal-content {
+  &.modal-with-header {
+    .modal-header {padding-bottom: 0;}
+    .modal-body {padding-top: 0;}
+  }
 	.modal-header {
+    border-bottom: none;
 		@media (min-width: 992px) {
 			button.close {
 				background: url("/assets/images/close-icon.png");
