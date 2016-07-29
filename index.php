@@ -69,7 +69,7 @@ give_head();
           <li><a data-toggle="modal" data-target="#modalBenefits">Thank You Page Modal - Register Your Account</a></li>
           <li><a data-toggle="modal" data-target="#checkoutModal1">Checkout - Step 1</a></li>
           <li><a data-toggle="modal" data-target="#checkoutModal2">Checkout - Step 2</a></li>
-          <li><a data-toggle="modal" data-target="#checkoutModal2">Checkout - Step 3</a></li>
+          <li><a data-toggle="modal" data-target="#checkoutModal3">Checkout - Step 3</a></li>
         </ul>
       </div>
     </div>
