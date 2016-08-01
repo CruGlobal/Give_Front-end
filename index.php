@@ -37,7 +37,8 @@ give_head();
       <div class="panel-heading">Product Pages</div>
       <div class="panel-body">
         <ul class="listBare">
-          <li><a href="/product-detail/">Product detail page with Gift Modal</a></li>
+          <li><a href="/product-detail/">Product Detail page with Gift Modal</a></li>
+          <li><a href="/product-article/">Product Article page with Gift Modal</a></li>
         </ul>
       </div>
     </div>
