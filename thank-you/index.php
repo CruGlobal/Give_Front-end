@@ -146,7 +146,8 @@ give_head();
 <!-- End content wrap -->
 
 <?php
-
+include('../_modals/modal-sign-up.php');
+include('../_modals/modal-sign-in-recognized.php');
 give_footer();
 
 ?>

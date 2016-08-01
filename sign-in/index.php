@@ -26,17 +26,17 @@ give_head();
                                         <label for="password">PASSWORD:</label>
                                         <input type="password" class="form-control form-control-subtle" placeholder="Password">
                                     </div>
-                                    <button type="submit" class="btn btn-block btn-primary">Sign In</button>
+                                    <a href="/checkout-step-1/" class="btn btn-block btn-primary">Sign In</a>
                                 </form>
 
-                                <div class="text-center self-service">Forgot your password? <a href="">Reset It</a></div>
+                                <div class="text-center self-service">Forgot your password? <a data-toggle="modal" data-target="#resetModal">Reset It</a></div>
                             </div>
 
                             <div class="col-md-6 sign-in-section">
                                 <h3 class="text-center">Checkout as Guest</h3>
                                 <p class="text-center section-description">You will have an opportunity to register after completing your transaction.</p>
 
-                                <button type="submit" class="btn btn-block btn-primary">Continue as Guest</button>
+                                <a href="/checkout-step-1/" class="btn btn-block btn-primary">Continue as Guest</a>
                             </div>
                         </div>
                     </div>
@@ -48,6 +48,7 @@ give_head();
 
 <?php
 
+include('../_modals/modal-reset.php');
 give_footer();
 
 ?>

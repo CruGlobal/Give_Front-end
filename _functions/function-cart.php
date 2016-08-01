@@ -67,9 +67,7 @@ function cart_table($cols = 'full', $destination = '#', $showfooter = true) {
           <tr>
             <td colspan="4" class="text-right">
               <div class="checkout-cta pull-right">
-                <button type="submit" class="btn btn-primary btn-lg btn-block">
-                  Proceed to Checkout
-                </button>
+                <a href="/sign-in/" class="btn btn-primary btn-lg btn-block">Proceed to Checkout</a>
               </div>
               <span class="giftsum-line">Your Monthly Gift Total: <strong>$50.00</strong></span>
               <span class="giftsum-line">Your Single Gift Total: <strong>$100.00</strong></span>
@@ -83,9 +81,7 @@ function cart_table($cols = 'full', $destination = '#', $showfooter = true) {
               <tr>
                 <td colspan="3" class="text-right">
                   <div class="checkout-cta pull-right">
-                    <button type="submit" class="btn btn-primary btn-lg btn-block">
-                      Submit Your Gift
-                    </button>
+                    <a href="/thank-you/" class="btn btn-primary btn-lg btn-block">Submit Your Gift</a>
                   </div>
                   <span class="giftsum-line">Your Monthly Gift Total: <strong>$50.00</strong></span>
                   <span class="giftsum-line">Your Single Total: <strong>$100.00</strong></span>
