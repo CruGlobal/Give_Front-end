@@ -17,12 +17,12 @@ body{
   }
 }
 
-.modal-title {
-  margin: 0;
-  line-height: 1.25em;
-}
-
 .modal-content {
+    .modal-title {
+      margin: 0;
+      line-height: 1.25em;
+    }
+
 	.modal-header {
         border-bottom: none;
 
@@ -48,6 +48,12 @@ body{
 	.modal-sm {
 		width: 450px;
 	}
+}
+
+#checkoutModal1 {
+  .mb_x {
+    margin-bottom: 29px !important;
+  }
 }
 
 #addNewPaymentModal{
