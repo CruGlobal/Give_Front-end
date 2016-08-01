@@ -61,8 +61,23 @@
                   Gift Frequency
                 </h4>
                 <div class="panel-body">
-                  <div class="" data-toggle="buttons">
-                    <label class="btn btn-radio btn-wide active"><input checked name='frequency' type="radio"> <span class="giftsum-about giftsum-title">Single Gift</span></label> <label aria-controls="configRecurring" aria-expanded="false" class="btn btn-radio btn-wide" data-target="#configRecurring" data-toggle="collapse"><input name='frequency' type="radio"> <span>Monthly</span></label> <label aria-controls="configRecurring" aria-expanded="false" class="btn btn-radio btn-wide" data-target="#configRecurring" data-toggle="collapse"><input name='frequency' type="radio"> <span>Quarterly</span></label> <label aria-controls="configRecurring" aria-expanded="false" class="btn btn-radio btn-wide" data-target="#configRecurring" data-toggle="collapse"><input name='frequency' type="radio"> <span>Annually</span></label>
+                  <div data-toggle="buttons">
+                    <label class="btn btn-radio btn-wide active"><input checked name='frequency' type="radio"> <span class="giftsum-about giftsum-title">Single Gift</span></label>
+                    <label aria-controls="configRecurring" 
+                      aria-expanded="false" 
+                      class="btn btn-radio btn-wide" 
+                      data-target="#configRecurring" 
+                      data-toggle="collapse"><input name='frequency' type="radio"> <span>Monthly</span></label>
+                    <label aria-controls="configRecurring" 
+                      aria-expanded="false" 
+                      class="btn btn-radio btn-wide" 
+                      data-target="#configRecurring" 
+                      data-toggle="collapse"><input name='frequency' type="radio"> <span>Quarterly</span></label>
+                    <label aria-controls="configRecurring" 
+                      aria-expanded="false" 
+                      class="btn btn-radio btn-wide" 
+                      data-target="#configRecurring" 
+                      data-toggle="collapse"><input name='frequency' type="radio"> <span>Annually</span></label>
                   </div>
                 </div><!-- // panel-body -->
               </div><!-- // panel -->
