@@ -97,7 +97,7 @@ give_head();
 </div>
 
 <!-- Product Config. Modal -->
-<?php include('product-configuration.php'); ?>
+<?php include('../product-detail/product-configuration.php'); ?>
 <!-- // Product Config. Modal End -->
 
 <?php 
