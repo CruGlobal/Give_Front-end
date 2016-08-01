@@ -192,12 +192,12 @@ hr.vertical-divider {
 	margin: 1em auto;
 }
 
-.radio-method {
+.radio-method,
+.radio-custom-amount {
 	img {
 		width: 40px;
 		height: auto;
 		margin-right: $gutter*.5;
-		margin-left: $gutter*.5;
 		display: inline-block;
 		vertical-align: middle;
 	}
@@ -205,8 +205,9 @@ hr.vertical-divider {
 		display: inline-block;
 		float: none;
 		margin: 0;
+		margin-right: $gutter*.5;
 		position: static;
-		vertical-align: middle;
+		vertical-align: 0%;
 	}
 }
 
