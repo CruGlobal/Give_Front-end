@@ -50,9 +50,15 @@ body{
 	}
 }
 
-#checkoutModal1 {
+#checkoutModal1, #checkoutModal2, #checkoutModal3 {
   .mb_x {
     margin-bottom: 29px !important;
+  }
+}
+
+#checkoutModal2 {
+  .bank-name, .account-type {
+    width: 100% !important;
   }
 }
 
