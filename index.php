@@ -45,6 +45,16 @@ give_head();
   </div>
   <div class="col-xs-12" >
     <div class="panel  panel-default">
+      <div class="panel-heading">Self Service</div>
+      <div class="panel-body">
+        <ul class="listBare">
+          <li><a href="/manage-giving/">Manage Your Giving</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12" >
+    <div class="panel  panel-default">
       <div class="panel-heading">Checkout Pages</div>
       <div class="panel-body">
         <ul class="listBare">
