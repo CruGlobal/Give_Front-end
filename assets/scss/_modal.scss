@@ -42,6 +42,18 @@ body{
 			}
 		}
 	}
+
+    .form-group {
+        label.radio {
+          padding-left: 23px;
+          padding-bottom: 10px;
+          text-transform: none;
+        }
+    }
+
+  p {
+    line-height: 1.425em;
+  }
 }
 
 @media (min-width: 550px) {
