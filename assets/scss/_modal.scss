@@ -1,35 +1,94 @@
-body{
-	#modalBenefits{
-		.modal-content{
-			.modal-header{
-				border-bottom:none !important;
-			}
-			.modal-body{
-				width:100%;
-				font-size:.8em;
+body{  
+  @media (min-width: 1024px) {
+    .modal-large {
+        width: auto;
+        max-width: 800px;
+        margin: 30px auto;
+
+        $modpad: $gutter*1;
+        .modal-body {
+          padding: $modpad $modpad 0 $modpad;
+        }
+        .modal-footer {
+          padding-left: $modpad;
+          padding-right: $modpad;
+        }
+    }
+  }
+}
+
+.modal-content {
+    .modal-title {
+      margin: 0;
+      line-height: 1.25em;
+    }
+
+	.modal-header {
+        border-bottom: none;
+
+		@media (min-width: 992px) {
+			button.close {
+				background: url("/assets/images/close-icon.png");
+                background-size: contain;
+				width: 36px;
+				height: 36px;
+				margin-top: -30px;
+				margin-right: -65px;
+				opacity: 1;
+
+				span {
+					display: none;
+				}
 			}
 		}
+	}
+
+    .form-group {
+        label.radio {
+          padding-left: 23px;
+          padding-bottom: 10px;
+          text-transform: none;
+        }
+    }
+
+  p {
+    line-height: 1.425em;
+  }
+}
+
+@media (min-width: 550px) {
+	.modal-sm {
+		width: 450px;
 	}
 }
 
-body{
-	#signupModal{
-		.modal-content{
-			.modal-header{
-				border-bottom:none !important;
-			}
-			.modal-body{
-				width:100%;
-				font-size:.8em;
-			}
-		}
+#checkoutModal1, #checkoutModal2, #checkoutModal3 {
+  .mb_x {
+    margin-bottom: 29px !important;
+  }
+}
+
+#checkoutModal2 {
+  .bank-name, .account-type {
+    width: 100% !important;
+  }
+}
+
+#addNewPaymentModal{
+	background-color: rgba(138, 138, 138, 0.9); 
+	.light-font{
+		font-size: 14px;
+		color: #d3d3d3;
+		font-weight: bold;
 	}
 }
 
-#signinModal{
-	.modal-content{
-		.modal-header{
-			border-bottom:none !important;
-		}
-	}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
 }

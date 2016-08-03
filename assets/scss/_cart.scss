@@ -22,16 +22,20 @@
     @include respond-to(extrasmall) {
       display: none;
     }
+    tr {
+      th {
+        border-bottom-color: $colorCru-border;
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: 200;
+      }
+    }
   }
-  th {
-    font-size: .9em;
-    text-transform: uppercase;
-    font-weight: 200;
-  }
+
   .giftsum-gift-row {
     @include respond-to(extrasmall) {
       display: block;
-      border-top: 2px solid #ddd;
+      border-top: 2px solid $colorCru-border;
       padding-top: 1em;
       margin-top: 1em;
       &:first-child {
@@ -41,7 +45,7 @@
     td {
       padding-top: 30px;
       padding-bottom: 30px;
-      border-bottom: 2px solid $colorCru-gray;
+      border-bottom: 2px solid $colorCru-border;
       @include respond-to(extrasmall) {
         display: block;
         width: 100%;
@@ -105,8 +109,10 @@
         }
       }
       .checkout-cta {
+        margin-left: $gutter;
         @include respond-to(extrasmall) {
           padding-top: 0;
+          margin-left: 0;
         }
       }
     }
