@@ -23,8 +23,8 @@ give_head();
 
                     <div class="row">
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                            <div class="panel panel-default sand-gray">
-                                <div class="panel-heading" role="tab" id="headingOne">
+                            <div class="panel panel-default panel-with-gray-background">
+                                <div class="panel-heading p" role="tab" id="headingOne">
                                     <a class="payment-summary-link u-block" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         <div class="row">
                                             <div class="col-md-8">
@@ -44,26 +44,28 @@ give_head();
 
                                 <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                     <div class="panel-body">
-                                        <div class="col-md-4">
-                                            <p class="section-title">Name of card</p>
-                                            <p>Samantha H Bork</p>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <p class="section-title mb0">Name of card</p>
+                                                <p>Samantha H Bork</p>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <p class="section-title mb0">Nickname</p>
+                                                <p>Sam's Visa Debit</p>
+                                            </div>
+
+                                            <div class="col-md-4 text-right">
+                                                <p><button class="btn btn-default">Edit Payment Method</button></p>
+                                                <p><button class="btn btn-default">Delete Payment Method</button></p>
+                                            </div>
                                         </div>
 
-                                        <div class="col-md-4">
-                                            <p class="section-title">Nickname</p>
-                                            <p>Sam's Visa Debit</p>
-                                        </div>
-
-                                        <div class="col-md-4 text-right">
-                                            <p><button class="btn btn-default">Edit Payment Method</button></p>
-                                            <p><button class="btn btn-default">Delete Payment Method</button></p>
-                                        </div>
-
-                                        <div class="col-md-12">
-                                            <p class="section-title">Billing address</p>
-                                            <p>Samantha Bork</p>
-                                            <p>789 Highland Meadows Parkway, Apt. 307</p>
-                                            <p>Orlando FL 123456-7890</p>
+                                        <div class="row">
+                                            <div class="col-md-12 pt">
+                                                <p class="section-title mb0">Billing address</p>
+                                                <p>Samantha Bork <br> 789 Highland Meadows Parkway, Apt. 307 <br> Orlando FL 123456-7890</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

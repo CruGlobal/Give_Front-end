@@ -30,10 +30,18 @@
 }
 
 .account-management {
+	.panel.panel-with-gray-background, .panel .panel-heading {
+		background-color: #FAFAFA !important;
+		font-size: 1em;
+	}
+
+	.panel-body {
+		font-size: 1.1em;
+	}
+
 	.payment-summary-link {
 		color: $colorGrayscale-black;
 		font-weight: normal;
-		font-size: 1.4em;
 	}
 
 	.payment-icon {
@@ -53,7 +61,7 @@
 
 	.payment-details-link {
 		color: $colorCru-blueDeep;
-		font-weight: 500;
+		font-weight: bold;
 		font-size: 0.8em;
 	}
 
