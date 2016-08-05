@@ -170,6 +170,12 @@ hr.vertical-divider {
 	}
 }
 
+.border-top-small {
+  border-top: 1px solid $colorCru-border;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
 .title-margin {
 	margin: 1.5em 0;
 	@include respond-to(small) {
@@ -190,6 +196,15 @@ hr.vertical-divider {
 
 .radio-method,
 .radio-custom-amount {
+	label {
+		font-weight: normal;
+	}
+	.expiring {
+		text-indent: 60px;
+		font-size: 1em;
+		line-height: 1em;
+		color: red;
+	}
 	img {
 		width: 40px;
 		height: auto;
@@ -211,6 +226,42 @@ hr.vertical-divider {
 .btn-sm {
 	font-size: .85rem;
 	font-weight: normal;
+}
+
+.table-payment-history {
+	tbody {
+		td {
+			min-height: 75px;
+			height: 75px;
+			vertical-align: middle !important;
+			label {
+				margin-bottom: 0;
+			}
+			.radio-method {
+				label {
+					float: left;
+				}
+			}
+			&.status-pending {
+				color: red;
+			}
+		}
+	}
+}
+
+.list-recurring {
+	h4 {
+		margin-bottom: 0;
+	}
+	li {
+		margin-bottom: .75em;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.meta {
+		font-size: 1em;
+	}
 }
 
 .ecfa-logo {

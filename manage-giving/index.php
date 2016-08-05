@@ -13,42 +13,221 @@ give_head();
         <div class="col-sm-8  col-xs-12">
           <div class="panel panel-margin-bottom">
             <div class="panel-body">
-              <!-- Default panel contents -->
-              <h2 title="Staff #5564666">Jean Deaux</h2>
+              <!-- Giving Control -->
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="text-center">
+                    <p>Your Year-to-Date Giving</p>
+                    <h2><strong>$2000.00</strong></h2>
+                    <p>As of 7/29/16</p>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <a class="btn btn-block btn-primary">Edit Your Recurring Gifts</a>
+                  <a class="btn btn-block btn-primary mb- mt-">Give a 1-Time Gift</a>
+                  <a class="btn btn-block btn-primary">Stop or Restart a Gift</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-sm-4  col-xs-12">
           <div class="panel panel-margin-bottom">
             <div class="panel-body">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary btn-lg u-floatRight" data-toggle="modal" data-target="#myModal">
-                Give a Gift
-              </button>
-              <!-- Button trigger modal -->
+              <h3 class="mb0">Howard &amp; Maria Stark</h3>
+              <p>#000090</p>
+
+              <div class="form-group">
+                <label class="">Mailing Address:</label>
+                <p>
+                1234 Sesame Street, Apt 306<br/>
+                Orlando, FL 22345-2234
+                </p>
+              </div>
+
+              <div class="form-group mb0">
+                <label class="">Contact Phone:</label>
+                <p class="mb0">
+                (407) 555-1212
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="panel panel-margin-bottom">
-        <div class="panel-cover-wrap">
-          <img src="http://fpoimg.com/1920x1080" class="panel-cover-image"/>
-        </div>
         <div class="panel-body">
           <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-              <h4>Great Spiritual Need</h4>
-              <p>Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
-                elit. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus.</p>
-              <p>
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                  Give a Gift
+            <div class="col-sm-12">
+
+              <h2>Your Giving</h2>
+              <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-default">Recipient View</button>
+                <button type="button" class="btn btn-default">Monthly View</button>
+              </div>
+
+              <!-- Filters -->
+              <div class="btn-group">
+                <button type="button" 
+                  class="btn btn-default dropdown-toggle" 
+                  data-toggle="dropdown" 
+                  aria-haspopup="true" 
+                  aria-expanded="false">
+                  Filters <span class="caret"></span>
                 </button>
-              </p>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Your Recent Gifts</a></li>
+                  <li><a href="#">All Gifts</a></li>
+                </ul>
+              </div>
+
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="panel panel-margin-bottom">
+        <div class="panel-body">
+
+          <!-- Recipient Row -->
+            <div class="row">
+              <div class="col-sm-2">
+                <img src="http://placehold.it/550x310" />
+              </div>
+              <div class="col-sm-7">
+                <h4 class="mb0">Darth Luke Solo</h4>
+                <small>#89075769</small>
+
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="form-group"> 
+                      <label>Year-to-date:</label>
+                      <ul class="list-unstyled list-recurring">
+                        <li>
+                          <h4>$1350.00</h4>
+                          <span class="meta">Jul 6, 2016</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="form-group"> 
+                      <label>Most Recent:</label>
+                      <ul class="list-unstyled list-recurring">
+                        <li>
+                          <h4>$1350.00</h4>
+                          <span class="meta">Jul 6, 2016</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="form-group"> 
+                      <label>Recurring Gifts:</label>
+                      <ul class="list-unstyled list-recurring">
+                        <li>
+                          <h4>$1350.00 Monthly</h4>
+                          <span class="meta">Next Gift: Jul 6, 2016</span>
+                        </li>
+                        <li>
+                          <h4>$1350.00 Daily</h4>
+                          <span class="meta">Next Gift: Aug 6, 2016</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-sm-3">
+                <a class="btn btn-primary btn-block">Give a New Gift</a>
+                <a class="btn btn-link btn-block" 
+                  role="button" 
+                  data-toggle="collapse" 
+                  href="#details_1" 
+                  aria-expanded="false" 
+                  aria-controls="details_1">
+                  Details
+                </a>
+              </div>
+            </div>
+
+            
+            <div class="collapse" id="details_1">
+              <h4 class="border-top-small pl--">Recent Gift History</h4>
+              <table class="table table-striped table-payment-history">
+                <thead>
+                  <tr>
+                    <th class="date">Date</th>
+                    <th class="amount">Amount</th>
+                    <th class="method">Payment Method</th>
+                    <th class="status">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="date">July 6, 2016</td>
+                    <td class="amount">$50.00</td>
+                    <td class="method">
+                      <div class="radio-method">
+                        <label>
+                          <img class="method-logo hidden-xs" src="/assets/img/cc-icons/visa-curved-128px.png" />
+                          <strong>Visa</strong> ends in ****3456 
+                        </label>
+                      </div>
+                    </td>
+                    <td class="status status-complete">Complete</td>
+                  </tr>
+                  <tr>
+                    <td class="date">July 6, 2016</td>
+                    <td class="amount">$50.00</td>
+                    <td class="method">
+                      <div class="radio-method">
+                        <label>
+                          <img class="method-logo hidden-xs" src="/assets/img/cc-icons/visa-curved-128px.png" />
+                          <strong>Visa</strong> ends in ****3456 
+                          <div class="expiring">
+                            <small class="number">EXP<span class="hidden-xs">IRES</span> 02/<span class="hidden-xs">20</span>19</small>
+                          </div>
+                        </label>
+                      </div>
+                    </td>
+                    <td class="status status-pending">Pending</td>
+                  </tr>
+                  <tr>
+                    <td class="date">July 6, 2016</td>
+                    <td class="amount">$50.00</td>
+                    <td class="method">
+                      <div class="radio-method">
+                        <label>
+                          <img class="method-logo hidden-xs" src="/assets/img/cc-icons/visa-curved-128px.png" />
+                          <strong>Visa</strong> ends in ****3456 
+                        </label>
+                      </div>
+                    </td>
+                    <td class="status status-complete">Complete</td>
+                  </tr>
+                  <tr>
+                    <td class="date">July 6, 2016</td>
+                    <td class="amount">$50.00</td>
+                    <td class="method">
+                      <div class="radio-method">
+                        <label>
+                          <img class="method-logo hidden-xs" src="/assets/img/cc-icons/visa-curved-128px.png" />
+                          <strong>Visa</strong> ends in ****3456 
+                          <div class="expiring">
+                            <small class="number">EXP<span class="hidden-xs">IRES</span> 02/<span class="hidden-xs">20</span>19</small>
+                          </div>
+                        </label>
+                      </div>
+                    </td>
+                    <td class="status status-pending">Pending</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
         </div>
       </div>
 
