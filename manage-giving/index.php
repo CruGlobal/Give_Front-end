@@ -9,9 +9,9 @@ give_head();
 <div class="screenContent" tabindex="-1" role="dialog">
   <div class="container">
     <div class="col-md-12">
-      <div class="row">
+      <div class="row row-eq-height mb">
         <div class="col-sm-8  col-xs-12">
-          <div class="panel panel-margin-bottom">
+          <div class="panel panel-full-height">
             <div class="panel-body">
               <!-- Giving Control -->
               <div class="row">
@@ -32,7 +32,7 @@ give_head();
           </div>
         </div>
         <div class="col-sm-4  col-xs-12">
-          <div class="panel panel-margin-bottom">
+          <div class="panel panel-full-height">
             <div class="panel-body">
               <h3 class="mb0">Howard &amp; Maria Stark</h3>
               <p>#000090</p>
@@ -91,17 +91,17 @@ give_head();
         <div class="panel-body">
 
           <!-- Recipient Row -->
-            <div class="row">
-              <div class="col-sm-2">
+            <div class="row row-eq-height">
+              <div class="col-sm-2 col-full-height">
                 <img src="http://placehold.it/550x310" />
               </div>
-              <div class="col-sm-7">
+              <div class="col-sm-7 col-full-height">
                 <h4 class="mb0">Darth Luke Solo</h4>
                 <small>#89075769</small>
 
                 <div class="row">
                   <div class="col-sm-3">
-                    <div class="form-group"> 
+                    <div class="form-group mb0"> 
                       <label>Year-to-date:</label>
                       <ul class="list-unstyled list-recurring">
                         <li>
@@ -112,7 +112,7 @@ give_head();
                     </div>
                   </div>
                   <div class="col-sm-3">
-                    <div class="form-group"> 
+                    <div class="form-group mb0"> 
                       <label>Most Recent:</label>
                       <ul class="list-unstyled list-recurring">
                         <li>
@@ -123,7 +123,7 @@ give_head();
                     </div>
                   </div>
                   <div class="col-sm-4">
-                    <div class="form-group"> 
+                    <div class="form-group mb0"> 
                       <label>Recurring Gifts:</label>
                       <ul class="list-unstyled list-recurring">
                         <li>
@@ -140,15 +140,20 @@ give_head();
                 </div>
 
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-full-height">
                 <a class="btn btn-primary btn-block">Give a New Gift</a>
-                <a class="btn btn-link btn-block" 
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 text-right">
+                <a class="btn btn-link p0 m0" 
                   role="button" 
                   data-toggle="collapse" 
                   href="#details_1" 
                   aria-expanded="false" 
                   aria-controls="details_1">
-                  Details
+                  Details +
                 </a>
               </div>
             </div>
@@ -231,18 +236,12 @@ give_head();
         </div>
       </div>
 
-    
-
       <?php include( '../_includes/search.php' ); ?>
       
-      <?php include( '../cart/partial-cart-related.php' ); ?>
     </div>
   </div>
 </div>
 
-<!-- Product Config. Modal -->
-<?php include('product-configuration.php'); ?>
-<!-- // Product Config. Modal End -->
 
 <?php 
 

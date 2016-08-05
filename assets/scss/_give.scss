@@ -21,10 +21,11 @@ $gutter: 30px;
 
 html {
 	font-family: $data-font;
+	height: 100%;
 }
 
 body {
-	overflow-x: hidden;
+	height: 100%;
 }
 
 hr.vertical-divider {
@@ -130,6 +131,18 @@ hr.vertical-divider {
 			top: 30px;
 		}
 	}
+
+	&.row-eq-height {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	}
+}
+
+.panel-full-height {
+	margin-bottom: 0;
+	height: 100%;
 }
 
 .margin-bottom {
@@ -250,6 +263,7 @@ hr.vertical-divider {
 }
 
 .list-recurring {
+	margin-bottom: 0;
 	h4 {
 		margin-bottom: 0;
 	}
