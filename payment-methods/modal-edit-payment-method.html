@@ -68,7 +68,7 @@
                                     </div>
 
                                     <div class="mb border-bottom-small">
-                                        <h4 class="section-heading  border-bottom-small  visible">New Billing Address</h4>
+                                        <h4 class="section-heading  border-bottom-small  visible">Billing Address</h4>
 
                                         <div class="form-group">
                                             <label class="checkbox-inline u-textTransformNone">
@@ -76,57 +76,70 @@
                                             </label>
                                         </div>
 
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>Country</label>
-                                                    <div class="form-group">
-                                                        <select class="form-control  form-control-subtle" id="suffix">
-                                                            <option>United States of America</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>Address Line 1</label>
-                                                    <input type="text" name="address1" class="form-control  form-control-subtle" value="789 Highland Meadows Pkwy">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>Address Line 2</label>
-                                                    <input type="text" name="address2" class="form-control  form-control-subtle" value="Apt. 307">
+                                        <div id="address-billing-current" class="billing-address-wrap on">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <p>
+                                                        789 Highland Meadows Pkwy, Apt. 307<br/>
+                                                        Orlando, Florida 32821
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-                                                    <label>City</label>
-                                                    <input type="text" class="form-control  form-control-subtle" value="Orlando">
+                                        <div id="address-billing-new" class="billing-address-new-wrap">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>Country</label>
+                                                        <div class="form-group">
+                                                            <select class="form-control  form-control-subtle" id="suffix">
+                                                                <option>United States of America</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-                                                    <label>State</label>
+                                            <div class="row">
+                                                <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <select class="form-control  form-control-subtle" id="suffix">
-                                                            <option>FL</option>
-                                                        </select>
+                                                        <label>Address Line 1</label>
+                                                        <input type="text" name="address1" class="form-control  form-control-subtle" value="789 Highland Meadows Pkwy">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>Address Line 2</label>
+                                                        <input type="text" name="address2" class="form-control  form-control-subtle" value="Apt. 307">
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-                                                    <label>Zip</label>
-                                                    <input type="text" class="form-control  form-control-subtle" value="32821">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>City</label>
+                                                        <input type="text" class="form-control  form-control-subtle" value="Orlando">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>State</label>
+                                                        <div class="form-group">
+                                                            <select class="form-control  form-control-subtle" id="suffix">
+                                                                <option>FL</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label>Zip</label>
+                                                        <input type="text" class="form-control  form-control-subtle" value="32821">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
