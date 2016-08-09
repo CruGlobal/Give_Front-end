@@ -1,19 +1,19 @@
-.this-is-a-link{
+.this-is-a-link {
 	cursor: pointer;
 }
 
-.panel-header{
+.panel-header {
 	padding: 15px ;
 	h4{
 		margin: 0;
 	}
 }
 
-.light-font{
+.light-font {
 	color: #666062;
 }
 
-.bold{
+.bold {
 	font-weight: bold;
 	margin: 0 5px;
 }
@@ -101,6 +101,45 @@
 				font-weight: normal !important;
 				text-transform: uppercase;
 				color: $colorCru-gray;
+
+				&.agreement {
+					text-transform: capitalize !important;
+
+					input {
+						font-size: 1.2em;
+						color: $colorText;
+					}
+
+					span {
+						padding-left: 10px;
+						color: $colorCru-gray;
+						text-transform: none;
+						font-size: 0.9em;
+					}
+				}
+			}
+		}
+
+		.agreement-text p {
+			font-size: 0.9em;
+		}
+
+		.user-profile {
+			h4.section-heading {
+				font-weight: bold;
+			}
+
+			.section-title {
+				color: $colorCru-gray;
+			}
+
+			.gift-summary {
+				margin-bottom: 5px;
+			}
+
+			.start-date {
+				color: $colorCru-gray;
+				font-size: 0.9em;
 			}
 		}
 	}
