@@ -56,7 +56,7 @@ give_head();
                                             </div>
 
                                             <div class="col-md-4 text-right">
-                                                <p><a class="btn btn-default" data-toggle="modal" data-target="#editPaymentMethod">Edit Payment Method</a></p>
+                                                <p><a class="btn btn-default" data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit Payment Method</a></p>
                                                 <p><button class="btn btn-default">Delete Payment Method</button></p>
                                             </div>
                                         </div>
@@ -89,7 +89,7 @@ give_head();
                                                         <td>$50.00</td>
                                                         <td>Monthly</td>
                                                         <td>8/6/16</td>
-                                                        <td><a data-toggle="modal" data-target="#editPaymentMethod">Edit</a></td>
+                                                        <td><a data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit</a></td>
                                                     </tr>
 
                                                     <tr>
@@ -97,7 +97,7 @@ give_head();
                                                         <td>$100.00</td>
                                                         <td>Quarterly</td>
                                                         <td>7/12/16</td>
-                                                        <td><a data-toggle="modal" data-target="#editPaymentMethod">Edit</a></td>
+                                                        <td><a data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit</a></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -114,9 +114,9 @@ give_head();
                                         <div class="row">
                                             <div class="col-md-8">
                                                 <p>
-                                                    <span class="payment-icon"><i class="fa fa-cc-visa" aria-hidden="true"></i></span>
-                                                    <span class="payment-nickname">Visa</span>
-                                                    ending in ****1717
+                                                    <span class="payment-icon"><i class="fa fa-bank" aria-hidden="true"></i></span>
+                                                    <span class="payment-nickname">Chase Checking Account</span>
+                                                    ending in ****0025
                                                     <span class="payment-expiration">EXPIRES 08/2022</span>
                                                 </p>
                                             </div>
@@ -141,7 +141,7 @@ give_head();
                                             </div>
 
                                             <div class="col-md-4 text-right">
-                                                <p><a class="btn btn-default" data-toggle="modal" data-target="#editPaymentMethod">Edit Payment Method</a></p>
+                                                <p><a class="btn btn-default" data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit Payment Method</a></p>
                                                 <p><button class="btn btn-default">Delete Payment Method</button></p>
                                             </div>
                                         </div>
@@ -174,7 +174,7 @@ give_head();
                                                     <td>$50.00</td>
                                                     <td>Monthly</td>
                                                     <td>8/6/16</td>
-                                                    <td><a data-toggle="modal" data-target="#editPaymentMethod">Edit</a></td>
+                                                    <td><a data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit</a></td>
                                                 </tr>
 
                                                 <tr>
@@ -182,7 +182,7 @@ give_head();
                                                     <td>$100.00</td>
                                                     <td>Quarterly</td>
                                                     <td>7/12/16</td>
-                                                    <td><a data-toggle="modal" data-target="#editPaymentMethod">Edit</a></td>
+                                                    <td><a data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit</a></td>
                                                 </tr>
                                                 </tbody>
                                             </table>
@@ -202,7 +202,8 @@ give_head();
 
 <?php
 
-include('modal-edit-payment-method.html');
+include('modal-edit-credit-card-payment-method.html');
+include('modal-edit-bank-account-payment-method.html');
 give_footer();
 
 ?>
