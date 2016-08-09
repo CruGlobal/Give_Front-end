@@ -57,7 +57,7 @@ give_head();
 
                                             <div class="col-md-4 text-right">
                                                 <p><a class="btn btn-default" data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit Payment Method</a></p>
-                                                <p><button class="btn btn-default">Delete Payment Method</button></p>
+                                                <p><a class="btn btn-default" data-toggle="modal" data-target="#deleteCreditCardPaymentMethod">Delete Payment Method</a></p>
                                             </div>
                                         </div>
 
@@ -204,6 +204,7 @@ give_head();
 
 include('modal-edit-credit-card-payment-method.html');
 include('modal-edit-bank-account-payment-method.html');
+include('modal-delete-credit-card-payment-method.html');
 give_footer();
 
 ?>

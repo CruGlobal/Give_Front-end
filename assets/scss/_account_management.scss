@@ -121,7 +121,26 @@
 		}
 
 		.agreement-text p {
-			font-size: 0.8em;
+			font-size: 0.9em;
+		}
+
+		.user-profile {
+			h4.section-heading {
+				font-weight: bold;
+			}
+
+			.section-title {
+				color: $colorCru-gray;
+			}
+
+			.gift-summary {
+				margin-bottom: 5px;
+			}
+
+			.start-date {
+				color: $colorCru-gray;
+				font-size: 0.9em;
+			}
 		}
 	}
 }
