@@ -207,6 +207,7 @@ include('modal-edit-bank-account-payment-method.php');
 include('modal-delete-payment-method.php');
 include('modal-confirm-deletion-of-payment-method.php');
 include('modal-confirm-deletion-of-payment-method-transfer.php');
+include('modal-stop-recurring-gifts-on-payment-method.php');
 
 give_footer();
 

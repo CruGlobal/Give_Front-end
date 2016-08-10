@@ -1,4 +1,4 @@
-<div id="confirmDeletePaymentMethod" class="modal account-management" tabindex="-1" role="dialog">
+<div id="stopRecurringGiftsForPaymentMethod" class="modal account-management" tabindex="-1" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content pt">
             <div class="modal-header pt0 pl">
@@ -25,7 +25,10 @@
                                     <div class="mb-">
                                         <div class="row">
                                             <div class="col-sm-12">
-                                                <p><small>If you do not want this payment method to be displayed in your list of payment options, click “Confirm Delete” below</small></p>
+                                                <p><small>You are deleting this payment method from your profile and <strong>stopping all future
+                                                            recurring gifts</strong> associated with this payment method. Please click "confirm delete" below to
+                                                    delete this payment method and stop associated recurring gifts, or click "Back" to select a different option.
+                                                    </small></p>
                                             </div>
                                         </div>
                                     </div>
@@ -38,7 +41,7 @@
                                             </div>
                                             <div class="col-md-12 text-right">
                                                 <a class="u-block" data-toggle="modal" data-target="#confirmDeletePaymentMethodTransfer" data-dismiss="modal">Alternate: Delete Payment w/ Transfer</a>
-                                                <a class="u-block" data-toggle="modal" data-target="#stopRecurringGiftsForPaymentMethod" data-dismiss="modal">Alternate: Stop all Recurring Gifts</a>
+                                                <a class="u-block" data-toggle="modal" data-target="#confirmDeletePaymentMethod" data-dismiss="modal">Alternate: Delete Payment w/o Transfer</a>
                                             </div>
                                         </div>
                                     </div>
