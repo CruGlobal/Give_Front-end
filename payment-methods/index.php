@@ -57,7 +57,7 @@ give_head();
 
                                             <div class="col-md-4 text-right">
                                                 <p><a class="btn btn-default" data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit Payment Method</a></p>
-                                                <p><a class="btn btn-default" data-toggle="modal" data-target="#deleteCreditCardPaymentMethod">Delete Payment Method</a></p>
+                                                <p><a class="btn btn-default" data-toggle="modal" data-target="#deletePaymentMethod">Delete Payment Method</a></p>
                                             </div>
                                         </div>
 
@@ -142,7 +142,7 @@ give_head();
 
                                             <div class="col-md-4 text-right">
                                                 <p><a class="btn btn-default" data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit Payment Method</a></p>
-                                                <p><button class="btn btn-default">Delete Payment Method</button></p>
+                                                <p><a class="btn btn-default" data-toggle="modal" data-target="#deletePaymentMethod">Delete Payment Method</a></p>
                                             </div>
                                         </div>
 
@@ -202,9 +202,12 @@ give_head();
 
 <?php
 
-include('modal-edit-credit-card-payment-method.html');
-include('modal-edit-bank-account-payment-method.html');
-include('modal-delete-credit-card-payment-method.html');
+include('modal-edit-credit-card-payment-method.php');
+include('modal-edit-bank-account-payment-method.php');
+include('modal-delete-payment-method.php');
+include('modal-confirm-deletion-of-payment-method.php');
+include('modal-confirm-deletion-of-payment-method-transfer.php');
+
 give_footer();
 
 ?>
