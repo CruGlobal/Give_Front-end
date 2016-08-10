@@ -1,4 +1,4 @@
-<div id="deleteCreditCardPaymentMethod" class="modal account-management" tabindex="-1" role="dialog">
+<div id="deletePaymentMethod" class="modal account-management" tabindex="-1" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content pt">
             <div class="modal-header pt0 pl">
@@ -12,8 +12,8 @@
                         <div class="col-md-12 col-xs-12">
                             <div class="row">
                                 <form>
-                                    <div class="panel panel-default">
-                                        <div class="panel-body bg-danger">
+                                    <div class="panel panel-default bg-danger">
+                                        <div class="panel-body">
                                             <p>
                                                 <span class="payment-icon"><i class="fa fa-cc-visa" aria-hidden="true"></i></span>
                                                 <span class="payment-nickname">Sam's Visa Debit</span>
@@ -80,8 +80,8 @@
                                     <div class="mb0">
                                         <div class="row">
                                             <div class="col-md-12 text-right">
-                                                <a class="btn btn-default mr-" data-dismiss="modal" data-target="#editPaymentMethod">Cancel</a>
-                                                <a class="btn btn-primary">Continue</a>
+                                                <a class="btn btn-default mr-" data-dismiss="modal">Cancel</a>
+                                                <a class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#confirmDeletePaymentMethod">Continue</a>
                                             </div>
                                         </div>
                                     </div>

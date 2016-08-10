@@ -30,6 +30,12 @@
 }
 
 .account-management {
+	.panel {
+		&.bg-danger {
+			border-color: $colorHighlight-danger;
+			background-color: #f2dede;
+		}
+	}
 	.panel.panel-with-gray-background, .panel .panel-heading {
 		background-color: #FAFAFA !important;
 		font-size: 1em;
