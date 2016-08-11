@@ -34,7 +34,7 @@
                                         <div class="row">
                                             <div class="col-md-12 text-right">
                                                 <a class="btn btn-default mr-" data-toggle="modal" data-dismiss="modal" data-target="#deletePaymentMethod">Back</a>
-                                                <a class="btn btn-primary" data-toggle="modal" data-target="#editPaymentMethod" data-dismiss="modal">Confirm Delete</a>
+                                                <a href="/payment-methods?success" class="btn btn-primary">Confirm Delete</a>
                                             </div>
                                             <div class="col-md-12 text-right">
                                                 <a class="u-block" data-toggle="modal" data-target="#confirmDeletePaymentMethodTransfer" data-dismiss="modal">Alternate: Delete Payment w/ Transfer</a>

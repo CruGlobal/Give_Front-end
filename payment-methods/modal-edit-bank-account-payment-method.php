@@ -49,10 +49,10 @@
                                             <div class="col-sm-6">
                                                 <div class="form-group form-group-default form-group-inline">
                                                     <label class="label-block">Account Type</label>
-                                                    <label class="radio-inline">
+                                                    <label class="radio-inline u-textTransformNone">
                                                         <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked=""> Checking
                                                     </label>
-                                                    <label class="radio-inline">
+                                                    <label class="radio-inline u-textTransformNone">
                                                         <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Savings
                                                     </label>
                                                 </div>
@@ -133,7 +133,7 @@
                                         <div class="row">
                                             <div class="col-md-12 text-right">
                                                 <a class="btn btn-default mr-" data-dismiss="modal" data-target="#editPaymentMethod">Cancel</a>
-                                                <a class="btn btn-primary">Save Changes</a>
+                                                <a href="" class="btn btn-primary">Save Changes</a>
                                             </div>
                                         </div>
                                     </div>

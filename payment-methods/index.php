@@ -10,6 +10,12 @@ give_head();
 <div class="screenContent account-management" tabindex="-1" role="dialog">
     <div class="container">
         <div class="col-md-12">
+            <?php
+                if (isset($_GET['success'])) {
+                    echo '<div class="alert alert-danger" role="alert">Payment method has been successfully deleted.</div>';
+                }
+            ?>
+
             <div class="panel panel-margin-bottom">
                 <div class="panel-body">
                     <div class="row pb">
@@ -17,7 +23,7 @@ give_head();
                             <h3>Your Payment Methods</h3>
                         </div>
                         <div class="col-md-6 text-right">
-                            <button class="btn btn-primary">Add New Payment Method</button>
+                            <a class="btn btn-primary" data-toggle="modal" data-target="#addPaymentMethod">Add New Payment Method</a>
                         </div>
                     </div>
 
@@ -204,6 +210,7 @@ give_head();
 
 include('modal-edit-credit-card-payment-method.php');
 include('modal-edit-bank-account-payment-method.php');
+include('modal-add-payment-method.php');
 include('modal-delete-payment-method.php');
 include('modal-confirm-deletion-of-payment-method.php');
 include('modal-confirm-deletion-of-payment-method-transfer.php');
