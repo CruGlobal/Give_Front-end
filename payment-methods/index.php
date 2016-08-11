@@ -17,7 +17,7 @@ give_head();
                             <h3>Your Payment Methods</h3>
                         </div>
                         <div class="col-md-6 text-right">
-                            <button class="btn btn-primary">Add New Payment Method</button>
+                            <a class="btn btn-primary" data-toggle="modal" data-target="#addPaymentMethod">Add New Payment Method</a>
                         </div>
                     </div>
 
@@ -204,6 +204,7 @@ give_head();
 
 include('modal-edit-credit-card-payment-method.php');
 include('modal-edit-bank-account-payment-method.php');
+include('modal-add-payment-method.php');
 include('modal-delete-payment-method.php');
 include('modal-confirm-deletion-of-payment-method.php');
 include('modal-confirm-deletion-of-payment-method-transfer.php');

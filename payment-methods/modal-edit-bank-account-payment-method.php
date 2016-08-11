@@ -49,10 +49,10 @@
                                             <div class="col-sm-6">
                                                 <div class="form-group form-group-default form-group-inline">
                                                     <label class="label-block">Account Type</label>
-                                                    <label class="radio-inline">
+                                                    <label class="radio-inline u-textTransformNone">
                                                         <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked=""> Checking
                                                     </label>
-                                                    <label class="radio-inline">
+                                                    <label class="radio-inline u-textTransformNone">
                                                         <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Savings
                                                     </label>
                                                 </div>
