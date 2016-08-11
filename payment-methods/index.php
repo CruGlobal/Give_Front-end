@@ -10,6 +10,12 @@ give_head();
 <div class="screenContent account-management" tabindex="-1" role="dialog">
     <div class="container">
         <div class="col-md-12">
+            <?php
+                if (isset($_GET['success'])) {
+                    echo '<div class="alert alert-danger" role="alert">Payment method has been successfully deleted.</div>';
+                }
+            ?>
+
             <div class="panel panel-margin-bottom">
                 <div class="panel-body">
                     <div class="row pb">
