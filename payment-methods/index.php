@@ -35,7 +35,7 @@ give_head();
                                         <div class="row">
                                             <div class="col-md-8">
                                                 <p>
-                                                    <span class="payment-icon"><i class="fa fa-cc-visa" aria-hidden="true"></i></span>
+                                                    <img class="hidden-xs payment-icon" src="/assets/img/cc-icons/visa-curved-128px.png" />
                                                     <span class="payment-nickname">Visa</span>
                                                     ending in ****1717
                                                     <span class="payment-expiration">EXPIRES 08/2022</span>
@@ -120,7 +120,7 @@ give_head();
                                         <div class="row">
                                             <div class="col-md-8">
                                                 <p>
-                                                    <span class="payment-icon"><i class="fa fa-bank" aria-hidden="true"></i></span>
+                                                    <img class="hidden-xs payment-icon" src="/assets/img/icon-bank.png" />
                                                     <span class="payment-nickname">Chase Checking Account</span>
                                                     ending in ****0025
                                                     <span class="payment-expiration">EXPIRES 08/2022</span>
