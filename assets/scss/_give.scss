@@ -21,10 +21,11 @@ $gutter: 30px;
 
 html {
 	font-family: $data-font;
+	height: 100%;
 }
 
 body {
-	overflow-x: hidden;
+	height: 100%;
 }
 
 hr.vertical-divider {
@@ -161,6 +162,18 @@ hr.vertical-divider {
 			top: 30px;
 		}
 	}
+
+	&.row-eq-height {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	}
+}
+
+.panel-full-height {
+	margin-bottom: 0;
+	height: 100%;
 }
 
 .margin-bottom {
@@ -201,6 +214,12 @@ hr.vertical-divider {
 	}
 }
 
+.border-top-small {
+  border-top: 1px solid $colorCru-border;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
 .title-margin {
 	margin: 1.5em 0;
 	@include respond-to(small) {
@@ -221,6 +240,15 @@ hr.vertical-divider {
 
 .radio-method,
 .radio-custom-amount {
+	label {
+		font-weight: normal;
+	}
+	.expiring {
+		text-indent: 60px;
+		font-size: 1em;
+		line-height: 1em;
+		color: red;
+	}
 	img {
 		width: 40px;
 		height: auto;
@@ -242,6 +270,59 @@ hr.vertical-divider {
 .btn-sm {
 	font-size: .85rem;
 	font-weight: normal;
+}
+
+.table-payment-history {
+	thead {
+		th {
+			font-weight: 500;
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+	}
+	tbody {
+		td {
+			min-height: 75px;
+			height: 75px;
+			vertical-align: middle !important;
+			label {
+				margin-bottom: 0;
+			}
+			.radio-method {
+				label {
+					float: left;
+					strong {
+						font-weight: 500;
+					}
+				}
+			}
+			&.status-pending {
+				color: red;
+			}
+			&.amount {
+			}
+		}
+	}
+}
+
+.recent-recipient-row {
+	margin-bottom: $gutter;
+}
+
+.list-recurring {
+	margin-bottom: 0;
+	h4 {
+		margin-bottom: 0;
+	}
+	li {
+		margin-bottom: .75em;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.meta {
+		font-size: 1em;
+	}
 }
 
 .ecfa-logo {
