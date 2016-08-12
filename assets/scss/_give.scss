@@ -13,6 +13,10 @@ $data-font: "freight-sans-lf-cru", "Helvetica Neue", Helvetica, sans-serif;
 .no-margin-top { margin-top: 0; }
 .small-text {font-size: 12px;}
 
+.u-textTransformNone {
+	text-transform: none !important;
+}
+
 #menu {
 	display: none;
 }
