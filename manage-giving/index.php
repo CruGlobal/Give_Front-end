@@ -10,47 +10,58 @@ give_head();
   <div class="container">
     <div class="col-md-12">
       <div class="row row-eq-height mb">
+        
         <div class="col-sm-8  col-xs-12">
-          <div class="panel panel-full-height">
-            <div class="panel-body">
-              <!-- Giving Control -->
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="text-center">
-                    <p>Your Year-to-Date Giving</p>
-                    <h2><strong>$2000.00</strong></h2>
-                    <p>As of 7/29/16</p>
+
+          
+              <div class="panel panel-full-height">
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h3 class="mb0 font-weight-mild">Howard &amp; Maria Stark</h3>
+                      <p>Account #000090</p>
+
+                      <div class="">
+                        <p class="mb0">Year-to-Date Giving</p>
+                        <h3 class="m0 font-weight-mild">$2000.00</h3>
+                        <p>As of 7/29/16</p>
+                      </div>
+                      
+                    </div>
+                    <div class="col-md-6">
+
+                      <div class="form-group">
+                        <label class="">Mailing Address:</label>
+                        <p>
+                        1234 Sesame Street, Apt 306<br/>
+                        Orlando, FL 22345-2234
+                        </p>
+                      </div>
+
+                      <div class="form-group mb0">
+                        <label class="">Contact Phone:</label>
+                        <p class="mb0">
+                        (407) 555-1212
+                        </p>
+                      </div>
+
+                      
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-5">
-                  <a class="btn btn-block btn-primary">Edit Your Recurring Gifts</a>
-                  <a class="btn btn-block btn-primary mb- mt-">Give a 1-Time Gift</a>
-                  <a class="btn btn-block btn-primary">Stop or Restart a Gift</a>
-                </div>
               </div>
-            </div>
-          </div>
+            
+
         </div>
+
         <div class="col-sm-4  col-xs-12">
           <div class="panel panel-full-height">
             <div class="panel-body">
-              <h3 class="mb0">Howard &amp; Maria Stark</h3>
-              <p>#000090</p>
+              <!-- Giving Control -->
+                  <a class="btn btn-block btn-primary">Edit Your Recurring Gifts</a>
+                  <a class="btn btn-block btn-primary mb- mt-">Give a 1-Time Gift</a>
+                  <a class="btn btn-block btn-primary">Stop or Restart a Gift</a>
 
-              <div class="form-group">
-                <label class="">Mailing Address:</label>
-                <p>
-                1234 Sesame Street, Apt 306<br/>
-                Orlando, FL 22345-2234
-                </p>
-              </div>
-
-              <div class="form-group mb0">
-                <label class="">Contact Phone:</label>
-                <p class="mb0">
-                (407) 555-1212
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -61,7 +72,7 @@ give_head();
           <div class="row">
             <div class="col-sm-12">
 
-              <h2>Your Giving</h2>
+              <h3>Your Giving</h3>
               <div class="btn-group" role="group" aria-label="...">
                 <button type="button" class="btn btn-default">Recipient View</button>
                 <button type="button" class="btn btn-default">Monthly View</button>
@@ -87,7 +98,9 @@ give_head();
         </div>
       </div>
 
-      <div class="panel panel-margin-bottom">
+      <?php $i = 1; ?>
+      <?php while ($i <= 3) { ?>
+      <div class="panel panel-margin-bottom recent-recipient-row">
         <div class="panel-body">
 
           <!-- Recipient Row -->
@@ -142,24 +155,18 @@ give_head();
               </div>
               <div class="col-sm-3 col-full-height">
                 <a class="btn btn-primary btn-block">Give a New Gift</a>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-12 text-right">
-                <a class="btn btn-link p0 m0" 
+                <a class="btn btn-subtle btn-block mt-" 
                   role="button" 
                   data-toggle="collapse" 
-                  href="#details_1" 
+                  href="#details_<?php echo $i; ?>" 
                   aria-expanded="false" 
-                  aria-controls="details_1">
+                  aria-controls="details_<?php echo $i; ?>">
                   Details +
                 </a>
               </div>
             </div>
-
             
-            <div class="collapse" id="details_1">
+            <div class="collapse" id="details_<?php echo $i; ?>">
               <h4 class="border-top-small pl--">Recent Gift History</h4>
               <table class="table table-striped table-payment-history">
                 <thead>
@@ -235,6 +242,7 @@ give_head();
 
         </div>
       </div>
+      <?php $i++; } ?>
 
       <?php include( '../_includes/search.php' ); ?>
       
