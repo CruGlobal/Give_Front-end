@@ -31,7 +31,7 @@ give_head();
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default panel-with-gray-background">
                                 <div class="panel-heading" role="tab" id="paymentHeading1">
-                                    <a class="payment-summary-link u-block p" role="button" data-toggle="collapse" data-parent="#accordion" href="#paymentMethod1" aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="payment-summary-link u-block p" role="button" data-toggle="collapse" data-parent="#accordion" href="#paymentMethod1" aria-expanded="true" aria-controls="collapseOne">
                                         <div class="row">
                                             <div class="col-md-8">
                                                 <p>
@@ -42,10 +42,10 @@ give_head();
                                                 </p>
                                             </div>
                                             <div class="col-md-4 text-right payment-details-link">
-                                                Details +
+                                                <span class="collapse-indicator collapsed">Details</a>
                                             </div>
                                         </div>
-                                    </a>
+                                    </div>
                                 </div>
 
                                 <div id="paymentMethod1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="paymentHeading1">

@@ -134,6 +134,25 @@ hr.vertical-divider {
 	font-size: 125%;
 }
 
+.collapse-indicator {
+	&:after {
+		content: "\002B";
+		display: inline-block;
+		transition: all .25s;
+		transform: rotate(45deg);
+		transform-origin: 50% 50%;
+		font-size: 125%;
+		margin-top: 1px;
+		margin-left: 1.5px;
+	}
+	&.collapsed {
+		&:after {
+			transform: rotate(0deg);
+		}
+	}
+}
+
+
 .row {
 	&.vdivide [class*='col-']:not(:last-child):after {
 		background: #e0e0e0;
