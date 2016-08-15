@@ -31,7 +31,7 @@ give_head();
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default panel-with-gray-background">
                                 <div class="panel-heading" role="tab" id="paymentHeading1">
-                                    <div class="payment-summary-link u-block p" role="button" data-toggle="collapse" data-parent="#accordion" href="#paymentMethod1" aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="payment-summary-link p" role="button" data-toggle="collapse" data-parent="#accordion" href="#paymentMethod1" aria-expanded="true" aria-controls="collapseOne">
                                         <div class="row">
                                             <div class="col-md-8">
                                                 <p>
@@ -42,7 +42,7 @@ give_head();
                                                 </p>
                                             </div>
                                             <div class="col-md-4 text-right payment-details-link">
-                                                <span class="collapse-indicator collapsed">Details</a>
+                                                <span class="collapse-indicator collapsed">Details</span>
                                             </div>
                                         </div>
                                     </div>
@@ -76,7 +76,7 @@ give_head();
                                     </div>
                                     <div class="panel-body">
                                         <div class="row">
-                                            <h4 class="section-heading pl--">Recurring Gifts Using This Payment Method:</h4>
+                                            <h4 class="pl--">Recurring Gifts Using This Payment Method:</h4>
 
                                             <table class="table table-striped borderless">
                                                 <thead>
@@ -116,7 +116,7 @@ give_head();
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default panel-with-gray-background">
                                 <div class="panel-heading" role="tab" id="paymentHeading2">
-                                    <a class="payment-summary-link u-block p" role="button" data-toggle="collapse" data-parent="#accordion" href="#paymentMethod2" aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="payment-summary-link p collapsed collapse-indicator" role="button" data-toggle="collapse" data-parent="#accordion" href="#paymentMethod2" aria-expanded="true" aria-controls="collapseOne">
                                         <div class="row">
                                             <div class="col-md-8">
                                                 <p>
@@ -127,10 +127,10 @@ give_head();
                                                 </p>
                                             </div>
                                             <div class="col-md-4 text-right payment-details-link">
-                                                Details +
+                                                <button class="btn btn-subtle">Details <span class="crosshair"></span></button>
                                             </div>
                                         </div>
-                                    </a>
+                                    </div>
                                 </div>
 
                                 <div id="paymentMethod2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="paymentHeading2">
@@ -161,7 +161,7 @@ give_head();
                                     </div>
                                     <div class="panel-body">
                                         <div class="row">
-                                            <h4 class="section-heading pl--">Recurring Gifts Using This Payment Method:</h4>
+                                            <h4 class="pl--">Recurring Gifts Using This Payment Method:</h4>
 
                                             <table class="table table-striped borderless">
                                                 <thead>
