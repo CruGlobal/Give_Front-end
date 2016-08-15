@@ -53,6 +53,9 @@ give_head();
                 elit. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus.</p>
               <p>
               <p>
+                <label class="product-website-link">Website: <a href="">http://www.google.com/</a></label>
+              </a>
+              <p>
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
                   Give a Gift
                 </button>
