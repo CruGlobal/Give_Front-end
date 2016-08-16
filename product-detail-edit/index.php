@@ -44,7 +44,7 @@ give_head();
         <div class="panel-cover-wrap">
           <div href="" data-toggle="modal" data-target="#editCover">
             <div class="edit-trigger"><i class="fa fa-camera"></i></div>
-            <img src="http://fpoimg.com/1920x1080" class="panel-cover-image"/>
+            <img src="/assets/img/photo-placeholder.png" class="panel-cover-image"/>
           </div>
         </div>
         <div class="panel-body">
@@ -52,7 +52,7 @@ give_head();
             <div class="col-md-10 col-md-offset-1">
               <div href="" data-toggle="modal" data-target="#editSecondary" class=" pull-right secondary-detail ml mb hidden-xs">
                 <div class="edit-trigger"><i class="fa fa-camera"></i></div>
-                <img src="http://fpoimg.com/1920x1080" class="" />
+                <img src="/assets/img/photo-placeholder.png" class="" />
               </div>
 
               <a data-toggle="modal" data-target="#editProductDesc" class="edit-trigger edit-trigger-text"><i class="fa fa-pencil"></i></a>

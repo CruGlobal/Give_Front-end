@@ -189,10 +189,28 @@ hr.vertical-divider {
 		margin-right: 5%;
 		margin-bottom: $gutter*.75;
 		float: left;
-		height: 96px;
 		text-align: center;
-		&:nth-child(3n+0) {
-			margin-right: 0;
+		@include respond-to(small) {
+			&:nth-child(3n+0) {
+				margin-right: 0;
+			}
+		}
+		@include respond-to(medium) {
+			&:nth-child(3n+0) {
+				margin-right: 0;
+			}
+		}
+		@include respond-to(large) {
+			&:nth-child(3n+0) {
+				margin-right: 0;
+			}
+		}
+		@include respond-to(extrasmall) {
+			width: 48%;
+			margin-right: 4%;
+			&:nth-child(even) {
+				margin-right: 0;
+			}
 		}
 		img:focus {
 			outline: green auto 5px;
