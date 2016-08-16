@@ -134,63 +134,46 @@ hr.vertical-divider {
 	font-size: 125%;
 }
 
-//.collapse-indicator {
-//	&:after {
-//		content: "\002B";
-//		display: inline-block;
-//		transition: all .25s;
-//		transform: rotate(45deg);
-//		transform-origin: 50% 50%;
-//		font-size: 125%;
-//		margin-top: 1px;
-//		margin-left: 1.5px;
-//	}
-//	&.collapsed {
-//		&:after {
-//			transform: rotate(0deg);
-//		}
-//	}
-//}
+.trigger {
+	background: none;
+	border: none;
+	padding: 0;
+	line-height: 1em;
+	font-weight: 600;
+}
 
 .collapse-indicator {
-	.crosshair {
-		//position: absolute;
-		//right: 0;
-		//top: 5px;
-		opacity: 0.3;
-
-		&:hover {
-			opacity: 1;
-		}
-
-		&:before, &:after {
-			position: absolute;
-			content: ' ';
-			height: 13px;
-			width: 2px;
-			background-color: #333;
-		}
+	&:after {
+		content: "\002B";
+		display: inline-block;
+		transition: all .25s;
+		transform: rotate(45deg);
+		transform-origin: 50% 50%;
+		font-size: 125%;
+		margin-top: 1px;
+		margin-left: 1.5px;
 	}
-
 	&.collapsed {
-		.crosshair {
-			&:before {
-				transform: rotate(0deg);
-			}
-
-			&:after {
-				transform: rotate(90deg);
-			}
+		&:after {
+			transform: rotate(0deg);
 		}
 	}
+}
 
-	.crosshair {
-		&:before {
-			transform: rotate(-45deg);
-		}
-
-		&:after {
-			transform: rotate(45deg);
+.collapse-indicator-row {
+	.trigger:after {
+		content: "\002B";
+		display: inline-block;
+		transition: all .25s;
+		transform: rotate(45deg);
+		transform-origin: 50% 50%;
+		font-size: 125%;
+		margin-top: 1px;
+		margin-left: 5.5px;
+	}
+	&.collapsed {
+		.trigger:after {
+			transform: rotate(0deg);
 		}
 	}
 }
@@ -369,6 +352,10 @@ hr.vertical-divider {
 			}
 		}
 	}
+}
+
+.table-striped-dark > tbody > tr:nth-child(odd) {
+	background: lighten($colorGrayscale-stone, 5%);
 }
 
 .recent-recipient-row {
