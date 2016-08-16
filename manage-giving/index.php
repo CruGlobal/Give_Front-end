@@ -255,6 +255,7 @@ give_head();
 <?php 
 
 include ('modal-add-payment-method-manage-giving.php');
+include ('modal-confirm-changes-manage-giving.php');
 give_footer();
 
 ?>
