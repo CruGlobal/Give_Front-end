@@ -156,13 +156,13 @@ give_head();
               </div>
               <div class="col-sm-3 col-full-height">
                 <a class="btn btn-primary btn-block">Give a New Gift</a>
-                <a class="btn btn-subtle btn-block mt-" 
+                <a class="btn btn-subtle btn-block mt- collapse-indicator collapsed" 
                   role="button" 
                   data-toggle="collapse" 
                   href="#details_<?php echo $i; ?>" 
                   aria-expanded="false" 
                   aria-controls="details_<?php echo $i; ?>">
-                  Details +
+                  Details
                 </a>
               </div>
             </div>

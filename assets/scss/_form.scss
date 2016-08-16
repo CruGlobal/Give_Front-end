@@ -68,3 +68,5 @@
   font-weight: 600;
   line-height: 1.25rem;
 }
+
+.btn:focus, .btn:active:focus { outline: none;  -webkit-appearance: none; }

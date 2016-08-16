@@ -78,11 +78,6 @@
 		color: $colorCru-gray;
 	}
 
-	.section-heading {
-		font-size: 1em;
-		color: $colorCru-gray;
-	}
-
 	table {
 		&.borderless td, &.borderless th {
 			border: none;
@@ -94,7 +89,6 @@
 		}
 
 		tbody tr td:last-child {
-			font-size: 0.8em;
 			font-weight: 500;
 			color: $colorCru-blueDeep;
 		}
