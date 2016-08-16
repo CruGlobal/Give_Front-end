@@ -101,6 +101,7 @@ hr.vertical-divider {
 .secondary-detail {
 	max-width: 40%;
 	max-height: 345px;
+	position: relative;
 }
 
 .loading {
@@ -178,6 +179,100 @@ hr.vertical-divider {
 .panel-full-height {
 	margin-bottom: 0;
 	height: 100%;
+}
+
+.give-thumbs-container {
+	.cover-thumb {
+		background: #eee;
+		position: relative;
+		width: 30%;
+		margin-right: 5%;
+		margin-bottom: $gutter*.75;
+		float: left;
+		text-align: center;
+		@include respond-to(small) {
+			&:nth-child(3n+0) {
+				margin-right: 0;
+			}
+		}
+		@include respond-to(medium) {
+			&:nth-child(3n+0) {
+				margin-right: 0;
+			}
+		}
+		@include respond-to(large) {
+			&:nth-child(3n+0) {
+				margin-right: 0;
+			}
+		}
+		@include respond-to(extrasmall) {
+			width: 48%;
+			margin-right: 4%;
+			&:nth-child(even) {
+				margin-right: 0;
+			}
+		}
+		img:focus {
+			outline: green auto 5px;
+		}
+		.no-cover {
+			color: $colorCru-gray;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			transform: translateY(-50%);
+		}
+	}
+	.cover-thumb-remove {
+		background: rgba(0,0,0,.5);
+		border-radius: 100px;
+		color: $colorCru-white;
+		width: 28px;
+		height: 28px;
+		line-height: 28px;
+		position: absolute;
+		text-align: center;
+		transition: .25s all;
+		top: 5px;
+		right: 5px;
+		&:hover {
+			background: rgba(0,0,0,1);
+		}
+	}
+}
+
+.panel-cover-wrap {
+	position: relative;
+}
+
+.edit-trigger {
+	background: $colorCru-gray;
+	border-radius: 100px;
+	position: absolute;
+	cursor: pointer;
+	right: 10px;
+	top: 10px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: $colorCru-white;
+	font-size: 24px;
+	text-align: center;
+	&:hover {
+		color: $colorCru-white;;
+	}
+}
+
+.edit-trigger-text {
+	left: -50px;
+	right: auto;
+	top: 0;
+}
+
+.upload-drag-target {
+	border-radius: $gutter*.5;
+	border: 2px dashed $colorCru-border;
 }
 
 .margin-bottom {
