@@ -42,18 +42,21 @@ give_head();
 
       <div class="panel panel-margin-bottom">
         <div class="panel-cover-wrap">
-          <a href="" data-toggle="modal" data-target="#editCover">
+          <div href="" data-toggle="modal" data-target="#editCover">
+            <div class="edit-trigger"><i class="fa fa-camera"></i></div>
             <img src="http://fpoimg.com/1920x1080" class="panel-cover-image"/>
-          </a>
+          </div>
         </div>
         <div class="panel-body">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-              <a href="" data-toggle="modal" data-target="#editSecondary" class=" pull-right secondary-detail ml mb hidden-xs">
+              <div href="" data-toggle="modal" data-target="#editSecondary" class=" pull-right secondary-detail ml mb hidden-xs">
+                <div class="edit-trigger"><i class="fa fa-camera"></i></div>
                 <img src="http://fpoimg.com/1920x1080" class="" />
-              </a>
+              </div>
 
-              <a href="" data-toggle="modal" data-target="#editProductDesc">Edit Text</a>
+              <a data-toggle="modal" data-target="#editProductDesc" class="edit-trigger edit-trigger-text"><i class="fa fa-pencil"></i></a>
+
               <h4>Great Spiritual Need</h4>
               <p>Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
                 dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec

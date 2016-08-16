@@ -101,6 +101,7 @@ hr.vertical-divider {
 .secondary-detail {
 	max-width: 40%;
 	max-height: 345px;
+	position: relative;
 }
 
 .loading {
@@ -221,6 +222,34 @@ hr.vertical-divider {
 			background: rgba(0,0,0,1);
 		}
 	}
+}
+
+.panel-cover-wrap {
+	position: relative;
+}
+
+.edit-trigger {
+	background: $colorCru-gray;
+	border-radius: 100px;
+	position: absolute;
+	cursor: pointer;
+	right: 10px;
+	top: 10px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: $colorCru-white;
+	font-size: 24px;
+	text-align: center;
+	&:hover {
+		color: $colorCru-white;;
+	}
+}
+
+.edit-trigger-text {
+	left: -50px;
+	right: auto;
+	top: 0;
 }
 
 .upload-drag-target {
