@@ -81,6 +81,19 @@ hr.vertical-divider {
 	}
 }
 
+.border-top-small {
+	@include respond-to(small) {
+		border-top: 1px solid lighten($colorGrayscale-text, 60%);
+		margin-top: 1.5em;
+		padding-top: 1.5em;
+	}
+	@include respond-to(extrasmall) {
+		border-top: 1px solid lighten($colorGrayscale-text, 60%);
+		margin-top: 1.5em;
+		padding-top: 1.5em;
+	}
+}
+
 .title-margin {
 	margin: 1.5em 0;
 	@include respond-to(small) {
