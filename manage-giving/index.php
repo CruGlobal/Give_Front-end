@@ -255,6 +255,9 @@ give_head();
 <?php 
 
 include ('modal-add-payment-method-manage-giving.php');
+include ('modal-make-changes-manage-giving.php');
+
+// unfinished modals -- cleanup needed after new modal template was defined
 include ('modal-confirm-changes-manage-giving.php');
 include ('modal-recent-gifts-manage-giving.php');
 give_footer();
