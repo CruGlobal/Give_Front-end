@@ -60,7 +60,7 @@ give_head();
             <div class="panel-body">
               <!-- Giving Control -->
                   <a class="btn btn-block btn-primary" data-toggle="modal" data-target="#addPaymentMethodManageGiving">Edit Your Recurring Gifts</a>
-                  <a class="btn btn-block btn-primary mb- mt-">Give a 1-Time Gift</a>
+                  <a class="btn btn-block btn-primary mb- mt-"  data-toggle="modal" data-target="#giveOneTime">Give a 1-Time Gift</a>
                   <a class="btn btn-block btn-primary">Stop or Restart a Gift</a>
 
             </div>
@@ -256,6 +256,7 @@ give_head();
 
 include ('modal-add-payment-method-manage-giving.php');
 include ('modal-confirm-changes-manage-giving.php');
+include ('modal-select-multiple.php');
 include ('modal-recent-gifts-manage-giving.php');
 give_footer();
 

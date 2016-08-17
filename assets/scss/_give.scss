@@ -453,6 +453,48 @@ hr.vertical-divider {
 	background: lighten($colorGrayscale-stone, 5%);
 }
 
+.select-recipient-row {
+	border-bottom: 1px solid $colorGrayscale-pebble;
+	margin-bottom: $gutter*.5;
+	padding-bottom: $gutter*.5;
+	clear: both;
+	line-height: 1em;
+	&:before,
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	&:last-child {
+		padding-bottom: 0;
+		border-bottom: 0;
+	}
+	[class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+	.recipient-image {
+		max-width: 100px;
+	}
+	.recipient-name {
+		margin-bottom: $gutter*.25;
+	}
+	.recipient-id {
+		color: lighten($colorGrayscale-text, 40%);
+	}
+	.checkbox-right {
+		text-align: right;
+		label {
+			text-align: right;
+			padding: 0;
+			font-weight: normal;			
+		}
+		input[type=checkbox] {
+			margin-left: $gutter*.25;
+		}
+	}
+}
+
 .recent-recipient-row {
 	margin-bottom: $gutter;
 }
