@@ -39,10 +39,9 @@
       overflow-y: scroll;
     }
 
+    // remove this selector if unneeded
     .row {
       > .border-bottom-small, > .border-top-small {
-        margin-left: 15px;
-        margin-right: 15px;
       }
     }
   }
