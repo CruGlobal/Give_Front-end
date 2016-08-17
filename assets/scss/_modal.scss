@@ -4,14 +4,32 @@
   }
 
   .modal-header {
+    border-bottom: none;
     padding-top: 30px;
+
+    h3 {
+      margin: 0;
+      line-height: 1.25em;
+    }
+
+    @media (min-width: 992px) {
+      button.close {
+        background: url("/assets/images/close-icon.png");
+        background-size: contain;
+        width: 36px;
+        height: 36px;
+        margin-top: -30px;
+        margin-right: -85px;
+        opacity: 1;
+
+        span {
+          display: none;
+        }
+      }
+    }
 
     .border-bottom-small {
       margin-bottom: 0;
-    }
-
-    button.close {
-      margin-right: -85px;
     }
   }
 
@@ -49,26 +67,6 @@ body{
 }
 
 .modal-content {
-	.modal-header {
-        border-bottom: none;
-
-		@media (min-width: 992px) {
-			button.close {
-				background: url("/assets/images/close-icon.png");
-                background-size: contain;
-				width: 36px;
-				height: 36px;
-				margin-top: -30px;
-				margin-right: -65px;
-				opacity: 1;
-
-				span {
-					display: none;
-				}
-			}
-		}
-	}
-
     .form-group {
         label.radio {
           padding-left: 23px;
