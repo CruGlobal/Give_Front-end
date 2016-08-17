@@ -454,7 +454,7 @@ hr.vertical-divider {
 }
 
 .select-recipient-row {
-	border-bottom: 1px solid $colorGrayscale-pebble;
+	border-bottom: 1px solid lighten($colorGrayscale-text, 60%);
 	margin-bottom: $gutter*.5;
 	padding-bottom: $gutter*.5;
 	clear: both;
