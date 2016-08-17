@@ -1,4 +1,8 @@
 .modal-content.give-modal-content {
+  .hide-modal {
+    display: none;
+  }
+
   .modal-header {
     padding-top: 30px;
 
@@ -15,11 +19,6 @@
     .panel-body.bank-agreement {
       height: 150px;
       overflow-y: scroll;
-    }
-
-    // remove this selector and use hidden-sm etc
-    label.account-type span[class*=hidden] {
-      display: none;
     }
   }
 
