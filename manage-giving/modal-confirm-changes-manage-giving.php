@@ -99,7 +99,7 @@
                         </div>
 
                         <div class="col-md-12">
-                            <a class="btn btn-default pull-left" data-dismiss="modal" data-toggle="modal" data-target="#">Edit</a>
+                            <a class="btn btn-default pull-left" data-dismiss="modal" data-toggle="modal" data-target="#recentGiftsManageGiving">Edit</a>
                             <a class="btn btn-primary pull-right" data-dismiss="modal" data-toggle="modal" data-target="#">Confirm Changes</a>
                         </div>
                     </div>

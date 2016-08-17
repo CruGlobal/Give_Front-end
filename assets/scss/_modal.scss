@@ -1,4 +1,36 @@
-body{  
+.modal-content.give-modal-content {
+  .modal-header {
+    padding-top: 30px;
+
+    .border-bottom-small {
+      margin-bottom: 0;
+    }
+
+    button.close {
+      margin-right: -85px;
+    }
+  }
+
+  .modal-body {
+    .panel-body.bank-agreement {
+      height: 150px;
+      overflow-y: scroll;
+    }
+
+    // remove this selector and use hidden-sm etc
+    label.account-type span[class*=hidden] {
+      display: none;
+    }
+  }
+
+  .modal-footer {
+    padding: $gutter/2 0;
+    margin-left: $gutter;
+    margin-right: $gutter;
+  }
+}
+
+body{
   @media (min-width: 1024px) {
     .modal-large {
         width: auto;
