@@ -27,8 +27,11 @@
 
             <div class="modal-footer">
                 <div class="row">
-                    <div class="col-xs-12">
-                        <a class="btn btn-primary pull-right" data-dismiss="modal" data-toggle="modal" data-target="#confirmChangesManageGiving">Add and Continue</a>
+                    <div class="col-xs-6">
+                        <a class="btn btn-default" data-dismiss="modal">Cancel</a>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <a class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#makeChangesManageGiving">Add and Continue</a>
                     </div>
                 </div>
             </div>

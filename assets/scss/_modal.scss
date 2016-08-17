@@ -38,12 +38,23 @@
       height: 150px;
       overflow-y: scroll;
     }
+
+    .row {
+      > .border-bottom-small, > .border-top-small {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+    }
   }
 
   .modal-footer {
-    padding: $gutter/2 0;
+    padding: $gutter/2;
     margin-left: $gutter;
     margin-right: $gutter;
+
+    &.no-border {
+      border: none;
+    }
   }
 }
 
