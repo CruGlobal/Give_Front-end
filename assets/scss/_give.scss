@@ -510,10 +510,6 @@ hr.vertical-divider {
 		padding-bottom: 0;
 		border-bottom: 0;
 	}
-	[class*="col-"] {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
 	.recipient-image {
 		max-width: 100px;
 	}
@@ -534,6 +530,30 @@ hr.vertical-divider {
 			margin-left: $gutter*.25;
 		}
 	}
+}
+
+.row-no-spacing {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.inline-form-group {
+  label {
+    display: block;
+  }
+  span.line-height {
+    line-height: 44px;
+  }
+  input[type=text],
+  input[type=number],
+  input[type=email],
+  input[type=password] {
+    display: inline-block;
+    width: 175px;
+    margin-right: $gutter*.5;
+  }
 }
 
 .recent-recipient-row {
