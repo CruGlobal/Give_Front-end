@@ -17,14 +17,14 @@
 
             <div class="modal-body pb0">
                 <div class="container-fluid" tabindex="-1" role="dialog">
-                    <div class="row">
+                    <div class="row row-no-spacing">
                         <div class="col-md-12 col-xs-12">
 
                             <?php 
                             $i = 1;
                             while($i <= 3) { ?>
 
-                            <div class="select-recipient-row">
+                            <div class="repeating-row select-recipient-row">
                               <div class="col-xs-3">
                                   <img src="http://placehold.it/550x310" />
                               </div>
