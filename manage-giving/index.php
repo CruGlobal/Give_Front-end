@@ -277,6 +277,7 @@ include('modal-config-gift-amounts.php');
 include('modal-select-method.php');
 include('modal-confirm-changes-manage-giving.php');
 include('modal-what-would-you-like-to-do-manage-giving.php');
+include('modal-stop-a-gift-manage-giving.php');
 
 give_footer();
 
