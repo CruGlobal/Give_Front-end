@@ -26,7 +26,7 @@
             </div>
 
             <div class="modal-footer">
-                <div class="row">
+                <div class="row row-no-spacing">
                     <div class="col-xs-6">
                         <a class="btn btn-default" data-dismiss="modal">Cancel</a>
                     </div>
