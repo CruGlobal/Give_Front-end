@@ -32,7 +32,7 @@
               </div>
               <div class="col-sm-5">
                 <h4 class="recipient-name">Eli Adadevoh</h4>
-                <span class="recipient-id">334565</span>
+                <span class="recipient-id">#334565</span>
               </div>
               <div class="col-sm-4">
                 <div class="checkbox-right">
