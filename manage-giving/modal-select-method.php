@@ -19,13 +19,13 @@
                 <div class="container-fluid" tabindex="-1" role="dialog">
                     <div class="row">
                         <div class="col-md-12 col-xs-12">
-                          <div class="select-recipient-row">
+                          <div class="repeating-row select-recipient-row">
                             <?php 
                             $i = 1;
                             while($i <= 3) { ?>
 
-                              <?php include('../checkout-payment-method/partial-existing-method-row.html'); ?>
-                            
+                                <?php include('../checkout-payment-method/partial-existing-method-row.html'); ?>
+
                             <?php 
                             $i++; 
                             } 
@@ -45,6 +45,7 @@
             <div class="modal-footer">
                 <div class="row row-no-spacing">
                     <div class="col-xs-6">
+                        <a class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#configGiftAmount">Back</a>
                     </div>
                     <div class="col-xs-6 text-right">
                         <a class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#">Continue</a>
