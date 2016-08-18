@@ -55,9 +55,10 @@
             <div class="modal-footer">
                 <div class="row row-no-spacing">
                     <div class="col-xs-6">
+                        <a class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#">Back</a>
                     </div>
                     <div class="col-xs-6 text-right">
-                        <a class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#">Continue</a>
+                        <a class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#newRecurringGiftManageGiving">Continue</a>
                     </div>
                 </div>
             </div>
