@@ -27,8 +27,10 @@
             while($i <= 3) { ?>
 
             <div class="select-recipient-row">
-              <div class="col-sm-8">
-                <img src="http://placehold.it/550x310" class="pull-left mr- recipient-image">
+              <div class="col-xs-3">
+                <img src="http://placehold.it/550x310" class="">
+              </div>
+              <div class="col-sm-5">
                 <h4 class="recipient-name">Eli Adadevoh</h4>
                 <span class="recipient-id">334565</span>
               </div>
@@ -52,9 +54,9 @@
       </div>
 
       <div class="modal-footer">
-        <div class="row">
+        <div class="row row-no-spacing">
           <div class="col-xs-12">
-            <a class="btn btn-primary pull-right" data-dismiss="modal" data-toggle="modal" data-target="#confirmChangesManageGiving">Add and Continue</a>
+            <a class="btn btn-primary pull-right" data-dismiss="modal" data-toggle="modal" data-target="#configGiftAmount">Add and Continue</a>
           </div>
         </div>
       </div>
