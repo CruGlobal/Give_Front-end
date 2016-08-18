@@ -504,7 +504,7 @@ hr.vertical-divider {
 }
 
 .row-no-spacing {
-  [class*="col-"] {
+  > [class*="col-"] {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
