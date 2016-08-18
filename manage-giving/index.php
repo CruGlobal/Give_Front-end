@@ -66,7 +66,7 @@ give_head();
                    data-target="#addPaymentMethodManageGiving">Edit Your Recurring Gifts</a>
                 <a class="btn btn-block btn-primary mb- mt-" data-toggle="modal" data-target="#giveOneTime">Give
                   a 1-Time Gift</a>
-                <a class="btn btn-block btn-primary">Stop or Restart a Gift</a>
+                <a class="btn btn-block btn-primary" data-toggle="modal" data-target="#whatTodDoManageGiving">Stop or Restart a Gift</a>
 
               </div>
             </div>
@@ -276,6 +276,9 @@ include('modal-select-multiple.php');
 include('modal-config-gift-amounts.php');
 include('modal-select-method.php');
 include('modal-confirm-changes-manage-giving.php');
+include('modal-what-would-you-like-to-do-manage-giving.php');
+include('modal-stop-a-gift-manage-giving.php');
+include('modal-confirm-changes-start-stop-changes-manage-giving.php');
 
 give_footer();
 
