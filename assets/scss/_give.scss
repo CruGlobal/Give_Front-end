@@ -33,6 +33,18 @@ $data-font: "freight-sans-lf-cru", "Helvetica Neue", Helvetica, sans-serif;
 
 $gutter: 30px;
 
+.btn-transparent {
+  background: transparent !important;
+
+  &:hover, &:active, &:focus, &:visited {
+    background: transparent !important;
+  }
+}
+
+.border0 {
+  border: none;
+}
+
 html {
   font-family: $data-font;
   height: 100%;
