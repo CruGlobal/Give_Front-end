@@ -17,7 +17,7 @@ give_head();
 
         <?php include("partial-user-profile-panel.html"); ?>
         <?php include("partial-your-giving-views-panel.html"); ?>
-        <?php include("partial-receipt-view.php") ?>
+        <?php include("partial-monthly-view.php") ?>
 
         <?php include('../_includes/search.php'); ?>
 
