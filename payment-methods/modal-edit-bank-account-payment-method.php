@@ -23,7 +23,7 @@
                                     </div>
 
                                     <div class="mb">
-                                        <h4 class="section-heading  border-bottom-small  visible">Bank Details</h4>
+                                        <h4 class="border-bottom-small  visible">Bank Details</h4>
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <div class="form-group">
@@ -108,7 +108,7 @@
                                     </div>
 
                                     <div class="mb border-bottom-small">
-                                        <h4 class="section-heading  border-bottom-small  visible">Bank Account Agreement</h4>
+                                        <h4 class="border-bottom-small  visible">Bank Account Agreement</h4>
 
                                         <div class="row">
                                             <div class="col-sm-12">

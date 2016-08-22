@@ -23,14 +23,14 @@
                                     </div>
 
                                     <div class="mb">
-                                        <h4 class="section-heading  border-bottom-small  visible">Recurring Gifts Using this Payment Method</h4>
+                                        <h4 class="border-bottom-small  visible">Recurring Gifts Using this Payment Method</h4>
 
                                         <div class="row user-profile">
                                             <div class="col-sm-12">
                                                 <img src="http://placehold.it/100x100" class="pull-left">
 
                                                 <div class="pull-left ml">
-                                                    <h4 class="section-heading mb-- mt--">Jeanette Deaux</h4>
+                                                    <h4 class="mb-- mt--">Jeanette Deaux</h4>
                                                     <p class="section-title">#123456789</p>
 
                                                     <p class="gift-summary">$50.00 Monthly</p>
@@ -46,7 +46,7 @@
                                                 <img src="http://placehold.it/100x100" class="pull-left">
 
                                                 <div class="user-profile pull-left ml">
-                                                    <h4 class="section-heading mb-- mt--">Bruce Banner</h4>
+                                                    <h4 class="mb-- mt--">Bruce Banner</h4>
                                                     <p class="section-title">#123456789</p>
 
                                                     <p class="gift-summary">$250.00 Monthly</p>
@@ -59,7 +59,7 @@
                                     </div>
 
                                     <div class="mb border-bottom-small">
-                                        <h4 class="section-heading visible">Select an action for these recurring gifts:</h4>
+                                        <h4 class="visible">Select an action for these recurring gifts:</h4>
 
                                         <div class="form-group">
                                             <label class="radio u-textTransformNone radio-inline">
