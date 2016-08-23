@@ -1,9 +1,9 @@
 #give-hero {
   .hero-image {
-    background: url("https://images.unsplash.com/photo-1470434151738-dc5f4474c239") 50% 50%;
+    background: url("/assets/images/give-hero-placeholder.png") 50% 50%;
     background-size: cover;
     position: relative;
-    height: 400px;
+    height: 430px;
   }
 
   .hero-content {
@@ -24,7 +24,7 @@
     }
 
     h4, p {
-      color: $colorCru-white
+      color: $colorCru-white;
     }
 
     form {
@@ -52,6 +52,35 @@
           i {
             color: $colorCru-gray;
           }
+        }
+      }
+    }
+  }
+
+  .hero-leads {
+    margin-top: -30px;
+    position: relative;
+
+    .hero-lead-first, .hero-lead-second, .hero-lead-third {
+      float: left;
+      width: 33.333333333%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+
+      a {
+        display: block;
+        padding-top: 30px;
+        height: 190px;
+        -webkit-transition: .25s all;
+        -moz-transition: .25s all;
+        -ms-transition: .25s all;
+        -o-transition: .25s all;
+        transition: .25s all;
+
+        &:hover {
+          transform: scale(1.1);
+          padding-top: 0;
         }
       }
     }

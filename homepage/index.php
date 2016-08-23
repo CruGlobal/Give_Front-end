@@ -33,17 +33,17 @@ give_head();
       <div class="hero-leads container">
         <div class="hero-lead-first">
           <a href="" title="" >
-            <img src="" alt="" /><!-- offset top by -30px -->
+            <img src="/assets/images/people.png" /><!-- offset top by -30px -->
           </a>
         </div>
         <div class="hero-lead-second">
           <a href="" title="" >
-            <img src="" alt="" /><!-- offset top by -30px -->
+            <img src="/assets/images/ministry.png" /><!-- offset top by -30px -->
           </a>
         </div>
         <div class="hero-lead-third">
           <a href="" title="" >
-            <img src="" alt="" /><!-- offset top by -30px -->
+            <img src="/assets/images/featured-opportunities.png" /><!-- offset top by -30px -->
           </a>
         </div>
       </div>
