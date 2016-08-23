@@ -515,7 +515,15 @@ hr.vertical-divider {
   background: lighten($colorGrayscale-stone, 5%);
 }
 
-.select-recipient-row {
+
+.modal-meta{
+  color: lighten($colorGrayscale-text, 40%);
+  margin-bottom: $gutter*.25;
+  display: block;
+  line-height: 1.15em;
+}
+
+.repeating-row {
 	clear: both;
 	line-height: 1em;
 	&:before,
@@ -529,9 +537,6 @@ hr.vertical-divider {
 	}
 	.recipient-name {
 		margin-bottom: $gutter*.25;
-	}
-	.recipient-id {
-		color: lighten($colorGrayscale-text, 40%);
 	}
 	.checkbox-right {
 		text-align: right;
@@ -639,4 +644,8 @@ hr.vertical-divider {
     left: 100%;
     margin-left: 15px;
   }
+}
+
+.text-muted {
+  color: lighten($colorGrayscale-text, 40%);
 }

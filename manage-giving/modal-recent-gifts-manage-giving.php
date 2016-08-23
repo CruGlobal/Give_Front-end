@@ -7,7 +7,8 @@
                         <div class="col-xs-12">
                             <div class="border-bottom-small">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h3>You’ve also given to these recipients recently. Would you like to add them to your rcurring gifts?</h3>
+                                <h3>You've also given to these recipients recently.</h3>
+                                <p>Would you like to add them to your recurring gifts?</p>
                             </div>
                         </div>
                     </div>
@@ -31,7 +32,7 @@
                                     </div>
                                     <div class="col-sm-5">
                                         <h4 class="recipient-name">Eli Adadevoh</h4>
-                                        <span class="recipient-id">334565</span>
+                                        <span class="modal-meta">#334565</span>
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="checkbox-right">
