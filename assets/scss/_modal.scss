@@ -34,10 +34,6 @@
   }
 
   .modal-body {
-    .panel-body.bank-agreement {
-      height: 150px;
-      overflow-y: scroll;
-    }
 
     .repeating-row {
       @include clearfix;

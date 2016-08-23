@@ -20,12 +20,12 @@
                         <div class="col-md-12 col-xs-12">
                             <div class="repeating-row">
                                 <div class="col-xs-3">
-                                    <img src="http://placehold.it/100x100">
+                                    <img src="http://placehold.it/550x310">
                                 </div>
 
                                 <div class="col-xs-9">
-                                    <h3 class="mb0">Clark Kent</h3>
-                                    <small>#123456789</small>
+                                    <h4 class="recipient-name">Clark Kent</h4>
+                                    <span class="modal-meta">#123456789</span>
 
                                     <?php include('partial-gift-details.html'); ?>
 
