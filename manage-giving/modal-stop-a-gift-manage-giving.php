@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-sm-5">
                   <h4 class="recipient-name">Jeanette Deaux</h4>
-                  <span class="recipient-id">#334565</span>
+                  <span class="modal-meta">#334565</span>
 
                   <h5 class="mt-- mb0">$50.00 Monthly</h5>
                   <small>On the 15th day of each month</small>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-sm-5">
                   <h4 class="recipient-name">Bruce Banner</h4>
-                  <span class="recipient-id">#334565</span>
+                  <span class="modal-meta">#334565</span>
 
                   <h5 class="mt-- mb0">$250.00 Monthly</h5>
                   <small>On the 15th day of each month</small>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-sm-5">
                   <h4 class="recipient-name">Peter Parker</h4>
-                  <span class="recipient-id">#334565</span>
+                  <span class="modal-meta">#334565</span>
 
                   <h5 class="mt-- mb0">$25.00 Monthly</h5>
                   <small>On the 15th day of each month</small>

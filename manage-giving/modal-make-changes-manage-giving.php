@@ -20,12 +20,12 @@
                         <div class="col-md-12 col-xs-12">
                             <div class="repeating-row">
                                 <div class="col-xs-3">
-                                    <img src="http://placehold.it/100x100">
+                                    <img src="http://placehold.it/550x310">
                                 </div>
 
                                 <div class="col-xs-9">
-                                    <h3 class="mb0">Jeanette Deaux</h3>
-                                    <small>#123456789</small>
+                                    <h4 class="recipient-name">Jeanette Deaux</h4>
+                                    <span class="modal-meta">#123456789</span>
 
                                     <?php include('partial-gift-details.html'); ?>
                                 </div>
@@ -33,12 +33,12 @@
 
                             <div class="repeating-row">
                                 <div class="col-xs-3">
-                                    <img src="http://placehold.it/100x100">
+                                    <img src="http://placehold.it/550x310">
                                 </div>
 
                                 <div class="col-xs-9">
-                                    <h3 class="mb0">Bruce Banner</h3>
-                                    <small>#123456789</small>
+                                    <h4 class="recipient-name">Bruce Banner</h4>
+                                    <span class="modal-meta">#123456789</span>
 
                                     <?php include('partial-gift-details.html'); ?>
 
@@ -62,12 +62,12 @@
 
                             <div class="repeating-row">
                                 <div class="col-xs-3">
-                                    <img src="http://placehold.it/100x100">
+                                    <img src="http://placehold.it/550x310">
                                 </div>
 
                                 <div class="col-xs-9">
-                                    <h3 class="mb0">Natasha Romanov</h3>
-                                    <small>#123456789</small>
+                                    <h4 class="recipient-name">Natasha Romanov</h4>
+                                    <span class="modal-meta">#123456789</span>
 
                                     <?php include('partial-gift-details.html'); ?>
 
@@ -89,12 +89,12 @@
 
                             <div class="repeating-row">
                                 <div class="col-xs-3">
-                                    <img src="http://placehold.it/100x100">
+                                    <img src="http://placehold.it/550x310">
                                 </div>
 
                                 <div class="col-xs-9">
-                                    <h3 class="mb0">Peter Parker</h3>
-                                    <small>#123456789</small>
+                                    <h4 class="recipient-name">Peter Parker</h4>
+                                    <span class="modal-meta">#123456789</span>
 
                                     <?php include('partial-gift-details.html'); ?>
 
