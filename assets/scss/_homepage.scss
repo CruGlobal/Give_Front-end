@@ -130,17 +130,20 @@ $border-radius: 4px;
 .panel-give-featured {
   box-shadow: none;
   max-width: 290px;
+
   .panel-header {
     background: $colorCru-gold;
     color: $colorCru-white;
     border: 1px solid $colorCru-gold;
     border-radius: $border-radius $border-radius 0 0;
+
     h3 {
       font-weight: 500;
       font-size: 20px;
       margin: 0;
     }
   }
+
   .panel-body {
     border: 1px solid $colorGrayscale-pebble;
     border-top: none;
