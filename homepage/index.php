@@ -75,16 +75,17 @@ give_head();
             </div>
           </div>
           <div class="col-md-8">
-            <form class="form-inline form-give-home-signin mt">
+            <form class="form-inline form-give-home-signin mt pb border-bottom-small text-center">
               <div class="form-group">
-                <label for="exampleInputName2">Name</label>
-                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                <span class="btn btn-default form-heading">EXISTING USERS</span>
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail2">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                <input type="text" class="form-control" placeholder="Username">
               </div>
-              <button type="submit" class="btn btn-default">Send invitation</button>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-default">Sign In</button>
             </form>
             
             <div class="give-home-slider mt">
@@ -96,13 +97,61 @@ give_head();
     </section>
 
     <section id="give-integrity">
-    </section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Our Commitment to Financial Integrity</h1>
+            <p class="mb0">Cru is supported by people like you who want to help the Body of Christ
+              grow through evangelism and discipleship.</p>
+            <p><strong>Your gifts help:</strong></p>
+          </div>
 
-    <section id="give-creditibility">
-    </section>
+          <div class="col-xs-8 col-xs-offset-2">
+            <div class="row">
+              <div class="col-md-4 integrity-col win">
+                <p>Win people to faith <br> in Jesus Christ</p>
+              </div>
 
+              <div class="col-md-4 integrity-col build">
+                <p>Build them <br> in their faith</p>
+              </div>
+
+              <div class="col-md-4 integrity-col send">
+                <p>Send them to win <br> and build others</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 
+  <section id="give-creditibility">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <div class="credibility-col credibility-security">
+            <h4>Credibility</h4>
+            <p>Cru is a charter member of the Evangelical Council for Financial Accountability (EFCA) and follows the highest ethical standards. You can also download a copy of our annual report.</p>
+
+            <h4>Security</h4>
+            <p>You can give with confidence knowing that your transaction is secure.</p>
+          </div>
+
+          <div class="credibility-col credibility-logos">
+            <img src="/assets/images/ECFA%20logo.png">
+            <img src="/assets/images/digicert%20logo.png">
+          </div>
+
+          <div class="credibility-col trust">
+            <h4>Trust</h4>
+            <p>Your trust is important to us, so a full description of Cru's fundraising policies and guidelines are available online for you to view anytime.</p>
+            <p>We invite you to read more about our commitment to good stewardship.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 <?php
 
