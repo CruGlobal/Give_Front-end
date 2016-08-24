@@ -12,6 +12,10 @@
       line-height: 1.25em;
     }
 
+    p {
+      margin-bottom: 0;
+    }
+
     @media (min-width: 992px) {
       button.close {
         background: url("/assets/images/close-icon.png");
@@ -58,6 +62,18 @@
     padding: $gutter/2;
     margin-left: $gutter;
     margin-right: $gutter;
+  }
+
+  .alert {
+    margin-bottom: $gutter *.5;
+  }
+}
+
+.modal-sm {
+  .give-modal-content {
+    .modal-body {
+      padding-top: 0;
+    }
   }
 }
 
