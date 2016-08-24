@@ -84,6 +84,7 @@ give_head();
           <li><a data-toggle="modal" data-target="#userMatchIsThisYou">User Match - Is This You?</a></li>
           <li><a data-toggle="modal" data-target="#userMatchActivateYourAccount">User Match - Activate Your Account</a></li>
           <li><a data-toggle="modal" data-target="#userMatchQuestions">User Match - Questions</a></li>
+          <li><a data-toggle="modal" data-target="#modalWithAlert">Modal w/ Alert</a></li>
         </ul>
       </div>
     </div>
@@ -97,6 +98,7 @@ give_head();
   <?php include('_modals/modal-contact-information.php'); ?>
   <?php include('_modals/modal-is-this-you.php'); ?>
   <?php include('_modals/modal-activate-your-account.php'); ?>
+  <?php include('_modals/modal-modal-with-alert.php'); ?>
   <?php include('_modals/modal-questions.php'); ?>
 
 <?php
