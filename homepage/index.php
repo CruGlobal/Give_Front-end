@@ -16,9 +16,9 @@ give_head();
 
             <form>
               <div class="input-group">
-                <input type="text" class="form-control form-control-subtle">
+                <input type="text" class="form-control form-control-subtle input-lg">
                 <span class="input-group-btn">
-                  <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                  <button type="submit" class="btn btn-primary btn-lg"><i class="fa fa-search"></i></button>
                 </span>
               </div>
 
@@ -32,22 +32,49 @@ give_head();
 
       <div class="hero-leads container">
         <div class="hero-lead-first">
-          <a href="" title="" >
-            <img src="/assets/images/people.png" /><!-- offset top by -30px -->
+          <a href="#" title="" >
+            <div class="image-container">
+            <h3>People</h3>
+            </div>
           </a>
         </div>
         <div class="hero-lead-second">
-          <a href="" title="" >
-            <img src="/assets/images/ministry.png" /><!-- offset top by -30px -->
+          <a href="#" title="" >
+            <div class="image-container">
+            <h3>Ministries</h3>
+            </div>
           </a>
         </div>
         <div class="hero-lead-third">
-          <a href="" title="" >
-            <img src="/assets/images/featured-opportunities.png" /><!-- offset top by -30px -->
+          <a href="#" title="">
+            <div class="image-container">
+            <h3>Featured Opportunities</h3>
+            </div>
           </a>
         </div>
       </div>
     </section>
+
+
+    <section id="give-featured">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            Featured
+          </div>
+          <div class="col-md-7 col-md-offset-1">
+            Slider
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="give-integrity">
+    </section>
+
+    <section id="give-creditibility">
+    </section>
+
   </div>
 
 
