@@ -22,10 +22,10 @@ give_head();
                 </span>
               </div>
 
-              <button class="btn btn-primary mt- ps_x">Search</button>
+              <button class="btn btn-primary mt- submit-search">Search</button>
             </form>
 
-            <p class="mt">or search by:</p>
+            <p class="mt mb0">or search by:</p>
           </div>
         </div>
       </div>
@@ -60,10 +60,36 @@ give_head();
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            Featured
+            <div class="panel panel-give-featured mt">
+              <div class="panel-header">
+                <h3>Featured</h3>
+              </div>
+              <div class="panel-body">
+                <h3>Give Support to “JESUS” Film Teams</h3>
+                <div class="give-featured-image">
+                  <img src="https://give.cru.org/ucmcons/groups/public/@shared-dss-1-tg-6/documents/stillimage/~extract/CMS1_086059~1~staticrendition/crudss288.jpg" />
+                </div>
+                <p><strong>How wonderful is our God! He truly is the great healer of body...and spirit!</strong></p>
+                <p>Myndert Bloem is a missionary from South Africa. He and his JESUS film team had been showing the film in several… <a href="">[read more]</a></p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-7 col-md-offset-1">
-            Slider
+          <div class="col-md-8">
+            <form class="form-inline form-give-home-signin mt">
+              <div class="form-group">
+                <label for="exampleInputName2">Name</label>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail2">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+              </div>
+              <button type="submit" class="btn btn-default">Send invitation</button>
+            </form>
+            
+            <div class="give-home-slider mt">
+            </div>
+
           </div>
         </div>
       </div>
