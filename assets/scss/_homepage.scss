@@ -35,7 +35,7 @@ $border-radius: 4px;
       button.submit-search {
         /* Discover more button BG: */
         background: #F9B625;
-        border-radius: $border-radius ;
+        border-radius: $border-radius;
         height: 46px;
         line-height: 43px;
         padding: 0 50px;
@@ -45,7 +45,7 @@ $border-radius: 4px;
         max-width: 345px;
 
         input {
-          border-radius: $border-radius  0 0 $border-radius;
+          border-radius: $border-radius 0 0 $border-radius;
           border-right-width: 0;
           box-shadow: none;
           border: none;
@@ -58,7 +58,7 @@ $border-radius: 4px;
           background-color: #fff;
           border: none;
           box-shadow: none;
-          border-radius: 0 $border-radius  $border-radius  0;
+          border-radius: 0 $border-radius $border-radius 0;
           padding: 14px;
           line-height: 22px;
 
@@ -74,8 +74,8 @@ $border-radius: 4px;
     margin-top: -30px;
     position: relative;
 
-    .hero-lead-first, 
-    .hero-lead-second, 
+    .hero-lead-first,
+    .hero-lead-second,
     .hero-lead-third {
       float: left;
       width: 33.333333333%;
@@ -164,7 +164,6 @@ $border-radius: 4px;
   }
 }
 
-
 .form-give-home-signin {
   .form-group {
     &:not(:last-child) {
@@ -229,8 +228,8 @@ $border-radius: 4px;
   }
 
   .win:before {
-     background-image: url("/assets/images/win.png");
-   }
+    background-image: url("/assets/images/win.png");
+  }
   .build:before {
     background-image: url("/assets/images/build.png");
   }
@@ -258,18 +257,15 @@ $border-radius: 4px;
   }
 
   .credibility-security {
-    width: 50%;
-  }
-  .credibility-logos {
-    width: 15%;
+    width: 70%;
 
     img {
-      margin-left: auto;
-      margin-right: auto;
-      padding-bottom: 20px;
+      display: inline-block;
+      float: right;
     }
   }
+
   .trust {
-    width: 35%;
+    width: 30%;
   }
 }
