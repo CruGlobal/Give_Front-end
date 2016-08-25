@@ -176,7 +176,7 @@ $border-radius: 4px;
   // start placeholder for slider
   height: 397px;
   width: 100%;
-  background: url("/assets/images/slider image.png") 50% 50%;
+  background: url("/assets/images/slider-image.png") 50% 50%;
   background-size: cover;
   // end placeholder for slider
 }
@@ -191,7 +191,7 @@ $border-radius: 4px;
 
   h1 {
     font-size: 36px;
-    color: #666062;
+    color: $colorCru-gray;
     font-weight: 600;
   }
 
@@ -216,7 +216,7 @@ $border-radius: 4px;
   }
 }
 
-#give-creditibility {
+#give-credibility {
   padding-top: $gutter*2;
   padding-bottom: $gutter*2;
   background: $colorCru-white;
@@ -239,14 +239,14 @@ $border-radius: 4px;
   }
   .credibility-logos {
     width: 15%;
+
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 20px;
+    }
   }
   .trust {
     width: 35%;
-  }
-
-  .credibility-logos img {
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
   }
 }

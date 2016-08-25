@@ -77,7 +77,7 @@ give_head();
           <div class="col-md-8">
             <form class="form-inline form-give-home-signin mt pb border-bottom-small text-center">
               <div class="form-group">
-                <span class="btn btn-default form-heading">EXISTING USERS</span>
+                <span class="btn btn-default form-heading">Existing Users</span>
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Username">
@@ -126,7 +126,7 @@ give_head();
     </section>
   </div>
 
-  <section id="give-creditibility">
+  <section id="give-credibility">
     <div class="container">
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1">
@@ -139,8 +139,8 @@ give_head();
           </div>
 
           <div class="credibility-col credibility-logos">
-            <img src="/assets/images/ECFA%20logo.png">
-            <img src="/assets/images/digicert%20logo.png">
+            <img src="/assets/images/ECFA-logo.png">
+            <img src="/assets/images/digicert-logo.png">
           </div>
 
           <div class="credibility-col trust">
