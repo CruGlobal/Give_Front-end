@@ -22,10 +22,10 @@
     >
     <?php
     $i =  1;
-    while ($i <= 3) : 
+    while ($i <= 2) : 
     ?>
       <div class="slide">
-          <div class="slide-image"><img src="/assets/images/intern-ops.jpg"/></div>
+          <div class="slide-image"><img src="/assets/images/slider-image-<?php echo $i; ?>.jpg"/></div>
           <div class="slide-caption">
             <h3><?php echo $i; ?> Awesome Slider Is Here! Woot!</h3>
             <a href="#" class="btn btn-primary">Click Here</a>

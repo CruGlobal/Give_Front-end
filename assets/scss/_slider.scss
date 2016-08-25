@@ -1,13 +1,92 @@
+.give-home-slider-wrap {
+  .cycle-nav {
+    position: absolute;
+    bottom: 0;
+    z-index: 120;
+    width: 52%;
+
+    .prevControl,
+    .nextControl {
+      display: inline-block;
+      background: no-repeat 50% 50%;
+      background-size: 16px auto;
+      width: 9%;
+      height: 16px;
+      text-indent: -1000px;
+      overflow: hidden;
+      margin: 0;
+      vertical-align: top;
+      cursor: pointer;
+    }
+
+    .prevControl {
+      background-image: url(../img/arrow-left-slide.png);
+      background-position: middle left;
+    }
+    .nextControl {
+      background-image: url(../img/arrow-right-slide.png);
+      background-position: middle-right;
+    }
+    .cycle-pager {
+      display: inline-block;
+      width: 80%;
+      margin: 0;
+      height: 16px;
+      vertical-align: top;
+      text-align: center;
+      cursor: pointer;
+      span {
+        vertical-align: top;
+        line-height: 16px;
+        height: 16px;
+        margin: 2px 3px;
+        font-size: 16px;
+        color: $colorCru-gold;
+        background: $colorCru-gold;
+        border-radius: 100px;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .cycle-pager-active {
+        color: #3EB1C8;
+        background: #3EB1C8;
+      }
+    }
+  }
+}
+
 .give-home-slider.cycle-slideshow {
   background: none;
+  position: relative;
 
   .slide {
     position: relative;
     height: 400px;
+    max-width: 750px;
+
+    .slide-image {
+      width: 85%;
+    }
+
+    .slide-caption {
+      background: #E7E7E7;
+      position: absolute;
+      left: auto;
+      right: 0;
+      bottom: 50px;
+      top: auto;
+      opacity: 0;
+      width: 45%;
+      height: 200px;
+      transition: .5s all;
+      padding: $gutter;
+    }  
 
     &.cycle-slide-active {
       .slide-image {
-
+        width: 85%;
       }
       .slide-caption {
         left: auto;
@@ -17,24 +96,6 @@
         opacity: 1;
       }
     }
-
-    .slide-image {
-
-    }
-
-    .slide-caption {
-      background: #eee;
-      position: absolute;
-      left: auto;
-      right: 0;
-      bottom: 50px;
-      top: auto;
-      opacity: 0;
-      width: 300px;
-      height: 200px;
-      transition: .5s all;
-      padding: $gutter;
-    }  
 
   }
 
