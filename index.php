@@ -78,16 +78,16 @@ give_head();
       <div class="panel-heading">Modals</div>
       <div class="panel-body">
         <ul class="listBare">
-          <li><a data-toggle="modal" data-target="#signinModal">Sign In Modal (all of *.cru.org)</a></li>
-          <li><a data-toggle="modal" data-target="#signinModalRec">Sign In Modal (Password Challenge)</a></li>
-          <li><a data-toggle="modal" data-target="#signupModal">Sign Up Modal (all of *.cru.org)</a></li>
-          <li><a data-toggle="modal" data-target="#resetModal">Reset Password (all of *.cru.org)</a></li>
-          <li><a data-toggle="modal" data-target="#modalBenefits">Thank You Page Modal - Register Your Account</a></li>
-          <li><a data-toggle="modal" data-target="#checkoutModal1">Checkout - Step 1 - Contact Information</a></li>
-          <li><a data-toggle="modal" data-target="#userMatchIsThisYou">User Match - Is This You?</a></li>
-          <li><a data-toggle="modal" data-target="#userMatchActivateYourAccount">User Match - Activate Your Account</a></li>
-          <li><a data-toggle="modal" data-target="#userMatchQuestions">User Match - Questions</a></li>
-          <li><a data-toggle="modal" data-target="#modalWithAlert">Modal w/ Alert</a></li>
+          <li><a data-toggle="modal" data-target="#signinModal" href="#">Sign In Modal (all of *.cru.org)</a></li>
+          <li><a data-toggle="modal" data-target="#signinModalRec" href="#">Sign In Modal (Password Challenge)</a></li>
+          <li><a data-toggle="modal" data-target="#signupModal" href="#">Sign Up Modal (all of *.cru.org)</a></li>
+          <li><a data-toggle="modal" data-target="#resetModal" href="#">Reset Password (all of *.cru.org)</a></li>
+          <li><a data-toggle="modal" data-target="#modalBenefits" href="#">Thank You Page Modal - Register Your Account</a></li>
+          <li><a data-toggle="modal" data-target="#checkoutModal1" href="#">Checkout - Step 1 - Contact Information</a></li>
+          <li><a data-toggle="modal" data-target="#userMatchIsThisYou" href="#">User Match - Is This You?</a></li>
+          <li><a data-toggle="modal" data-target="#userMatchActivateYourAccount" href="#">User Match - Activate Your Account</a></li>
+          <li><a data-toggle="modal" data-target="#userMatchQuestions" href="#">User Match - Questions</a></li>
+          <li><a data-toggle="modal" data-target="#modalWithAlert" href="#">Modal w/ Alert</a></li>
         </ul>
       </div>
     </div>
