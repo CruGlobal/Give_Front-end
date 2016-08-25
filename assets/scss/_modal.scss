@@ -12,15 +12,35 @@
       line-height: 1.25em;
     }
 
+    p {
+      margin-bottom: 0;
+    }
+
+    button.close {
+      background: url("/assets/img/close-mobile.png");
+      background-size: contain;
+      width: 27px;
+      height: 27px;
+      opacity: 1;
+      top: -15px;
+      right: -4px;
+      position: absolute;
+
+      span {
+        display: none;
+      }
+    }
+
     @media (min-width: 992px) {
       button.close {
-        background: url("/assets/images/close-icon.png");
+        background: url("/assets/img/close-icon.png");
         background-size: contain;
         width: 36px;
         height: 36px;
         margin-top: -30px;
         margin-right: -85px;
         opacity: 1;
+        position: static;
 
         span {
           display: none;
@@ -34,10 +54,6 @@
   }
 
   .modal-body {
-    .panel-body.bank-agreement {
-      height: 150px;
-      overflow-y: scroll;
-    }
 
     .repeating-row {
       @include clearfix;
@@ -62,6 +78,18 @@
     padding: $gutter/2;
     margin-left: $gutter;
     margin-right: $gutter;
+  }
+
+  .alert {
+    margin-bottom: $gutter *.5;
+  }
+}
+
+.modal-sm {
+  .give-modal-content {
+    .modal-body {
+      padding-top: 0;
+    }
   }
 }
 

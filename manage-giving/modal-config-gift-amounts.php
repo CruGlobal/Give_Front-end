@@ -31,7 +31,7 @@
 
                               <div class="col-xs-9">
                                   <h4 class="recipient-name">Eli Adadevoh</h4>
-                                  <span class="recipient-id">#334565</span>
+                                  <span class="modal-meta">#334565</span>
 
                                   <div class="row mt-">
                                     <div class="col-xs-12">

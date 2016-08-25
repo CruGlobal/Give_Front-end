@@ -155,10 +155,10 @@
           </div>
         </div>
         <div class="modal-footer">
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-6 col-sm-6 col-xs-6">
             <button class="btn btn-default btn-md btn-block-xs" data-dismiss="modal" type="button">Cancel &amp; Return</button>
           </div>
-          <div class="col-md-6 col-sm-6 text-right">
+          <div class="col-md-6 col-sm-6 col-xs-6 text-right">
             <button class="btn btn-md btn-primary btn-block-xs" type="button">Add to Gift Cart</button>
           </div>
         </div>

@@ -6,6 +6,9 @@ give_head();
 
 ?>
 
+<div class="container">
+  <div class="row">
+
 <!-- TITLE BAR -->
   <div class="site-header"></div>
   <div class="section-title  u-centerBlock  masonry__item  col-md-12  col-xs-12  mb mt" >
@@ -75,15 +78,16 @@ give_head();
       <div class="panel-heading">Modals</div>
       <div class="panel-body">
         <ul class="listBare">
-          <li><a data-toggle="modal" data-target="#signinModal">Sign In Modal (all of *.cru.org)</a></li>
-          <li><a data-toggle="modal" data-target="#signinModalRec">Sign In Modal (Password Challenge)</a></li>
-          <li><a data-toggle="modal" data-target="#signupModal">Sign Up Modal (all of *.cru.org)</a></li>
-          <li><a data-toggle="modal" data-target="#resetModal">Reset Password (all of *.cru.org)</a></li>
-          <li><a data-toggle="modal" data-target="#modalBenefits">Thank You Page Modal - Register Your Account</a></li>
-          <li><a data-toggle="modal" data-target="#checkoutModal1">Checkout - Step 1 - Contact Information</a></li>
-          <li><a data-toggle="modal" data-target="#userMatchIsThisYou">User Match - Is This You?</a></li>
-          <li><a data-toggle="modal" data-target="#userMatchActivateYourAccount">User Match - Activate Your Account</a></li>
-          <li><a data-toggle="modal" data-target="#userMatchQuestions">User Match - Questions</a></li>
+          <li><a data-toggle="modal" data-target="#signinModal" href="#">Sign In Modal (all of *.cru.org)</a></li>
+          <li><a data-toggle="modal" data-target="#signinModalRec" href="#">Sign In Modal (Password Challenge)</a></li>
+          <li><a data-toggle="modal" data-target="#signupModal" href="#">Sign Up Modal (all of *.cru.org)</a></li>
+          <li><a data-toggle="modal" data-target="#resetModal" href="#">Reset Password (all of *.cru.org)</a></li>
+          <li><a data-toggle="modal" data-target="#modalBenefits" href="#">Thank You Page Modal - Register Your Account</a></li>
+          <li><a data-toggle="modal" data-target="#checkoutModal1" href="#">Checkout - Step 1 - Contact Information</a></li>
+          <li><a data-toggle="modal" data-target="#userMatchIsThisYou" href="#">User Match - Is This You?</a></li>
+          <li><a data-toggle="modal" data-target="#userMatchActivateYourAccount" href="#">User Match - Activate Your Account</a></li>
+          <li><a data-toggle="modal" data-target="#userMatchQuestions" href="#">User Match - Questions</a></li>
+          <li><a data-toggle="modal" data-target="#modalWithAlert" href="#">Modal w/ Alert</a></li>
         </ul>
       </div>
     </div>
@@ -97,7 +101,12 @@ give_head();
   <?php include('_modals/modal-contact-information.php'); ?>
   <?php include('_modals/modal-is-this-you.php'); ?>
   <?php include('_modals/modal-activate-your-account.php'); ?>
+  <?php include('_modals/modal-modal-with-alert.php'); ?>
   <?php include('_modals/modal-questions.php'); ?>
+
+
+  </div>
+</div>
 
 <?php
 

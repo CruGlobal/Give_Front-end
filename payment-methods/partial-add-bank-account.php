@@ -93,7 +93,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="panel panel-default">
-                                <div class="panel-body agreement-text">
+                                <div class="panel-body agreement-text p-">
                                     <p>By selecting the "I Agree" checkbox below, I acknowledge that I have read, understand and agree to these Terms and Conditions, and that this agreement constitutes a "writing signed by me" under any applicable law or regulation. I authorize Cru to initiate electronic funds transfers (debits) from my account at the financial institution listed above, and to initiate</p>
                                 </div>
                             </div>
