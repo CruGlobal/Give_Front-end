@@ -6,6 +6,9 @@ give_head();
 
 ?>
 
+<div class="container">
+  <div class="row">
+
 <!-- TITLE BAR -->
   <div class="site-header"></div>
   <div class="section-title  u-centerBlock  masonry__item  col-md-12  col-xs-12  mb mt" >
@@ -100,6 +103,10 @@ give_head();
   <?php include('_modals/modal-activate-your-account.php'); ?>
   <?php include('_modals/modal-modal-with-alert.php'); ?>
   <?php include('_modals/modal-questions.php'); ?>
+
+
+  </div>
+</div>
 
 <?php
 
