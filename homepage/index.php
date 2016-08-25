@@ -88,8 +88,7 @@ give_head();
               <button type="submit" class="btn btn-default">Sign In</button>
             </form>
             
-            <div class="give-home-slider mt">
-            </div>
+            <?php include('slider-partial.php'); ?>
 
           </div>
         </div>
