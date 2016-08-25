@@ -8,7 +8,7 @@ give_head();
 
   <div class="screenContent" tabindex="-1" role="dialog">
     <section id="give-hero">
-      <div class="hero-container container">
+      <div class="hero-container container-fluid ps0">
         <div class="hero-image">
           <div class="hero-content">
             <h1>Start a New Gift</h1>
@@ -30,25 +30,25 @@ give_head();
         </div>
       </div>
 
-      <div class="hero-leads container">
+      <div class="hero-leads container-fluid ps0">
         <div class="hero-lead-first">
           <a href="#" title="" >
             <div class="image-container">
-            <h3>People</h3>
+              <h3>People</h3>
             </div>
           </a>
         </div>
         <div class="hero-lead-second">
           <a href="#" title="" >
             <div class="image-container">
-            <h3>Ministries</h3>
+              <h3>Ministries</h3>
             </div>
           </a>
         </div>
         <div class="hero-lead-third">
           <a href="#" title="">
             <div class="image-container">
-            <h3>Featured Opportunities</h3>
+              <h3>Featured Opportunities</h3>
             </div>
           </a>
         </div>
@@ -56,8 +56,8 @@ give_head();
     </section>
 
 
-    <section id="give-featured">
-      <div class="container">
+    <section id="give-featured mt">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-4">
             <div class="panel panel-give-featured mt">
@@ -97,7 +97,7 @@ give_head();
     </section>
 
     <section id="give-integrity">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12">
             <h1>Our Commitment to Financial Integrity</h1>
@@ -108,15 +108,15 @@ give_head();
 
           <div class="col-xs-8 col-xs-offset-2">
             <div class="row">
-              <div class="col-md-4 integrity-col win">
+              <div class="col-sm-4 integrity-col win">
                 <p>Win people to faith <br> in Jesus Christ</p>
               </div>
 
-              <div class="col-md-4 integrity-col build">
+              <div class="col-sm-4 integrity-col build">
                 <p>Build them <br> in their faith</p>
               </div>
 
-              <div class="col-md-4 integrity-col send">
+              <div class="col-sm-4 integrity-col send">
                 <p>Send them to win <br> and build others</p>
               </div>
             </div>
