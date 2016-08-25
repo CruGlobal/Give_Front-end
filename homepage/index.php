@@ -59,7 +59,7 @@ give_head();
     <section id="give-featured mt">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4 give-featured-col">
             <div class="panel panel-give-featured mt">
               <div class="panel-header">
                 <h3>Featured</h3>
@@ -74,7 +74,7 @@ give_head();
               </div>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-sm-8 sign-in-slider-col">
             <form class="form-inline form-give-home-signin mt pb border-bottom-small text-center">
               <div class="form-group">
                 <span class="btn btn-default form-heading">Existing Users</span>

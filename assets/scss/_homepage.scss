@@ -127,12 +127,18 @@ $border-radius: 4px;
   background: $colorCru-white;
 }
 
+.give-featured-col {
+  @media only screen and (max-width: 640px) {
+    width: 100%;
+  }
+}
+
 .panel-give-featured {
   box-shadow: none;
   max-width: 290px;
 
-  @media only screen and (max-width: 590px) {
-    display: none;
+  @media only screen and (max-width: 640px) {
+    max-width: none;
   }
 
   .panel-header {
@@ -151,6 +157,10 @@ $border-radius: 4px;
   .panel-body {
     border: 1px solid $colorGrayscale-pebble;
     border-top: none;
+  }
+
+  .give-featured-image img {
+    width: 100%;
   }
 }
 
