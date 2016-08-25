@@ -1,0 +1,11 @@
+.m-noFloat {
+  @include respond-to(supertiny) {
+    float: none !important;
+  }  
+}
+
+.panel-body {
+  @include respond-to(extrasmall) {
+    padding: $gutter*.6666;
+  }
+}
