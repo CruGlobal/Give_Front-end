@@ -1,0 +1,41 @@
+.give-home-slider.cycle-slideshow {
+  background: none;
+
+  .slide {
+    position: relative;
+    height: 400px;
+
+    &.cycle-slide-active {
+      .slide-image {
+
+      }
+      .slide-caption {
+        left: auto;
+        right: 0;
+        bottom: 0;
+        top: auto;
+        opacity: 1;
+      }
+    }
+
+    .slide-image {
+
+    }
+
+    .slide-caption {
+      background: #eee;
+      position: absolute;
+      left: auto;
+      right: 0;
+      bottom: 50px;
+      top: auto;
+      opacity: 0;
+      width: 300px;
+      height: 200px;
+      transition: .5s all;
+      padding: $gutter;
+    }  
+
+  }
+
+}
