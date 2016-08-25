@@ -1,10 +1,17 @@
 <div id="modalWithAlert" class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-sm">
-    <div class="modal-content">
+    <div class="modal-content give-modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-            aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title text-center">Activate Your Account</h3>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="border-bottom-small">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="text-center">Activate Your Account</h3>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="modal-body">
         <div class="container-fluid">

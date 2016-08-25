@@ -12,9 +12,28 @@
       line-height: 1.25em;
     }
 
+    p {
+      margin-bottom: 0;
+    }
+
+    button.close {
+      background: url("/assets/img/close-mobile.png");
+      background-size: contain;
+      width: 29px;
+      height: 29px;
+      opacity: 1;
+      right: -4px;
+      position: absolute;
+      top: -15px;
+
+      span {
+        display: none;
+      }
+    }
+
     @media (min-width: 992px) {
       button.close {
-        background: url("/assets/images/close-icon.png");
+        background: url("/assets/img/close-icon.png");
         background-size: contain;
         width: 36px;
         height: 36px;
@@ -58,6 +77,18 @@
     padding: $gutter/2;
     margin-left: $gutter;
     margin-right: $gutter;
+  }
+
+  .alert {
+    margin-bottom: $gutter *.5;
+  }
+}
+
+.modal-sm {
+  .give-modal-content {
+    .modal-body {
+      padding-top: 0;
+    }
   }
 }
 
