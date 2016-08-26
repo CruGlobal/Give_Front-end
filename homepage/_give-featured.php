@@ -1,5 +1,5 @@
-<section id="give-featured" class="pt">
-  <div class="container-width container-margin">
+<section id="give-featured" class="pt pb">
+  <div class="container">
     <div class="row">
       <div class="col-sm-4 give-featured-col">
         <div class="panel panel-give-featured mt">
@@ -19,7 +19,7 @@
       <div class="col-sm-8 sign-in-slider-col">
         <form class="form-inline form-give-home-signin mt pb border-bottom-small text-center">
           <div class="form-group">
-            <span class="btn btn-default form-heading hidden-sm">Existing Users</span>
+            <span class="btn btn-default form-heading hidden-sm hidden-md">Existing Users</span>
           </div>
           <div class="form-group">
             <input type="text" class="form-control" placeholder="Username">
@@ -27,7 +27,13 @@
           <div class="form-group">
             <input type="password" class="form-control" placeholder="Password">
           </div>
-          <button type="submit" class="btn btn-default">Sign In</button>
+          <div class="form-group">
+            <button type="submit" class="btn btn-default">Sign In</button>
+          </div>
+          <div class="form-group text-left home-self-service">
+            <a href="" class="u-block">Forgot Password</a>
+            <a href="" class="u-block">Create an Account</a>
+          </div>
         </form>
         
         <?php include('slider-partial.php'); ?>

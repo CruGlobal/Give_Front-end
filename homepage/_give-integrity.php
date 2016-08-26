@@ -1,9 +1,9 @@
 <section id="give-integrity">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 integrity-opener">
             <h1>Our Commitment to Financial Integrity</h1>
-            <p class="mb0">Cru is supported by people like you who want to help the Body of Christ
+            <p class="mb0">Cru is supported by people like you who want to help the Body of Christ<br/>
               grow through evangelism and discipleship.</p>
             <p><strong>Your gifts help:</strong></p>
           </div>

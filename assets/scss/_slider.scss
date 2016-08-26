@@ -6,7 +6,12 @@
     width: 52%;
     text-align: center;
 
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 1200px) {
+      width: 35%;
+      bottom: 60px;
+    }
+
+    @media screen and (max-width: 991px) {
       width: 100%;
       position: static;
       padding-top: 20px;
@@ -78,20 +83,16 @@
     position: relative;
     height: 400px;
     max-width: 750px;
-    @media screen and (max-width: 1000px) {
+
+    @media screen and (max-width: 991px) {
       height: auto;
-    }
-    @media screen and (max-width: 720px) {
-      height: auto;
+      max-width: auto;
     }
 
     .slide-image {
       width: 85%;
-      @media screen and (max-width: 1000px) {
-        width: 100%;
-      }
-      @media screen and (max-width: 720px) {
-        width: 100%;
+      @media screen and (max-width: 991px) {
+        width: auto;
       }
     }
 
@@ -106,7 +107,16 @@
       height: auto;
       transition: .5s all;
       padding: $gutter*1.2;
-      @media screen and (max-width: 720px) {
+      @media screen and (max-width: 1200px) {
+        width: 60%;
+        padding: $gutter * .8;
+        h3 {
+        }
+        .btn {
+          padding: 0 10px;
+        }
+      }
+      @media screen and (max-width: 991px) {
         width: auto;
         position: static;
         padding: $gutter;
@@ -116,12 +126,12 @@
         font-size: 24px;
         line-height: 1.35em;
         opacity: 0;
-        margin-left: 20px;
+        margin-left: 0px;
         transition: .35s all;
       }
       .btn {
         opacity: 0;
-        margin-left: 20px;
+        margin-left: 0px;
         transition: .5s all;
       }
     }  
