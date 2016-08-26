@@ -36,7 +36,7 @@ $border-radius: 4px;
       button.submit-search {
         /* Discover more button BG: */
         background: #F9B625;
-        border-radius: $border-radius ;
+        border-radius: $border-radius;
         height: 46px;
         line-height: 43px;
         padding: 0 50px;
@@ -48,7 +48,7 @@ $border-radius: 4px;
         margin-right: auto;
 
         input {
-          border-radius: $border-radius  0 0 $border-radius;
+          border-radius: $border-radius 0 0 $border-radius;
           border-right-width: 0;
           box-shadow: none;
           border: none;
@@ -61,7 +61,7 @@ $border-radius: 4px;
           background-color: #fff;
           border: none;
           box-shadow: none;
-          border-radius: 0 $border-radius  $border-radius  0;
+          border-radius: 0 $border-radius $border-radius 0;
           padding: 14px;
           line-height: 22px;
 
@@ -219,7 +219,6 @@ $border-radius: 4px;
   }
 }
 
-
 .form-give-home-signin {
 
   @media screen and (max-width: 860px) {
@@ -280,8 +279,8 @@ $border-radius: 4px;
   }
 
   .win:before {
-     background-image: url("/assets/images/win.png");
-   }
+    background-image: url("/assets/images/win.png");
+  }
   .build:before {
     background-image: url("/assets/images/build.png");
   }
