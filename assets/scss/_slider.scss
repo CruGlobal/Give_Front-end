@@ -4,6 +4,19 @@
     bottom: 0;
     z-index: 120;
     width: 52%;
+    text-align: center;
+
+    @media screen and (max-width: 720px) {
+      width: 100%;
+      position: static;
+      padding-top: 20px;
+      &:before,
+      &:after {
+        content: "";
+        display: block;
+        width: 100%;
+      }
+    }
 
     .prevControl,
     .nextControl {
@@ -29,7 +42,7 @@
     }
     .cycle-pager {
       display: inline-block;
-      width: 80%;
+      width: 60%;
       margin: 0;
       height: 16px;
       vertical-align: top;
@@ -65,9 +78,21 @@
     position: relative;
     height: 400px;
     max-width: 750px;
+    @media screen and (max-width: 1000px) {
+      height: auto;
+    }
+    @media screen and (max-width: 720px) {
+      height: auto;
+    }
 
     .slide-image {
       width: 85%;
+      @media screen and (max-width: 1000px) {
+        width: 100%;
+      }
+      @media screen and (max-width: 720px) {
+        width: 100%;
+      }
     }
 
     .slide-caption {
@@ -75,18 +100,34 @@
       position: absolute;
       left: auto;
       right: 0;
-      bottom: 50px;
+      bottom: 0;
       top: auto;
-      opacity: 0;
       width: 45%;
-      height: 200px;
+      height: auto;
       transition: .5s all;
-      padding: $gutter;
+      padding: $gutter*1.2;
+      @media screen and (max-width: 720px) {
+        width: auto;
+        position: static;
+        padding: $gutter;
+        opacity: 1;
+      }
+      h3 {
+        font-size: 24px;
+        line-height: 1.35em;
+        opacity: 0;
+        margin-left: 20px;
+        transition: .35s all;
+      }
+      .btn {
+        opacity: 0;
+        margin-left: 20px;
+        transition: .5s all;
+      }
     }  
 
     &.cycle-slide-active {
       .slide-image {
-        width: 85%;
       }
       .slide-caption {
         left: auto;
@@ -94,6 +135,14 @@
         bottom: 0;
         top: auto;
         opacity: 1;
+        h3 {
+          margin-left: 0;
+          opacity: 1;
+        }
+        .btn {
+          margin-left: 0;
+          opacity: 1;
+        }
       }
     }
 

@@ -4,7 +4,7 @@
       data-cycle-timeout="3000"
       data-cycle-slides="> div"
       data-cycle-speed="1500"
-      data-cycle-fx="none"
+      data-cycle-fx="scrollHorz"
       data-cycle-pause-on-hover="true"
 
       data-cycle-prev=".prevControl"
@@ -20,8 +20,8 @@
         <div class="slide">
             <div class="slide-image"><img src="/assets/img/slider-image-<?php echo $i; ?>.jpg"/></div>
             <div class="slide-caption">
-              <h3><?php echo $i; ?> Awesome Slider Is Here! Woot!</h3>
-              <a href="#" class="btn btn-primary">Click Here</a>
+              <h3>Help plant a church where no one knows Jesus yet.</h3>
+              <a href="#" class="btn btn-primary">Discover More</a>
             </div>
         </div>
       <?php
