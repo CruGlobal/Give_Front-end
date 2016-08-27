@@ -85,7 +85,7 @@
   }
 }
 
-$row-eq-height-breakpoints: 768;
+$row-eq-height-breakpoints: 549;
 @each $breakpoint in $row-eq-height-breakpoints {
   @media screen and (max-width: #{$breakpoint}px) {
     .row-eq-height.break-flex-at-#{$breakpoint} {
