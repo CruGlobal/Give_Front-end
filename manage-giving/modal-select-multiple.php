@@ -18,7 +18,7 @@
       <div class="modal-body">
         <div class="container-fluid" tabindex="-1" role="dialog">
           <div class="row row-no-spacing">
-            <div class="col-md-12 col-xs-12">
+            <div class="col-xs-12">
 
             <!-- /////////////// Person list -->
 
@@ -27,14 +27,14 @@
             while($i <= 3) { ?>
 
             <div class="repeating-row select-recipient-row">
-              <div class="col-xs-3">
+              <div class="col-sm-3 col-md-3 mb">
                 <img src="http://placehold.it/550x310" class="">
               </div>
-              <div class="col-sm-5">
+              <div class="col-sm-5 col-md-5">
                 <h4 class="recipient-name">Eli Adadevoh</h4>
                 <span class="modal-meta">#334565</span>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 col-md-4">
                 <div class="checkbox-right">
                   <label>Add <input type="checkbox" value=""></label>
                 </div>

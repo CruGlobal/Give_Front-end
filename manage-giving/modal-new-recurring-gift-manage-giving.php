@@ -19,11 +19,11 @@
                     <div class="row row-no-spacing">
                         <div class="col-xs-12">
                             <div class="repeating-row">
-                                <div class="col-sm-12 col-md-3 mb">
+                                <div class="col-sm-3 col-md-3 mb">
                                     <img src="http://placehold.it/550x310">
                                 </div>
 
-                                <div class="col-md-9">
+                                <div class="col-sm-9 col-md-9">
                                     <h4 class="recipient-name">Clark Kent</h4>
                                     <span class="modal-meta">#123456789</span>
 
