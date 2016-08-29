@@ -11,6 +11,12 @@ $data-font: "freight-sans-lf-cru", "Helvetica Neue", Helvetica, sans-serif;
   font-family: $data-font;
 }
 
+@media screen and (max-width: 750px) {
+  .container {
+      width: auto;
+  }  
+}
+
 .no-margin-bottom {
   margin-bottom: 0;
 }

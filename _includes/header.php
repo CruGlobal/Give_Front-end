@@ -15,6 +15,7 @@
     <script src="/assets/js/typekit.js"></script>
     <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
     <script src="/assets/bower_components/slick-carousel/slick/slick.min.js"></script>
+    <script src="/assets/js/cycle2.js"></script>
     <script src="/assets/js/give.js"></script>
 
 </head>

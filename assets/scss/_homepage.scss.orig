@@ -77,6 +77,7 @@ $border-radius: 4px;
     margin-top: -30px;
     position: relative;
 
+<<<<<<< HEAD
     @media screen and (max-width: 720px) {
       margin-top: 0;
       background: url(/assets/images/intern-ops.jpg) 50% 50%;
@@ -85,6 +86,10 @@ $border-radius: 4px;
 
     .hero-lead-first, 
     .hero-lead-second, 
+=======
+    .hero-lead-first,
+    .hero-lead-second,
+>>>>>>> 2ee5015f68a5fc665a713734017ac8996dcd9899
     .hero-lead-third {
       float: left;
       width: 33.333333333%;
@@ -120,10 +125,6 @@ $border-radius: 4px;
           height: 60px;
           padding-top: 0;
           line-height: 60px;
-          h3 {
-            line-height: 60px;
-            padding: 0;
-          }
         }
 
         &:hover {
@@ -167,13 +168,7 @@ $border-radius: 4px;
 }
 
 .give-featured-col {
-  @media only screen and (max-width: 720px) {
-    width: 100%;
-  }
-}
-
-.sign-in-slider-col {
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 640px) {
     width: 100%;
   }
 }
@@ -182,7 +177,7 @@ $border-radius: 4px;
   box-shadow: none;
   max-width: 290px;
 
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 640px) {
     max-width: none;
   }
 
@@ -207,11 +202,13 @@ $border-radius: 4px;
     p {
       line-height: 1.45em;
     }
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 860px) {
       h3 {font-size: 22px; font-weight: 500;}
+    }
+    @media screen and (max-width: 1000px) {
       p:nth-last-child(2) {
-        display: block;
-      }  
+        display: none;
+      }      
     }
   }
 
@@ -221,6 +218,7 @@ $border-radius: 4px;
       width: 100%;
       @media screen and (max-width: 840px) {
         font-size: 18px;
+        display: none;
       }
     }
   }
@@ -228,7 +226,7 @@ $border-radius: 4px;
 
 .form-give-home-signin {
 
-  @media screen and (max-width: 840px) {
+  @media screen and (max-width: 860px) {
     display: none;
   }
 
@@ -252,13 +250,6 @@ $border-radius: 4px;
     border-color: $colorCru-gold;
   }
 
-  .home-self-service {
-    line-height: 1.1em;
-    a {
-      color: $colorText;
-    }
-  }
-
   @media only screen and (max-width: 720px) {
     display: none;
   }
@@ -278,16 +269,7 @@ $border-radius: 4px;
     font-weight: 600;
   }
 
-  .integrity-opener {
-    @media screen and (max-width: 550px) {
-      br {
-        display: none;
-      }
-    }
-  }
-
   .integrity-col {
-    line-height: 1.35em;
     &:before {
       height: 100px;
       background: no-repeat center center;
@@ -322,65 +304,24 @@ $border-radius: 4px;
     font-weight: 600;
   }
 
-    .credibility-security {
-      width: 65%;
-    }
-
-    .trust {
-      width: 35%;
-
-    }
-
   .credibility-col {
     float: left;
 
     p {
       line-height: 1.625;
     }
+  }
 
-    h4 {
-      margin-bottom: 5px;
-    }
+  .credibility-security {
+    width: 70%;
 
-    @media screen and (max-width: 550px) {
-      text-align: center;
-    }
-
-    .credibility-seal {
-      width: 15%;
+    img {
+      display: inline-block;
       float: right;
-      margin-left: 30px; 
-      margin-right: 30px;
-      @media screen and (max-width: 550px) {
-        float: none;
-        display: block;
-        width: 100px;
-        margin: 0 auto 15px auto;
-      }
     }
+  }
 
-    .credibility,
-    .security {
-      margin-bottom: $gutter;
-      p {
-        width: 75%;
-        @media screen and (max-width: 550px) {
-          width: auto;
-        }
-      }
-
-      h4 {
-        width: 80%;
-        margin-bottom: 5px;
-        @media screen and (max-width: 550px) {
-          width: auto;
-        }
-      }
-    }
-
-    @media screen and (max-width: 991px) {
-      float: none;
-      width: 100% !important;
-    }
-  }  
+  .trust {
+    width: 30%;
+  }
 }
