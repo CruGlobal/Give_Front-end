@@ -19,11 +19,11 @@
                     <div class="row row-no-spacing">
                         <div class="col-md-12 col-xs-12">
                             <div class="repeating-row">
-                                <div class="col-xs-3">
+                                <div class="col-md-3 col-sm-12 mb">
                                     <img src="http://placehold.it/550x310">
                                 </div>
 
-                                <div class="col-xs-9">
+                                <div class="col-md-9">
                                     <h4 class="recipient-name">Jeanette Deaux</h4>
                                     <span class="modal-meta">#123456789</span>
 
@@ -32,11 +32,11 @@
                             </div>
 
                             <div class="repeating-row">
-                                <div class="col-xs-3">
+                                <div class="col-md-3 col-sm-12 mb">
                                     <img src="http://placehold.it/550x310">
                                 </div>
 
-                                <div class="col-xs-9">
+                                <div class="col-md-9">
                                     <h4 class="recipient-name">Bruce Banner</h4>
                                     <span class="modal-meta">#123456789</span>
 
@@ -61,11 +61,11 @@
                             </div>
 
                             <div class="repeating-row">
-                                <div class="col-xs-3">
+                                <div class="col-md-3 col-sm-12 mb">
                                     <img src="http://placehold.it/550x310">
                                 </div>
 
-                                <div class="col-xs-9">
+                                <div class="col-md-9">
                                     <h4 class="recipient-name">Natasha Romanov</h4>
                                     <span class="modal-meta">#123456789</span>
 
@@ -76,7 +76,7 @@
                                     </p>
 
                                     <div class="row">
-                                        <div class="col-xs-6">
+                                        <div class="col-md-6">
                                             <div class="form-group mb0">
                                                 <select class="form-control  form-control-subtle">
                                                     <option>January</option>
@@ -88,11 +88,11 @@
                             </div>
 
                             <div class="repeating-row">
-                                <div class="col-xs-3">
+                                <div class="col-md-3 col-sm-12 mb">
                                     <img src="http://placehold.it/550x310">
                                 </div>
 
-                                <div class="col-xs-9">
+                                <div class="col-md-9">
                                     <h4 class="recipient-name">Peter Parker</h4>
                                     <span class="modal-meta">#123456789</span>
 

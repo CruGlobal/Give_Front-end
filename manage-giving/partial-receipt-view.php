@@ -35,7 +35,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-md-3 col-md-4">
+            <div class="col-sm-4 col-md-4">
               <div class="form-group mb0">
                 <label>Recurring Gifts:</label>
                 <ul class="list-unstyled list-recurring">
