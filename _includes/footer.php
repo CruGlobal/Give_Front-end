@@ -26,9 +26,9 @@
               <ul class="listInline">
                 <li><a target="_blank" class="socialIcon u-linkClean" href="https://www.facebook.com/CruGlobal" rel="external"><img src="../assets/svg/facebook.png"></a> </li>
                 <li><a target="_blank" class="socialIcon u-linkClean" href="https://plus.google.com/110018976597685338404/posts" rel="external"><img src="../assets/svg/gplus.png"></a> </li>
-                <li><a target="_blank" class="socialIcon u-linkClean" href="https://instagram.com/cruinstagram/" rel="external"><img src="../assets/svg/instagram.png"></a></li>
+                <li><a target="_blank" class="socialIcon u-linkClean" href="https://instagram.com/cruinstagram/" rel="external"><img src="../assets/svg/Instagram.png"></a></li>
                 <li><a target="_blank" class="socialIcon u-linkClean" href="https://www.linkedin.com/company/cru-global" rel="external"><img src="../assets/svg/linkedin.png"></a> </li>
-                <li><a target="_blank" class="socialIcon u-linkClean" href="https://www.pinterest.com/crupins/" rel="external"><img src="../assets/svg/pinterest.png"></a></li>
+                <li><a target="_blank" class="socialIcon u-linkClean" href="https://www.pinterest.com/crupins/" rel="external"><img src="../assets/svg/Pinterest.png"></a></li>
                 <li><a target="_blank" class="socialIcon u-linkClean" href="http://crublog.tumblr.com/" rel="external"><img src="../assets/svg/tumblr.png"></a> </li>
                 <li><a target="_blank" class="socialIcon u-linkClean" href="https://twitter.com/crutweets" rel="external"><img src="../assets/svg/twitter.png"></a> </li>
                 <li><a target="_blank" class="socialIcon u-linkClean" href="https://vine.co/Cru" rel="external"><img src="../assets/svg/vine.png"></a> </li>
