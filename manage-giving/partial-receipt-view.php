@@ -6,7 +6,7 @@
       <!-- Recipient Row -->
       <div class="row">
         <div class="col-md-2 col-full-height col-sm-12 col-xs-12 mb">
-          <img src="http://placehold.it/550x310"/>
+          <img class="full-width" src="http://placehold.it/550x310"/>
         </div>
         <div class="col-sm-12 col-md-7 col-full-height">
           <h4 class="mb0">Darth Luke Solo</h4>
