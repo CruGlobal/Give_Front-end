@@ -15,7 +15,7 @@
     <!-- Recipient Row -->
     <div class="row row-eq-height">
       <div class="col-sm-2 col-full-height">
-        <img src="http://placehold.it/550x310"/>
+        <img class="full-width" src="http://placehold.it/550x310"/>
       </div>
 
       <div class="col-sm-7 col-full-height">

@@ -18,23 +18,23 @@
             <div class="modal-body pb0">
                 <div class="container-fluid" tabindex="-1" role="dialog">
                     <div class="row row-no-spacing">
-                        <div class="col-md-12 col-xs-12">
+                        <div class="col-xs-12">
 
                             <?php 
                             $i = 1;
                             while($i <= 3) { ?>
 
                             <div class="repeating-row select-recipient-row">
-                              <div class="col-xs-3">
+                              <div class="col-sm-3 col-md-3 mb">
                                   <img src="http://placehold.it/550x310" />
                               </div>
 
-                              <div class="col-xs-9">
+                              <div class="col-sm-9 col-md-9">
                                   <h4 class="recipient-name">Eli Adadevoh</h4>
                                   <span class="modal-meta">#334565</span>
 
                                   <div class="row mt-">
-                                    <div class="col-xs-12">
+                                    <div class="col-md-12">
                                         <div class="form-group inline-form-group">
                                             <label>Amount</label>
                                             <input type="text" value="$50.00" class="form-control form-control-subtle">
