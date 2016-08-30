@@ -642,6 +642,13 @@ img.full-width {
 
 .screenContent {
   padding-top: 35px !important;
+  &:focus {
+    outline: none;
+  }
+}
+
+.screenContent-alt {
+  background: $colorCru-white;
 }
 
 .panel,
