@@ -52,19 +52,19 @@ give_head();
                         <div class="panel-body">
                           <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-sm-6 col-md-4">
                                     <p class="section-title mb0">Name of card</p>
                                     <p>Samantha H Bork</p>
                                 </div>
 
-                                <div class="col-md-5">
+                                <div class="col-sm-6 col-md-4">
                                     <p class="section-title mb0">Nickname</p>
                                     <p>Sam's Visa Debit</p>
                                 </div>
 
-                                <div class="col-md-3 text-right">
-                                    <p><a class="btn btn-default btn-block" data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit Payment Method</a></p>
-                                    <p><a class="btn btn-default btn-block" data-toggle="modal" data-target="#deletePaymentMethod">Delete Payment Method</a></p>
+                                <div class="col-sm-5 col-md-4 text-right split-row">
+                                    <p class="split-col-left"><a class="btn btn-default btn-block" data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit Payment Method</a></p>
+                                    <p class="split-col-right"><a class="btn btn-default btn-block" data-toggle="modal" data-target="#deletePaymentMethod">Delete Payment Method</a></p>
                                 </div>
                             </div>
 
@@ -81,35 +81,37 @@ give_head();
                             <div class="row">
                                 <h4 class="pl--">Recurring Gifts Using This Payment Method</h4>
 
-                                <table class="table table-striped table-striped-dark borderless">
+                                <div class="table-responsive">
+                                  <table class="table table-striped table-striped-dark borderless">
                                     <thead>
-                                        <tr>
-                                            <th class="section-title">Person or Ministry</th>
-                                            <th class="section-title">Amount</th>
-                                            <th class="section-title">Frequency</th>
-                                            <th class="section-title">Next Gift</th>
-                                            <th class="section-title"></th>
-                                        </tr>
+                                    <tr>
+                                      <th class="section-title">Person or Ministry</th>
+                                      <th class="section-title">Amount</th>
+                                      <th class="section-title">Frequency</th>
+                                      <th class="section-title">Next Gift</th>
+                                      <th class="section-title"></th>
+                                    </tr>
                                     </thead>
 
                                     <tbody>
-                                        <tr>
-                                            <td>Jeannette Deaux</td>
-                                            <td>$50.00</td>
-                                            <td>Monthly</td>
-                                            <td>8/6/16</td>
-                                            <td><a data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit</a></td>
-                                        </tr>
+                                    <tr>
+                                      <td>Jeannette Deaux</td>
+                                      <td>$50.00</td>
+                                      <td>Monthly</td>
+                                      <td>8/6/16</td>
+                                      <td><a data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit</a></td>
+                                    </tr>
 
-                                        <tr>
-                                            <td>Peter Parker</td>
-                                            <td>$100.00</td>
-                                            <td>Quarterly</td>
-                                            <td>7/12/16</td>
-                                            <td><a data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit</a></td>
-                                        </tr>
+                                    <tr>
+                                      <td>Peter Parker</td>
+                                      <td>$100.00</td>
+                                      <td>Quarterly</td>
+                                      <td>7/12/16</td>
+                                      <td><a data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit</a></td>
+                                    </tr>
                                     </tbody>
-                                </table>
+                                  </table>
+                                </div>
                             </div>
                           </div>
                         </div>
@@ -141,19 +143,19 @@ give_head();
                       <div class="panel-body">
                         <div class="container-fluid">
                           <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-sm-6 col-md-4">
                               <p class="section-title mb0">Name of card</p>
                               <p>Samantha H Bork</p>
                             </div>
 
-                            <div class="col-md-5">
+                            <div class="col-sm-6 col-md-4">
                               <p class="section-title mb0">Nickname</p>
                               <p>Sam's Visa Debit</p>
                             </div>
 
-                            <div class="col-md-3 text-right">
-                              <p><a class="btn btn-default btn-block" data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit Payment Method</a></p>
-                              <p><a class="btn btn-default btn-block" data-toggle="modal" data-target="#deletePaymentMethod">Delete Payment Method</a></p>
+                            <div class="col-sm-5 col-md-4 text-right split-row">
+                              <p class="split-col-left"><a class="btn btn-default btn-block" data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit Payment Method</a></p>
+                              <p class="split-col-right"><a class="btn btn-default btn-block" data-toggle="modal" data-target="#deletePaymentMethod">Delete Payment Method</a></p>
                             </div>
                           </div>
 
@@ -170,35 +172,37 @@ give_head();
                           <div class="row">
                               <h4 class="pl--">Recurring Gifts Using This Payment Method:</h4>
 
-                              <table class="table table-striped table-striped-dark borderless">
+                              <div class="table-responsive">
+                                <table class="table table-striped table-striped-dark borderless">
                                   <thead>
                                   <tr>
-                                      <th class="section-title">Person or Ministry</th>
-                                      <th class="section-title">Amount</th>
-                                      <th class="section-title">Frequency</th>
-                                      <th class="section-title">Next Gift</th>
-                                      <th class="section-title"></th>
+                                    <th class="section-title">Person or Ministry</th>
+                                    <th class="section-title">Amount</th>
+                                    <th class="section-title">Frequency</th>
+                                    <th class="section-title">Next Gift</th>
+                                    <th class="section-title"></th>
                                   </tr>
                                   </thead>
 
                                   <tbody>
                                   <tr>
-                                      <td>Jeannette Deaux</td>
-                                      <td>$50.00</td>
-                                      <td>Monthly</td>
-                                      <td>8/6/16</td>
-                                      <td><a data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit</a></td>
+                                    <td>Jeannette Deaux</td>
+                                    <td>$50.00</td>
+                                    <td>Monthly</td>
+                                    <td>8/6/16</td>
+                                    <td><a data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit</a></td>
                                   </tr>
 
                                   <tr>
-                                      <td>Peter Parker</td>
-                                      <td>$100.00</td>
-                                      <td>Quarterly</td>
-                                      <td>7/12/16</td>
-                                      <td><a data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit</a></td>
+                                    <td>Peter Parker</td>
+                                    <td>$100.00</td>
+                                    <td>Quarterly</td>
+                                    <td>7/12/16</td>
+                                    <td><a data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit</a></td>
                                   </tr>
                                   </tbody>
-                              </table>
+                                </table>
+                              </div>
                           </div>
                         </div>
                       </div>

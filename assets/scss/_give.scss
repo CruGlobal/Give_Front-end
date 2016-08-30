@@ -563,6 +563,25 @@ hr.vertical-divider {
 	}
 }
 
+@media screen and (min-width: 550px ) and (max-width: 991px ) {
+  .split-row {
+    width: 100%;
+
+    .split-col-left, .split-col-right {
+      width: 45%;
+      margin-bottom: 0 !important;
+    }
+
+    .split-col-left {
+      float: left;
+    }
+
+    .split-col-right {
+      float: right;
+    }
+  }
+}
+
 .row-no-spacing {
   > [class*="col-"] {
     padding-left: 0 !important;
