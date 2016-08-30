@@ -18,23 +18,23 @@
       <div class="modal-body">
         <div class="container-fluid" tabindex="-1" role="dialog">
           <div class="row row-no-spacing">
-            <div class="col-md-12 col-xs-12">
+            <div class="col-xs-12">
 
               <!-- /////////////// Person list -->
 
 
               <div class="repeating-row select-recipient-row">
-                <div class="col-xs-3">
+                <div class="col-xs-12 col-sm-3 mb">
                   <img src="http://placehold.it/550x310" class="">
                 </div>
-                <div class="col-sm-5">
+                <div class="col-xs-6 col-sm-5">
                   <h4 class="recipient-name">Jeanette Deaux</h4>
                   <span class="modal-meta">#334565</span>
 
                   <h5 class="mt-- mb0">$50.00 Monthly</h5>
                   <small>On the 15th day of each month</small>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-6 col-sm-4">
                   <div class="checkbox-right">
                     <label>Stop <input type="checkbox" value=""></label>
                   </div>
@@ -43,17 +43,17 @@
 
 
               <div class="repeating-row select-recipient-row">
-                <div class="col-xs-3">
+                <div class="col-xs-12 col-sm-3 mb">
                   <img src="http://placehold.it/550x310" class="">
                 </div>
-                <div class="col-sm-5">
+                <div class="col-xs-6 col-sm-5">
                   <h4 class="recipient-name">Bruce Banner</h4>
                   <span class="modal-meta">#334565</span>
 
                   <h5 class="mt-- mb0">$250.00 Monthly</h5>
                   <small>On the 15th day of each month</small>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-6 col-sm-4">
                   <div class="checkbox-right">
                     <label>Stop <input type="checkbox" value=""></label>
                   </div>
@@ -62,17 +62,17 @@
 
 
               <div class="repeating-row select-recipient-row">
-                <div class="col-xs-3">
+                <div class="col-xs-12 col-sm-3 mb">
                   <img src="http://placehold.it/550x310" class="">
                 </div>
-                <div class="col-sm-5">
+                <div class="col-xs-6 col-sm-5">
                   <h4 class="recipient-name">Peter Parker</h4>
                   <span class="modal-meta">#334565</span>
 
                   <h5 class="mt-- mb0">$25.00 Monthly</h5>
                   <small>On the 15th day of each month</small>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-6 col-sm-4">
                   <div class="checkbox-right">
                     <label>Stop <input type="checkbox" value=""></label>
                   </div>

@@ -55,17 +55,15 @@ give_head();
                     <div class="panel panel-default">
                       <div class="panel-heading">
                         Receipt Address
+                        <a class="btn btn-default pull-right btn-panel-head" href="/checkout-step-1/">Change</a>
                       </div>
                       <div class="panel-body">
                         <div class="row">
-                          <div class="col-md-8">
+                          <div class="col-md-12">
                             <div class="form-group">
                               <p>1234 Strawberry Lane Road<br/>
                                 Naples, Florida 77675</p>
                             </div>
-                          </div>
-                          <div class="col-md-4 text-right">
-                            <a class="btn btn-default btn-block" href="/checkout-step-1/">Change</a>
                           </div>
                         </div>
                       </div>
@@ -76,10 +74,11 @@ give_head();
                     <div class="panel panel-default">
                       <div class="panel-heading">
                         Payment Method
+                        <a class="btn btn-default pull-right btn-panel-head" href="/checkout-step-2/">Change</a>
                       </div>
                       <div class="panel-body">
                         <div class="row">
-                          <div class="col-md-8">
+                          <div class="col-md-12">
                             <div class="row">
                               <div class="col-md-6">
                                 <div class="form-group">
@@ -108,9 +107,6 @@ give_head();
                                 </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="col-md-4 text-right">
-                            <a class="btn btn-default btn-block" href="/checkout-step-2/">Change</a>
                           </div>
                         </div>
                       </div>

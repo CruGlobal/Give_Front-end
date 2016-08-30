@@ -13,7 +13,7 @@ give_head();
         <div class="panel panel-margin-bottom">
           <div class="panel-body">
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-md-12">
                 <h3>Receipts</h3>
 
                 <form class="form-inline mt">
@@ -35,18 +35,19 @@ give_head();
               </div>
             </div>
             <div class="row mt">
-              <div class="col-sm-12">
-                <table class="table table-striped table-striped-dark borderless">
-                  <thead>
+              <div class="col-md-12">
+                <div class="table-responsive">
+                  <table class="table table-striped table-striped-dark borderless">
+                    <thead>
                     <tr>
                       <td>Receipt Date</td>
                       <td>Amount</td>
                       <td>Gift Details</td>
                       <td></td>
                     </tr>
-                  </thead>
+                    </thead>
 
-                  <tbody>
+                    <tbody>
                     <tr>
                       <td>July 6, 2016</td>
                       <td>$225.00</td>
@@ -86,8 +87,9 @@ give_head();
                         <a class="u-textWeight-semiBold">View PDF</a>
                       </td>
                     </tr>
-                  </tbody>
-                </table>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
 

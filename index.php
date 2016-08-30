@@ -14,27 +14,19 @@ give_head();
   <div class="section-title  u-centerBlock  masonry__item  col-md-12  col-xs-12  mb mt" >
     <h1 class="u-inlineBlock  banner-title  ">Give.Cru.Org</h1>
   </div>
+
   <div class="col-xs-12" >
     <div class="panel  panel-default">
-      <div class="panel-heading">Sign In</div>
+      <div class="panel-heading">Public Pages</div>
       <div class="panel-body">
         <ul class="listBare">
-          <li>Coming soon</li>
+          <li><a href="/homepage/">Homepage</a></li>
+          <li><a href="/search/">Search Results</a></li>
         </ul>
       </div>
     </div>
   </div>
-    <div class="col-xs-12" >
-    <div class="panel  panel-default">
-      <div class="panel-heading">Screens 6</div>
-      <div class="panel-body">
-        <ul class="listBare">
-          <li><a a href="checkout-payment-method/index.html">add a new payment method</a></li>
-          <li><a href="checkout-step-3-copy/index.html">Checkout - Step 3</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+
   <div class="col-xs-12" >
     <div class="panel  panel-default">
       <div class="panel-heading">Product Pages</div>

@@ -18,7 +18,7 @@
             <div class="modal-body">
                 <div class="container-fluid" tabindex="-1" role="dialog">
                     <div class="row">
-                        <div class="col-md-12 col-xs-12">
+                        <div class="col-xs-12">
                           <div class="repeating-row select-recipient-row">
                             <?php 
                             $i = 1;

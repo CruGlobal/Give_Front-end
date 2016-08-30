@@ -94,6 +94,7 @@
 }
 
 .tab-btn {
+  margin-bottom: $gutter/4;
   background: $colorCru-white;
   input[type=radio] {
     position: absolute;
@@ -185,6 +186,12 @@
 
 .panel-secondary {
   background: #eee;
+}
+
+.btn-panel-head {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 $gutter*.5;
 }
 
 .bank-explain-wrap {

@@ -1,6 +1,6 @@
 <!-- Cart Search -->
 <div class="row">
-  <div class="col-sm-8">
+  <div class="col-sm-12 col-md-8">
     <div class="panel">
       <div class="panel-body text-center">
         <h3 class="panel-name">Start a New Gift</h3>
@@ -18,7 +18,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-12 col-md-4">
     <?php include('help.php'); ?>
   </div>
 </div>
