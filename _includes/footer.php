@@ -1,16 +1,14 @@
         <!-- Footer ECFA -->
         <footer class="container">
-          <div class="well well-plain margin-bottom">
+          <div class="well well-plain mb0">
             <div class="row">
-              <div class="col-md-1 text-center hidden-xs hidden-sm">
-                <img src="/assets/img/logo-ecfa.png" class="image-responsive-center" width="85" alt="ECFA Logo">
-              </div>
-              <div class="col-md-10">
-                <p class='text-center'>Cru is a 501(c)(3) non-profit organization. Contributions to Cru are tax-deductible as allowed by law. Cru has complete discretion and control over the use of donated funds.</p>
-              </div>
-              <div class="col-md-1 text-center">
-                <img src="/assets/img/logo-ecfa.png" class="hidden-md hidden-lg image-responsive-center" width="85" alt="ECFA Logo">
-                <img src="/assets/img/logo-digicert.png" class="image-responsive-center pull-right" alt="Digicert Logo">
+              <div class="col-md-8 col-md-offset-2">
+                <p class="text-center">Cru is a 501(c)(3) non-profit organization. Contributions to Cru are tax-deductible as allowed by law. Cru has complete discretion and control over the use of donated funds.</p>
+
+                <p class="text-center">
+                  <img src="/assets/img/logo-ecfa.png" class="u-inlineBlock footer-seals" width="85" alt="ECFA Logo">
+                  <img src="/assets/img/logo-digicert.png"  class="u-inlineBlock footer-seals" width="85" alt="ECFA Logo">
+                </p>
               </div>
             </div>
           </div>
@@ -18,7 +16,7 @@
 
         <!-- Footer Component -->
         <footer class="global-footer">
-          <hr class="section-divider">
+          <hr class="section-divider mt-">
           <!-- Social wrapper -->
           <div class="mb-  masonry__item">
             <!-- Social -->

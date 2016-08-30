@@ -4,6 +4,7 @@
   h1 {
     font-size: 32px;
     .search-count {
+      display: inline-block;
       font-size: 18px;
     }
   }
@@ -15,6 +16,7 @@
     text-decoration: underline;
   }
   .search-term {
+    display: inline-block;
     font-weight: 600;
   }
   form {
