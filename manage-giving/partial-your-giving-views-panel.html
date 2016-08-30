@@ -2,13 +2,17 @@
     <div class="panel-body">
         <div class="row">
             <div class="col-sm-12">
-
                 <h3>Your Giving</h3>
-                <div class="btn-group" role="group" aria-label="...">
-                    <a href="/manage-giving/receipts.php" class="btn btn-default">Recipient View</a>
-                    <a href="/manage-giving/" class="btn btn-default">Monthly View</a>
-                </div>
+            </div>
 
+            <div class="col-xs-9 col-sm-9">
+                <div class="btn-group" role="group" aria-label="...">
+                    <a href="/manage-giving/receipts.php" class="btn btn-default"><span class="visible-xs">By Recipient</span><span class="hidden-xs">Recipient View</span></a>
+                    <a href="/manage-giving/" class="btn btn-default"><span class="visible-xs">By Month</span><span class="hidden-xs">Monthly View</span></a>
+                </div>
+            </div>
+
+            <div class="col-xs-3 col-sm-3">
                 <!-- Filters -->
                 <div class="btn-group">
                     <button type="button"
@@ -16,14 +20,14 @@
                             data-toggle="dropdown"
                             aria-haspopup="true"
                             aria-expanded="false">
-                        Filters <span class="caret"></span>
+                        <span class="hidden-xs">Filters <span class="caret"></span></span>
+                        <span class="visible-xs"><span class="fa fa-filter"></span></span>
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu pull-right">
                         <li><a href="#">Your Recent Gifts</a></li>
                         <li><a href="#">All Gifts</a></li>
                     </ul>
                 </div>
-
             </div>
         </div>
     </div>

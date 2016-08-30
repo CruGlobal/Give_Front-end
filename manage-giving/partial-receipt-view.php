@@ -51,11 +51,11 @@
               </div>
             </div>
           </div>
-
         </div>
-        <div class="col-sm-4 col-md-3 col-full-height">
-          <a class="btn btn-primary btn-block">Give a New Gift</a>
-          <a class="btn btn-subtle btn-block mt- collapse-indicator collapsed"
+
+        <div class="col-sm-4 col-md-3 col-full-height split-row">
+          <a class="btn btn-primary btn-block split-col-left">Give a New Gift</a>
+          <a class="btn btn-subtle btn-block mt- collapse-indicator collapsed split-col-right"
              role="button"
              data-toggle="collapse"
              href="#details_<?php echo $i; ?>"

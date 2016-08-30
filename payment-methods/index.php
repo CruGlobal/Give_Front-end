@@ -124,7 +124,7 @@ give_head();
                     <div class="panel-heading" role="tab" id="paymentHeading2">
                       <div class="payment-summary-link p- collapsed collapse-indicator-row" role="button" data-toggle="collapse" data-parent="#accordion" href="#paymentMethod2" aria-expanded="true" aria-controls="collapseOne">
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-sm-8 col-md-8">
                               <p>
                                 <img class="hidden-xs payment-icon" src="/assets/img/icon-bank.png" />
                                 <span class="payment-nickname">Chase Checking Account</span>
@@ -132,7 +132,7 @@ give_head();
                                 <span class="payment-expiration">EXPIRES 08/2022</span>
                               </p>
                             </div>
-                            <div class="col-md-4 text-right payment-details-link">
+                            <div class="col-sm-4 col-md-4 text-right payment-details-link">
                               <button class="btn trigger">Details</button>
                             </div>
                         </div>
