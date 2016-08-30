@@ -12,7 +12,7 @@ give_head();
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-10 col-md-offset-1">
-          <h1>Search Results for <strong class="search-term">Josh</strong> <span class="search-count">(31 results)</span></h1>
+          <h1>Search Results for <strong class="search-term">Joshua Starcher</strong> <span class="search-count">(31 results)</span></h1>
           <form>
             <div class="input-group">
               <input type="text" class="form-control form-control-subtle input-lg" value="Josh">
@@ -106,7 +106,7 @@ give_head();
 
         <section class="search-section">
           <div class="search-section-head big-words">
-            <h2>Special Opportunities</h2>
+            <h2>Featured Opportunities</h2>
           </div>
 
           <div class="row search-result-block">

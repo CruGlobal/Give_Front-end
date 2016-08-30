@@ -692,3 +692,15 @@ img.full-width {
 .text-muted {
   color: lighten($colorGrayscale-text, 40%);
 }
+
+.socialIcon {
+  @media screen and (max-width: 640px) {
+    padding-left: $gutter*.35;
+    padding-right: $gutter*.35;
+  }
+}
+
+.footer-seals {
+  max-width: 70px;
+  margin: 0 $gutter*.5;
+}
