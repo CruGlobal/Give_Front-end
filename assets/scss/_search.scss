@@ -149,6 +149,34 @@
   margin-bottom: $gutter;
 }
 
+.is-type-links {
+  li {
+    display: block;
+    line-height: 1.5em;
+
+    a {
+      display: block;
+    }
+
+    &.active {
+      font-weight: bold;
+      position: relative;
+      &:before {
+        background: $colorCru-gold;
+        border-radius: 15px;
+        content: "";
+        display: block;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: -15px;
+        top: 7px;
+        transition: .25s all;
+      }
+    }
+  }
+}
+
 .is-top {
   background: $colorGrayscale-stone;
   padding: $gutter*1.5 0;
@@ -189,10 +217,47 @@
   border-width: 1px;
 }
 
+
+.is-results-divider {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  height: 32px;
+  line-height: 32px;
+  margin-top: $gutter;
+  margin-bottom: $gutter;
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+  &:before,
+  &:after {
+    background: #bbb;
+    content: "";
+    display: block;
+    width: 30%;
+    height: 1px;
+    margin-top: 16px;
+    @media screen and (max-width: 991px) {
+      width: 20%;
+    }
+  }
+  &:before {
+    float: left;
+  }
+  &:after {
+    float: right;
+  }
+}
+
 .is-row {
   border-bottom: 1px solid $colorGrayscale-stone;
   padding-bottom: $gutter*.65;
   margin-bottom: $gutter*.65;
+  &:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
   .is-row-thumb {
     float: left;
     margin-right: $gutter*.5;

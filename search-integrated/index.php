@@ -30,7 +30,7 @@ give_head();
   <section class="is-tabs">
     <ul class="nav nav-tabs nav-search-tabs text-center">
       <li role="presentation"><a href="#">Explore</a></li>
-      <li role="presentation" class="active"><a href="#">Giving</a></li>
+      <li role="presentation" class="active"><a href="#">Giving Opportunities</a></li>
       <li role="presentation"><a href="#">Missions Trips</a></li>
     </ul>
   </section>
@@ -47,14 +47,26 @@ give_head();
                 <div class="is-advanced">
                   <form>
                     <h4>Advanced Search</h4>
-                    <div class="form-group">
-                      <label>First Name</label>
-                      <input type="search" class="form-control input-subtle" />
+
+                    <div class="is-widget">
+                      <ul class="list-unstyled is-type-links">
+                        <li class="active"><a href="">All</a></li>
+                        <li><a href="">People</a></li>
+                        <li><a href="">Ministries</a></li>
+                        <li><a href="">Featured Opportunites</a></li>
+                      </ul>
                     </div>
 
-                    <div class="form-group">
-                      <label>Last Name</label>
-                      <input type="search" class="form-control input-subtle" />
+                    <div class="is-widget">
+                      <div class="form-group">
+                        <label>First Name</label>
+                        <input type="search" class="form-control input-subtle" />
+                      </div>
+
+                      <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="search" class="form-control input-subtle" />
+                      </div>
                     </div>
 
                     <button class="btn btn-primary btn-block">Search</button>
@@ -66,6 +78,33 @@ give_head();
                 <?php
                 $i=1;
                 while ($i <= 10) { 
+                ?>
+                <div class="is-row clearfix">
+                  <a href="/product-detail/" class="is-row-thumb">
+                    <img src="http://placehold.it/550x310" />
+                  </a>
+                  <div class="is-row-meta">
+                    <a href="#">
+                      <span class="is-row-title">Susan Yarvandalandovich</span>
+                      <span class="is-row-num">#4567761</span>
+                    </a>
+                  </div>
+                  <div class="is-row-actions">
+                    <a href="#" class="btn btn-sm btn-primary">Give a Gift</a>
+                    <a href="#" class="btn btn-sm btn-subtle">Details</a>
+                  </div>
+                </div>
+                <?php
+                $i++;
+                }
+                ?>
+
+
+                <h3 class="is-results-divider">Featured Opportunities</h3>
+
+                <?php
+                $i=1;
+                while ($i <= 3) { 
                 ?>
                 <div class="is-row clearfix">
                   <a href="/product-detail/" class="is-row-thumb">
