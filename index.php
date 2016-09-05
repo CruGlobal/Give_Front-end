@@ -22,6 +22,7 @@ give_head();
         <ul class="listBare">
           <li><a href="/homepage/">Homepage</a></li>
           <li><a href="/search/">Search Results</a></li>
+          <li><a href="/search-integrated/">Search Integrated</a></li>
         </ul>
       </div>
     </div>
