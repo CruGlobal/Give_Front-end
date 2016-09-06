@@ -17,5 +17,6 @@
     <script src="/assets/bower_components/slick-carousel/slick/slick.min.js"></script>
     <script src="/assets/js/cycle2.js"></script>
     <script src="/assets/js/give.js"></script>
+    <script src="/assets/js/nav.js"></script>
 
 </head>
