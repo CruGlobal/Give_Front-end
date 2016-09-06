@@ -31,6 +31,10 @@ $(function() {
     return false;
   });
 
+  $('.is-toggle').click(function() {
+    $('.is-toggle-wrap').toggleClass('open');
+    return false;
+  });
 
   $('.slick-related-carousel').slick({
     slidesToShow: 3,
