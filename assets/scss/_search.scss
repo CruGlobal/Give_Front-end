@@ -298,6 +298,24 @@
       background: none;
       border: none;
       border-bottom: 2px solid $colorCru-gold;
+      &:hover,
+      &:focus {
+        background: none;
+        border-bottom: 2px solid $colorCru-gold;
+        border-width: 0 0 2px 0;
+      }
+    }
+  }
+  > li {
+    > a {
+      font-family: $data-font;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize;
+      transition: .25s all;
+      &:hover {
+        border-bottom: 2px solid $colorGrayscale-rock;
+      }
     }
   }
 }
