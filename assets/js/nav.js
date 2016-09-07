@@ -1,12 +1,26 @@
 $(document).ready(function () {
-    $(".back").click(function () {
-        var parent = $(this).parent();
-        var previousParent = parent.parent();
-        var showPreviousMenu = previousParent.children("input");
+    $("#mobile-navigation").click(function (e) {
+        var target = e.target;
+        var classes = $(target).attr('class');
+        var toggleClass = "visible-menu-block";
 
-        showPreviousMenu.click();
+        // traverse up and down the menu
+        if ((classes !== undefined) && (classes.indexOf("has-children") !== -1)) {
+            var targetMenuList = $(target).children("ul");
+            var currentMenuList = $("." + toggleClass);
 
-        console.log(this, 'parent');
-        console.log(previousParent, 'previous parent');
-    })
+            currentMenuList.toggleClass(toggleClass);
+            $("#mobile-navigation").append(targetMenuList.clone().toggleClass(toggleClass));
+        } else if ((classes !== undefined) && (classes.indexOf("back") !== -1)) {
+            classes = classes.replace("back", "").trim();
+
+            targetMenuList = $("ul." + classes);
+            currentMenuList = $("ul." + toggleClass);
+
+            currentMenuList.remove();
+            targetMenuList.toggleClass(toggleClass)
+        } else {
+            target.click();
+        }
+    });
 });
