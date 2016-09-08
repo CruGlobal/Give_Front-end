@@ -69,4 +69,19 @@
   .visible-menu-block {
     transform: translateX(0%);
   }
+
+  // Temp Styling
+  .has-children {
+    color: red;
+
+    background: url(/assets/img/arrow-right-slide.png) no-repeat 150px 50%;
+    background-size: auto 15px;
+  }
+
+  .back {
+    font-weight: bold;
+
+    background: url(/assets/img/arrow-left-slide.png) no-repeat 150px 50%;
+    background-size: auto 15px;
+  }
 }
