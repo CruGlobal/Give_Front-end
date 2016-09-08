@@ -370,9 +370,25 @@ hr.vertical-divider {
 }
 
 .edit-trigger-text {
-  left: -50px;
-  right: auto;
-  top: 0;
+  position: static;
+  display: block;
+  float: left;
+  margin-left: -44px;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  &.inline {
+    margin: 0 $gutter*.5;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+  }
+}
+
+.signature-image {
+  max-height: 100px;
+  max-width: 100%;
 }
 
 .upload-drag-target {
