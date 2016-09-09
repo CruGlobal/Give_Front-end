@@ -22,13 +22,63 @@
           <!-- Tab panes -->
           <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="pedesignation">
-            Desigs
+              <div class="form-group">
+                <label>Parent Designation</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Organization ID</label>
+                <div><strong>8Y-YYTIY</strong></div>
+                <span class="help-block"><strong>Email <a href="mailto:fds@cru.org">fds@cru.org</a> to update/change.</strong></span>
+              </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="peamounts">
-            Amounts
+            
+                    <table class="table table-hover table-condensed">
+                      <thead>
+                        <tr>
+                          <th>Title (Description.)</th>
+                          <th>Amount</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><input type="text" class="form-control" placeholder="$50.00" /></td>
+                          <td><input type="number" class="form-control" placeholder="50" /></td>
+                          <td><a href="" class="btn-link btn"><i class="fa fa-minus-circle"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td><input type="text" class="form-control" /></td>
+                          <td><input type="number" class="form-control" /></td>
+                          <td><a href="" class="btn-link btn"><i class="fa fa-minus-circle"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td><input type="text" class="form-control" /></td>
+                          <td><input type="number" class="form-control" /></td>
+                          <td><a href="" class="btn-link btn"><i class="fa fa-minus-circle"></i></a></td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td colspan="3">
+                            <a href=""><i class="fa fa-plus-circle"></i> Add another giving amount</a>
+                          </td>
+                        </tr>
+                      </tfoot>
+                    </table>
+
+
             </div>
             <div role="tabpanel" class="tab-pane" id="peother">
-            other
+            
+            <p>Additional settings can be changed by sending email to <strong><a href="mailto:fds@cru.org">fds@cru.org</a></strong></p>
+
+            <ul>
+              <li>Designation Active/Inactive Status</li>
+              <li>Donor Receipt Titles</li>
+            </ul>
+
             </div>
           </div>
 
