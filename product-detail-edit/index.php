@@ -15,22 +15,29 @@ give_head();
             <div class="col-sm-6  col-xs-12">
 
               <!-- Default panel contents -->
-              <h2 title="Staff #5564666" class="mb0">Jean Deaux</h2>
+              <h2 title="Staff #5564666" class="mb0">
+
+                Jean Deaux
+                <a data-toggle="modal" data-target="#editProductTitle" class="edit-trigger edit-trigger-text inline"><i class="fa fa-pencil"></i></a>
+              </h2>
               <p class="mt0">#5552424</p>
 
             </div>
             <div class="col-sm-6  col-xs-12 text-right">
               <!-- Editing Buttons -->
-              <button type="button" class="btn btn-secondary btn-lg">
+              <button type="button" class="btn btn-secondary">
                 Done Editing
               </button>
-              <button type="button" class="btn btn-default btn-lg">
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#editProductOptions">
+                Page Options
+              </button>
+              <button type="button" class="btn btn-default">
                 Edit Page
               </button>
               <!-- \\ Editing Buttons -->
 
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
                 Give a Gift
               </button>
               <!-- \\ Button trigger modal -->
@@ -55,24 +62,26 @@ give_head();
                 <img src="/assets/img/photo-placeholder.png" class="" />
               </div>
 
-              <a data-toggle="modal" data-target="#editProductDesc" class="edit-trigger edit-trigger-text"><i class="fa fa-pencil"></i></a>
+              
 
-              <h4>Great Spiritual Need</h4>
-              <p>Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
-                elit. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus.</p>
+              <h4>
+                <a data-toggle="modal" data-target="#editProductDesc" class="edit-trigger edit-trigger-text"><i class="fa fa-pencil"></i></a>
+                Great Spiritual Need
+              </h4>
+              <p>Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus.</p>
+              <p>Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus.</p>
+              <p class="signature-wrap">
+                <a data-toggle="modal" data-target="#editSignature" class="edit-trigger edit-trigger-text"><i class="fa fa-pencil"></i></a>
+                <img src="/assets/img/signature.png" class="signature-image" />
+              </p>
               <p>
-              <p>Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
-                elit. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus.</p>
+                <a data-toggle="modal" data-target="#editProductDesc" class="edit-trigger edit-trigger-text"><i class="fa fa-pencil"></i></a>
+                Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus.
+              </p>
               <p>
-              <p>Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
-                elit. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus.</p>
-              <p>
-              <p>
+                <a data-toggle="modal" data-target="#editProductWebsite" class="edit-trigger edit-trigger-text"><i class="fa fa-pencil"></i></a>
                 <label class="product-website-link">Website: <a href="">http://www.google.com/</a></label>
-              </a>
+              </p>
               <p>
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
                   Give a Gift
@@ -107,6 +116,22 @@ give_head();
 <!-- Product Edit Secondary. Modal -->
 <?php include('product-edit-copy.php'); ?>
 <!-- // Product Edit Secondary. Modal End -->
+
+<!-- Product Edit Signature. Modal -->
+<?php include('product-edit-signature.php'); ?>
+<!-- // Product Edit Signature. Modal End -->
+
+<!-- Product Edit Title. Modal -->
+<?php include('product-edit-title.php'); ?>
+<!-- // Product Edit Title. Modal End -->
+
+<!-- Product Edit Website. Modal -->
+<?php include('product-edit-website.php'); ?>
+<!-- // Product Edit Website. Modal End -->
+
+<!-- Product Edit Options. Modal -->
+<?php include('product-edit-options.php'); ?>
+<!-- // Product Edit Options. Modal End -->
 
 <?php 
 
