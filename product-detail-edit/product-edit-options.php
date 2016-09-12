@@ -37,27 +37,18 @@
                     <table class="table table-hover table-condensed">
                       <thead>
                         <tr>
-                          <th>Title (Description.)</th>
                           <th>Amount</th>
+                          <th>Title (Description)</th>
                           <th></th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td><input type="text" class="form-control" placeholder="$50.00" /></td>
-                          <td><input type="number" class="form-control" placeholder="50" /></td>
+                          <td><input type="number" class="form-control" placeholder="50" min="0" /></td>
+                          <td><input type="text" class="form-control" placeholder="$50.53 to help 14 refugees" /></td>
                           <td><a href="" class="btn-link btn"><i class="fa fa-minus-circle"></i></a></td>
                         </tr>
-                        <tr>
-                          <td><input type="text" class="form-control" /></td>
-                          <td><input type="number" class="form-control" /></td>
-                          <td><a href="" class="btn-link btn"><i class="fa fa-minus-circle"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td><input type="text" class="form-control" /></td>
-                          <td><input type="number" class="form-control" /></td>
-                          <td><a href="" class="btn-link btn"><i class="fa fa-minus-circle"></i></a></td>
-                        </tr>
+                        
                       </tbody>
                       <tfoot>
                         <tr>
