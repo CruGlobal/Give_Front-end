@@ -8,9 +8,9 @@ $(document).ready(function () {
         var currentMenu = $(".visible");
 
         /*
-        traverse up and down the menu:
-        remove visible-menu-block from current menu and
-        clone target menu and append to root of mobile navigation structure
+            traverse up and down the menu:
+            remove visible-menu-block from current menu and
+            clone target menu and append to root of mobile navigation structure
         */
         if ((classes !== undefined) && (classes.indexOf("has-children") !== -1)) {
             var targetMenu = $(target).children("ul");
@@ -20,18 +20,18 @@ $(document).ready(function () {
             } else {
                 $(currentMenu).remove();
             }
+
             $(root).append(targetMenu.clone().toggleClass(toggleClass));
 
         } else if ((classes !== undefined) && (classes.indexOf("menu-icon-navigation") !== -1)) {
             var targetClass = $(".visible").attr('class').replace("visible","").trim();
             var targetMenu = $(".main-menu").find("ul." + targetClass).parent().parent();
 
-            console.log(targetClass);
-            console.log(targetMenu);
-
-            if (targetMenu.attr('class') === "main-menu") {
+            if ($(".main-menu.visible").length !== 0) {
+                return;
+            } else if (targetMenu.attr('class') === "main-menu") {
                 $(currentMenu).remove();
-                $(mainMenu).toggleClass(toggleClass)
+                $(mainMenu).toggleClass(toggleClass);
             } else {
                 $(currentMenu).remove();
                 $(root).append(targetMenu.clone().toggleClass(toggleClass));
@@ -50,11 +50,11 @@ $(document).ready(function () {
         }
 
         function menuIconHamburger () {
-            $(".menu-icon-navigation").attr("src", "/assets/img/mobile-menu-back-icon.png");
+            $(".menu-icon-navigation").attr("src", "/assets/img/mobile-menu-hamburger-icon.png");
         }
 
         $(function toggleIconBackNavigation () {
-            if (!isMainMenu()) menuIconHamburger()
+            (isMainMenu()) ? menuIconHamburger() : menuIconBackNavigation();
         });
     });
 });
