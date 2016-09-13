@@ -1,7 +1,7 @@
 <div id="restartRecipients" class="modal" tabindex="-1" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content give-modal-content">
-            <?php modal_header('Confirm your Recurring Gift Restarts.', ''); ?>
+            <?php modal_header('Make Changes to your Recurring Gifts', ''); ?>
 
             <div class="modal-body pb0">
                 <div class="container-fluid" tabindex="-1" role="dialog">
@@ -98,7 +98,7 @@
                 </div>
             </div>
 
-            <?php modal_footer('', 'Back', '#restartRecipients', 'Continue'); ?>
+            <?php modal_footer('', 'Back', '#restartConfirm', 'Continue'); ?>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
