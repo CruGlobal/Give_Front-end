@@ -4,6 +4,7 @@ $(document).ready(function () {
         var classes = $(target).attr('class');
         var toggleClass = "visible";
         var root = $("#mobile-navigation");
+        var mainMenuWrap = $(".main-menu-container");
         var mainMenu = $(".main-menu");
         var currentMenu = $(".visible");
 
@@ -21,7 +22,7 @@ $(document).ready(function () {
                 $(currentMenu).remove();
             }
 
-            $(root).append(targetMenu.clone().toggleClass(toggleClass));
+            $(mainMenuWrap).append(targetMenu.clone().toggleClass(toggleClass));
 
         } else if ((classes !== undefined) && (classes.indexOf("menu-icon-navigation") !== -1)) {
             var targetClass = $(".visible").attr('class').replace("visible","").trim();
@@ -34,7 +35,7 @@ $(document).ready(function () {
                 $(mainMenu).toggleClass(toggleClass);
             } else {
                 $(currentMenu).remove();
-                $(root).append(targetMenu.clone().toggleClass(toggleClass));
+                $(mainMenuWrap).append(targetMenu.clone().toggleClass(toggleClass));
             }
 
         } else {

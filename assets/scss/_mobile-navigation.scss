@@ -58,9 +58,10 @@
     margin: 0;
     transform: translateX(0%);
     background: #EBEBEB;
+    border: none;
     height: 50px;
     width: auto;
-    padding: 15px 0;
+    padding: 0;
 
     &:after {
       content: '';
@@ -69,39 +70,84 @@
     }
 
     li {
-      height: 20px;
+      height: 50px;
+      line-height: 50px;
       width: 16.66%;
       display: inline-block;
       float: left;
+      padding: 0;
+      margin: 0;
+      line-height: auto;
       position: relative;
+      text-align: center;
+      vertical-align: middle;
+
+      a {
+        line-height: 50px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        min-width: 0;
+        display: block;
+        zoom: normal;
+        border: none;
+        position: static;
+      }
 
       img {
-        position: absolute;
-        margin-left: -10px;
-        left: 50%;
-        max-width: 100%;
-        max-height: 100%;
+        display: inline-block;
+        max-height: 25px;
+        margin-top: -2px;
+        vertical-align: middle;
       }
     }
   }
 
-  ul:not(.menu-icons) {
-    display: none;
-  }
+  .main-menu-container {
+    position: relative;
+    ul {
+      background: #fff;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      z-index: 1;
+      width: 100%;
+      margin: 0;
+      padding: 0;
 
-  .visible {
-    padding: 0;
-    display: block !important;
+      &.visible {
+        padding: 0;
+        left: 0;
+        z-index: 10;
+      }
+    }
 
     li {
       list-style: none;
       margin: 0;
-      background: url("/assets/img/mobile-menu-forward-arrow.png") no-repeat 90% 50%;
       padding: 10px 0 10px 20px;
       border-bottom: 1px solid #EBEBEB;
       font-weight: 500;
       text-transform: uppercase;
       font-size: 14px;
+      &.has-children {
+        background: url("/assets/img/mobile-menu-forward-arrow.png") no-repeat 90% 50%;
+      }
+      &:focus,
+      &:active {
+        outline: none;
+        box-shadow: inset 0px 2px 7px rgba(0, 0, 0, 0.1);
+        background: #f9f9f9;
+      }
+      a {
+        display: block;
+        color: $colorText;
+        &:hover,
+        &:active,
+        &:focus {
+          text-decoration: none;
+        }
+      }
     }
   }
 
