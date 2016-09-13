@@ -14,4 +14,9 @@
   include('modal-restart-1.php');
   include('modal-restart-2.php');
   include('modal-restart-3.php');
+
+  include('modal-redirect-1.php');
+  include('modal-redirect-2.php');
+  include('modal-redirect-3.php');
+  include('modal-redirect-4.php');
 ?>

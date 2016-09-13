@@ -61,10 +61,6 @@ $(function() {
         $('#fwdbtn').attr('data-target', '#' + selected);
     }
 
-    $('#what-option').click(function() {
-        radio_val();
-    });
-
     $('input[name=stop-restart-option]').change(function() {
         radio_val();
     });
