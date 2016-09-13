@@ -13,13 +13,15 @@ function modal_header($title = '', $content = '') {
                         class="close" 
                         data-dismiss="modal" 
                         aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h3>
                         <?php 
                           if ($title) {
-                            echo $title;    
+                            echo '<h3>' . $title . '</h3>';    
+                          }
+
+                          if ($content) {
+                            echo '<p>' . $content . '</p>';    
                           }
                         ?>
-                      </h3>
                   </div>
               </div>
           </div>
@@ -60,7 +62,7 @@ function modal_footer($back_action = '', $back_title = '', $fwd_action = '', $fw
               <a class="btn btn-primary" 
                 data-dismiss="modal" 
                 data-toggle="modal" 
-                data-target="<?php echo $fwd_action; ?>"><?php echo $back_title; ?></a>
+                data-target="<?php echo $fwd_action; ?>"><?php echo $fwd_title; ?></a>
           </div>
       </div>
   </div>

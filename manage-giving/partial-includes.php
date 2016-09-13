@@ -10,4 +10,7 @@
   include('modal-what-would-you-like-to-do-manage-giving.php');
   include('modal-stop-a-gift-manage-giving.php');
   include('modal-confirm-changes-start-stop-changes-manage-giving.php');
+
+  include('modal-restart-1.php');
+  include('modal-restart-2.php');
 ?>
