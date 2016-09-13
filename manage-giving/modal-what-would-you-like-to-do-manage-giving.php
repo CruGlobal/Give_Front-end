@@ -21,16 +21,16 @@
                             <form>
                                 <div class="form-group">
                                     <label class="radio">
-                                        <input value="1" type="radio">Restart my giving
+                                        <input value="restartManageGiving" type="radio" name="stop-restart-option">Restart my giving
                                     </label>
                                     <label class="radio">
-                                        <input value="2" type="radio">Change my giving to a new payment method
+                                        <input value="changeManageGiving" type="radio"name="stop-restart-option">Change my giving to a new payment method
                                     </label>
                                     <label class="radio">
-                                        <input value="3" type="radio">Redirect a gift to a new recipient
+                                        <input value="redirectManageGiving" type="radio"name="stop-restart-option">Redirect a gift to a new recipient
                                     </label>
                                     <label class="radio">
-                                        <input value="4" type="radio">Stop a gift
+                                        <input value="stopGiftManageGiving" type="radio" name="stop-restart-option" checked="checked">Stop a gift
                                     </label>
                                 </div>
                             </form>
@@ -45,10 +45,29 @@
                         <a class="btn btn-default" data-dismiss="modal">Cancel</a>
                     </div>
                     <div class="col-xs-6 text-right">
-                        <a class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#stopGiftManageGiving">Continue</a>
+                        <a class="btn btn-primary" id="fwdbtn" data-dismiss="modal" data-toggle="modal" data-target="#stopGiftManageGiving">Continue</a>
                     </div>
                 </div>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+<script>
+$(function() {
+
+    function radio_val() {
+        var selected = $('input[name=stop-restart-option]:checked').val();
+        $('#fwdbtn').attr('data-target', '#' + selected);
+    }
+
+    $('#what-option').click(function() {
+        radio_val();
+    });
+
+    $('input[name=stop-restart-option]').change(function() {
+        radio_val();
+    });
+
+});
+</script>
