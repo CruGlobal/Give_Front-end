@@ -1,11 +1,11 @@
 <div class="main-menu-container">
-  <ul class="main-menu visible">
+  <ul class="main-menu">
     <li><a href="#">How To Know God</a></li>
     <li class="has-children">Train + Grow
-      <ul class="train-and-grow">
+      <ul>
         <li><a href="#">Train + Grow</a></li>
-        <li class="has-children spiritual-growth">Spiritual Growth
-          <ul class="spiritual-growth">
+        <li class="has-children">Spiritual Growth
+          <ul>
             <li><a href="#">Spiritual Growth</a></li>
             <li><a href="#">Beginning With God</a></li>
             <li><a href="#">Core Christian Beliefs</a></li>
@@ -16,8 +16,8 @@
         </li>
         <li>Life + Relationships</li>
         <li>Bible Studies</li>
-        <li class="has-children share-the-gospel">Share The Gospel
-          <ul class="spiritual-growth">
+        <li class="has-children">Share The Gospel
+          <ul>
             <li><a href="#">Share the Gospel</a></li>
             <li><a href="#">Digital Ministry</a></li>
             <li><a href="#">Evangelism Principles</a></li>

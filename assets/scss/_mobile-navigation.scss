@@ -1,4 +1,7 @@
 #mobile-navigation {
+  overflow-x: hidden;
+  height: 100%;
+
   // Navigation grid
   *, *:after, *:before {
     -webkit-box-sizing: border-box;
@@ -119,11 +122,10 @@
       width: 100%;
       margin: 0;
       padding: 0;
+      transition: left .5s;
 
-      &.visible {
-        padding: 0;
+      &.main-menu {
         left: 0;
-        z-index: 10;
       }
     }
 
