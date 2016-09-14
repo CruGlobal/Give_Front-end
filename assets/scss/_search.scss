@@ -85,7 +85,7 @@
     &:hover {
       text-decoration: none;
       &:before {
-        opacity: 1;      
+        opacity: 1;
       }
     }
     &:before {
@@ -210,7 +210,7 @@
 
 .is-advanced {
   @media screen and (min-width: 991px) {
-    padding-right: 20px;    
+    padding-right: 20px;
   }
 
   h4 {
@@ -285,6 +285,7 @@
   .is-row-thumb {
     float: left;
     margin-right: $gutter*.5;
+    min-width: 90px;
     img {
       max-width: 90px;
     }
