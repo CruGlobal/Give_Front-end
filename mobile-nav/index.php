@@ -10,50 +10,61 @@ nav_mobile();
 <div id="mobile-navigation">
 
   <ul class="menu-icons nav nav-tabs" role="tablist">
-    <li><a href="#"><img class="menu-icon-navigation" src="/assets/img/mobile-menu-hamburger-icon.png"></a></li>
-    <li><a href="#"><img src="/assets/img/mobile-menu-search-icon.png"></a></li>
-    <li><a href="#"><img src="/assets/img/mobile-menu-location-icon.png"></a></li>
-    <li><a href="#"><img src="/assets/img/mobile-menu-globe-icon.png"></a></li>
-    <li><a href="#"><img src="/assets/img/mobile-menu-cart-icon.png"></a></li>
-    <li><a href="#"><img src="/assets/img/mobile-menu-ellipsis-icon.png"></a></li>
+    <li role="presentation" class="active">
+      <a href="#mob-menu" aria-controls="mob-menu" role="tab" data-toggle="tab" id="nav-trigger">
+        <img class="menu-icon-navigation" src="/assets/img/mobile-menu-hamburger-icon.png">
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#mob-search" aria-controls="mob-search" role="tab" data-toggle="tab">
+        <img src="/assets/img/mobile-menu-search-icon.png">
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#mob-nearme" aria-controls="mob-nearme" role="tab" data-toggle="tab">
+        <img src="/assets/img/mobile-menu-location-icon.png">
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#mob-global" aria-controls="mob-global" role="tab" data-toggle="tab">
+        <img src="/assets/img/mobile-menu-globe-icon.png">
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#mob-cart" aria-controls="mob-cart" role="tab" data-toggle="tab">
+        <img src="/assets/img/mobile-menu-cart-icon.png">
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#mob-more" aria-controls="mob-more" role="tab" data-toggle="tab">
+        <img src="/assets/img/mobile-menu-ellipsis-icon.png">
+      </a>
+    </li>
   </ul>
 
-  <div class="main-menu-container">
-    <ul class="main-menu visible">
-      <li><a href="#">How To Know God</a></li>
-      <li class="has-children">Train + Grow
-        <ul class="train-and-grow">
-          <li><a href="#">Train + Grow</a></li>
-          <li class="has-children spiritual-growth">Spiritual Growth
-            <ul class="spiritual-growth">
-              <li><a href="#">Spiritual Growth</a></li>
-              <li><a href="#">Beginning With God</a></li>
-              <li><a href="#">Core Christian Beliefs</a></li>
-              <li><a href="#">Devotionals + Quiet Times</a></li>
-              <li><a href="#">Prayer</a></li>
-              <li><a href="#">Fasting</a></li>
-            </ul>
-          </li>
-          <li>Life + Relationships</li>
-          <li>Bible Studies</li>
-          <li class="has-children share-the-gospel">Share The Gospel
-            <ul class="spiritual-growth">
-              <li><a href="#">Share the Gospel</a></li>
-              <li><a href="#">Digital Ministry</a></li>
-              <li><a href="#">Evangelism Principles</a></li>
-            </ul>
-          </li>
-          <li>Help Others Grow</li>
-          <li>Leadership Training</li>
-          <li>Language Resources</li>
-        </ul>
-      </li>
-      <li>Communities</li>
-      <li>Opportunities</li>
-      <li>About</li>
-      <li>Give</li>
-    </ul>
+
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="mob-menu">
+      <?php include('mob-nav.php'); ?>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="mob-search">
+      <?php include('mob-search.php'); ?>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="mob-nearme">
+      <?php include('mob-nearme.php'); ?>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="mob-global">
+      <?php include('mob-global.php'); ?>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="mob-cart">
+      <?php include('mob-cart.php'); ?>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="mob-more">
+      <?php include('mob-more.php'); ?>
+    </div>
   </div>
+
+  
 </div>
 </body>
 </html>
