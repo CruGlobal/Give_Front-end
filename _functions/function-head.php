@@ -8,4 +8,9 @@ function give_head() {
 	include($givepath . '_includes/sub-nav.html'); 	
 }
 
+function nav_mobile() {
+  $givepath = dirname(__FILE__) . '/../';
+  include($givepath . '_includes/header.php');
+}
+
 ?>
