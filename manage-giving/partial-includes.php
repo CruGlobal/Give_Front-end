@@ -19,4 +19,7 @@
   include('modal-redirect-2.php');
   include('modal-redirect-3.php');
   include('modal-redirect-4.php');
+
+  include('modal-change-1.php');
+  include('../payment-methods/modal-add-payment-method.php');
 ?>
