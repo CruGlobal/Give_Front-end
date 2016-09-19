@@ -64,6 +64,49 @@
   }
 }
 
+.phone-row {
+  select.form-control-subtle {
+    display: inline-block !important;
+    width: 23%;
+    margin-right: -4px;
+  }
+  input[type=email] {
+    display: inline-block !important;
+    width: 50% !important;
+    margin: 0 1% 0 2% !important;
+    vertical-align: bottom;
+  }
+}
+
+.person-row {
+  select.form-control-subtle {
+    display: inline-block !important;
+    width: 12%;
+  }
+  input[type=name] {
+    display: inline-block !important;
+    width: 50% !important;
+    margin: 0 1% 0 2% !important;
+    vertical-align: bottom;
+  }
+  input.first {
+    width: 30%;
+  }
+  input.last {
+    width: 30%;
+  }
+  input.middle {
+    width: 8%;
+    padding: 3px;
+  }
+  input.first,
+  input.last,
+  input.middle {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+}
+
 .help-block {
   font-size: 85%;
   font-weight: 600;
