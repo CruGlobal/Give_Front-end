@@ -59,7 +59,8 @@
   }
 
   span {
-    font-weight: normal;
+    // removed to resolve EP-1182
+    //font-weight: normal;
   }
 }
 

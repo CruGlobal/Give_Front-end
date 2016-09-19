@@ -16,12 +16,12 @@ nav_mobile();
       </a>
     </li>
     <li role="presentation">
-      <a href="#mob-search" aria-controls="mob-search" role="tab" data-toggle="tab">
+      <a href="https://give.cru.org/give/VirtualCommonLinks/process/search2?Query=Florence" aria-controls="mob-search">
         <img src="/assets/img/mobile-menu-search-icon.png">
       </a>
     </li>
     <li role="presentation">
-      <a href="#mob-nearme" aria-controls="mob-nearme" role="tab" data-toggle="tab">
+      <a href="https://www.cru.org/locator/colleges.html">
         <img src="/assets/img/mobile-menu-location-icon.png">
       </a>
     </li>
