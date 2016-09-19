@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var activeClass = 'mobile-menu-active';
-    var slideTo = function(element){
-        var mainMenu = $(".main-menu");
+    var slideTo = function(element) {
+        var mainMenu = $("#main-menu");
 
         element.children('ul').show();
         element.siblings().children('ul').hide();
@@ -14,7 +14,7 @@ $(document).ready(function () {
         $(".menu-icon-navigation").attr('src', (level === 0) ? '/assets/img/mobile-menu-hamburger-icon.png' : '/assets/img/mobile-menu-back-icon.png');
     };
 
-    $('.main-menu').click(function (e) {
+    $('#main-menu').click(function (e) {
         var target = $(e.target);
 
         if (target.hasClass('has-children')) {

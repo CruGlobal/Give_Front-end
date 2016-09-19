@@ -1,5 +1,5 @@
 <div class="main-menu-container">
-  <ul class="main-menu">
+  <ul class="main-menu" id="main-menu">
     <li><a href="#">How To Know God</a></li>
     <li class="has-children">Train + Grow
       <ul>
