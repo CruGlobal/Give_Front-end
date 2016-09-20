@@ -6,8 +6,17 @@ nav_mobile();
 
 ?>
 
-<body>
+<body class="scroll-lock">
+
 <div id="mobile-navigation">
+
+
+  <div class="mobile-global-nav">
+    <!-- Logo -->
+    Logo
+    <!-- Signin/Signout -->
+    <!-- Nav Trigger - Animate the X -->
+  </div>
 
   <ul class="menu-icons nav nav-tabs" role="tablist">
     <li role="presentation" class="active">
@@ -66,5 +75,23 @@ nav_mobile();
 
   
 </div>
+
+<div class="mobile-nav-overlay"></div>
+
+<div class="content-holder-demo">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum ut magna id fermentum. Pellentesque interdum eros a elit cursus molestie. Nulla facilisi. Duis tempor quam vel enim rhoncus tempus. Suspendisse quis tempor sem, non lacinia ligula. Nulla pharetra nisi justo, at suscipit nisi vulputate ut. Fusce consectetur augue non elit finibus rutrum. In hac habitasse platea dictumst. Donec erat lorem, euismod ut odio vel, condimentum mollis metus. Nam dapibus volutpat neque eget placerat.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum ut magna id fermentum. Pellentesque interdum eros a elit cursus molestie. Nulla facilisi. Duis tempor quam vel enim rhoncus tempus. Suspendisse quis tempor sem, non lacinia ligula. Nulla pharetra nisi justo, at suscipit nisi vulputate ut. Fusce consectetur augue non elit finibus rutrum. In hac habitasse platea dictumst. Donec erat lorem, euismod ut odio vel, condimentum mollis metus. Nam dapibus volutpat neque eget placerat.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum ut magna id fermentum. Pellentesque interdum eros a elit cursus molestie. Nulla facilisi. Duis tempor quam vel enim rhoncus tempus. Suspendisse quis tempor sem, non lacinia ligula. Nulla pharetra nisi justo, at suscipit nisi vulputate ut. Fusce consectetur augue non elit finibus rutrum. In hac habitasse platea dictumst. Donec erat lorem, euismod ut odio vel, condimentum mollis metus. Nam dapibus volutpat neque eget placerat.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum ut magna id fermentum. Pellentesque interdum eros a elit cursus molestie. Nulla facilisi. Duis tempor quam vel enim rhoncus tempus. Suspendisse quis tempor sem, non lacinia ligula. Nulla pharetra nisi justo, at suscipit nisi vulputate ut. Fusce consectetur augue non elit finibus rutrum. In hac habitasse platea dictumst. Donec erat lorem, euismod ut odio vel, condimentum mollis metus. Nam dapibus volutpat neque eget placerat.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum ut magna id fermentum. Pellentesque interdum eros a elit cursus molestie. Nulla facilisi. Duis tempor quam vel enim rhoncus tempus. Suspendisse quis tempor sem, non lacinia ligula. Nulla pharetra nisi justo, at suscipit nisi vulputate ut. Fusce consectetur augue non elit finibus rutrum. In hac habitasse platea dictumst. Donec erat lorem, euismod ut odio vel, condimentum mollis metus. Nam dapibus volutpat neque eget placerat.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum ut magna id fermentum. Pellentesque interdum eros a elit cursus molestie. Nulla facilisi. Duis tempor quam vel enim rhoncus tempus. Suspendisse quis tempor sem, non lacinia ligula. Nulla pharetra nisi justo, at suscipit nisi vulputate ut. Fusce consectetur augue non elit finibus rutrum. In hac habitasse platea dictumst. Donec erat lorem, euismod ut odio vel, condimentum mollis metus. Nam dapibus volutpat neque eget placerat.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum ut magna id fermentum. Pellentesque interdum eros a elit cursus molestie. Nulla facilisi. Duis tempor quam vel enim rhoncus tempus. Suspendisse quis tempor sem, non lacinia ligula. Nulla pharetra nisi justo, at suscipit nisi vulputate ut. Fusce consectetur augue non elit finibus rutrum. In hac habitasse platea dictumst. Donec erat lorem, euismod ut odio vel, condimentum mollis metus. Nam dapibus volutpat neque eget placerat.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum ut magna id fermentum. Pellentesque interdum eros a elit cursus molestie. Nulla facilisi. Duis tempor quam vel enim rhoncus tempus. Suspendisse quis tempor sem, non lacinia ligula. Nulla pharetra nisi justo, at suscipit nisi vulputate ut. Fusce consectetur augue non elit finibus rutrum. In hac habitasse platea dictumst. Donec erat lorem, euismod ut odio vel, condimentum mollis metus. Nam dapibus volutpat neque eget placerat.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum ut magna id fermentum. Pellentesque interdum eros a elit cursus molestie. Nulla facilisi. Duis tempor quam vel enim rhoncus tempus. Suspendisse quis tempor sem, non lacinia ligula. Nulla pharetra nisi justo, at suscipit nisi vulputate ut. Fusce consectetur augue non elit finibus rutrum. In hac habitasse platea dictumst. Donec erat lorem, euismod ut odio vel, condimentum mollis metus. Nam dapibus volutpat neque eget placerat.</p>
+</div>
+
+
+
+
 </body>
 </html>

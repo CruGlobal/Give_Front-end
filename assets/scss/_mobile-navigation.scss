@@ -1,6 +1,14 @@
 #mobile-navigation {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
   overflow-x: hidden;
-  height: 100%;
+
+  &.open {  
+    position: fixed;
+    height: 100%;
+  }
 
   // Navigation grid
   *, *:after, *:before {
