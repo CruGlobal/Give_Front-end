@@ -128,7 +128,7 @@ give_head();
                 <div class="row">
                   <div class="col-sm-12">
                     <div class="border-bottom-small"></div>
-                    <button type=submit class="btn btn-primary pull-right">
+                    <button type=submit class="btn btn-primary btn-lg pull-right">
                       Update My Profile
                     </button>
                   </div>
