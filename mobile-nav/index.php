@@ -7,6 +7,12 @@ nav_mobile();
 ?>
 
 <body>
+<div id="mobile-header">
+  <div class="mobile-logo"></div>
+
+  <div class="sign-in">Sign In</div>
+</div>
+
 <div id="mobile-navigation">
 
   <ul class="menu-icons nav nav-tabs" role="tablist">
