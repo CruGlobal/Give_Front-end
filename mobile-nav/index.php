@@ -22,7 +22,7 @@ nav_mobile();
   </div>
 </div>
 
-<div id="mobile-navigation">
+<div id="mobile-navigation" class="hidden">
 
   <ul class="menu-icons nav nav-tabs" role="tablist">
     <li role="presentation" class="active">
@@ -100,7 +100,10 @@ nav_mobile();
 <script>
   $(document).ready(function(){
     $('#mobile-nav-icon').click(function(){
+      var mobileNavigation = $("#mobile-navigation");
+
       $(this).toggleClass('open');
+      $(this).hasClass("open") ? mobileNavigation.removeClass("hidden") : mobileNavigation.addClass("hidden");
     });
   });
 </script>
