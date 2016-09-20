@@ -8,9 +8,18 @@ nav_mobile();
 
 <body>
 <div id="mobile-header">
-  <div class="mobile-logo"></div>
+  <div id="mobile-logo"></div>
 
-  <div class="sign-in">Sign In</div>
+  <div id="sign-in-section">
+    <div id="sign-in">Sign In</div>
+
+    <div id="mobile-nav-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
 </div>
 
 <div id="mobile-navigation">
@@ -88,7 +97,13 @@ nav_mobile();
 </div>
 
 
-
+<script>
+  $(document).ready(function(){
+    $('#mobile-nav-icon').click(function(){
+      $(this).toggleClass('open');
+    });
+  });
+</script>
 
 </body>
 </html>

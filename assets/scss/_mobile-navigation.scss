@@ -2,12 +2,19 @@ $header-height: 84px;
 
 #mobile-header {
   border-top: 4px solid $colorCru-gold;
-  boder-bottom: 1px solid #EBEBEB;
+  border-bottom: 1px solid #EBEBEB;
   height: $header-height;
 
-  @include clearfix;
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
 
-  .mobile-logo {
+  #mobile-logo {
     float: left;
     background: url("/assets/img/cru-mobile-logo.png") no-repeat 20px center;
     background-size: 80px 50px;
@@ -16,16 +23,81 @@ $header-height: 84px;
     max-height: $header-height;
   }
 
-  .sign-in {
-    display: table-cell;
-    height: $header-height;
-    width: 50%;
+  #sign-in-section {
     vertical-align: bottom;
+    display: table-cell;
+    text-align: right;
+    float: left;
+    height: 100%;
+    //max-height: $header-height;
+    width: 50%;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     color: $colorGrayscale-rock;
     padding-bottom: 10px;
+
+    #sign-in {
+      display: inline-block;
+      padding: 10px 10px;
+    }
+
+    // Mobile navigation icon
+    #mobile-nav-icon {
+      padding: 10px 10px;
+      margin-right: 20px;
+      display: inline-block;
+      width: 30px;
+      position: relative;
+      transform: rotate(0deg);
+      transition: .5s ease-in-out;
+      cursor: pointer;
+    }
+
+    #mobile-nav-icon span {
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: #d3531a;
+      border-radius: 3px;
+      opacity: 1;
+      left: 0;
+      transform: rotate(0deg);
+      transition: .25s ease-in-out;
+    }
+
+    #mobile-nav-icon span:nth-child(1) {
+      top: 0px;
+    }
+
+    #mobile-nav-icon span:nth-child(2), #mobile-nav-icon span:nth-child(3) {
+      top: 9px;
+    }
+
+    #mobile-nav-icon span:nth-child(4) {
+      top: 18px;
+    }
+
+    #mobile-nav-icon.open span:nth-child(1) {
+      top: 9px;
+      width: 0%;
+      left: 50%;
+    }
+
+    #mobile-nav-icon.open span:nth-child(2) {
+      transform: rotate(45deg);
+    }
+
+    #mobile-nav-icon.open span:nth-child(3) {
+      transform: rotate(-45deg);
+    }
+
+    #mobile-nav-icon.open span:nth-child(4) {
+      top: 18px;
+      width: 0%;
+      left: 50%;
+    }
   }
 }
 
@@ -39,59 +111,6 @@ $header-height: 84px;
   &.open {  
     position: fixed;
     height: 100%;
-  }
-
-  // Navigation grid
-  *, *:after, *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  $gutter: 20px;
-
-  .grid {
-    width: auto;
-
-    &:after {
-      content: '';
-      display: table;
-      clear: both;
-    }
-  }
-
-  [class*='col-'] {
-    float: left;
-    padding-right: $gutter;
-    .grid &:last-of-type {
-      padding-right: 0;
-    }
-  }
-
-  .col-1-1 {
-    width: 100%;
-  }
-  .col-1-2 {
-    width: 50%;
-  }
-  .col-1-3 {
-    width: 33.33%;
-  }
-  .col-1-4 {
-    width: 25%;
-  }
-  .col-1-8 {
-    width: 12.5%;
-  }
-  .col-2-3 {
-    width: 66.66%;
-  }
-
-  .grid--pad {
-    padding: $gutter 0 $gutter $gutter;
-    [class*='col-']:last-of-type {
-      padding-right: $gutter;
-    }
   }
 
   // Navigation styles
