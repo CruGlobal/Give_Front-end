@@ -6,17 +6,14 @@ nav_mobile();
 
 ?>
 
-<body class="scroll-lock">
+<body>
+<div id="mobile-header">
+  <div class="mobile-logo"></div>
+
+  <div class="sign-in">Sign In</div>
+</div>
 
 <div id="mobile-navigation">
-
-
-  <div class="mobile-global-nav">
-    <!-- Logo -->
-    Logo
-    <!-- Signin/Signout -->
-    <!-- Nav Trigger - Animate the X -->
-  </div>
 
   <ul class="menu-icons nav nav-tabs" role="tablist">
     <li role="presentation" class="active">

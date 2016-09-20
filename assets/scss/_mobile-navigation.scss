@@ -1,3 +1,34 @@
+$header-height: 84px;
+
+#mobile-header {
+  border-top: 4px solid $colorCru-gold;
+  boder-bottom: 1px solid #EBEBEB;
+  height: $header-height;
+
+  @include clearfix;
+
+  .mobile-logo {
+    float: left;
+    background: url("/assets/img/cru-mobile-logo.png") no-repeat 20px center;
+    background-size: 80px 50px;
+    width: 50%;
+    height: 100%;
+    max-height: $header-height;
+  }
+
+  .sign-in {
+    display: table-cell;
+    height: $header-height;
+    width: 50%;
+    vertical-align: bottom;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $colorGrayscale-rock;
+    padding-bottom: 10px;
+  }
+}
+
 #mobile-navigation {
   top: 0;
   left: 0;
