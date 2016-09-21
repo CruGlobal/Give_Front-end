@@ -28,4 +28,15 @@ $(document).ready(function () {
 
         slideTo(activeRoot.closest('ul').parent());
     });
+
+    $('#mobile-nav-icon').click(function(){
+      var mobileNavigation = $("#mobile-navigation");
+
+      $(this).toggleClass('open');
+      $(this).hasClass("open") ? mobileNavigation.removeClass("hidden") : mobileNavigation.addClass("hidden");
+
+      $('.mobile-nav-wrap').toggleClass('on');
+      $('.mobile-nav-overlay').toggleClass('on');
+
+    });
 });
