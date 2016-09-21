@@ -15,7 +15,8 @@ nav_mobile();
     <div id="sign-in-section">
       <div id="sign-in">Sign In</div>
 
-      <div id="mobile-nav-icon">
+      <div id="mobile-nav-icon" 
+        onclick="_gaq.push(['_trackEvent', 'Mobile Nav', 'Mobile Menu Trigger']);">
         <span></span>
         <span></span>
         <span></span>
@@ -27,32 +28,38 @@ nav_mobile();
   <div id="mobile-navigation" class="hidden">
     <ul class="menu-icons nav nav-tabs" role="tablist">
       <li role="presentation" class="active">
-        <a href="#mob-menu" aria-controls="mob-menu" role="tab" data-toggle="tab" id="nav-trigger">
+        <a href="#mob-menu" aria-controls="mob-menu" role="tab" data-toggle="tab" id="nav-trigger" 
+          onclick="_gaq.push(['_trackEvent', 'Mobile Nav', 'Nav Tab', 'Main Menu']);">
           <img class="menu-icon-navigation" src="/assets/img/mobile-menu-hamburger-icon.png">
         </a>
       </li>
       <li role="presentation">
-        <a href="#mob-search" aria-controls="mob-search" role="tab" data-toggle="tab">
+        <a href="#mob-search" aria-controls="mob-search" role="tab" data-toggle="tab"
+          onclick="_gaq.push(['_trackEvent', 'Mobile Nav', 'Nav Tab', 'Search']);">
           <img src="/assets/img/mobile-menu-search-icon.png">
         </a>
       </li>
       <li role="presentation">
-        <a href="#mob-nearme" aria-controls="mob-nearme" role="tab" data-toggle="tab">
+        <a href="#mob-nearme" aria-controls="mob-nearme" role="tab" data-toggle="tab"
+          onclick="_gaq.push(['_trackEvent', 'Mobile Nav', 'Nav Tab', 'Near Me']);">
           <img src="/assets/img/mobile-menu-location-icon.png">
         </a>
       </li>
       <li role="presentation">
-        <a href="#mob-global" aria-controls="mob-global" role="tab" data-toggle="tab">
+        <a href="#mob-global" aria-controls="mob-global" role="tab" data-toggle="tab"
+          onclick="_gaq.push(['_trackEvent', 'Mobile Nav', 'Nav Tab', 'Global Menu']);">
           <img src="/assets/img/mobile-menu-globe-icon.png">
         </a>
       </li>
       <li role="presentation">
-        <a href="#mob-cart" aria-controls="mob-cart" role="tab" data-toggle="tab">
+        <a href="#mob-cart" aria-controls="mob-cart" role="tab" data-toggle="tab"
+          onclick="_gaq.push(['_trackEvent', 'Mobile Nav', 'Nav Tab', 'Giving Cart']);">
           <img src="/assets/img/mobile-menu-cart-icon.png">
         </a>
       </li>
       <li role="presentation">
-        <a href="#mob-more" aria-controls="mob-more" role="tab" data-toggle="tab">
+        <a href="#mob-more" aria-controls="mob-more" role="tab" data-toggle="tab"
+          onclick="_gaq.push(['_trackEvent', 'Mobile Nav', 'Nav Tab', 'More Menu']);">
           <img src="/assets/img/mobile-menu-ellipsis-icon.png">
         </a>
       </li>
