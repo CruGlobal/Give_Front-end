@@ -1,5 +1,5 @@
 <div class="main-menu-container">
-  <ul class="main-menu main-menu-global">
+  <ul class="main-menu main-menu-global global-menu">
     <li class="has-children">Africa
       <ul>
         <li><a href="#">Ethiopia</a></li>

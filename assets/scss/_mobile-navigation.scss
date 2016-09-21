@@ -254,6 +254,8 @@ $header-height: 84px;
   }
 
   .tab-content {
+    height: 100%;
+
     #mob-search, #mob-nearme {
       border-top: 1px solid #FFF;
 
@@ -317,6 +319,29 @@ $header-height: 84px;
         display: inline-block;
         padding-right: 20px;
         margin-top: -2px;
+      }
+    }
+  }
+
+  #mob-global {
+    height: 100%;
+    background: url("/assets/img/mobile-global-bg.jpg") no-repeat center center;
+    background-size: cover;
+
+    .global-menu {
+      background: none;
+
+      li {
+        border-color: rgba(255,255,255, 0.2);
+        color: $colorCru-white;
+
+        &:active {
+          background-color: rgba(255,255,255, 0.2);
+        }
+
+        a {
+          color: $colorCru-white;
+        }
       }
     }
   }
