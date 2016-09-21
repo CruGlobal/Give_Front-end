@@ -1,7 +1,12 @@
 $header-height: 84px;
 
 #mobile-header {
-  background: $colorCru-white;
+  z-index: 10;
+
+  position: fixed;
+  width: 100%;
+  background-color: $colorCru-white;
+
   border-top: 4px solid $colorCru-gold;
   border-bottom: 1px solid #EBEBEB;
   height: $header-height;
@@ -102,29 +107,27 @@ $header-height: 84px;
   }
 }
 
-.mobile-nav-wrap {
-  height: 100%;
-  width: 100%;
-  z-index: 10;
-  &.on {
-    position: fixed;
-  }
-}
-
-.mobile-nav-overlay {
+.mobile-nav-overlay.on {
   position: fixed;
   height: 100%;
   width: 100%;
   background: rgba(0,0,0,.55);
-  z-index: 2;
 }
 
 #mobile-navigation {
-  top: 0;
-  left: 0;
+  z-index: 10;
+  top: $header-height;
+  //left: 0;
   width: 100%;
+  position: fixed;
   height: 100%;
-  overflow-x: hidden;
+  //display: inline-block;
+  //overflow-x: hidden;
+
+  &.open {
+    position: fixed;
+    height: 100%;
+  }
 
   // Navigation styles
   .menu-icons {
