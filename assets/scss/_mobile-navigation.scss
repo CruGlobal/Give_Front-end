@@ -1,7 +1,144 @@
-#mobile-navigation {
-  height: 100%;
-  background-color: #FFF;
+$header-height: 84px;
+
+.body-scroll-lock {
   overflow: hidden;
+}
+
+.mobile-nav-wrap {
+  overflow-x: hidden;
+
+  &.on {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+}
+
+#mobile-header {
+  width: 100%;
+  background-color: $colorCru-white;
+
+  border-top: 4px solid $colorCru-gold;
+  border-bottom: 1px solid #EBEBEB;
+  height: $header-height;
+
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+
+  #mobile-logo {
+    float: left;
+    background: url("/assets/img/cru-mobile-logo.png") no-repeat 20px center;
+    background-size: 80px 50px;
+    width: 50%;
+    height: 100%;
+    max-height: $header-height;
+  }
+
+  #sign-in-section {
+    vertical-align: bottom;
+    display: table-cell;
+    text-align: right;
+    float: left;
+    height: 100%;
+    //max-height: $header-height;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $colorGrayscale-rock;
+    padding-bottom: 10px;
+
+    #sign-in {
+      display: inline-block;
+      padding: 10px 10px;
+    }
+
+    // Mobile navigation icon
+    #mobile-nav-icon {
+      padding: 10px 10px;
+      margin-right: 20px;
+      display: inline-block;
+      width: 30px;
+      position: relative;
+      transform: rotate(0deg);
+      transition: .5s ease-in-out;
+      cursor: pointer;
+    }
+
+    #mobile-nav-icon span {
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: #d3531a;
+      border-radius: 3px;
+      opacity: 1;
+      left: 0;
+      transform: rotate(0deg);
+      transition: .25s ease-in-out;
+    }
+
+    #mobile-nav-icon span:nth-child(1) {
+      top: 0px;
+    }
+
+    #mobile-nav-icon span:nth-child(2), #mobile-nav-icon span:nth-child(3) {
+      top: 9px;
+    }
+
+    #mobile-nav-icon span:nth-child(4) {
+      top: 18px;
+    }
+
+    #mobile-nav-icon.open span:nth-child(1) {
+      top: 9px;
+      width: 0%;
+      left: 50%;
+    }
+
+    #mobile-nav-icon.open span:nth-child(2) {
+      transform: rotate(45deg);
+    }
+
+    #mobile-nav-icon.open span:nth-child(3) {
+      transform: rotate(-45deg);
+    }
+
+    #mobile-nav-icon.open span:nth-child(4) {
+      top: 18px;
+      width: 0%;
+      left: 50%;
+    }
+  }
+}
+
+.mobile-nav-overlay.on {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.55);
+}
+
+#mobile-navigation {
+  z-index: 10;
+  top: $header-height;
+  left: 0;
+  width: 100%;
+  position: static;
+  height: 100%;
+  overflow-x: auto;
+
+  &.open {
+    position: fixed;
+    height: 100%;
+  }
 
   // Navigation styles
   .menu-icons {
@@ -28,6 +165,7 @@
       float: left;
       padding: 0;
       margin: 0;
+      line-height: auto;
       position: relative;
       text-align: center;
       vertical-align: middle;
@@ -49,7 +187,6 @@
         max-height: 25px;
         margin-top: -2px;
         vertical-align: middle;
-        opacity: 1;
         filter: grayscale(100%);
       }
 
@@ -75,11 +212,10 @@
       width: 100%;
       margin: 0;
       padding: 0;
+      transition: left .5s;
 
-      &.visible {
-        padding: 0;
+      &.main-menu {
         left: 0;
-        z-index: 10;
       }
     }
 
@@ -92,7 +228,8 @@
       text-transform: uppercase;
       font-size: 14px;
       &.has-children {
-        background: url("/assets/img/mobile-menu-forward-arrow.png") no-repeat 90% 50%;
+        background: url("/assets/img/mobile-menu-forward-arrow.png") no-repeat;
+        background-position: right 20px center;
       }
       &:focus,
       &:active {
@@ -117,6 +254,8 @@
   }
 
   .tab-content {
+    height: 100%;
+
     #mob-search, #mob-nearme {
       border-top: 1px solid #FFF;
 
@@ -145,7 +284,7 @@
     .title {
       color: $colorCru-gold;
       font-weight: 600;
-     }
+    }
 
     .price {
       font-weight: 600;
@@ -159,6 +298,7 @@
   }
 
   #mob-more {
+    background-color: $colorCru-white;
     margin: 0;
     padding: 0;
 
@@ -182,5 +322,27 @@
       }
     }
   }
-}
 
+  #mob-global {
+    height: 100%;
+    background: url("/assets/img/mobile-global-bg.jpg") no-repeat center center;
+    background-size: cover;
+
+    .global-menu {
+      background: none;
+
+      li {
+        border-color: rgba(255,255,255, 0.2);
+        color: $colorCru-white;
+
+        &:active {
+          background-color: rgba(255,255,255, 0.2);
+        }
+
+        a {
+          color: $colorCru-white;
+        }
+      }
+    }
+  }
+}
