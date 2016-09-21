@@ -1,9 +1,21 @@
 $header-height: 84px;
 
-#mobile-header {
-  z-index: 10;
+.body-scroll-lock {
+  overflow: hidden;
+}
 
-  position: fixed;
+.mobile-nav-wrap {
+  overflow-x: hidden;
+
+  &.on {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+}
+
+#mobile-header {
   width: 100%;
   background-color: $colorCru-white;
 
@@ -117,12 +129,11 @@ $header-height: 84px;
 #mobile-navigation {
   z-index: 10;
   top: $header-height;
-  //left: 0;
+  left: 0;
   width: 100%;
-  position: fixed;
+  position: static;
   height: 100%;
-  //display: inline-block;
-  //overflow-x: hidden;
+  overflow-x: auto;
 
   &.open {
     position: fixed;
@@ -217,7 +228,8 @@ $header-height: 84px;
       text-transform: uppercase;
       font-size: 14px;
       &.has-children {
-        background: url("/assets/img/mobile-menu-forward-arrow.png") no-repeat 90% 50%;
+        background: url("/assets/img/mobile-menu-forward-arrow.png") no-repeat;
+        background-position: right 20px center;
       }
       &:focus,
       &:active {
@@ -284,6 +296,7 @@ $header-height: 84px;
   }
 
   #mob-more {
+    background-color: $colorCru-white;
     margin: 0;
     padding: 0;
 

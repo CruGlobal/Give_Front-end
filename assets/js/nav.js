@@ -29,14 +29,18 @@ $(document).ready(function () {
         slideTo(activeRoot.closest('ul').parent());
     });
 
-    $('#mobile-nav-icon').click(function(){
-      var mobileNavigation = $("#mobile-navigation");
+    $('#mobile-nav-icon').click(function() {
+        var mobileNavigation = $("#mobile-navigation");
 
-      $(this).toggleClass('open');
-      $(this).hasClass("open") ? mobileNavigation.removeClass("hidden") : mobileNavigation.addClass("hidden");
+        $(this).toggleClass('open');
+        if ($(this).hasClass("open")) {
+            mobileNavigation.removeClass("hidden");
+            $("body").addClass('body-scroll-lock');
+        } else {
+            mobileNavigation.addClass("hidden");
+            $("body").removeClass('body-scroll-lock');
+        }
 
-      $('.mobile-nav-wrap').toggleClass('on');
-      $('.mobile-nav-overlay').toggleClass('on');
-
+      $('.mobile-nav-wrap, .mobile-nav-overlay').toggleClass('on');
     });
 });
