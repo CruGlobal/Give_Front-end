@@ -1,0 +1,44 @@
+#desktop-navigation {
+  display: block;
+  height: 80px;
+
+  + #container {
+    &:before,
+    &:after {
+      content: " "; // 1
+      display: table; // 2
+    }
+    &:after {
+      clear: both;
+    }
+  }
+
+  .gh-desk-logo {
+    background: url("/assets/img/cru-logo.png");
+    width: 103px;
+    height: 64px;
+    float: left;
+  }
+
+  .gh-desk-nav-tree {
+    float: left;
+    list-style: none;
+
+    li {
+      display: inline-block;
+
+      &.col-level-1 {
+
+        a {
+          display: inline-block;
+          padding: 16px;
+          text-transform: uppercase;
+        }
+      }
+
+      &.col-level-2 {
+
+      }
+    }
+  }
+}
