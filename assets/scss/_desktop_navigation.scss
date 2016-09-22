@@ -1,3 +1,6 @@
+$col-width: 260px;
+$promo-width: 200px;
+
 #desktop-navigation {
   background-color: $colorCru-white;
   display: block;
@@ -25,7 +28,7 @@
     display: table;
     padding: 0;
 
-    &.gh-desk-nav-tree {
+    &.gh-desk-nav-tree { // level 1
       width: auto;
       height: 80px;
       float: left;
@@ -41,7 +44,7 @@
         height: auto;
 
         a {
-          display: inline-block;
+          display: block;
           padding: 10px 16px;
           text-transform: uppercase;
           font-weight: 600;
@@ -53,31 +56,48 @@
           }
         }
       }
-      .col-level-1 {
-        li {
-          .gh-desk-promo {
-            background-color: $colorGrayscale-stone;
-            display: block;
-            width: 200px;
-            height: 20px;
-          }
-        }
-      }
+    }
 
-      .col-level-2 {
-        position: relative;
-        top: 0;
-        left: 0;
-        background-color: $colorGrayscale-stone;
-        width: 260px;
+    &.col-level-1 {
+      > li {
+        padding-right: $promo-width;
       }
+    }
 
-      .col-level-3 {
-        position: relative;
-        top: -49px;
-        left: 260px;
-        background-color: $colorGrayscale-stone;
+    .col-level-1,
+    .col-level-2,
+    .col-level-3 {
+      height: 100%;
+    }
+
+    .gh-desk-promo {
+      background-color: $colorGrayscale-stone;
+      display: block;
+      width: 200px;
+      height: 300px;
+      float: left;
+    }
+
+    .col-level-2 {
+      position: relative;
+      top: 0;
+      left: 0;
+      background-color: $colorGrayscale-stone;
+      width: $col-width;
+      float: left;
+    }
+
+    .col-level-3 {
+      position: relative;
+      top: -49px;
+      left: $col-width;
+      width: $col-width;
+      background-color: $colorGrayscale-stone;
+      display: none;
+      &.on {
         display: block;
+        position: absolute;
+        top: 0;
       }
     }
   }

@@ -26,6 +26,9 @@
                             <li><a href="">Level 3 b</a></li>
                         </ul>
                     </li>
+                    <li class="has-children">
+                        <a href="">Level 2 b</a>
+                    </li>
                 </ul>
 
                 <div class="gh-desk-promo">
@@ -39,4 +42,11 @@
 </header>
 
 
+<script>
+$(function() {
+    $('.col-level-2 li > a').hover(function() {
+        $(this).next().toggleClass('on');
+    });
+});
+</script>
 <!-- End primary header -->
