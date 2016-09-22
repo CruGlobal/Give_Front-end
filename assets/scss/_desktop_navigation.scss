@@ -1,4 +1,5 @@
 #desktop-navigation {
+  background-color: $colorCru-white;
   display: block;
   height: 80px;
 
@@ -20,24 +21,63 @@
     float: left;
   }
 
-  .gh-desk-nav-tree {
-    float: left;
-    list-style: none;
+  ul {
+    display: table;
+    padding: 0;
 
-    li {
-      display: inline-block;
+    &.gh-desk-nav-tree {
+      width: auto;
+      height: 80px;
+      float: left;
+      list-style: none;
+      margin: 0;
+      padding-top: 30px;
+      position: relative;
+      z-index: 10;
 
-      &.col-level-1 {
+      li {
+        display: block;
+        width: 100%;
+        height: auto;
 
         a {
           display: inline-block;
-          padding: 16px;
+          padding: 10px 16px;
           text-transform: uppercase;
+          font-weight: 600;
+          color: $colorGrayscale-black;
+          text-decoration: none;
+
+          &:hover {
+            color: $colorCru-gold;
+          }
+        }
+      }
+      .col-level-1 {
+        li {
+          .gh-desk-promo {
+            background-color: $colorGrayscale-stone;
+            display: block;
+            width: 200px;
+            height: 20px;
+          }
         }
       }
 
-      &.col-level-2 {
+      .col-level-2 {
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: $colorGrayscale-stone;
+        width: 260px;
+      }
 
+      .col-level-3 {
+        position: relative;
+        top: -49px;
+        left: 260px;
+        background-color: $colorGrayscale-stone;
+        display: block;
       }
     }
   }
