@@ -26,7 +26,7 @@
                             <li><a href="">Level 3 b</a></li>
                         </ul>
                     </li>
-                    <li class="has-children">
+                    <li>
                         <a href="">Level 2 b</a>
                     </li>
                 </ul>
@@ -44,9 +44,23 @@
 
 <script>
 $(function() {
-    $('.col-level-2 li > a').hover(function() {
-        $(this).next().toggleClass('on');
+    $('.col-level-2 li.has-children').mouseenter(function() {
+        $("> a", this).next().addClass('on');
+        $('.gh-desk-promo').addClass('gh-offset-2');
     });
+
+    $('.col-level-2 > li').not('.has-children').mouseenter(function() {
+        $("> a", this).next().removeClass('on');
+        $('.gh-desk-promo').removeClass('gh-offset-2');
+    });
+
+    $('.col-level-2 li.has-children').mouseleave(function() {
+        $("> a", this).next().removeClass('on');
+        $('.gh-desk-promo').removeClass('gh-offset-2');
+    });
+
+
+
 });
 </script>
 <!-- End primary header -->
