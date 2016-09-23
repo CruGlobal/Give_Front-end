@@ -48,7 +48,7 @@ $promo-width: 200px;
           padding: 10px 16px;
           text-transform: uppercase;
           font-weight: 600;
-          color: $colorGrayscale-black;
+          color: $colorText;
           text-decoration: none;
 
           &:hover {
@@ -61,6 +61,7 @@ $promo-width: 200px;
     &.col-level-1 {
       > li {
         padding-right: $promo-width;
+
       }
     }
 
@@ -83,12 +84,25 @@ $promo-width: 200px;
     }
 
     .col-level-2 {
-      position: relative;
-      top: 0;
-      left: 0;
-      background-color: $colorGrayscale-stone;
-      width: $col-width;
-      float: left;
+      display: none;
+      &.on {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: $colorGrayscale-pebble;
+        width: $col-width;
+        float: left;
+        border-right: 1px solid $colorCru-white;
+      }
+
+      .has-children {
+          filter: grayscale(100%);
+          background: url("/assets/img/desktop-nav-arrow.png") no-repeat right 20px center;
+        &:hover {
+          filter: grayscale(0%);
+        }
+      }
     }
 
     .col-level-3 {
@@ -96,8 +110,9 @@ $promo-width: 200px;
       top: -49px;
       left: $col-width;
       width: $col-width;
-      background-color: $colorGrayscale-stone;
+      background-color: $colorGrayscale-pebble;
       display: none;
+      border-right: 1px solid $colorCru-white;
       &.on {
         display: block;
         position: absolute;

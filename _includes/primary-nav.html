@@ -8,10 +8,10 @@
         <a href="" title="Cru" class="gh-desk-logo"></a>
 
         <ul class="gh-desk-nav-tree col-level-1">
-            <li data-promo-img="" data-promo-link="">
+            <li class="has-children" data-promo-img="" data-promo-link="">
                 <a href="">Train and Grow</a>
 
-                <ul class="col-level-2">
+                <ul class="col-level-2 on">
                     <li class="has-children" data-promoimg="" data-promolink="">
                         <a href="">Level 2 a</a>
                         <ul class="col-level-3 ">
@@ -44,11 +44,19 @@
 
 <script>
   $(function () {
+    var level1WithChildren = $(".col-level-1 > li.has-children");
     var level2WithChildren = $('.col-level-2 li.has-children');
     var level2NoChildren = $('.col-level-2 > li').not('.has-children');
 
+    level1WithChildren.mouseenter(function () {
+      console.log('enter');
+    });
+
+    level1WithChildren.mouseleave(function () {
+      console.log('exit');
+    });
+
     level2WithChildren.mouseenter(function () {
-          console.log($(this));
           $("> a", this).next().addClass('on');
           $('.gh-desk-promo').addClass('gh-offset-2');
       });
