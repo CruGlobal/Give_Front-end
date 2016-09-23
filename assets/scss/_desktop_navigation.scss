@@ -18,7 +18,8 @@ $promo-width: 200px;
   }
 
   .gh-desk-logo {
-    background: url("/assets/img/cru-logo.png");
+    background: url("/assets/img/cru-logo.png") no-repeat;
+    background-size: cover;
     width: 103px;
     height: 64px;
     float: left;
