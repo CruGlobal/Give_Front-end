@@ -41,7 +41,9 @@
 
       <div class="search">
         <div class="container">
-          <input type="text" placeholder="search">
+          <form action="" id="desktop-search">
+            <input type="text" placeholder="search">
+          </form>
         </div>
       </div>
     </div>
@@ -93,6 +95,13 @@
     $(".search input").click(function () {
       $(this).addClass("black-text");
     });
+
+    $("form#desktop-search").submit(function (e) {
+      e.preventDefault();
+
+      var query = $(this).find("input").val();
+      window.location.href ="https://give.cru.org/give/VirtualCommonLinks/process/search2?Query=" + query;
+    })
   });
 </script>
 <!-- End primary header -->
