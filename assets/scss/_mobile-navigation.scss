@@ -138,7 +138,9 @@ $header-height: 84px;
   width: 100%;
   position: static;
   height: 100%;
-  overflow-x: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 
   &.open {
     position: fixed;
@@ -204,6 +206,9 @@ $header-height: 84px;
   .nav-tabs ~ .tab-content {
     padding: 0;
     overflow: visible;
+    .active {
+      height: 100%;
+    }
   }
 
   .main-menu-container {
@@ -334,7 +339,7 @@ $header-height: 84px;
     background-size: cover;
 
     .global-menu {
-      background: none;
+      background: rgba(0,0,0,.5);;
 
       li {
         border-color: rgba(255,255,255, 0.2);

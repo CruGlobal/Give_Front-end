@@ -1,0 +1,123 @@
+$col-width: 260px;
+$promo-width: 200px;
+
+#desktop-navigation {
+  background-color: $colorCru-white;
+  display: block;
+  height: 80px;
+
+  + #container {
+    &:before,
+    &:after {
+      content: " "; // 1
+      display: table; // 2
+    }
+    &:after {
+      clear: both;
+    }
+  }
+
+  .gh-desk-logo {
+    background: url("/assets/img/cru-logo.png");
+    width: 103px;
+    height: 64px;
+    float: left;
+  }
+
+  ul {
+    display: table;
+    padding: 0;
+
+    &.gh-desk-nav-tree { // level 1
+      width: auto;
+      height: 80px;
+      float: left;
+      list-style: none;
+      margin: 0;
+      padding-top: 30px;
+      position: relative;
+      z-index: 10;
+
+      li {
+        display: block;
+        width: 100%;
+        height: auto;
+
+        a {
+          display: block;
+          padding: 10px 16px;
+          text-transform: uppercase;
+          font-weight: 600;
+          color: $colorText;
+          text-decoration: none;
+
+          &:hover {
+            color: $colorCru-gold;
+          }
+        }
+      }
+    }
+
+    &.col-level-1 {
+      > li {
+        padding-right: $promo-width;
+
+      }
+    }
+
+    .col-level-1,
+    .col-level-2,
+    .col-level-3 {
+      height: 100%;
+    }
+
+    .gh-desk-promo {
+      background-color: $colorGrayscale-stone;
+      display: block;
+      width: 200px;
+      height: 300px;
+      float: left;
+    }
+
+    .gh-offset-2 {
+      margin-left: $col-width;
+    }
+
+    .col-level-2 {
+      display: none;
+      &.on {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: $colorGrayscale-pebble;
+        width: $col-width;
+        float: left;
+        border-right: 1px solid $colorCru-white;
+      }
+
+      .has-children {
+          filter: grayscale(100%);
+          background: url("/assets/img/desktop-nav-arrow.png") no-repeat right 20px center;
+        &:hover {
+          filter: grayscale(0%);
+        }
+      }
+    }
+
+    .col-level-3 {
+      position: relative;
+      top: -49px;
+      left: $col-width;
+      width: $col-width;
+      background-color: $colorGrayscale-pebble;
+      display: none;
+      border-right: 1px solid $colorCru-white;
+      &.on {
+        display: block;
+        position: absolute;
+        top: 0;
+      }
+    }
+  }
+}
