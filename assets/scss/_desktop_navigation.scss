@@ -25,105 +25,99 @@ $promo-width: 200px;
     float: left;
   }
 
-  ul {
+  ul.gh-desk-nav-tree { // level 1
     display: table;
     padding: 0;
+    width: auto;
+    height: 80px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding-top: 30px;
+    position: relative;
+    z-index: 10;
 
-    &.gh-desk-nav-tree { // level 1
-      width: auto;
-      height: 80px;
-      float: left;
-      list-style: none;
-      margin: 0;
-      padding-top: 30px;
-      position: relative;
-      z-index: 10;
-
-      li {
-        display: block;
-        width: 100%;
-        height: auto;
-
-        a {
-          display: block;
-          padding: 10px 16px;
-          text-transform: uppercase;
-          font-weight: 600;
-          color: $colorText;
-          text-decoration: none;
-
-          &:hover {
-            color: $colorCru-gold;
-          }
-        }
-      }
-    }
-
-    &.col-level-1 {
-      > li {
-        padding-right: $promo-width;
-
-      }
-    }
-
-    .col-level-1,
-    .col-level-2,
-    .col-level-3 {
-      height: 100%;
-    }
-
-    .gh-desk-promo {
-      background-color: $colorGrayscale-stone;
+    li {
       display: block;
-      width: 200px;
-      height: 300px;
-      float: left;
+      width: 100%;
+      height: auto;
 
-      //DELETE ME!!!
-      display: none;
-    }
-
-    .gh-offset-2 {
-      margin-left: $col-width;
-    }
-
-    .col-level-2 {
-      display: none;
-      &.on {
+      a {
         display: block;
-        position: relative;
-        top: 0;
-        left: 0;
-        background-color: $colorGrayscale-pebble;
-        width: $col-width;
-        float: left;
-        border-right: 1px solid $colorCru-white;
-      }
+        padding: 10px 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $colorText;
+        text-decoration: none;
 
-      .has-children {
-          filter: grayscale(100%);
-          background: url("/assets/img/desktop-nav-arrow.png") no-repeat right 20px center;
         &:hover {
-          filter: grayscale(0%);
+          color: $colorCru-gold;
         }
-      }
-    }
-
-    .col-level-3 {
-      position: relative;
-      top: -49px;
-      left: $col-width;
-      width: $col-width;
-      background-color: $colorGrayscale-pebble;
-      display: none;
-      border-right: 1px solid $colorCru-white;
-      &.on {
-        display: block;
-        position: absolute;
-        top: 0;
       }
     }
   }
+
+  .col-level-1 {
+    > li {
+      padding-right: $promo-width;
+
+    }
+  }
+
+  .col-level-1,
+  .col-level-2,
+  .col-level-3 {
+    height: 100%;
+  }
+
+  .gh-desk-promo {
+    background-color: $colorGrayscale-stone;
+    display: block;
+    width: 200px;
+    height: 300px;
+    float: left;
+  }
+
+  .gh-offset-2 {
+    margin-left: $col-width;
+  }
+
+  .col-level-2 {
+    display: none;
+    &.on {
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0;
+      background-color: $colorGrayscale-pebble;
+      width: $col-width;
+      float: left;
+      border-right: 1px solid $colorCru-white;
+    }
+
+    .has-children {
+      filter: grayscale(100%);
+      background: url("/assets/img/desktop-nav-arrow.png") no-repeat right 20px center;
+      &:hover {
+        filter: grayscale(0%);
+      }
+    }
+  }
+  .col-level-3 {
+    position: relative;
+    top: -49px;
+    left: $col-width;
+    width: $col-width;
+    background-color: $colorGrayscale-pebble;
+    display: none;
+    border-right: 1px solid $colorCru-white;
+    &.on {
+      display: block;
+      position: absolute;
+      top: 0;
+    }
+  }
+
 
   .search-sign-in-wrapper {
     margin-top: 8px;
@@ -147,14 +141,87 @@ $promo-width: 200px;
       float: right;
       background: url("/assets/img/mobile-menu-ellipsis-icon.png") no-repeat right 20px top;
       background-size: 4px 20px;
-      width: 40px;
+      width: 60px;
       height: 40px;
+      cursor: pointer;
 
-      a {
-        display: block;
-        width: 100%;
+      .dropdown {
         height: 100%;
+
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
       }
+
+      .dropdown-menu {
+        border: none;
+        background: $colorGrayscale-pebble;
+        position: relative;
+        top: -2px;
+        left: -2px;
+        padding: 0;
+
+        .triangle {
+          background: transparent url("/assets/img/menu-triangle.png") no-repeat right top;
+          width: 100%;
+          height: 12px;
+          position: absolute;
+          top: -6px;
+          left: -16px;
+          background-size: 12px 6px;
+        }
+      }
+
+      .menu {
+        padding-left: 30px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        text-transform: uppercase;
+        border-bottom: 1px solid $colorCru-white;
+
+        &:last-child {
+          border: none;
+        }
+
+        &:hover {
+          background-color: $colorCru-white;
+          color: $colorCru-gold;
+        }
+
+        a {
+          color: #666;
+          background: transparent;
+          font-weight: 600;
+
+          &:hover {
+            color: $colorCru-gold;
+            background: transparent;
+          }
+        }
+      }
+    }
+
+
+    .nav-near-me {
+      background: url("/assets/img/mobile-menu-location-icon.png") no-repeat 20px center;
+      background-size: 16px 20px;
+    }
+
+    .nav-globe {
+      background: url("/assets/img/mobile-menu-globe-icon.png") no-repeat 20px center;
+      background-size: 17px 20px;
+    }
+
+    .nav-books {
+      background: url("/assets/img/mobile-menu-book-icon.png") no-repeat 20px center;
+      background-size: 16px 20px;
+    }
+
+    .nav-apps {
+      background: url("/assets/img/mobile-menu-phone-icon.png") no-repeat 20px center;
+      background-size: 16px 20px;
     }
   }
 

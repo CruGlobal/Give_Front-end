@@ -11,7 +11,7 @@
             <li class="has-children" data-promo-img="" data-promo-link="">
                 <a href="">Train and Grow</a>
 
-                <ul class="col-level-2 off">
+                <ul class="col-level-2 on">
                     <li class="has-children" data-promoimg="" data-promolink="">
                         <a href="">Level 2 a</a>
                         <ul class="col-level-3 ">
@@ -31,7 +31,7 @@
                     </li>
                 </ul>
 
-                <div class="gh-desk-promo ">
+                <div class="gh-desk-promo">
                     Promo Bucket
                 </div>
             </li>
