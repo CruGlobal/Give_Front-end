@@ -37,16 +37,7 @@
             </li>
         </ul>
 
-      <div class="search-icon"></div>
-
-      <div class="search">
-        <div class="container">
-          <form action="" id="desktop-search">
-            <input type="text" placeholder="search">
-          </form>
-        </div>
-      </div>
-    </div>
+      <?php include "desktop-search-sign-in.html" ?>
 
 </header>
 
