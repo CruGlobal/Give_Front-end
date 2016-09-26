@@ -23,6 +23,7 @@ give_head();
           <li><a href="/homepage/">Homepage</a></li>
           <li><a href="/search/">Search Results</a></li>
           <li><a href="/search-integrated/">Search Integrated</a></li>
+          <li><a href="/mobile-nav/">Mobile Nav</a></li>
         </ul>
       </div>
     </div>

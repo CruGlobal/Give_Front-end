@@ -78,6 +78,9 @@ $promo-width: 200px;
       width: 200px;
       height: 300px;
       float: left;
+
+      //DELETE ME!!!
+      display: none;
     }
 
     .gh-offset-2 {
@@ -120,5 +123,47 @@ $promo-width: 200px;
         top: 0;
       }
     }
+  }
+
+  .search {
+    display: none;
+
+    &.open {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      height: 144px;
+      z-index: 5;
+      width: 100%;
+      overflow: hidden;
+      background-color: $colorGrayscale-pebble;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      input {
+        width: 100%;
+        font-size: 36px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+        color: $colorGrayscale-slate;
+        background: transparent;
+        border: none;
+        outline: none;
+
+        &.black-text {
+          color: #626062;
+        }
+      }
+    }
+  }
+
+  .search-icon {
+    float: left;
+    background: url("/assets/img/desktop-search.png") no-repeat;
+    background-size: 20px 20px;
+    height: 20px;
+    width: 20px;
   }
 }
