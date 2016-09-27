@@ -92,7 +92,19 @@
 
       var query = $(this).find("input").val();
       window.location.href ="https://give.cru.org/give/VirtualCommonLinks/process/search2?Query=" + query;
-    })
+    });
+
+      $("#desktop-navigation .cart").click(function () {
+          var dropdown = $(this).find(".dropdown")
+
+          $(this).find('.dropdown').on('shown.bs.dropdown', function(){
+              $("body").addClass("body-scroll-lock")
+          });
+
+          $(this).find('.dropdown').on('hidden.bs.dropdown', function(){
+              $("body").removeClass("body-scroll-lock")
+          });
+      });
   });
 </script>
 <!-- End primary header -->

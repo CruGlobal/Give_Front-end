@@ -124,6 +124,88 @@ $promo-width: 200px;
     float: right;
     width: 250px;
 
+    .cart {
+      float: right;
+      margin-right: 30px;
+      background: url("/assets/img/desktop-cart.png") no-repeat;
+      background-size: 20px 20px;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+
+      .dropdown {
+        height: 100%;
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .dropdown-menu {
+        border: none;
+        background: $colorGrayscale-pebble;
+        position: relative;
+        top: 12px;
+        left: 10px;
+        padding: 0;
+        width: 360px;
+        max-height: 322px;
+        overflow-y: auto;
+        margin: 0;
+
+        .triangle {
+          background: transparent url("/assets/img/menu-triangle.png") no-repeat right top;
+          width: 100%;
+          height: 12px;
+          background-size: 24px 12px;
+          display: block;
+          position: absolute;
+          top: -12px;
+          left: -7px;
+
+          //TODO: Triangle not showing up correctly
+          z-index: 10;
+        }
+
+        .repeating-row {
+          background-color: $colorGrayscale-stone;
+          padding: 15px 0px;
+          border-top: 1px solid $colorCru-white;
+
+          img {
+            min-height: 40px;
+          }
+
+          p {
+            margin: 0 0 7.5px;
+          }
+
+          &.sub-total {
+            text-transform: uppercase;
+            font-weight: 600;
+          }
+        }
+
+        .title {
+          color: $colorCru-gold;
+          font-weight: 600;
+        }
+
+        .price {
+          font-weight: 600;
+        }
+
+        .checkout {
+          width: 100%;
+          border-radius: 0;
+          text-transform: uppercase;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+
     .sign-in {
       float: right;
       text-transform: uppercase;
