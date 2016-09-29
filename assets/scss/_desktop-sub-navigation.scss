@@ -1,0 +1,31 @@
+#desktop-sub-navigation {
+  background-color: $colorGrayscale-black;
+  display: block;
+  height: 100px;
+
+  .breadcrumbs {
+    ul {
+      list-style: none;
+      color: $colorCru-white;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+  .sub-navigation {
+    ul {
+      text-transform: uppercase;
+      list-style: none;
+      color: $colorCru-white;
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}
