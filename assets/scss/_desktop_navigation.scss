@@ -272,11 +272,15 @@ $promo-width: 200px;
 
     .ellipsis {
       float: right;
-      background: url("/assets/img/mobile-menu-ellipsis-icon.png") no-repeat right 20px top;
+      background: url("/assets/img/mobile-menu-ellipsis-icon-on.png") no-repeat right 20px top;
       background-size: 4px 20px;
       width: 60px;
       height: 40px;
       cursor: pointer;
+
+      &:hover {
+        background-image: url("/assets/img/mobile-menu-ellipsis-icon-on.png");
+      }
 
       .dropdown {
         height: 100%;
