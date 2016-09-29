@@ -11,28 +11,60 @@
             <li class="has-children" data-promo-img="" data-promo-link="">
                 <a href="">Train and Grow</a>
 
-                <ul class="col-level-2 on">
-                    <li class="has-children" data-promoimg="" data-promolink="">
-                        <a href="">Level 2 a</a>
-                        <ul class="col-level-3 ">
-                            <li><a href="">Level 3 a</a></li>
-                            <li><a href="">Level 3 a</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-children">
-                        <a href="">Level 2 b</a>
-                        <ul class="col-level-3">
-                            <li><a href="">Level 3 b</a></li>
-                            <li><a href="">Level 3 b</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">Level 2 b</a>
-                    </li>
-                </ul>
+                <div class="children-container">
+                  <ul class="col-level-2 on">
+                      <li class="has-children" data-promoimg="" data-promolink="">
+                          <a href="">Level 2 a</a>
+                          <ul class="col-level-3 ">
+                              <li><a href="">Level 3 a</a></li>
+                              <li><a href="">Level 3 a</a></li>
+                          </ul>
+                      </li>
+                      <li class="has-children">
+                          <a href="">Level 2 b</a>
+                          <ul class="col-level-3">
+                              <li><a href="">Level 3 b</a></li>
+                              <li><a href="">Level 3 b</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="">Level 2 b</a>
+                      </li>
+                  </ul>
 
-                <div class="gh-desk-promo">
-                    Promo Bucket
+                  <div class="gh-desk-promo">
+                      Promo Bucket
+                  </div>
+                </div>
+            </li>
+
+            <li class="has-children" data-promo-img="" data-promo-link="">
+                <a href="">Train and Grow</a>
+
+                <div class="children-container">
+                  <ul class="col-level-2 on">
+                      <li class="has-children" data-promoimg="" data-promolink="">
+                          <a href="">Level 2 a</a>
+                          <ul class="col-level-3 ">
+                              <li><a href="">Level 3 a</a></li>
+                              <li><a href="">Level 3 a</a></li>
+                          </ul>
+                      </li>
+                      <li class="has-children">
+                          <a href="">Level 2 b</a>
+                          <ul class="col-level-3">
+                              <li><a href="">Level 3 b</a></li>
+                              <li><a href="">Level 3 b</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="">Level 2 b</a>
+                      </li>
+                  </ul>
+
+                  <div class="gh-desk-promo">
+                      Promo Bucket
+                  </div>
                 </div>
             </li>
         </ul>
@@ -52,21 +84,22 @@
     var searchIcon = $(".search-icon");
 
     level1WithChildren.mouseenter(function () {
-      console.log('enter');
+      $(this).addClass('open-menu');
+      $('.gh-desk-promo').addClass('gh-offset-2');
     });
 
     level1WithChildren.mouseleave(function () {
-      console.log('exit');
+      $(this).removeClass('open-menu');
     });
 
     level2WithChildren.mouseenter(function () {
           $("> a", this).next().addClass('on');
-          $('.gh-desk-promo').addClass('gh-offset-2');
+          $('.gh-desk-promo').addClass('gh-offset-3');
       });
 
     level2NoChildren.mouseenter(function () {
           $("> a", this).next().removeClass('on');
-          $('.gh-desk-promo').removeClass('gh-offset-2');
+          $('.gh-desk-promo').removeClass('gh-offset-3');
       });
 
     level2WithChildren.mouseleave(function () {
