@@ -169,6 +169,18 @@
         }
       }
     });
+
+    $(window).on("scroll", function () {
+      var subNavigation = $("#sub-navigation");
+
+      if ($(window).scrollTop() > (subNavigation.offset().top)) {
+        subNavigation.addClass("out");
+      }
+
+      if ($(window).scrollTop() == 0) {
+        subNavigation.removeClass("out");
+      }
+    });
   });
 </script>
 <!-- End primary header -->

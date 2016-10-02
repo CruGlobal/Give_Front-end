@@ -3,6 +3,13 @@
   height: 80px;
   background: $colorGrayscale-black;
 
+  &.out {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+  }
+
   &:before,
   &:after {
     content: " "; // 1
@@ -33,13 +40,16 @@
       }
 
       &::after {
-        content: url('/assets/img/sub-nav-caret.png');
-        position: relative;
-        top: 2px;
+        content: "";
+        background: url("/assets/img/sub-nav-caret.png") no-repeat;
+        background-size: 5px 8px;
+        display: inline-block;
+        width: 5px;
+        height: 10px;
       }
 
       &:last-child::after {
-        content: "";
+        background: none;
       }
     }
   }
