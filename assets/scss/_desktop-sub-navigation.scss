@@ -3,11 +3,44 @@
   height: 80px;
   background: $colorGrayscale-black;
 
+  .container {
+    &:before,
+    &:after {
+      content: " "; // 1
+      display: table; // 2
+    }
+    &:after {
+      clear: both;
+    }
+  }
+
   &.out {
     position: fixed;
     width: 100%;
     top: 0px;
     z-index: 1000;
+
+    .sub-nav-logo {
+      background: url("/assets/img/cru-logo-white.png") no-repeat;
+      background-size: contain;
+      width: 87px;
+      height: 54px;
+      float: left;
+      margin-top: 11px;
+      display: block;
+    }
+
+    .breadcrumbs {
+      margin-left: 25px;
+    }
+
+    .sub-nav {
+      margin-left: 112px;
+    }
+  }
+
+  .sub-nav-logo {
+    display: none;
   }
 
   &:before,
@@ -20,6 +53,7 @@
   }
 
   .breadcrumbs {
+    float: left;
     margin: 10px 0 0 0;
     padding: 0;
 
@@ -48,6 +82,12 @@
         height: 10px;
       }
 
+      &:first-child {
+        a {
+          padding-left: 0 !important;
+        }
+      }
+
       &:last-child::after {
         background: none;
       }
@@ -55,6 +95,7 @@
   }
 
   .sub-nav {
+    float: left;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -64,6 +105,10 @@
       display: inline-block;
       padding-left: 10px;
       padding-right: 10px;
+
+      &:first-child {
+        padding-left: 0;
+      }
 
       a {
         padding: 5px 0;
