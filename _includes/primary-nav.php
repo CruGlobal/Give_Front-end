@@ -95,6 +95,14 @@
   </div>
 </div>
 
+<div class="search">
+  <div class="container">
+    <form action="" id="search">
+      <input type="text" placeholder="search" class="search-input">
+    </form>
+  </div>
+</div>
+
 
 
 
@@ -107,6 +115,8 @@
 
     var searchBox = $(".search");
     var searchIcon = $(".search-icon");
+    var subNav = $("#sub-navigation");
+    var subNavSearchIcon = $(".sub-nav-search-icon");
 
     level1WithChildren.mouseenter(function () {
       $(this).addClass('open-menu');
@@ -132,15 +142,25 @@
           $('.gh-desk-promo').removeClass('gh-offset-2');
       });
 
-    searchIcon.click(function () {
+    function toggleSearchBar () {
       searchBox.toggleClass("open");
 
       if (searchBox.hasClass("open")) {
+        if ($("#sub-navigation.out")) {
+          searchBox.addClass("sub-nav-open");
+        }
+
         searchBox.find("input").focus();
-        this.style.backgroundImage = "url('/assets/img/desktop-search-close.png')"
+        searchIcon.css("background-image", "url('/assets/img/desktop-search-close.png')");
+        subNavSearchIcon.css("background-image", "url('/assets/img/desktop-search-close.png')")
       } else {
-        this.style.backgroundImage = "url('/assets/img/desktop-search.png')"
+        searchIcon.css("background-image", "url('/assets/img/desktop-search.png')");
+        subNavSearchIcon.css("background-image", "url('/assets/img/desktop-search.png')")
       }
+    }
+
+    searchIcon.click(function () {
+      toggleSearchBar();
     });
 
     $(".search input").click(function () {
@@ -170,23 +190,28 @@
       var targetClass = $(e.target).attr("class");
 
       if ($(".search.open")) {
-        if ((targetClass !== "search open") && (targetClass !== "#desktop-search") && (targetClass !== "search-input black-text") && (targetClass !== "search-icon")) {
+        if ((targetClass !== "search open") && (targetClass !== "#desktop-search") && (targetClass !== "search-input black-text") && (targetClass !== "search-icon") && (targetClass !== "sub-nav-search-icon")) {
           searchBox.removeClass("open");
         }
       }
     });
 
-    $(window).on("scroll", function () {
-      var subNavigation = $("#sub-navigation");
+    var subNavigation = $("#sub-navigation");
+    var navHeight = subNavigation.offset().top;
 
-      if ($(window).scrollTop() > (subNavigation.offset().top)) {
+    $(window).on("scroll", function () {
+      if ($(window).scrollTop() > navHeight) {
         subNavigation.addClass("out");
       }
 
-      if ($(window).scrollTop() == 0) {
+      if ($(window).scrollTop() < navHeight) {
         subNavigation.removeClass("out");
       }
     });
+
+    subNavSearchIcon.click(function () {
+      toggleSearchBar();
+    })
   });
 </script>
 <!-- End primary header -->
@@ -198,7 +223,7 @@
     var on = $(".toggle-sign-signed-in-not-for-production-on");
     var off = $(".toggle-sign-signed-in-not-for-production-off");
 
-    on.addClass("toggle-sign-signed-in-not-for-production-off").removeClass("toggle-sign-signed-in-not-for-production-on")
-    off.addClass("toggle-sign-signed-in-not-for-production-on").removeClass("toggle-sign-signed-in-not-for-production-off")
+    on.addClass("toggle-sign-signed-in-not-for-production-off").removeClass("toggle-sign-signed-in-not-for-production-on");
+    off.addClass("toggle-sign-signed-in-not-for-production-on").removeClass("toggle-sign-signed-in-not-for-production-off");
   }
 </script>
