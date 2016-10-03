@@ -90,6 +90,8 @@
       <li><a href="#">Contact</a></li>
       <li><a href="#">Join</a></li>
     </ul>
+
+    <div class="sub-nav-search-icon"></div>
   </div>
 </div>
 
