@@ -153,9 +153,11 @@
         searchBox.find("input").focus();
         searchIcon.css("background-image", "url('/assets/img/desktop-search-close.png')");
         subNavSearchIcon.css("background-image", "url('/assets/img/desktop-search-close.png')")
+        $("body").addClass("body-scroll-lock");
       } else {
         searchIcon.css("background-image", "url('/assets/img/desktop-search.png')");
-        subNavSearchIcon.css("background-image", "url('/assets/img/desktop-search.png')")
+        subNavSearchIcon.css("background-image", "url('/assets/img/desktop-search.png')");
+        $("body").removeClass("body-scroll-lock");
       }
     }
 
