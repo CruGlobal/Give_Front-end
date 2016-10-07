@@ -39,7 +39,7 @@
             </li>
 
             <li class="has-children" data-promo-img="" data-promo-link="">
-                <a href="">Train and Grow</a>
+                <a href="">Communities</a>
 
                 <div class="children-container">
                   <ul class="col-level-2 on">
