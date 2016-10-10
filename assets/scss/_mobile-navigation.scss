@@ -197,8 +197,14 @@ $header-height: 84px;
         filter: grayscale(100%);
       }
 
-      &.active img {
-        filter: grayscale(0%);
+      &.active {
+        img {
+          filter: grayscale(0%);
+        }
+
+        > a {
+          background-color: #f5f5f5;
+        }
       }
     }
   }
@@ -245,7 +251,7 @@ $header-height: 84px;
       &:active {
         outline: none;
         box-shadow: inset 0px 2px 7px rgba(0, 0, 0, 0.1);
-        background-color: #f9f9f9;
+        background-color: red;
       }
       a {
         display: block;
@@ -352,7 +358,7 @@ $header-height: 84px;
         color: $colorCru-white;
 
         &:active {
-          background-color: rgba(255,255,255, 0.2);
+          background-color: green;
         }
 
         a {
