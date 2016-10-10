@@ -1,0 +1,164 @@
+#sub-navigation {
+  position: relative;
+  height: 80px;
+  background: #444244;
+
+  .container {
+    &:before,
+    &:after {
+      content: " "; // 1
+      display: table; // 2
+    }
+    &:after {
+      clear: both;
+    }
+  }
+
+  &.out {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+
+    .sub-nav-logo {
+      margin-left: 0;
+      opacity: 1;
+    }
+
+    .sub-nav {
+      margin-left: 0;
+      opacity: 1;
+    }
+
+    .sub-nav-search-icon {
+      opacity: 1;
+    }
+  }
+
+  .sub-nav-search-icon {
+    background: url(/assets/img/desktop-search.png) no-repeat right 14px center;
+    background-size: 20px 20px;
+    bottom: 33px;
+    cursor: pointer;
+    display: block;
+    opacity: 0;
+    float: right;
+    height: 20px;
+    position: relative;
+    transition: .15s all;
+    width: 35px;
+
+    &:before,
+    &:after {
+      content: " "; // 1
+      display: table; // 2
+    }
+    &:after {
+      clear: both;
+    }
+  }
+
+  .sub-nav-logo {
+    display: block;
+    background: url(/assets/img/cru-logo-white.png) no-repeat;
+    background-size: contain;
+    width: 87px;
+    height: 54px;
+    margin-top: 11px;
+    display: block;
+    float: left;
+    margin-left: -110px;
+    margin-right: 20px;
+    transition: .15s;
+    opacity: 0;
+  }
+
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+
+  .breadcrumbs {
+    display: block;
+    line-height: 1em;
+    margin: 21px 0 0 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+
+      a {
+        color: $colorCru-white;
+        padding: 7px 14px;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $colorCru-gold;
+          text-decoration: none;
+        }
+      }
+
+      &::after {
+        content: "";
+        background: url("/assets/img/sub-nav-caret.png") no-repeat;
+        background-size: 5px 8px;
+        display: inline-block;
+        width: 5px;
+        height: 10px;
+      }
+
+      &:first-child {
+        a {
+          padding-left: 0 !important;
+        }
+      }
+
+      &:last-child::after {
+        background: none;
+      }
+    }
+  }
+
+  .sub-nav {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    overflow: scroll;
+    padding: 0;
+    white-space: nowrap;
+
+    li {
+      display: inline-block;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      a {
+        color: $colorCru-white;
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 5px 0 8px;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $colorCru-gold;
+          text-decoration: none;
+        }
+
+        &.active {
+          border-bottom: 3px solid $colorCru-gold;
+        }
+      }
+    }
+  }
+}

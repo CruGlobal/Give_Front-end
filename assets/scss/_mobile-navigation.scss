@@ -197,8 +197,14 @@ $header-height: 84px;
         filter: grayscale(100%);
       }
 
-      &.active img {
-        filter: grayscale(0%);
+      &.active {
+        img {
+          filter: grayscale(0%);
+        }
+
+        > a {
+          background-color: #f5f5f5;
+        }
       }
     }
   }
@@ -234,7 +240,7 @@ $header-height: 84px;
       margin: 0;
       padding: 10px 0 10px 20px;
       border-bottom: 1px solid #EBEBEB;
-      font-weight: 500;
+      font-weight: 600;
       text-transform: uppercase;
       font-size: 14px;
       &.has-children {
@@ -244,8 +250,7 @@ $header-height: 84px;
       &:focus,
       &:active {
         outline: none;
-        box-shadow: inset 0px 2px 7px rgba(0, 0, 0, 0.1);
-        background-color: #f9f9f9;
+        background-color: #EBEBEB;
       }
       a {
         display: block;
@@ -266,13 +271,16 @@ $header-height: 84px;
   .tab-content {
     height: 100%;
 
-    #mob-search, #mob-nearme {
-      border-top: 1px solid #FFF;
 
+    .tab-pane {
+      border-top: 1px solid #FFF;
+    }
+
+    #mob-search, #mob-nearme {
       input {
         background-color: #EBEBEB;
         font-size: 24px;
-        font-weight: 500;
+        font-weight: 600;
         padding-top: 40px;
         padding-bottom: 40px;
         box-sizing: border-box;
@@ -280,6 +288,7 @@ $header-height: 84px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         border: none;
+        box-shadow: none;
       }
     }
   }
@@ -315,7 +324,6 @@ $header-height: 84px;
     li {
       list-style: none;
       margin: 0;
-      padding: 10px 10px 10px 20px;
       border-bottom: 1px solid #EBEBEB;
       font-weight: 500;
       text-transform: uppercase;
@@ -329,6 +337,18 @@ $header-height: 84px;
         display: inline-block;
         padding-right: 20px;
         margin-top: -2px;
+        filter: grayscale(100%);
+      }
+
+      a {
+        color: $colorText;
+        display: block;
+        line-height: 46px;
+        padding-left: 20px;
+
+        &:hover {
+          text-decoration: none;
+        }
       }
     }
   }
@@ -346,7 +366,7 @@ $header-height: 84px;
         color: $colorCru-white;
 
         &:active {
-          background-color: rgba(255,255,255, 0.2);
+          background-color: green;
         }
 
         a {
