@@ -73,16 +73,17 @@
   }
 
   .breadcrumbs {
-    float: left;
-    margin: 10px 0 0 0;
+    display: block;
+    line-height: 1em;
+    margin: 21px 0 0 0;
     padding: 0;
 
     li {
       display: inline-block;
 
       a {
-        padding: 7px 14px;
         color: $colorCru-white;
+        padding: 7px 14px;
         font-size: 20px;
         font-weight: bold;
         text-transform: uppercase;
@@ -115,11 +116,12 @@
   }
 
   .sub-nav {
-    float: left;
+    display: block;
     margin: 0;
+    max-width: 100%;
+    overflow: scroll;
     padding: 0;
-    position: absolute;
-    bottom: 10px;
+    white-space: nowrap;
 
     li {
       display: inline-block;
@@ -131,10 +133,11 @@
       }
 
       a {
-        padding: 5px 0 12px;
         color: $colorCru-white;
+        display: block;
         font-size: 14px;
         font-weight: 600;
+        padding: 5px 0 8px;
         text-transform: uppercase;
 
         &:hover {
