@@ -43,7 +43,7 @@ nav_mobile();
       </li>
       <li role="presentation">
         <a href="#mob-global" aria-controls="mob-global" role="tab" data-toggle="tab">
-          <img src="/assets/img/mobile-menu-globe-icon.png">
+          <img src="/assets/img/mobile-menu-globe-icon-on.png">
         </a>
       </li>
       <li role="presentation">
@@ -52,7 +52,7 @@ nav_mobile();
         </a>
       </li>
       <li role="presentation">
-        <a href="#mob-more" aria-controls="mob-more" role="tab" data-toggle="tab">
+        <a href="#mob-more-links" aria-controls="mob-more-links" role="tab" data-toggle="tab">
           <img src="/assets/img/mobile-menu-ellipsis-icon.png">
         </a>
       </li>
@@ -75,12 +75,14 @@ nav_mobile();
       <div role="tabpanel" class="tab-pane" id="mob-cart">
         <?php include('mob-cart.php'); ?>
       </div>
-      <div role="tabpanel" class="tab-pane" id="mob-more">
+      <div role="tabpanel" class="tab-pane" id="mob-more-links">
         <?php include('mob-more.php'); ?>
       </div>
     </div>
   </div>
 </div>
+
+<?php include("../_includes/mobile-sub-navigation.php") ?>
 
 <div class="mobile-nav-overlay"></div>
 
