@@ -82,7 +82,7 @@ nav_mobile();
   </div>
 </div>
 
-<?php include("../_includes/sub-navigation.php") ?>
+<?php include("../_includes/mobile-sub-navigation.php") ?>
 
 <div class="mobile-nav-overlay"></div>
 

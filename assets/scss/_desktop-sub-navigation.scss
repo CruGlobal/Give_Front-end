@@ -21,46 +21,56 @@
     z-index: 1000;
 
     .sub-nav-logo {
-      background: url("/assets/img/cru-logo-white.png") no-repeat;
-      background-size: contain;
-      width: 87px;
-      height: 54px;
-      float: left;
-      margin-top: 11px;
-      display: block;
-    }
-
-    .breadcrumbs {
-      margin-left: 25px;
+      margin-left: 0;
+      opacity: 1;
     }
 
     .sub-nav {
-      margin-left: 112px;
+      margin-left: 0;
+      opacity: 1;
     }
 
     .sub-nav-search-icon {
-      float: right;
-      display: block;
-      background: url(/assets/img/desktop-search.png) no-repeat right 14px center;
-      background-size: 20px 20px;
-      height: 20px;
-      width: 100%;
-      position: relative;
-      bottom: 17px;
+      opacity: 1;
+    }
+  }
 
-      &:before,
-      &:after {
-        content: " "; // 1
-        display: table; // 2
-      }
-      &:after {
-        clear: both;
-      }
+  .sub-nav-search-icon {
+    background: url(/assets/img/desktop-search.png) no-repeat right 14px center;
+    background-size: 20px 20px;
+    bottom: 33px;
+    cursor: pointer;
+    display: block;
+    opacity: 0;
+    float: right;
+    height: 20px;
+    position: relative;
+    transition: .15s all;
+    width: 35px;
+
+    &:before,
+    &:after {
+      content: " "; // 1
+      display: table; // 2
+    }
+    &:after {
+      clear: both;
     }
   }
 
   .sub-nav-logo {
-    display: none;
+    display: block;
+    background: url(/assets/img/cru-logo-white.png) no-repeat;
+    background-size: contain;
+    width: 87px;
+    height: 54px;
+    margin-top: 11px;
+    display: block;
+    float: left;
+    margin-left: -110px;
+    margin-right: 20px;
+    transition: .15s;
+    opacity: 0;
   }
 
   &:before,
