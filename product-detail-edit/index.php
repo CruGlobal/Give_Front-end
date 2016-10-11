@@ -12,7 +12,7 @@ give_head();
       <div class="panel panel-margin-bottom">
         <div class="panel-body">
           <div class="row">
-            <div class="col-sm-6  col-xs-12">
+            <div class="col-md-6  col-xs-12">
 
               <!-- Default panel contents -->
               <h2 title="Staff #5564666" class="mb0">
@@ -23,7 +23,7 @@ give_head();
               <p class="mt0">#5552424</p>
 
             </div>
-            <div class="col-sm-6  col-xs-12 text-right">
+            <div class="col-md-6  col-xs-12 text-right">
               <!-- Editing Buttons -->
               <button type="button" class="btn btn-secondary">
                 Done Editing
