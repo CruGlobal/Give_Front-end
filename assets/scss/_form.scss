@@ -64,6 +64,67 @@
   }
 }
 
+.phone-row {
+  select.form-control-subtle {
+    display: inline-block !important;
+    width: 23%;
+    margin-right: -4px;
+  }
+  input[type=email] {
+    display: inline-block !important;
+    width: 50% !important;
+    margin: 0 1% 0 2% !important;
+    vertical-align: bottom;
+  }
+}
+
+.person-row {
+  select.form-control-subtle {
+    display: inline-block !important;
+    width: 12%;
+  }
+  input[type=name] {
+    display: inline-block !important;
+    width: 50% !important;
+    margin: 0 1% 0 2% !important;
+    vertical-align: bottom;
+  }
+  select.prefix {
+    @include respond-to(extrasmall) {
+      padding-left: 0;
+      padding-right: 0;
+      margin-bottom: 5px;
+    }
+  }
+  input.first {
+    width: 30%;
+    @include respond-to(extrasmall) {
+      width: 73%;
+      margin-bottom: 5px;
+    }
+  }
+  input.last {
+    width: 30%;
+    @include respond-to(extrasmall) {
+      width: 60%;
+    }
+  }
+  input.middle {
+    width: 8%;
+    padding: 3px;
+    @include respond-to(extrasmall) {
+      width: 12%;
+      margin-left: 14px;
+    }
+  }
+  input.first,
+  input.last,
+  input.middle {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+}
+
 .help-block {
   font-size: 85%;
   font-weight: 600;

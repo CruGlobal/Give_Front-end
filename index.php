@@ -47,6 +47,7 @@ give_head();
       <div class="panel-body">
         <ul class="listBare">
           <li><a href="/manage-giving/">Manage Your Giving</a></li>
+          <li><a href="/profile/">Profile</a></li>
           <li><a href="/payment-methods/">Payment Methods</a></li>
         </ul>
       </div>
