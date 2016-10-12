@@ -29,7 +29,7 @@ give_head();
                           
                           <div class="form-group is-required person-row">
                             <i class="fa fa-lock"></i>
-                            <select class="form-control form-control-subtle">
+                            <select class="form-control form-control-subtle prefix">
                               <option>Mr.</option>
                               <option>Mrs.</option>
                               <option>Dr.</option>
@@ -39,7 +39,7 @@ give_head();
                             <input type="text" class="form-control  form-control-subtle middle"  value="T">
                             <input type="text" class="form-control  form-control-subtle last" disabled  value="Starcher">
 
-                            <select class="form-control form-control-subtle">
+                            <select class="form-control form-control-subtle suffix">
                               <option></option>
                               <option>Jr.</option>
                               <option>III</option>
@@ -52,7 +52,7 @@ give_head();
                           
                           <div class="form-group is-required person-row">
                             <i class="fa fa-lock"></i>
-                            <select class="form-control form-control-subtle">
+                            <select class="form-control form-control-subtle prefix">
                               <option>Mr.</option>
                               <option>Mrs.</option>
                               <option>Dr.</option>
@@ -62,7 +62,7 @@ give_head();
                             <input type="text" class="form-control  form-control-subtle middle"  value="T">
                             <input type="text" class="form-control  form-control-subtle last" disabled  value="Starcher">
 
-                            <select class="form-control form-control-subtle">
+                            <select class="form-control form-control-subtle suffix">
                               <option></option>
                               <option>Jr.</option>
                               <option>III</option>
