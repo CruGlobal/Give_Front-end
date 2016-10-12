@@ -7,8 +7,8 @@
             <div class="col-xs-12">
               <div class="border-bottom-small">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                <h3>Stop a Gift</h3>
-                <p>These are your current recurring gifts. Which gifts would you like to stop?</p>
+                <h3>Give an Extra One-Time Gift</h3>
+                <p>Please review your gift and click "Submit Gift"</p>
               </div>
             </div>
           </div>
@@ -79,24 +79,26 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-xs-5">
-              <p>Visa - 1234</p>
+          <div class="row row-no-spacing">
+            <div class="border-top-small">
+              <div class="col-sm-6">
+                <p>Visa - 1234</p>
 
-              <div class="confirm-billing-info">
-                <p><strong>Name on card</strong></p>
-                <p>Jason N. Chandler</p>
+                <div class="confirm-billing-info">
+                  <p><strong>Name on card</strong></p>
+                  <p>Jason N. Chandler</p>
+                </div>
               </div>
-            </div>
-            <div class="col-xs-5">
-              <p>Expires - 10/2020</p>
+              <div class="col-sm-6">
+                <p>Expires - 10/2020</p>
 
-              <div class="confirm-billing-info">
-                <p><strong>Billing address</strong></p>
-                <p><strong>Jason Chandler</strong></p>
-                <p class="u-textCaps">1234 Tamarind Blvd</p>
-                <p class="u-textCaps">Orlando, FL 32123-2341</p>
-                <p>321-345-2341</p>
+                <div class="confirm-billing-info">
+                  <p><strong>Billing address</strong></p>
+                  <p><strong>Jason Chandler</strong></p>
+                  <p class="u-textCaps">1234 Tamarind Blvd</p>
+                  <p class="u-textCaps">Orlando, FL 32123-2341</p>
+                  <p>321-345-2341</p>
+                </div>
               </div>
             </div>
           </div>
@@ -109,7 +111,7 @@
             <a class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#whatTodDoManageGiving">Back</a>
           </div>
           <div class="col-xs-6 text-right">
-            <a class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#confirmChangesStopManageGiving">Continue</a>
+            <a class="btn btn-primary" onclick="location.reload();">Submit Gift</a>
           </div>
         </div>
       </div>
