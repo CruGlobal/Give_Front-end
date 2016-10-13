@@ -365,7 +365,17 @@ hr.vertical-divider {
   font-size: 24px;
   text-align: center;
   &:hover {
-    color: $colorCru-white;;
+    color: $colorCru-white;
+  }
+}
+
+@media screen and (max-width: $sm - 1) {
+  .prod-edit-btns{
+    &.text-right {
+      text-align: left;
+      margin-top: $gutter*.25 - 4;
+    }
+    .btn {margin-top: 4px;}
   }
 }
 
