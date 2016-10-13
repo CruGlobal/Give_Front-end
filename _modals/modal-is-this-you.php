@@ -21,20 +21,20 @@
                             <form>
                                 <div class="form-group">
                                     <label class="radio">
-                                        <input value="1" type="radio">120 Stoney Ridge Ct.
+                                        <input value="1" type="radio">Peter Parker
                                     </label>
                                     <label class="radio">
-                                        <input value="2" type="radio">9634 Vista Dr.
+                                        <input value="2" type="radio">Mary-Jane Watson-Parker
                                     </label>
                                     <label class="radio">
-                                        <input value="3" type="radio">2884 E. 51st Apt C
+                                        <input value="3" type="radio">May Parker
                                     </label>
                                     <label class="radio">
-                                        <input value="4" type="radio">None of the above.
+                                        <input value="4" type="radio">None of the above. I would like a new account.
                                     </label>
                                 </div>
 
-                                <p><a data-toggle="modal" data-dismiss="modal" class="btn btn-md btn-block btn-primary" data-target="#userMatchActivateYourAccount">Continue</a></p>
+                                <button type="submit" class="btn btn-block btn-primary">Continue</button>
                             </form>
                         </div>
                     </div>
