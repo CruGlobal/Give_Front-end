@@ -96,7 +96,7 @@
     var searchBox = $(".search");
     var searchIcon = $(".search-icon span");
     var subNav = $("#sub-navigation");
-    var subNavSearchIcon = $(".sub-nav-search-icon");
+    var subNavSearchIcon = $(".sub-nav-search-icon span");
 
     level1WithChildren.mouseenter(function () {
       $(this).addClass('open-menu');
@@ -133,12 +133,10 @@
         searchBox.find("input").focus();
         searchIcon.removeClass("search-icon-off");
         searchIcon.addClass("search-icon-on");
-        subNavSearchIcon.css("background-image", "url('/assets/img/desktop-search-close.png')");
         $("body").addClass("body-scroll-lock");
       } else {
         searchIcon.removeClass("search-icon-on");
         searchIcon.addClass("search-icon-off");
-        subNavSearchIcon.css("background-image", "url('/assets/img/desktop-search.png')");
         $("body").removeClass("body-scroll-lock");
       }
     }
