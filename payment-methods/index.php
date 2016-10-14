@@ -99,7 +99,6 @@ give_head();
                                       <td>$50.00</td>
                                       <td>Monthly</td>
                                       <td>8/6/16</td>
-                                      <td><a data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit</a></td>
                                     </tr>
 
                                     <tr>
@@ -107,7 +106,6 @@ give_head();
                                       <td>$100.00</td>
                                       <td>Quarterly</td>
                                       <td>7/12/16</td>
-                                      <td><a data-toggle="modal" data-target="#editCreditCardPaymentMethod">Edit</a></td>
                                     </tr>
                                     </tbody>
                                   </table>
@@ -180,7 +178,6 @@ give_head();
                                     <th class="section-title">Amount</th>
                                     <th class="section-title">Frequency</th>
                                     <th class="section-title">Next Gift</th>
-                                    <th class="section-title"></th>
                                   </tr>
                                   </thead>
 
@@ -190,7 +187,6 @@ give_head();
                                     <td>$50.00</td>
                                     <td>Monthly</td>
                                     <td>8/6/16</td>
-                                    <td><a data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit</a></td>
                                   </tr>
 
                                   <tr>
@@ -198,7 +194,6 @@ give_head();
                                     <td>$100.00</td>
                                     <td>Quarterly</td>
                                     <td>7/12/16</td>
-                                    <td><a data-toggle="modal" data-target="#editBankAccountPaymentMethod">Edit</a></td>
                                   </tr>
                                   </tbody>
                                 </table>
