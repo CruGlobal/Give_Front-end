@@ -50,7 +50,7 @@
                     <label class="btn btn-default-form u-textLeft custom-amount">
                       <input name='amount' type="radio">
                       <div class="form-group form-group-default u-inline">
-                        <input class="form-control form-control-subtle number" min="0" name="$" step="any" type="text" placeholder="$0">
+                        <input class="form-control form-control-subtle number" min="0" name="$" step=".01" type="text" placeholder="$0">
                       </div>
                     </label>
                   </div>
