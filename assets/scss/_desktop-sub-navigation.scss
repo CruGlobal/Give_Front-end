@@ -36,7 +36,6 @@
   }
 
   .sub-nav-search-icon {
-    background: url(/assets/img/desktop-search.png) no-repeat right 14px center;
     background-size: 20px 20px;
     bottom: 33px;
     cursor: pointer;
@@ -56,6 +55,24 @@
     &:after {
       clear: both;
     }
+  }
+
+  .search-icon-off {
+    background: url("/assets/img/desktop-search.png") no-repeat right 14px center;
+    background-size: 20px 20px;
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    float: right;
+  }
+
+  .search-icon-on {
+    background: url("/assets/img/desktop-search-close.png") no-repeat right 14px center;
+    background-size: 20px 20px;
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    float: right;
   }
 
   .sub-nav-logo {

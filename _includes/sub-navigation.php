@@ -20,6 +20,8 @@
       <li><a href="#">Contact</a></li>
     </ul>
 
-    <div class="sub-nav-search-icon"></div>
+    <div class="sub-nav-search-icon">
+      <span class="search-icon-off"></span>
+    </div>
   </div>
 </div>
