@@ -21,7 +21,7 @@
           <div class="give-thumbs-container clearfix">
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <input type="radio" id="cover-thumb1" name="cover-thumbnails" />
+              <input type="radio" id="cover-thumb1" name="cover-thumbnails" checked />
               <label for="cover-thumb1"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
