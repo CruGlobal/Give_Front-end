@@ -14,8 +14,8 @@
 
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#pedesignation" aria-controls="pedesignation" role="tab" data-toggle="tab">Parent Designation</a></li>
-            <li role="presentation"><a href="#peamounts" aria-controls="peamounts" role="tab" data-toggle="tab">Custom Giving Amounts</a></li>
+            <li role="presentation" class="active"><a href="#pedesignation" aria-controls="pedesignation" role="tab" data-toggle="tab"><span class="xs-hide">Parent </span>Designation</a></li>
+            <li role="presentation"><a href="#peamounts" aria-controls="peamounts" role="tab" data-toggle="tab">Custom <span class="xs-hide">Giving </span>Amounts</a></li>
             <li role="presentation"><a href="#peother" aria-controls="peother" role="tab" data-toggle="tab">Other</a></li>
           </ul>
 
