@@ -8,9 +8,7 @@
                 <div class="footer-seals">
                   <img src="/assets/img/logo-ecfa.png" class="u-inlineBlock" alt="ECFA Logo">
                   <!-- Begin DigiCert site seal HTML and JavaScript -->
-                  <div id="DigiCertClickID_S2gPT2ar" data-language="en" style="display: inline-block;">
-                    <!-- <a href="https://www.digicert.com/wildcard-ssl-certificates.htm">Wildcard SSL Certificate</a> -->
-                  </div>
+                  <div id="DigiCertClickID_S2gPT2ar" data-language="en" style="display: inline-block;"></div>
                   <script type="text/javascript">
                   var __dcid = __dcid || [];__dcid.push(["DigiCertClickID_S2gPT2ar", "5", "s", "black", "S2gPT2ar"]);(function(){var cid=document.createElement("script");cid.async=true;cid.src="//seal.digicert.com/seals/cascade/seal.min.js";var s = document.getElementsByTagName("script");var ls = s[(s.length - 1)];ls.parentNode.insertBefore(cid, ls.nextSibling);}());
                   </script>
