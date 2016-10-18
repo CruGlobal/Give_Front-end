@@ -21,23 +21,28 @@
           <div class="give-thumbs-container clearfix">
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="/assets/img/signature.png" />
+              <input type="radio" id="signature-thumb1" name="signature-thumbnails" checked />
+              <label for="signature-thumb1"><img src="/assets/img/signature.png" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="signature-thumb2" name="signature-thumbnails" />
+              <label for="signature-thumb2"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="signature-thumb3" name="signature-thumbnails" />
+              <label for="signature-thumb3"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="signature-thumb4" name="signature-thumbnails" />
+              <label for="signature-thumb4"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="signature-thumb5" name="signature-thumbnails" />
+              <label for="signature-thumb5"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="" class="no-cover"><i class="fa fa-ban" aria-hidden="true"></i> Remove Cover</a>

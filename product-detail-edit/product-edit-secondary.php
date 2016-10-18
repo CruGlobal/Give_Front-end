@@ -21,23 +21,28 @@
           <div class="give-thumbs-container clearfix">
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="secondary-thumb1" name="secondary-thumbnails" checked />
+              <label for="secondary-thumb1"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="secondary-thumb2" name="secondary-thumbnails" />
+              <label for="secondary-thumb2"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="secondary-thumb3" name="secondary-thumbnails" />
+              <label for="secondary-thumb3"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="secondary-thumb4" name="secondary-thumbnails" />
+              <label for="secondary-thumb4"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="secondary-thumb5" name="secondary-thumbnails" />
+              <label for="secondary-thumb5"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="" class="no-cover"><i class="fa fa-ban" aria-hidden="true"></i> Remove Cover</a>
