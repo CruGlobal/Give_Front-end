@@ -711,6 +711,13 @@ img.full-width {
 }
 
 .footer-seals {
-  max-width: 70px;
-  margin: 0 $gutter*.5;
+  text-align: center;
+  img, div {
+    vertical-align: top;
+    display: inline-block;
+    max-height: 70px;
+    margin: 0 $gutter*.5;
+    &:focus {outline: none;}
+  }
+  > div {margin-top: 6px;}
 }
