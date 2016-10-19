@@ -5,7 +5,7 @@
       <li><a href="#">Portland</a></li>
     </ul>
 
-    <ul class="sub-nav">
+    <ul class="sub-nav mobile-sub-nav">
       <li><a href="#" class="active">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Events</a></li>
