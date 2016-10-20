@@ -317,9 +317,6 @@ hr.vertical-divider {
         margin-right: 0;
       }
     }
-    img:focus {
-      outline: green auto 5px;
-    }
     .no-cover {
       color: $colorCru-gray;
       position: absolute;
@@ -345,6 +342,15 @@ hr.vertical-divider {
       background: rgba(0, 0, 0, 1);
     }
   }
+  input[type=radio] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    &:checked + label {box-shadow: 0 0 0 3px $colorCru-gold;}
+  }
+  label {margin-bottom: 0;}
+  img {display: inline-block;}
 }
 
 .panel-cover-wrap {
@@ -365,7 +371,17 @@ hr.vertical-divider {
   font-size: 24px;
   text-align: center;
   &:hover {
-    color: $colorCru-white;;
+    color: $colorCru-white;
+  }
+}
+
+@media screen and (max-width: $sm - 1) {
+  .prod-edit-btns{
+    &.text-right {
+      text-align: left;
+      margin-top: $gutter*.25 - 4;
+    }
+    .btn {margin-top: 4px;}
   }
 }
 
@@ -711,6 +727,13 @@ img.full-width {
 }
 
 .footer-seals {
-  max-width: 70px;
-  margin: 0 $gutter*.5;
+  text-align: center;
+  img, div {
+    vertical-align: top;
+    display: inline-block;
+    max-height: 70px;
+    margin: 0 $gutter*.5;
+    &:focus {outline: none;}
+  }
+  > div {margin-top: 6px;}
 }

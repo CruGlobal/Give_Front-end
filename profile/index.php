@@ -48,28 +48,7 @@ give_head();
 
                         </li>
 
-                        <li>
-                          
-                          <div class="form-group is-required person-row">
-                            <i class="fa fa-lock"></i>
-                            <select class="form-control form-control-subtle prefix">
-                              <option>Mr.</option>
-                              <option>Mrs.</option>
-                              <option>Dr.</option>
-                            </select>
-                            
-                            <input type="text" class="form-control  form-control-subtle first" disabled value="Joshua">
-                            <input type="text" class="form-control  form-control-subtle middle"  value="T">
-                            <input type="text" class="form-control  form-control-subtle last" disabled  value="Starcher">
-
-                            <select class="form-control form-control-subtle suffix">
-                              <option></option>
-                              <option>Jr.</option>
-                              <option>III</option>
-                            </select>
-                          </div>
-
-                        </li>
+                        <li><a href="" class="">+ Add Your Spouse</a></li>
 
                         <li>
                           <strong>To change your first or last name, <a href="mailto:mail@cru.org">contact support.</a></strong>
@@ -100,6 +79,7 @@ give_head();
                         <select class="form-control form-control-subtle">
                           <option>Amanda</option>
                         </select>
+                        <a href="#"><i class="fa fa-minus-circle" aria-hidden="true"></i></a>
                       </div>
 
                       <div class="form-group is-required phone-row">
@@ -110,6 +90,7 @@ give_head();
                         <select class="form-control form-control-subtle">
                           <option>Amanda</option>
                         </select>
+                        <a href="#"><i class="fa fa-minus-circle" aria-hidden="true"></i></a>
                       </div>
 
                       <a href="" class="">+ Add Another Phone Number</a>

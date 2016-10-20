@@ -30,6 +30,9 @@
         border-color: transparent;
         color: #626262;
       }
+      @media screen and (max-width: $xxs - 1) {
+        .xs-hide {display: none;}
+      }
       .tab-icon {
         margin-right: 6px;
       }

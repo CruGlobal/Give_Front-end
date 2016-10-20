@@ -65,6 +65,7 @@
 }
 
 .phone-row {
+  position: relative;
   select.form-control-subtle {
     display: inline-block !important;
     width: 23%;
@@ -75,6 +76,14 @@
     width: 50% !important;
     margin: 0 1% 0 2% !important;
     vertical-align: bottom;
+  }
+  a {
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    color: $colorHelper-wanger;
+    .fa {font-size: 18px;}
   }
 }
 

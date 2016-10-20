@@ -25,7 +25,7 @@
                 </div>
                 <button type="submit" class="btn btn-block btn-primary">Reset My Password</button>
               </form>
-              <p class="mt- text-center">Never mind <a data-toggle="modal" data-dismiss="modal" data-target="#signinModal">Back to Sign In</a></p>
+              <p class="mt- text-center"><a data-toggle="modal" data-dismiss="modal" data-target="#signinModal">Back to Sign In</a></p>
             </div>
           </div>
         </div>

@@ -182,15 +182,18 @@
     });
 
     var subNavigation = $("#sub-navigation");
+    var deskNavigation = $("#desktop-navigation");
     var navHeight = subNavigation.offset().top;
 
     $(window).on("scroll", function () {
       if ($(window).scrollTop() > navHeight) {
         subNavigation.addClass("out");
+        deskNavigation.addClass("padded");
       }
 
       if ($(window).scrollTop() < navHeight) {
         subNavigation.removeClass("out");
+        deskNavigation.removeClass("padded");
       }
     });
 

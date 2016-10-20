@@ -5,10 +5,15 @@
               <div class="col-md-8 col-md-offset-2">
                 <p class="text-center">Cru is a 501(c)(3) non-profit organization. Contributions to Cru are tax-deductible as allowed by law. Cru has complete discretion and control over the use of donated funds.</p>
 
-                <p class="text-center">
-                  <img src="/assets/img/logo-ecfa.png" class="u-inlineBlock footer-seals" width="85" alt="ECFA Logo">
-                  <img src="/assets/img/logo-digicert.png"  class="u-inlineBlock footer-seals" width="85" alt="ECFA Logo">
-                </p>
+                <div class="footer-seals">
+                  <img src="/assets/img/logo-ecfa.png" class="u-inlineBlock" alt="ECFA Logo">
+                  <!-- Begin DigiCert site seal HTML and JavaScript -->
+                  <div id="DigiCertClickID_S2gPT2ar" data-language="en" style="display: inline-block;"></div>
+                  <script type="text/javascript">
+                  var __dcid = __dcid || [];__dcid.push(["DigiCertClickID_S2gPT2ar", "5", "s", "black", "S2gPT2ar"]);(function(){var cid=document.createElement("script");cid.async=true;cid.src="//seal.digicert.com/seals/cascade/seal.min.js";var s = document.getElementsByTagName("script");var ls = s[(s.length - 1)];ls.parentNode.insertBefore(cid, ls.nextSibling);}());
+                  </script>
+                  <!-- End DigiCert site seal HTML and JavaScript -->
+                </div>
               </div>
             </div>
           </div>

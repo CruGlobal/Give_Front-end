@@ -21,23 +21,28 @@
           <div class="give-thumbs-container clearfix">
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="cover-thumb1" name="cover-thumbnails" checked />
+              <label for="cover-thumb1"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="cover-thumb2" name="cover-thumbnails" />
+              <label for="cover-thumb2"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="cover-thumb3" name="cover-thumbnails" />
+              <label for="cover-thumb3"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="cover-thumb4" name="cover-thumbnails" />
+              <label for="cover-thumb4"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="#" class="cover-thumb-remove"><i class="fa fa-trash-o"></i></a>
-              <img src="http://placehold.it/550x310" />
+              <input type="radio" id="cover-thumb5" name="cover-thumbnails" />
+              <label for="cover-thumb5"><img src="http://placehold.it/550x310" /></label>
             </div>
             <div class="cover-thumb">
               <a href="" class="no-cover"><i class="fa fa-ban" aria-hidden="true"></i> Remove Cover</a>

@@ -1,4 +1,4 @@
-.btn-radio{
+.btn-radio, .custom-amount{
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 15px;
@@ -106,6 +106,8 @@ div[data-toggle="buttons"] label {
   div[data-toggle="buttons"] label {
     display: block;
   }
+  .give-modal-panel .custom-amount {width: 100% !important;}
+  .number {text-align: center;}
 }
 
 div[data-toggle="buttons"] label:hover {
@@ -128,25 +130,12 @@ div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active
   box-shadow: none;
 }
 
-label.custom-amount {
-  border: none !important;
-  padding-left: 0px !important;
-}
-
 label.btn.btn-default-form.custom-amount.mr.u-textLeft {
   border: none;
   padding-left: 0px;
 }
 
-label.btn.btn-default-form {
-  border: none;
-  padding: 0px;
-}
-
 label.btn.btn-default-form.active {
-  background: none;
-}
-label.custom-amount {
   background: none;
 }
 
@@ -243,7 +232,12 @@ label.custom-amount {
     }
   }
   input.number {
-    height: 47px;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    height: auto;
+    background-color: transparent;
+    color: #fff;
   }
   &:last-child {
     padding-bottom: 0;
@@ -251,6 +245,42 @@ label.custom-amount {
   }
   .custom-amount {
     width: 125px;
+    &:hover, .number:hover {cursor: pointer;}
+    ::-webkit-input-placeholder {
+      color: $colorGrayscale-text;
+      -webkit-transition-delay: 100ms;
+      -webkit-transition-duration: 100ms;
+      transition-delay: 100ms;
+      transition-duration: 100ms;
+    }
+    ::-moz-placeholder {
+      color: $colorGrayscale-text;
+      -moz-transition-delay: 100ms;
+      -moz-transition-duration: 100ms;
+      transition-delay: 100ms;
+      transition-duration: 100ms;
+    }
+    :-ms-input-placeholder {
+      color: $colorGrayscale-text;
+      -ms-transition-delay: 100ms;
+      -ms-transition-duration: 100ms;
+      transition-delay: 100ms;
+      transition-duration: 100ms;
+    }
+    :-moz-placeholder {
+      color: $colorGrayscale-text;
+      -moz-transition-delay: 100ms;
+      -moz-transition-duration: 100ms;
+      transition-delay: 100ms;
+      transition-duration: 100ms;
+    }
+    &.active {
+      background-color: $colorGrayscale-text !important;
+      ::-webkit-input-placeholder {color: #fff;}
+      ::-moz-placeholder {color: #fff;}
+      :-ms-input-placeholder {color: #fff;}
+      :-moz-placeholder {color: #fff;}
+    }
   }
 }
 

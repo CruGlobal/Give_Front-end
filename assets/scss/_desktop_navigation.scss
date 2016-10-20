@@ -19,6 +19,10 @@ $promo-width: 200px;
     }
   }
 
+  &.padded {
+    margin-bottom: 80px;
+  }
+
   .gh-desk-logo {
     background: url("/assets/img/cru-logo.png") no-repeat;
     background-size: contain;
@@ -121,7 +125,7 @@ $promo-width: 200px;
 
     li {
       > a {
-        text-indent: 5px;
+        line-height: 1.35em;
       }
     }
 
