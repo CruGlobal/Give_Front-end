@@ -17,14 +17,11 @@
         </div>
       </div>
       <div class="col-sm-8 sign-in-slider-col">
-        <form class="form-inline form-give-home-signin mt pb border-bottom-small text-center">
-          <div class="form-group">
-            <span class="btn btn-default form-heading hidden-sm hidden-md">Existing Users</span>
-          </div>
-          <div class="form-group">
+        <form class="form-inline form-give-home-signin mt pb border-bottom-small">
+          <div class="form-group input-widths">
             <input type="text" class="form-control" placeholder="Username">
           </div>
-          <div class="form-group">
+          <div class="form-group input-widths">
             <input type="password" class="form-control" placeholder="Password">
           </div>
           <div class="form-group">
